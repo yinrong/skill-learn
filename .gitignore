@@ -1,0 +1,24 @@
+# 模型权重（大文件）
+*.safetensors
+*.bin
+*.pt
+
+# 合并后 checkpoint 目录（模型权重）
+2.1_rounds/*/history-route*/checkpoints/*/model*
+2.1_rounds/*/history-*/checkpoints/*/model*
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+/tmp/

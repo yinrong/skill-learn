@@ -1,0 +1,6 @@
+⚠ 端口 8107 已有 vLLM 进程（pid=277397），先停止...
+✓ 已发送 SIGTERM 给 vLLM 进程组（pid=277397，port=8107）
+启动 vLLM：port=8107  model=/home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expVVV-merged
+  pid=278413  日志：/tmp/vllm_8107.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (  等待 vLLM 启动... (http:  等待 vLLM 启动... (✓ vLLM 已就绪：http://lo✓ vLLM 已就绪：http://localhost:8107

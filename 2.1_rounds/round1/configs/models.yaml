@@ -1,0 +1,14 @@
+### 模型本地路径和推理端口分配表
+### 格式：name / path / base_port（同节点基础端口 +0~3 区分 N1~N4）
+
+primary:
+  name: Qwen3-14B
+  path: /home/yinrong/models/Qwen3-14B
+  base_port: 8020
+  # 各节点推理端口：N1=8021, N2=8022, N3=8023, N4=8024
+  # 基座评测端口：8020
+
+### 显存规划（4 × H20 96GB）
+# 推理：Qwen3-14B 约 28GB（1卡）
+# 训练：LoRA rank=128，Qwen3-14B 约 36GB（1卡）→ 4卡DDP
+# 检查点存储：/home/yinrong/checkpoints/（持久化）

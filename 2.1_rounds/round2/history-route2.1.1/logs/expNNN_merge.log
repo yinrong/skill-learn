@@ -1,0 +1,258 @@
+[WARNING|2026-04-26 13:16:30] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:36,613 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:36,613 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:36,613 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:36,613 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:36,613 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:36,613 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:36,613 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-26 13:16:36,940 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-04-26 13:16:37,121 >> loading configuration file /home/yinrong/models/Qwen3-32B/config.json
+[INFO|configuration_utils.py:839] 2026-04-26 13:16:37,123 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 25600,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 64,
+  "model_type": "qwen3",
+  "num_attention_heads": 64,
+  "num_hidden_layers": 64,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:37,142 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:37,143 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:37,143 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:37,143 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:37,143 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:37,143 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-26 13:16:37,143 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-26 13:16:37,619 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-04-26 13:16:37,654 >> loading configuration file /home/yinrong/models/Qwen3-32B/config.json
+[INFO|configuration_utils.py:839] 2026-04-26 13:16:37,655 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 25600,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 64,
+  "model_type": "qwen3",
+  "num_attention_heads": 64,
+  "num_hidden_layers": 64,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[WARNING|logging.py:328] 2026-04-26 13:16:37,655 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|2026-04-26 13:16:37] llamafactory.model.model_utils.kv_cache:143 >> KV cache is enabled for faster generation.
+[WARNING|logging.py:328] 2026-04-26 13:16:37,827 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|modeling_utils.py:1169] 2026-04-26 13:16:37,841 >> loading weights file /home/yinrong/models/Qwen3-32B/model.safetensors.index.json
+[INFO|modeling_utils.py:2341] 2026-04-26 13:16:37,841 >> Instantiating Qwen3ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:986] 2026-04-26 13:16:37,844 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:  94%|█████████▍| 16/17 [00:00<00:00, 147.32it/s]Loading checkpoint shards: 100%|██████████| 17/17 [00:00<00:00, 144.68it/s]
+[INFO|configuration_utils.py:939] 2026-04-26 13:16:38,057 >> loading configuration file /home/yinrong/models/Qwen3-32B/generation_config.json
+[INFO|configuration_utils.py:986] 2026-04-26 13:16:38,058 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "temperature": 0.6,
+  "top_k": 20,
+  "top_p": 0.95
+}
+
+[INFO|dynamic_module_utils.py:423] 2026-04-26 13:16:38,064 >> Could not locate the custom_generate/generate.py inside /home/yinrong/models/Qwen3-32B.
+[INFO|2026-04-26 13:16:38] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-04-26 13:17:54] llamafactory.model.adapter:143 >> Merged 1 adapter(s).
+[INFO|2026-04-26 13:17:54] llamafactory.model.adapter:143 >> Loaded adapter(s): /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN
+[INFO|2026-04-26 13:17:54] llamafactory.model.loader:143 >> all params: 32,762,123,264
+[INFO|2026-04-26 13:17:54] llamafactory.train.tuner:143 >> Convert model dtype to: torch.bfloat16.
+[INFO|configuration_utils.py:491] 2026-04-26 13:17:54,779 >> Configuration saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN-merged/config.json
+[INFO|configuration_utils.py:757] 2026-04-26 13:17:54,794 >> Configuration saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN-merged/generation_config.json
+[INFO|modeling_utils.py:4189] 2026-04-26 13:19:05,210 >> The model is bigger than the maximum size per checkpoint (2GB) and is going to be split in 34 checkpoint shards. You can find where each parameters has been saved in the index located at /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN-merged/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2561] 2026-04-26 13:19:05,231 >> chat template saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN-merged/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-26 13:19:05,246 >> tokenizer config file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN-merged/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-26 13:19:05,261 >> Special tokens file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN-merged/special_tokens_map.json
+[INFO|2026-04-26 13:19:05] llamafactory.train.tuner:143 >> Ollama modelfile saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN-merged/Modelfile
+合并配置：
+  base:    /home/yinrong/models/Qwen3-32B
+  adapter: /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN
+  output:  /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN-merged
+执行：llamafactory-cli export /tmp/tmpp2_1ide7.yaml
+✓ 合并完成，safetensors 文件数：34
+  输出目录：/home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expNNN-merged

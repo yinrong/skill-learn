@@ -1,0 +1,31 @@
+评测模型: expKKK  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.327
+  [40/200] running rule_f1=0.340
+  [60/200] running rule_f1=0.319
+  [80/200] running rule_f1=0.353
+  [100/200] running rule_f1=0.374
+  [120/200] running rule_f1=0.355
+  [140/200] running rule_f1=0.364
+  [160/200] running rule_f1=0.364
+  [180/200] running rule_f1=0.357
+  [200/200] running rule_f1=0.364
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.364
+  cpk_mae:                 0.085
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  45235.5
+  inference_time_ms_p95:   51323.7
+
+各规则 recall：
+  rule1: 0.7
+  rule2: 0.517
+  rule3: 0.357
+  rule4: 0.75
+  rule5: 0.636
+  rule6: 0.818
+  rule7: 0.222
+  rule8: 0.538
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expKKK.json

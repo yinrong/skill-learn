@@ -1,0 +1,23 @@
+启动 vLLM：port=8042  model=history-2026-04-23-1213-round3/checkpoints/demo-r3-N2-14b-6ep-merged
+  pid=105737  日志：/tmp/vllm_8042.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+✓ vLLM 已就绪：http://localhost:8042

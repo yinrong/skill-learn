@@ -1,0 +1,31 @@
+评测模型: expNN  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.160
+  [40/200] running rule_f1=0.186
+  [60/200] running rule_f1=0.252
+  [80/200] running rule_f1=0.244
+  [100/200] running rule_f1=0.272
+  [120/200] running rule_f1=0.258
+  [140/200] running rule_f1=0.252
+  [160/200] running rule_f1=0.265
+  [180/200] running rule_f1=0.276
+  [200/200] running rule_f1=0.279
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.279
+  cpk_mae:                 0.075
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  34639.3
+  inference_time_ms_p95:   34678.9
+
+各规则 recall：
+  rule1: 0.675
+  rule2: 0.345
+  rule3: 0.393
+  rule4: 0.542
+  rule5: 0.409
+  rule6: 0.394
+  rule7: 0.0
+  rule8: 0.0
+
+结果已写入：history-route2.1.1/results/expNN.json

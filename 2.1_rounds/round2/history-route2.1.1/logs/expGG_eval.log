@@ -1,0 +1,31 @@
+评测模型: expGG  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.127
+  [40/200] running rule_f1=0.140
+  [60/200] running rule_f1=0.121
+  [80/200] running rule_f1=0.130
+  [100/200] running rule_f1=0.134
+  [120/200] running rule_f1=0.140
+  [140/200] running rule_f1=0.154
+  [160/200] running rule_f1=0.146
+  [180/200] running rule_f1=0.143
+  [200/200] running rule_f1=0.132
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.132
+  cpk_mae:                 0.298
+  cpk_found_rate:          0.085
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  2345.5
+  inference_time_ms_p95:   5087.5
+
+各规则 recall：
+  rule1: 0.025
+  rule2: 0.31
+  rule3: 0.357
+  rule4: 0.208
+  rule5: 0.273
+  rule6: 0.394
+  rule7: 0.333
+  rule8: 0.0
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expGG.json

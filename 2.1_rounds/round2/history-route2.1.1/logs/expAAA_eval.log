@@ -1,0 +1,31 @@
+评测模型: expAAA  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.385
+  [40/200] running rule_f1=0.447
+  [60/200] running rule_f1=0.387
+  [80/200] running rule_f1=0.374
+  [100/200] running rule_f1=0.388
+  [120/200] running rule_f1=0.364
+  [140/200] running rule_f1=0.365
+  [160/200] running rule_f1=0.369
+  [180/200] running rule_f1=0.368
+  [200/200] running rule_f1=0.372
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.372
+  cpk_mae:                 0.08
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  40496.8
+  inference_time_ms_p95:   40706.4
+
+各规则 recall：
+  rule1: 0.6
+  rule2: 0.345
+  rule3: 0.429
+  rule4: 0.875
+  rule5: 0.682
+  rule6: 0.667
+  rule7: 0.222
+  rule8: 0.154
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expAAA.json

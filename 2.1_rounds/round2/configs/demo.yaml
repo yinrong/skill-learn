@@ -1,0 +1,24 @@
+### Demo阶段节点规模、seed、质量关卡阈值
+
+nodes:
+  N1: {n_samples: 100,  seed: 1}
+  N2: {n_samples: 200,  seed: 2}
+  N3: {n_samples: 300,  seed: 3}
+  N4: {n_samples: 500,  seed: 4}
+
+test_set: {n_samples: 200, seed: 99}
+
+models:
+  primary: {name: Qwen3-14B, path: /home/yinrong/models/Qwen3-14B, base_port: 8020}
+
+quality_gate:
+  review_n: 50                   # 抽检样本数
+  pass_rate_threshold: 0.80      # 通过率下限
+
+scaling_law:
+  target_n: 100000               # 外推目标数据量
+  min_r2: 0.60                   # 拟合优度下限
+
+acceptance:
+  n4_min_f1: 0.65                # N4 rule_f1 最低期望值
+  positive_signal_delta: 0.05    # N4 rule_f1 需比基座高出的最小值

@@ -1,0 +1,27 @@
+⚠ 端口 8101 已有 vLLM 进程（pid=276867），先停止...
+✓ 已发送 SIGTERM 给 vLLM 进程组（pid=276867，port=8101）
+启动 vLLM：port=8101  model=/home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expOOO-merged
+  pid=277809  日志：/tmp/vllm_8101.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+  等待 vLLM 启动... (http://localhost:8101/health)
+✓ vLLM 已就绪：http://localhost:8101
+��绪：http://localhost:8101

@@ -1,0 +1,21 @@
+=== 评测 expYYY (GPU 2, port 8102) ===
+🔗 合并 LoRA adapter...
+  ✓ 合并完成 → /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expYYY-merged
+🚀 启动 vLLM (GPU 2, port 8102)...
+  等待 vLLM 启动...
+  ✓ vLLM 就绪 (19×5s)
+📊 开始评测（200条测试集）...
+  ✓ vLLM 已停止
+
+=== expYYY 评测结果 ===
+  rule_detection_f1: 0.43
+  cpk_found_rate:    1.0
+  per_rule_recall:
+    rule1: 0.775  ███████████████
+    rule2: 0.448  ████████
+    rule3: 0.571  ███████████
+    rule4: 0.875  █████████████████
+    rule5: 0.727  ██████████████
+    rule6: 0.788  ███████████████
+    rule7: 0.444  ████████
+    rule8: 0.769  ███████████████

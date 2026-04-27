@@ -1,0 +1,916 @@
+[WARNING|2026-04-24 18:06:55] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[INFO|2026-04-24 18:07:01] llamafactory.hparams.parser:406 >> Process rank: 0, world size: 1, device: cuda:0, distributed training: False, compute dtype: torch.bfloat16
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,053 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,053 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,053 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,053 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,053 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,053 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,053 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-24 18:07:01,330 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-04-24 18:07:01,342 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-24 18:07:01,343 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,364 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,364 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,364 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,364 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,364 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,364 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-24 18:07:01,364 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-24 18:07:01,659 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|2026-04-24 18:07:01] llamafactory.data.loader:143 >> Loading dataset /home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expC.jsonl...
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 251 examples [00:00, 5418.83 examples/s]
+Converting format of dataset:   0%|          | 0/251 [00:00<?, ? examples/s]Converting format of dataset: 100%|██████████| 251/251 [00:00<00:00, 2757.27 examples/s]
+Parameter 'function'=<bound method SupervisedDatasetProcessor.preprocess_dataset of SupervisedDatasetProcessor(template=ReasoningTemplate(format_user=StringFormatter(slots=['<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_assistant=StringFormatter(slots=['{{content}}<|im_end|>\n'], tool_format=None), format_system=StringFormatter(slots=['<|im_start|>system\n{{content}}<|im_end|>\n'], tool_format=None), format_function=FunctionFormatter(slots=['{{content}}<|im_end|>\n'], tool_format='qwen'), format_observation=StringFormatter(slots=['<|im_start|>user\n<tool_response>\n{{content}}\n</tool_response><|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_tools=ToolFormatter(slots=[], tool_format='qwen'), format_prefix=EmptyFormatter(slots=[], tool_format=None), default_system='', stop_words=['<|im_end|>'], thought_words=('<think>', '</think>'), efficient_eos=False, replace_eos=True, replace_jinja_template=False, enable_thinking=True, mm_plugin=BasePlugin(image_token=None, video_token=None, audio_token=None, expand_mm_tokens=True)), tokenizer=Qwen2TokenizerFast(name_or_path='/home/yinrong/models/Qwen3-14B', vocab_size=151643, model_max_length=131072, is_fast=True, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'additional_special_tokens': ['<|im_start|>', '<|im_end|>', '<|object_ref_start|>', '<|object_ref_end|>', '<|box_start|>', '<|box_end|>', '<|quad_start|>', '<|quad_end|>', '<|vision_start|>', '<|vision_end|>', '<|vision_pad|>', '<|image_pad|>', '<|video_pad|>']}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	151643: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151644: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151645: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151646: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151647: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151648: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151649: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151650: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151651: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151652: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151653: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151654: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151655: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151656: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151657: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151658: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151659: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151660: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151661: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151662: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151663: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151664: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151665: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151666: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151667: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151668: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+}
+), processor=None, data_args=DataArguments(template='qwen3', dataset=['spc_r4_expC'], eval_dataset=None, dataset_dir='data', media_dir='data', cutoff_len=4096, train_on_prompt=False, mask_history=False, streaming=False, buffer_size=16384, mix_strategy='concat', interleave_probs=None, overwrite_cache=False, preprocessing_batch_size=1000, preprocessing_num_workers=None, max_samples=None, eval_num_beams=None, ignore_pad_token_for_loss=True, val_size=0.0, eval_on_each_dataset=False, packing=False, neat_packing=False, tool_format=None, default_system=None, enable_thinking=True, tokenized_path=None, data_shared_file_system=False))> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Running tokenizer on dataset:   0%|          | 0/251 [00:00<?, ? examples/s]Running tokenizer on dataset: 100%|██████████| 251/251 [00:00<00:00, 504.11 examples/s]Running tokenizer on dataset: 100%|██████████| 251/251 [00:00<00:00, 409.33 examples/s]
+[INFO|configuration_utils.py:763] 2026-04-24 18:07:03,580 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-24 18:07:03,580 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+training example:
+input_ids:
+[151644, 8948, 198, 56568, 110124, 328, 4872, 83002, 98, 38507, 99235, 1773, 151645, 198, 151644, 872, 198, 14880, 101042, 107976, 99433, 90885, 20074, 3837, 110298, 101071, 55338, 220, 23, 60596, 94, 26464, 54955, 226, 46448, 64471, 102615, 3837, 100768, 15284, 42, 90395, 107485, 104285, 30440, 101041, 75117, 9370, 104776, 101898, 8997, 99433, 90885, 27442, 20074, 9909, 54899, 17, 20, 27442, 7552, 5122, 58, 24, 13, 24, 16, 11, 220, 16, 15, 13, 18, 11, 220, 16, 15, 13, 15, 21, 11, 220, 16, 15, 13, 15, 24, 11, 220, 24, 13, 23, 19, 11, 220, 16, 15, 13, 15, 21, 11, 220, 24, 13, 22, 16, 11, 220, 16, 15, 13, 15, 22, 11, 220, 16, 15, 13, 16, 11, 220, 16, 15, 13, 16, 20, 11, 220, 16, 15, 13, 15, 11, 220, 16, 15, 13, 17, 11, 220, 16, 15, 13, 16, 19, 11, 220, 16, 15, 13, 16, 21, 11, 220, 16, 15, 13, 15, 19, 11, 220, 16, 15, 13, 15, 22, 11, 220, 16, 15, 13, 15, 19, 11, 220, 16, 15, 13, 16, 20, 11, 220, 16, 15, 13, 15, 17, 11, 220, 16, 15, 13, 16, 20, 11, 220, 16, 15, 13, 17, 16, 11, 220, 16, 15, 13, 15, 19, 11, 220, 16, 15, 13, 15, 22, 11, 220, 16, 15, 13, 15, 21, 11, 220, 16, 15, 13, 17, 22, 921, 2034, 43, 28, 16, 16, 13, 18, 20, 3837, 7268, 43, 28, 23, 13, 24, 20, 3837, 3140, 28, 16, 15, 13, 16, 16, 21, 151645, 198, 151644, 77091, 198, 151667, 198, 47872, 11622, 26464, 54955, 226, 46448, 100032, 3837, 112707, 104317, 67949, 20074, 28311, 220, 42344, 100768, 109371, 5122, 52, 3140, 28, 16, 15, 13, 19, 24, 20, 3837, 43, 3140, 28, 24, 13, 22, 18, 22, 3837, 99472, 25511, 28, 16, 15, 13, 15, 22, 21, 3837, 43928, 28, 15, 13, 16, 17, 21, 3837, 16, 43928, 99278, 5818, 24, 13, 24, 20, 11, 16, 15, 13, 17, 15, 17, 60, 3837, 17, 43928, 99278, 5818, 24, 13, 23, 17, 19, 11, 16, 15, 13, 18, 17, 23, 60, 23083, 220, 5912, 16, 5122, 29437, 22, 27442, 24, 13, 22, 15, 21, 27, 24, 13, 22, 18, 22, 4957, 3140, 8, 11397, 48840, 99, 39762, 111916, 76095, 9909, 108112, 16, 27442, 108337, 547, 3140, 9909, 99472, 25511, 10, 18, 43928, 7552, 57191, 444, 3140, 9909, 99472, 25511, 12, 18, 43928, 7552, 51018, 10236, 103, 223, 28291, 70633, 7552, 8997, 220, 5912, 17, 5122, 58, 91282, 5122, 104005, 24, 27442, 85248, 18493, 99472, 25511, 102700, 99772, 9909, 35987, 29, 99472, 25511, 92313, 34369, 101, 27, 99472, 25511, 7552, 51018, 4891, 251, 229, 25511, 72448, 33071, 100574, 59534, 60, 6567, 96, 222, 32876, 59151, 5122, 100416, 3837, 38342, 111916, 8997, 220, 5912, 18, 5122, 67949, 20074, 16530, 101929, 111916, 76095, 9909, 104005, 21, 27442, 100470, 118682, 100520, 49185, 92313, 220, 100470, 118682, 100520, 99536, 11397, 8908, 114, 233, 99272, 33071, 100574, 59534, 48272, 67338, 8997, 220, 5912, 19, 5122, 58, 91282, 5122, 104005, 16, 19, 27442, 100470, 115662, 114648, 9909, 73157, 118616, 112244, 14777, 44636, 14777, 99285, 7552, 51018, 4891, 239, 101, 22704, 33071, 107696, 60, 6567, 96, 222, 32876, 59151, 5122, 100416, 3837, 38342, 111916, 8997, 220, 5912, 20, 5122, 58, 91282, 5122, 104005, 18, 27442, 105656, 17, 27442, 18493, 40916, 99772, 17, 43928, 21216, 18, 43928, 108617, 9909, 100381, 17, 43928, 77288, 38342, 71304, 18, 43928, 7552, 51018, 32181, 229, 38507, 99788, 105184, 112115, 60, 6567, 96, 222, 32876, 59151, 5122, 111916, 3837, 29437, 20, 93, 22, 27442, 15946, 29437, 20, 27442, 5373, 29437, 22, 27442, 71304, 17, 43928, 16872, 99772, 8997, 220, 5912, 21, 5122, 58, 91282, 5122, 104005, 20, 27442, 105656, 19, 27442, 18493, 40916, 99772, 16, 43928, 21216, 18, 43928, 108617, 9909, 100381, 16, 43928, 77288, 38342, 71304, 18, 43928, 7552, 51018, 4891, 251, 229, 25511, 99835, 59534, 106338, 60, 6567, 96, 222, 32876, 59151, 5122, 100416, 3837, 38342, 111916, 8997, 220, 5912, 22, 2858, 248, 254, 54955, 99, 28291, 5122, 29437, 23, 93, 17, 17, 27442, 85248, 18493, 16, 43928, 108341, 1773, 104190, 91282, 5122, 104005, 16, 20, 27442, 85248, 18493, 99472, 25511, 37021, 16, 43928, 108341, 9909, 91, 113379, 91, 27, 43928, 7552, 51018, 98313, 233, 32757, 115801, 102004, 57191, 20074, 99250, 103247, 107872, 8997, 220, 5912, 23, 5122, 104005, 23, 27442, 35987, 18493, 99472, 25511, 37021, 16, 43928, 105175, 3837, 100136, 102285, 107648, 101103, 101450, 11397, 26853, 234, 100035, 101450, 57191, 100235, 43268, 100235, 41406, 11397, 220, 38342, 111916, 3407, 100768, 100178, 99788, 104274, 15284, 42, 28311, 220, 13940, 284, 320, 16, 16, 13, 18, 20, 12, 16, 15, 13, 15, 22, 21, 24254, 18, 17568, 15, 13, 16, 17, 21, 8, 284, 220, 18, 13, 18, 21, 18, 198, 220, 89480, 284, 320, 16, 15, 13, 15, 22, 21, 12, 23, 13, 24, 20, 24254, 18, 17568, 15, 13, 16, 17, 21, 8, 284, 220, 17, 13, 24, 22, 16, 198, 220, 15284, 42, 284, 1308, 7, 18, 13, 18, 21, 18, 11, 17, 13, 24, 22, 16, 8, 284, 220, 17, 13, 24, 22, 16, 198, 151668, 271, 334, 70633, 104317, 334, 5122, 97557, 20221, 18, 38989, 102615, 8545, 12937, 16, 9909, 108112, 16, 27442, 108337, 52, 3140, 57191, 43, 3140, 9909, 103107, 33071, 70633, 7552, 7552, 24968, 12937, 20, 9909, 104005, 18, 27442, 15946, 17, 27442, 18493, 40916, 99772, 17, 43928, 47815, 9909, 100178, 99788, 105184, 112115, 7552, 7552, 24968, 12937, 22, 9909, 104005, 16, 20, 27442, 18493, 16, 43928, 108341, 9909, 105536, 72448, 115801, 102004, 57191, 20074, 112895, 7552, 74276, 42140, 104190, 115668, 45139, 100178, 36667, 100347, 72448, 33071, 86119, 3837, 100360, 105039, 102808, 3407, 334, 7123, 42, 6567, 234, 229, 8863, 334, 5122, 17, 13, 24, 22, 16, 3837, 100178, 99788, 104408, 5122, 101944, 3837, 101898, 5122, 30440, 101134, 104778, 64952, 32571, 3407, 334, 104776, 101898, 334, 9909, 59879, 104747, 52334, 7552, 28311, 16, 13, 10236, 104, 233, 91676, 107276, 75882, 108422, 99426, 3837, 101151, 99570, 105503, 71817, 105039, 106237, 198, 17, 13, 18137, 248, 242, 99372, 70633, 27442, 103124, 117009, 102595, 55338, 82700, 3837, 74193, 58364, 99507, 81167, 102418, 33447, 110254, 53222, 22243, 198, 18, 13, 8908, 108, 225, 18158, 70633, 27442, 24562, 16, 92536, 102595, 101044, 104001, 32665, 109395, 3837, 109547, 99624, 74040, 89161, 198, 19, 13, 41479, 234, 12857, 99408, 62112, 101042, 62926, 53393, 101189, 102667, 102303, 33447, 110254, 117632, 104778, 55502, 100172, 151645, 198]
+inputs:
+<|im_start|>system
+你是一名 SPC 工程师。<|im_end|>
+<|im_start|>user
+请分析下列采样数据，依次检查所有 8 条 Nelson 规则是否违规，计算 CPK，并给出工厂可直接执行的处置建议。
+采样点数据（共25点）：[9.91, 10.3, 10.06, 10.09, 9.84, 10.06, 9.71, 10.07, 10.1, 10.15, 10.0, 10.2, 10.14, 10.16, 10.04, 10.07, 10.04, 10.15, 10.02, 10.15, 10.21, 10.04, 10.07, 10.06, 10.27]
+USL=11.35，LSL=8.95，CL=10.116<|im_end|>
+<|im_start|>assistant
+<think>
+调用 Nelson 规则知识，逐一判断当前数据：
+  （计算基准：UCL=10.495，LCL=9.737，均值=10.076，σ=0.126，1σ带=[9.95,10.202]，2σ带=[9.824,10.328]）
+  rule1：第7点9.706<9.737(LCL) → 符合触发条件（任意1点超出 UCL（均值+3σ）或 LCL（均值-3σ）→ 突发异常）。
+  rule2：[定义：连续9点全部在均值同一侧（全>均值 或 全<均值）→ 均值系统性漂移] 检查结果：正常，未触发。
+  rule3：当前数据不满足触发条件（连续6点严格单调递增 或 严格单调递减 → 趋势性漂移），通过。
+  rule4：[定义：连续14点严格交替升降（每相邻两点一高一低）→ 周期性干扰] 检查结果：正常，未触发。
+  rule5：[定义：连续3点中有2点在同侧2σ～3σ区间（超过2σ但未超3σ）→ 过程能力早期恶化] 检查结果：触发，第5~7点中第5点、第7点超2σ下侧。
+  rule6：[定义：连续5点中有4点在同侧1σ～3σ区间（超过1σ但未超3σ）→ 均值偏移预警] 检查结果：正常，未触发。
+  rule7 ⚠ 触发：第8~22点全部在1σ以内。规则定义：连续15点全部在均值±1σ以内（|偏差|<σ）→ 测量分辨率不足或数据被人为压缩。
+  rule8：连续8点全在均值±1σ以外，且上下两侧都有分布 → 双峰分布或混线混料 → 未触发。
+
+计算过程能力指数 CPK：
+  CPU = (11.35-10.076)/(3×0.126) = 3.363
+  CPL = (10.076-8.95)/(3×0.126) = 2.971
+  CPK = min(3.363,2.971) = 2.971
+</think>
+
+**异常判断**：检出3条违规——rule1（任意1点超出UCL或LCL（突发性异常））；rule5（连续3点中2点在同侧2σ外（过程能力早期恶化））；rule7（连续15点在1σ以内（测量系统分辨率不足或数据造假））。多规则并发提示过程已出现系统性问题，须紧急响应。
+
+**CPK 指数**：2.971，过程能力等级：优秀，建议：可降低检验频次。
+
+**处置建议**（按优先级）：
+1. 立即暂停该批次生产，通知质量工程师进行紧急评审
+2. 隔离异常点对应时间段内的所有产品，待复测确认合格后方可放行
+3. 调取异常点前1小时内的设备运行参数曲线，查找突变来源
+4. 完成根因分析并经工艺主管审批后方可恢复正常检验节拍<|im_end|>
+
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 151667, 198, 47872, 11622, 26464, 54955, 226, 46448, 100032, 3837, 112707, 104317, 67949, 20074, 28311, 220, 42344, 100768, 109371, 5122, 52, 3140, 28, 16, 15, 13, 19, 24, 20, 3837, 43, 3140, 28, 24, 13, 22, 18, 22, 3837, 99472, 25511, 28, 16, 15, 13, 15, 22, 21, 3837, 43928, 28, 15, 13, 16, 17, 21, 3837, 16, 43928, 99278, 5818, 24, 13, 24, 20, 11, 16, 15, 13, 17, 15, 17, 60, 3837, 17, 43928, 99278, 5818, 24, 13, 23, 17, 19, 11, 16, 15, 13, 18, 17, 23, 60, 23083, 220, 5912, 16, 5122, 29437, 22, 27442, 24, 13, 22, 15, 21, 27, 24, 13, 22, 18, 22, 4957, 3140, 8, 11397, 48840, 99, 39762, 111916, 76095, 9909, 108112, 16, 27442, 108337, 547, 3140, 9909, 99472, 25511, 10, 18, 43928, 7552, 57191, 444, 3140, 9909, 99472, 25511, 12, 18, 43928, 7552, 51018, 10236, 103, 223, 28291, 70633, 7552, 8997, 220, 5912, 17, 5122, 58, 91282, 5122, 104005, 24, 27442, 85248, 18493, 99472, 25511, 102700, 99772, 9909, 35987, 29, 99472, 25511, 92313, 34369, 101, 27, 99472, 25511, 7552, 51018, 4891, 251, 229, 25511, 72448, 33071, 100574, 59534, 60, 6567, 96, 222, 32876, 59151, 5122, 100416, 3837, 38342, 111916, 8997, 220, 5912, 18, 5122, 67949, 20074, 16530, 101929, 111916, 76095, 9909, 104005, 21, 27442, 100470, 118682, 100520, 49185, 92313, 220, 100470, 118682, 100520, 99536, 11397, 8908, 114, 233, 99272, 33071, 100574, 59534, 48272, 67338, 8997, 220, 5912, 19, 5122, 58, 91282, 5122, 104005, 16, 19, 27442, 100470, 115662, 114648, 9909, 73157, 118616, 112244, 14777, 44636, 14777, 99285, 7552, 51018, 4891, 239, 101, 22704, 33071, 107696, 60, 6567, 96, 222, 32876, 59151, 5122, 100416, 3837, 38342, 111916, 8997, 220, 5912, 20, 5122, 58, 91282, 5122, 104005, 18, 27442, 105656, 17, 27442, 18493, 40916, 99772, 17, 43928, 21216, 18, 43928, 108617, 9909, 100381, 17, 43928, 77288, 38342, 71304, 18, 43928, 7552, 51018, 32181, 229, 38507, 99788, 105184, 112115, 60, 6567, 96, 222, 32876, 59151, 5122, 111916, 3837, 29437, 20, 93, 22, 27442, 15946, 29437, 20, 27442, 5373, 29437, 22, 27442, 71304, 17, 43928, 16872, 99772, 8997, 220, 5912, 21, 5122, 58, 91282, 5122, 104005, 20, 27442, 105656, 19, 27442, 18493, 40916, 99772, 16, 43928, 21216, 18, 43928, 108617, 9909, 100381, 16, 43928, 77288, 38342, 71304, 18, 43928, 7552, 51018, 4891, 251, 229, 25511, 99835, 59534, 106338, 60, 6567, 96, 222, 32876, 59151, 5122, 100416, 3837, 38342, 111916, 8997, 220, 5912, 22, 2858, 248, 254, 54955, 99, 28291, 5122, 29437, 23, 93, 17, 17, 27442, 85248, 18493, 16, 43928, 108341, 1773, 104190, 91282, 5122, 104005, 16, 20, 27442, 85248, 18493, 99472, 25511, 37021, 16, 43928, 108341, 9909, 91, 113379, 91, 27, 43928, 7552, 51018, 98313, 233, 32757, 115801, 102004, 57191, 20074, 99250, 103247, 107872, 8997, 220, 5912, 23, 5122, 104005, 23, 27442, 35987, 18493, 99472, 25511, 37021, 16, 43928, 105175, 3837, 100136, 102285, 107648, 101103, 101450, 11397, 26853, 234, 100035, 101450, 57191, 100235, 43268, 100235, 41406, 11397, 220, 38342, 111916, 3407, 100768, 100178, 99788, 104274, 15284, 42, 28311, 220, 13940, 284, 320, 16, 16, 13, 18, 20, 12, 16, 15, 13, 15, 22, 21, 24254, 18, 17568, 15, 13, 16, 17, 21, 8, 284, 220, 18, 13, 18, 21, 18, 198, 220, 89480, 284, 320, 16, 15, 13, 15, 22, 21, 12, 23, 13, 24, 20, 24254, 18, 17568, 15, 13, 16, 17, 21, 8, 284, 220, 17, 13, 24, 22, 16, 198, 220, 15284, 42, 284, 1308, 7, 18, 13, 18, 21, 18, 11, 17, 13, 24, 22, 16, 8, 284, 220, 17, 13, 24, 22, 16, 198, 151668, 271, 334, 70633, 104317, 334, 5122, 97557, 20221, 18, 38989, 102615, 8545, 12937, 16, 9909, 108112, 16, 27442, 108337, 52, 3140, 57191, 43, 3140, 9909, 103107, 33071, 70633, 7552, 7552, 24968, 12937, 20, 9909, 104005, 18, 27442, 15946, 17, 27442, 18493, 40916, 99772, 17, 43928, 47815, 9909, 100178, 99788, 105184, 112115, 7552, 7552, 24968, 12937, 22, 9909, 104005, 16, 20, 27442, 18493, 16, 43928, 108341, 9909, 105536, 72448, 115801, 102004, 57191, 20074, 112895, 7552, 74276, 42140, 104190, 115668, 45139, 100178, 36667, 100347, 72448, 33071, 86119, 3837, 100360, 105039, 102808, 3407, 334, 7123, 42, 6567, 234, 229, 8863, 334, 5122, 17, 13, 24, 22, 16, 3837, 100178, 99788, 104408, 5122, 101944, 3837, 101898, 5122, 30440, 101134, 104778, 64952, 32571, 3407, 334, 104776, 101898, 334, 9909, 59879, 104747, 52334, 7552, 28311, 16, 13, 10236, 104, 233, 91676, 107276, 75882, 108422, 99426, 3837, 101151, 99570, 105503, 71817, 105039, 106237, 198, 17, 13, 18137, 248, 242, 99372, 70633, 27442, 103124, 117009, 102595, 55338, 82700, 3837, 74193, 58364, 99507, 81167, 102418, 33447, 110254, 53222, 22243, 198, 18, 13, 8908, 108, 225, 18158, 70633, 27442, 24562, 16, 92536, 102595, 101044, 104001, 32665, 109395, 3837, 109547, 99624, 74040, 89161, 198, 19, 13, 41479, 234, 12857, 99408, 62112, 101042, 62926, 53393, 101189, 102667, 102303, 33447, 110254, 117632, 104778, 55502, 100172, 151645, 198]
+labels:
+<think>
+调用 Nelson 规则知识，逐一判断当前数据：
+  （计算基准：UCL=10.495，LCL=9.737，均值=10.076，σ=0.126，1σ带=[9.95,10.202]，2σ带=[9.824,10.328]）
+  rule1：第7点9.706<9.737(LCL) → 符合触发条件（任意1点超出 UCL（均值+3σ）或 LCL（均值-3σ）→ 突发异常）。
+  rule2：[定义：连续9点全部在均值同一侧（全>均值 或 全<均值）→ 均值系统性漂移] 检查结果：正常，未触发。
+  rule3：当前数据不满足触发条件（连续6点严格单调递增 或 严格单调递减 → 趋势性漂移），通过。
+  rule4：[定义：连续14点严格交替升降（每相邻两点一高一低）→ 周期性干扰] 检查结果：正常，未触发。
+  rule5：[定义：连续3点中有2点在同侧2σ～3σ区间（超过2σ但未超3σ）→ 过程能力早期恶化] 检查结果：触发，第5~7点中第5点、第7点超2σ下侧。
+  rule6：[定义：连续5点中有4点在同侧1σ～3σ区间（超过1σ但未超3σ）→ 均值偏移预警] 检查结果：正常，未触发。
+  rule7 ⚠ 触发：第8~22点全部在1σ以内。规则定义：连续15点全部在均值±1σ以内（|偏差|<σ）→ 测量分辨率不足或数据被人为压缩。
+  rule8：连续8点全在均值±1σ以外，且上下两侧都有分布 → 双峰分布或混线混料 → 未触发。
+
+计算过程能力指数 CPK：
+  CPU = (11.35-10.076)/(3×0.126) = 3.363
+  CPL = (10.076-8.95)/(3×0.126) = 2.971
+  CPK = min(3.363,2.971) = 2.971
+</think>
+
+**异常判断**：检出3条违规——rule1（任意1点超出UCL或LCL（突发性异常））；rule5（连续3点中2点在同侧2σ外（过程能力早期恶化））；rule7（连续15点在1σ以内（测量系统分辨率不足或数据造假））。多规则并发提示过程已出现系统性问题，须紧急响应。
+
+**CPK 指数**：2.971，过程能力等级：优秀，建议：可降低检验频次。
+
+**处置建议**（按优先级）：
+1. 立即暂停该批次生产，通知质量工程师进行紧急评审
+2. 隔离异常点对应时间段内的所有产品，待复测确认合格后方可放行
+3. 调取异常点前1小时内的设备运行参数曲线，查找突变来源
+4. 完成根因分析并经工艺主管审批后方可恢复正常检验节拍<|im_end|>
+
+[INFO|2026-04-24 18:07:03] llamafactory.model.model_utils.kv_cache:143 >> KV cache is disabled during training.
+[WARNING|logging.py:328] 2026-04-24 18:07:03,878 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|modeling_utils.py:1169] 2026-04-24 18:07:03,890 >> loading weights file /home/yinrong/models/Qwen3-14B/model.safetensors.index.json
+[INFO|modeling_utils.py:2341] 2026-04-24 18:07:03,899 >> Instantiating Qwen3ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:986] 2026-04-24 18:07:03,900 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "use_cache": false
+}
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:04<00:33,  4.72s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:09<00:28,  4.74s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:14<00:24,  4.90s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:19<00:19,  4.79s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:23<00:14,  4.79s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:28<00:09,  4.66s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:33<00:04,  4.73s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:35<00:00,  4.00s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:35<00:00,  4.46s/it]
+[INFO|configuration_utils.py:939] 2026-04-24 18:07:40,005 >> loading configuration file /home/yinrong/models/Qwen3-14B/generation_config.json
+[INFO|configuration_utils.py:986] 2026-04-24 18:07:40,005 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "temperature": 0.6,
+  "top_k": 20,
+  "top_p": 0.95
+}
+
+[INFO|dynamic_module_utils.py:423] 2026-04-24 18:07:40,010 >> Could not locate the custom_generate/generate.py inside /home/yinrong/models/Qwen3-14B.
+[INFO|2026-04-24 18:07:40] llamafactory.model.model_utils.checkpointing:143 >> Gradient checkpointing enabled.
+[INFO|2026-04-24 18:07:40] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-04-24 18:07:40] llamafactory.model.adapter:143 >> Upcasting trainable params to float32.
+[INFO|2026-04-24 18:07:40] llamafactory.model.adapter:143 >> Fine-tuning method: LoRA
+[INFO|2026-04-24 18:07:40] llamafactory.model.model_utils.misc:143 >> Found linear modules: down_proj,q_proj,v_proj,up_proj,k_proj,o_proj,gate_proj
+[INFO|2026-04-24 18:07:55] llamafactory.model.loader:143 >> trainable params: 513,802,240 || all params: 15,282,109,440 || trainable%: 3.3621
+[WARNING|trainer.py:906] 2026-04-24 18:07:55,776 >> The model is already on multiple devices. Skipping the move to device specified in `args`.
+[INFO|trainer.py:749] 2026-04-24 18:07:55,790 >> Using auto half precision backend
+[WARNING|trainer.py:982] 2026-04-24 18:07:55,797 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[INFO|trainer.py:2519] 2026-04-24 18:07:56,256 >> ***** Running training *****
+[INFO|trainer.py:2520] 2026-04-24 18:07:56,256 >>   Num examples = 251
+[INFO|trainer.py:2521] 2026-04-24 18:07:56,256 >>   Num Epochs = 6
+[INFO|trainer.py:2522] 2026-04-24 18:07:56,256 >>   Instantaneous batch size per device = 2
+[INFO|trainer.py:2525] 2026-04-24 18:07:56,256 >>   Total train batch size (w. parallel, distributed & accumulation) = 8
+[INFO|trainer.py:2526] 2026-04-24 18:07:56,256 >>   Gradient Accumulation steps = 4
+[INFO|trainer.py:2527] 2026-04-24 18:07:56,256 >>   Total optimization steps = 192
+[INFO|trainer.py:2528] 2026-04-24 18:07:56,260 >>   Number of trainable parameters = 513,802,240
+  0%|          | 0/192 [00:00<?, ?it/s]  1%|          | 1/192 [00:13<44:04, 13.85s/it]  1%|          | 2/192 [00:25<39:31, 12.48s/it]  2%|▏         | 3/192 [00:39<41:14, 13.09s/it]  2%|▏         | 4/192 [00:52<41:51, 13.36s/it]  3%|▎         | 5/192 [01:04<39:40, 12.73s/it]                                                 3%|▎         | 5/192 [01:04<39:40, 12.73s/it]  3%|▎         | 6/192 [01:16<38:35, 12.45s/it]  4%|▎         | 7/192 [01:29<39:04, 12.67s/it]  4%|▍         | 8/192 [01:41<38:23, 12.52s/it]  5%|▍         | 9/192 [01:54<38:37, 12.66s/it]  5%|▌         | 10/192 [02:08<39:26, 13.00s/it]                                                  5%|▌         | 10/192 [02:08<39:26, 13.00s/it]  6%|▌         | 11/192 [02:21<39:20, 13.04s/it]  6%|▋         | 12/192 [02:34<39:04, 13.02s/it]  7%|▋         | 13/192 [02:47<38:21, 12.85s/it]  7%|▋         | 14/192 [03:00<38:20, 12.92s/it]  8%|▊         | 15/192 [03:12<37:40, 12.77s/it]                                                  8%|▊         | 15/192 [03:12<37:40, 12.77s/it]  8%|▊         | 16/192 [03:26<38:18, 13.06s/it]  9%|▉         | 17/192 [03:37<36:30, 12.52s/it]  9%|▉         | 18/192 [03:49<35:35, 12.27s/it] 10%|▉         | 19/192 [04:02<35:46, 12.40s/it] 10%|█         | 20/192 [04:11<33:27, 11.67s/it]                                                 10%|█         | 20/192 [04:12<33:27, 11.67s/it] 11%|█         | 21/192 [04:23<33:11, 11.64s/it] 11%|█▏        | 22/192 [04:33<31:49, 11.23s/it] 12%|█▏        | 23/192 [04:45<31:57, 11.35s/it] 12%|█▎        | 24/192 [04:53<28:53, 10.32s/it] 13%|█▎        | 25/192 [05:06<31:02, 11.15s/it]                                                 13%|█▎        | 25/192 [05:06<31:02, 11.15s/it] 14%|█▎        | 26/192 [05:19<32:22, 11.70s/it] 14%|█▍        | 27/192 [05:32<33:31, 12.19s/it] 15%|█▍        | 28/192 [05:46<34:26, 12.60s/it] 15%|█▌        | 29/192 [05:57<32:55, 12.12s/it] 16%|█▌        | 30/192 [06:07<30:53, 11.44s/it]                                                 16%|█▌        | 30/192 [06:07<30:53, 11.44s/it] 16%|█▌        | 31/192 [06:14<27:31, 10.26s/it] 17%|█▋        | 32/192 [06:19<23:00,  8.63s/it][INFO|trainer.py:4309] 2026-04-24 18:14:15,789 >> Saving model checkpoint to /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-32
+[INFO|configuration_utils.py:763] 2026-04-24 18:14:15,834 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-24 18:14:15,835 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-24 18:14:19,396 >> chat template saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-32/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-24 18:14:19,437 >> tokenizer config file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-32/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-24 18:14:19,478 >> Special tokens file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-32/special_tokens_map.json
+ 17%|█▋        | 33/192 [06:42<33:55, 12.80s/it] 18%|█▊        | 34/192 [06:55<34:17, 13.02s/it] 18%|█▊        | 35/192 [07:06<32:36, 12.46s/it]                                                 18%|█▊        | 35/192 [07:06<32:36, 12.46s/it] 19%|█▉        | 36/192 [07:19<32:47, 12.61s/it] 19%|█▉        | 37/192 [07:31<31:55, 12.36s/it] 20%|█▉        | 38/192 [07:42<30:24, 11.85s/it] 20%|██        | 39/192 [07:55<31:01, 12.17s/it] 21%|██        | 40/192 [08:08<31:46, 12.55s/it]                                                 21%|██        | 40/192 [08:08<31:46, 12.55s/it] 21%|██▏       | 41/192 [08:21<31:58, 12.71s/it] 22%|██▏       | 42/192 [08:29<28:23, 11.36s/it] 22%|██▏       | 43/192 [08:41<28:31, 11.49s/it] 23%|██▎       | 44/192 [08:51<27:15, 11.05s/it] 23%|██▎       | 45/192 [09:03<27:23, 11.18s/it]                                                 23%|██▎       | 45/192 [09:03<27:23, 11.18s/it] 24%|██▍       | 46/192 [09:14<27:29, 11.29s/it] 24%|██▍       | 47/192 [09:27<28:27, 11.78s/it] 25%|██▌       | 48/192 [09:39<28:25, 11.84s/it] 26%|██▌       | 49/192 [09:51<28:16, 11.86s/it] 26%|██▌       | 50/192 [10:05<29:20, 12.40s/it]                                                 26%|██▌       | 50/192 [10:05<29:20, 12.40s/it] 27%|██▋       | 51/192 [10:16<28:35, 12.17s/it] 27%|██▋       | 52/192 [10:30<29:24, 12.61s/it] 28%|██▊       | 53/192 [10:43<29:46, 12.85s/it] 28%|██▊       | 54/192 [10:57<29:54, 13.01s/it] 29%|██▊       | 55/192 [11:10<29:48, 13.06s/it]                                                 29%|██▊       | 55/192 [11:10<29:48, 13.06s/it] 29%|██▉       | 56/192 [11:21<28:36, 12.62s/it] 30%|██▉       | 57/192 [11:33<27:48, 12.36s/it] 30%|███       | 58/192 [11:43<25:49, 11.56s/it] 31%|███       | 59/192 [11:54<25:21, 11.44s/it] 31%|███▏      | 60/192 [12:02<22:56, 10.43s/it]                                                 31%|███▏      | 60/192 [12:02<22:56, 10.43s/it] 32%|███▏      | 61/192 [12:14<23:26, 10.73s/it] 32%|███▏      | 62/192 [12:25<23:32, 10.87s/it] 33%|███▎      | 63/192 [12:36<23:24, 10.89s/it] 33%|███▎      | 64/192 [12:40<18:47,  8.81s/it][INFO|trainer.py:4309] 2026-04-24 18:20:36,380 >> Saving model checkpoint to /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-64
+[INFO|configuration_utils.py:763] 2026-04-24 18:20:36,422 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-24 18:20:36,423 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-24 18:20:39,386 >> chat template saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-64/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-24 18:20:39,404 >> tokenizer config file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-64/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-24 18:20:39,423 >> Special tokens file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-64/special_tokens_map.json
+ 34%|███▍      | 65/192 [13:01<26:28, 12.51s/it]                                                 34%|███▍      | 65/192 [13:01<26:28, 12.51s/it] 34%|███▍      | 66/192 [13:09<23:29, 11.19s/it] 35%|███▍      | 67/192 [13:22<24:44, 11.88s/it] 35%|███▌      | 68/192 [13:35<25:10, 12.18s/it] 36%|███▌      | 69/192 [13:49<25:42, 12.54s/it] 36%|███▋      | 70/192 [14:02<26:02, 12.81s/it]                                                 36%|███▋      | 70/192 [14:02<26:02, 12.81s/it] 37%|███▋      | 71/192 [14:13<24:35, 12.19s/it] 38%|███▊      | 72/192 [14:27<25:27, 12.73s/it] 38%|███▊      | 73/192 [14:40<25:44, 12.98s/it] 39%|███▊      | 74/192 [14:54<25:49, 13.13s/it] 39%|███▉      | 75/192 [15:07<25:27, 13.05s/it]                                                 39%|███▉      | 75/192 [15:07<25:27, 13.05s/it] 40%|███▉      | 76/192 [15:19<25:03, 12.96s/it] 40%|████      | 77/192 [15:31<23:59, 12.52s/it] 41%|████      | 78/192 [15:43<23:15, 12.24s/it] 41%|████      | 79/192 [15:55<23:24, 12.43s/it] 42%|████▏     | 80/192 [16:08<23:02, 12.34s/it]                                                 42%|████▏     | 80/192 [16:08<23:02, 12.34s/it] 42%|████▏     | 81/192 [16:21<23:11, 12.54s/it] 43%|████▎     | 82/192 [16:32<22:25, 12.23s/it] 43%|████▎     | 83/192 [16:41<20:33, 11.32s/it] 44%|████▍     | 84/192 [16:50<19:13, 10.68s/it] 44%|████▍     | 85/192 [17:04<20:35, 11.55s/it]                                                 44%|████▍     | 85/192 [17:04<20:35, 11.55s/it] 45%|████▍     | 86/192 [17:16<20:28, 11.59s/it] 45%|████▌     | 87/192 [17:27<20:20, 11.62s/it] 46%|████▌     | 88/192 [17:40<20:41, 11.94s/it] 46%|████▋     | 89/192 [17:49<18:47, 10.94s/it] 47%|████▋     | 90/192 [18:02<19:38, 11.55s/it]                                                 47%|████▋     | 90/192 [18:02<19:38, 11.55s/it] 47%|████▋     | 91/192 [18:14<19:55, 11.83s/it] 48%|████▊     | 92/192 [18:28<20:36, 12.36s/it] 48%|████▊     | 93/192 [18:40<20:25, 12.38s/it] 49%|████▉     | 94/192 [18:50<19:09, 11.73s/it] 49%|████▉     | 95/192 [19:04<19:41, 12.18s/it]                                                 49%|████▉     | 95/192 [19:04<19:41, 12.18s/it] 50%|█████     | 96/192 [19:09<16:03, 10.04s/it][INFO|trainer.py:4309] 2026-04-24 18:27:05,433 >> Saving model checkpoint to /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-96
+[INFO|configuration_utils.py:763] 2026-04-24 18:27:05,489 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-24 18:27:05,489 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-24 18:27:10,304 >> chat template saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-96/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-24 18:27:10,372 >> tokenizer config file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-96/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-24 18:27:10,418 >> Special tokens file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-96/special_tokens_map.json
+[INFO|trainer.py:4418] 2026-04-24 18:27:18,898 >> Deleting older checkpoint [/home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-32] due to args.save_total_limit
+ 51%|█████     | 97/192 [19:36<24:01, 15.17s/it] 51%|█████     | 98/192 [19:49<22:51, 14.59s/it] 52%|█████▏    | 99/192 [20:00<21:08, 13.64s/it] 52%|█████▏    | 100/192 [20:11<19:24, 12.65s/it]                                                  52%|█████▏    | 100/192 [20:11<19:24, 12.65s/it] 53%|█████▎    | 101/192 [20:20<17:48, 11.74s/it] 53%|█████▎    | 102/192 [20:31<17:06, 11.40s/it] 54%|█████▎    | 103/192 [20:45<17:57, 12.11s/it] 54%|█████▍    | 104/192 [20:58<18:13, 12.43s/it] 55%|█████▍    | 105/192 [21:11<18:22, 12.67s/it]                                                  55%|█████▍    | 105/192 [21:11<18:22, 12.67s/it] 55%|█████▌    | 106/192 [21:23<17:53, 12.48s/it] 56%|█████▌    | 107/192 [21:36<18:01, 12.72s/it] 56%|█████▋    | 108/192 [21:47<16:58, 12.13s/it] 57%|█████▋    | 109/192 [21:57<15:39, 11.32s/it] 57%|█████▋    | 110/192 [22:08<15:38, 11.45s/it]                                                  57%|█████▋    | 110/192 [22:08<15:38, 11.45s/it] 58%|█████▊    | 111/192 [22:22<16:08, 11.96s/it] 58%|█████▊    | 112/192 [22:32<15:31, 11.64s/it] 59%|█████▉    | 113/192 [22:46<16:01, 12.17s/it] 59%|█████▉    | 114/192 [22:59<16:14, 12.50s/it] 60%|█████▉    | 115/192 [23:11<15:37, 12.17s/it]                                                  60%|█████▉    | 115/192 [23:11<15:37, 12.17s/it] 60%|██████    | 116/192 [23:21<14:40, 11.59s/it] 61%|██████    | 117/192 [23:34<14:55, 11.94s/it] 61%|██████▏   | 118/192 [23:45<14:26, 11.71s/it] 62%|██████▏   | 119/192 [23:58<14:44, 12.12s/it] 62%|██████▎   | 120/192 [24:10<14:33, 12.14s/it]                                                  62%|██████▎   | 120/192 [24:10<14:33, 12.14s/it] 63%|██████▎   | 121/192 [24:24<14:53, 12.58s/it] 64%|██████▎   | 122/192 [24:34<13:55, 11.93s/it] 64%|██████▍   | 123/192 [24:46<13:47, 12.00s/it] 65%|██████▍   | 124/192 [24:57<13:14, 11.68s/it] 65%|██████▌   | 125/192 [25:11<13:43, 12.30s/it]                                                  65%|██████▌   | 125/192 [25:11<13:43, 12.30s/it] 66%|██████▌   | 126/192 [25:25<14:01, 12.74s/it] 66%|██████▌   | 127/192 [25:34<12:37, 11.65s/it] 67%|██████▋   | 128/192 [25:37<09:44,  9.14s/it][INFO|trainer.py:4309] 2026-04-24 18:33:33,780 >> Saving model checkpoint to /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-128
+[INFO|configuration_utils.py:763] 2026-04-24 18:33:33,838 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-24 18:33:33,839 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-24 18:33:36,645 >> chat template saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-128/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-24 18:33:36,665 >> tokenizer config file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-128/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-24 18:33:36,682 >> Special tokens file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-128/special_tokens_map.json
+[INFO|trainer.py:4418] 2026-04-24 18:33:41,114 >> Deleting older checkpoint [/home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-64] due to args.save_total_limit
+ 67%|██████▋   | 129/192 [25:57<13:04, 12.45s/it] 68%|██████▊   | 130/192 [26:07<12:08, 11.75s/it]                                                  68%|██████▊   | 130/192 [26:07<12:08, 11.75s/it] 68%|██████▊   | 131/192 [26:20<12:22, 12.17s/it] 69%|██████▉   | 132/192 [26:32<12:06, 12.11s/it] 69%|██████▉   | 133/192 [26:43<11:21, 11.55s/it] 70%|██████▉   | 134/192 [26:56<11:38, 12.05s/it] 70%|███████   | 135/192 [27:07<11:10, 11.76s/it]                                                  70%|███████   | 135/192 [27:07<11:10, 11.76s/it] 71%|███████   | 136/192 [27:19<10:58, 11.75s/it] 71%|███████▏  | 137/192 [27:32<11:10, 12.20s/it] 72%|███████▏  | 138/192 [27:45<11:09, 12.40s/it] 72%|███████▏  | 139/192 [27:58<11:14, 12.72s/it] 73%|███████▎  | 140/192 [28:12<11:12, 12.94s/it]                                                  73%|███████▎  | 140/192 [28:12<11:12, 12.94s/it] 73%|███████▎  | 141/192 [28:23<10:38, 12.51s/it] 74%|███████▍  | 142/192 [28:37<10:41, 12.83s/it] 74%|███████▍  | 143/192 [28:50<10:34, 12.94s/it] 75%|███████▌  | 144/192 [29:03<10:23, 13.00s/it] 76%|███████▌  | 145/192 [29:16<10:13, 13.04s/it]                                                  76%|███████▌  | 145/192 [29:16<10:13, 13.04s/it] 76%|███████▌  | 146/192 [29:27<09:29, 12.39s/it] 77%|███████▋  | 147/192 [29:38<08:56, 11.93s/it] 77%|███████▋  | 148/192 [29:48<08:16, 11.29s/it] 78%|███████▊  | 149/192 [29:59<08:07, 11.33s/it] 78%|███████▊  | 150/192 [30:10<07:49, 11.18s/it]                                                  78%|███████▊  | 150/192 [30:10<07:49, 11.18s/it] 79%|███████▊  | 151/192 [30:22<07:46, 11.37s/it] 79%|███████▉  | 152/192 [30:32<07:22, 11.05s/it] 80%|███████▉  | 153/192 [30:46<07:39, 11.78s/it] 80%|████████  | 154/192 [30:58<07:30, 11.84s/it] 81%|████████  | 155/192 [31:09<07:16, 11.80s/it]                                                  81%|████████  | 155/192 [31:09<07:16, 11.80s/it] 81%|████████▏ | 156/192 [31:21<07:00, 11.69s/it] 82%|████████▏ | 157/192 [31:35<07:12, 12.35s/it] 82%|████████▏ | 158/192 [31:48<07:14, 12.77s/it] 83%|████████▎ | 159/192 [32:02<07:07, 12.95s/it] 83%|████████▎ | 160/192 [32:04<05:08,  9.65s/it]                                                  83%|████████▎ | 160/192 [32:04<05:08,  9.65s/it][INFO|trainer.py:4309] 2026-04-24 18:40:00,561 >> Saving model checkpoint to /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-160
+[INFO|configuration_utils.py:763] 2026-04-24 18:40:00,622 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-24 18:40:00,623 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-24 18:40:03,560 >> chat template saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-160/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-24 18:40:03,587 >> tokenizer config file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-160/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-24 18:40:03,604 >> Special tokens file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-160/special_tokens_map.json
+[INFO|trainer.py:4418] 2026-04-24 18:40:08,087 >> Deleting older checkpoint [/home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-96] due to args.save_total_limit
+ 84%|████████▍ | 161/192 [32:21<06:07, 11.85s/it] 84%|████████▍ | 162/192 [32:31<05:42, 11.42s/it] 85%|████████▍ | 163/192 [32:44<05:43, 11.84s/it] 85%|████████▌ | 164/192 [32:57<05:42, 12.25s/it] 86%|████████▌ | 165/192 [33:06<05:04, 11.28s/it]                                                  86%|████████▌ | 165/192 [33:06<05:04, 11.28s/it] 86%|████████▋ | 166/192 [33:18<04:56, 11.41s/it] 87%|████████▋ | 167/192 [33:31<04:58, 11.95s/it] 88%|████████▊ | 168/192 [33:43<04:43, 11.81s/it] 88%|████████▊ | 169/192 [33:56<04:40, 12.21s/it] 89%|████████▊ | 170/192 [34:09<04:37, 12.63s/it]                                                  89%|████████▊ | 170/192 [34:09<04:37, 12.63s/it] 89%|████████▉ | 171/192 [34:23<04:31, 12.92s/it] 90%|████████▉ | 172/192 [34:35<04:10, 12.52s/it] 90%|█████████ | 173/192 [34:46<03:52, 12.25s/it] 91%|█████████ | 174/192 [34:59<03:43, 12.40s/it] 91%|█████████ | 175/192 [35:11<03:27, 12.18s/it]                                                  91%|█████████ | 175/192 [35:11<03:27, 12.18s/it] 92%|█████████▏| 176/192 [35:23<03:17, 12.33s/it] 92%|█████████▏| 177/192 [35:36<03:06, 12.46s/it] 93%|█████████▎| 178/192 [35:49<02:54, 12.49s/it] 93%|█████████▎| 179/192 [36:01<02:42, 12.52s/it] 94%|█████████▍| 180/192 [36:13<02:27, 12.28s/it]                                                  94%|█████████▍| 180/192 [36:13<02:27, 12.28s/it] 94%|█████████▍| 181/192 [36:26<02:19, 12.66s/it] 95%|█████████▍| 182/192 [36:39<02:07, 12.73s/it] 95%|█████████▌| 183/192 [36:49<01:45, 11.75s/it] 96%|█████████▌| 184/192 [37:02<01:37, 12.22s/it] 96%|█████████▋| 185/192 [37:16<01:28, 12.66s/it]                                                  96%|█████████▋| 185/192 [37:16<01:28, 12.66s/it] 97%|█████████▋| 186/192 [37:29<01:17, 12.94s/it] 97%|█████████▋| 187/192 [37:43<01:05, 13.07s/it] 98%|█████████▊| 188/192 [37:56<00:52, 13.24s/it] 98%|█████████▊| 189/192 [38:10<00:40, 13.36s/it] 99%|█████████▉| 190/192 [38:22<00:25, 12.98s/it]                                                  99%|█████████▉| 190/192 [38:22<00:25, 12.98s/it] 99%|█████████▉| 191/192 [38:34<00:12, 12.65s/it]100%|██████████| 192/192 [38:38<00:00, 10.00s/it][INFO|trainer.py:4309] 2026-04-24 18:46:34,601 >> Saving model checkpoint to /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-192
+[INFO|configuration_utils.py:763] 2026-04-24 18:46:34,663 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-24 18:46:34,664 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-24 18:46:38,654 >> chat template saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-192/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-24 18:46:38,672 >> tokenizer config file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-192/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-24 18:46:38,693 >> Special tokens file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-192/special_tokens_map.json
+[INFO|trainer.py:4418] 2026-04-24 18:46:45,128 >> Deleting older checkpoint [/home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/checkpoint-128] due to args.save_total_limit
+[INFO|trainer.py:2810] 2026-04-24 18:46:45,274 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+                                                 100%|██████████| 192/192 [38:49<00:00, 10.00s/it]100%|██████████| 192/192 [38:49<00:00, 12.13s/it]
+[INFO|trainer.py:4309] 2026-04-24 18:46:45,288 >> Saving model checkpoint to /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC
+[INFO|configuration_utils.py:763] 2026-04-24 18:46:45,359 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-24 18:46:45,360 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-24 18:46:49,557 >> chat template saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-24 18:46:49,574 >> tokenizer config file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-24 18:46:49,592 >> Special tokens file saved in /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expC/special_tokens_map.json
+[INFO|modelcard.py:456] 2026-04-24 18:46:50,178 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}
+{'loss': 1.4996, 'grad_norm': 0.7603867650032043, 'learning_rate': 4e-05, 'epoch': 0.16}
+{'loss': 1.182, 'grad_norm': 0.738551676273346, 'learning_rate': 9e-05, 'epoch': 0.32}
+{'loss': 0.8703, 'grad_norm': 0.6793842911720276, 'learning_rate': 9.98808636150624e-05, 'epoch': 0.48}
+{'loss': 0.661, 'grad_norm': 0.45368632674217224, 'learning_rate': 9.939784491643734e-05, 'epoch': 0.63}
+{'loss': 0.5966, 'grad_norm': 0.47794926166534424, 'learning_rate': 9.85470908713026e-05, 'epoch': 0.79}
+{'loss': 0.5717, 'grad_norm': 0.5178629159927368, 'learning_rate': 9.73349347991403e-05, 'epoch': 0.95}
+{'loss': 0.467, 'grad_norm': 0.5164466500282288, 'learning_rate': 9.577040042626833e-05, 'epoch': 1.1}
+{'loss': 0.2811, 'grad_norm': 0.3820185363292694, 'learning_rate': 9.38651347099721e-05, 'epoch': 1.25}
+{'loss': 0.278, 'grad_norm': 0.2867033779621124, 'learning_rate': 9.163332113436032e-05, 'epoch': 1.41}
+{'loss': 0.267, 'grad_norm': 0.25648635625839233, 'learning_rate': 8.90915741234015e-05, 'epoch': 1.57}
+{'loss': 0.2355, 'grad_norm': 0.35243454575538635, 'learning_rate': 8.625881535716883e-05, 'epoch': 1.73}
+{'loss': 0.3919, 'grad_norm': 0.47064757347106934, 'learning_rate': 8.315613291203976e-05, 'epoch': 1.89}
+{'loss': 0.4019, 'grad_norm': 0.4252372682094574, 'learning_rate': 7.980662427346127e-05, 'epoch': 2.03}
+{'loss': 0.1962, 'grad_norm': 0.23764289915561676, 'learning_rate': 7.62352243899504e-05, 'epoch': 2.19}
+{'loss': 0.1967, 'grad_norm': 0.43415963649749756, 'learning_rate': 7.246852004835807e-05, 'epoch': 2.35}
+{'loss': 0.22, 'grad_norm': 0.32505401968955994, 'learning_rate': 6.853455195225338e-05, 'epoch': 2.51}
+{'loss': 0.2138, 'grad_norm': 0.2736148536205292, 'learning_rate': 6.446260597682839e-05, 'epoch': 2.67}
+{'loss': 0.1832, 'grad_norm': 0.26585403084754944, 'learning_rate': 6.028299515429683e-05, 'epoch': 2.83}
+{'loss': 0.1417, 'grad_norm': 0.3776942193508148, 'learning_rate': 5.602683401276615e-05, 'epoch': 2.98}
+{'loss': 0.1621, 'grad_norm': 0.3140830099582672, 'learning_rate': 5.172580694848541e-05, 'epoch': 3.13}
+{'loss': 0.1173, 'grad_norm': 0.2892243266105652, 'learning_rate': 4.741193235578952e-05, 'epoch': 3.29}
+{'loss': 0.1267, 'grad_norm': 0.35721394419670105, 'learning_rate': 4.31173242706416e-05, 'epoch': 3.44}
+{'loss': 0.1179, 'grad_norm': 0.3312927484512329, 'learning_rate': 3.887395330218429e-05, 'epoch': 3.6}
+{'loss': 0.1166, 'grad_norm': 0.31700554490089417, 'learning_rate': 3.471340863201237e-05, 'epoch': 3.76}
+{'loss': 0.1045, 'grad_norm': 0.2328549325466156, 'learning_rate': 3.066666285292906e-05, 'epoch': 3.92}
+{'loss': 0.1522, 'grad_norm': 0.20863741636276245, 'learning_rate': 2.6763841397811573e-05, 'epoch': 4.06}
+{'loss': 0.087, 'grad_norm': 0.29294300079345703, 'learning_rate': 2.3033998275040046e-05, 'epoch': 4.22}
+{'loss': 0.0886, 'grad_norm': 0.2799420952796936, 'learning_rate': 1.9504899779996355e-05, 'epoch': 4.38}
+{'loss': 0.0771, 'grad_norm': 0.29534590244293213, 'learning_rate': 1.6202817792762282e-05, 'epoch': 4.54}
+{'loss': 0.0767, 'grad_norm': 0.3638834059238434, 'learning_rate': 1.3152334200783167e-05, 'epoch': 4.7}
+{'loss': 0.0724, 'grad_norm': 0.31401342153549194, 'learning_rate': 1.0376157902445488e-05, 'epoch': 4.86}
+{'loss': 0.0856, 'grad_norm': 0.6346737146377563, 'learning_rate': 7.894955753859413e-06, 'epoch': 5.0}
+{'loss': 0.0593, 'grad_norm': 0.21726566553115845, 'learning_rate': 5.727198717339511e-06, 'epoch': 5.16}
+{'loss': 0.0646, 'grad_norm': 0.21840320527553558, 'learning_rate': 3.8890243569094874e-06, 'epoch': 5.32}
+{'loss': 0.0627, 'grad_norm': 0.21270255744457245, 'learning_rate': 2.3941167044642944e-06, 'epoch': 5.48}
+{'loss': 0.0712, 'grad_norm': 0.22564254701137543, 'learning_rate': 1.2536043909088191e-06, 'epoch': 5.63}
+{'loss': 0.0634, 'grad_norm': 0.27611681818962097, 'learning_rate': 4.7597780062184073e-07, 'epoch': 5.79}
+{'loss': 0.064, 'grad_norm': 0.221446692943573, 'learning_rate': 6.702586597719385e-08, 'epoch': 5.95}
+{'train_runtime': 2329.0144, 'train_samples_per_second': 0.647, 'train_steps_per_second': 0.082, 'train_loss': 0.27723239071201533, 'epoch': 6.0}
+***** train metrics *****
+  epoch                    =         6.0
+  total_flos               = 196481057GF
+  train_loss               =      0.2772
+  train_runtime            =  0:38:49.01
+  train_samples_per_second =       0.647
+  train_steps_per_second   =       0.082

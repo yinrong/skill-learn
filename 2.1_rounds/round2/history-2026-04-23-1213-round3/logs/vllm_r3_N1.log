@@ -1,0 +1,23 @@
+启动 vLLM：port=8041  model=/home/yinrong/phase2.1/history-2026-04-23-1213-round3/checkpoints/demo-r3-N1-14b-merged
+  pid=2719541  日志：/tmp/vllm_8041.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+✓ vLLM 已就绪：http://localhost:8041

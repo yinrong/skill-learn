@@ -1,0 +1,9 @@
+评测模型: expPP  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.000
+  [40/200] running rule_f1=0.000
+  [60/200] running rule_f1=0.017
+  [80/200] running rule_f1=0.025
+  [100/200] running rule_f1=0.030
+  [120/200] running rule_f1=0.033
+  [140/200] running rule_f1=0.029
+  [160/200] running rule_f1=0.025

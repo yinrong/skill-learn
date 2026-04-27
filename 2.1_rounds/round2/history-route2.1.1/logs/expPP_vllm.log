@@ -1,0 +1,22 @@
+启动 vLLM：port=8106  model=/home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expPP-merged
+  pid=100086  日志：/tmp/vllm_8106.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+✓ vLLM 已就绪：http://localhost:8106

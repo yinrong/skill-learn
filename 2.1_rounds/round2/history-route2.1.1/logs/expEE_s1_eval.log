@@ -1,0 +1,31 @@
+评测模型: expEE_s1  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.137
+  [40/200] running rule_f1=0.081
+  [60/200] running rule_f1=0.126
+  [80/200] running rule_f1=0.120
+  [100/200] running rule_f1=0.123
+  [120/200] running rule_f1=0.125
+  [140/200] running rule_f1=0.120
+  [160/200] running rule_f1=0.122
+  [180/200] running rule_f1=0.121
+  [200/200] running rule_f1=0.118
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.118
+  cpk_mae:                 0.312
+  cpk_found_rate:          0.67
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  2386.6
+  inference_time_ms_p95:   4865.1
+
+各规则 recall：
+  rule1: 0.75
+  rule2: 0.069
+  rule3: 0.036
+  rule4: 0.0
+  rule5: 0.091
+  rule6: 0.0
+  rule7: 0.0
+  rule8: 0.538
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expEE_s1.json

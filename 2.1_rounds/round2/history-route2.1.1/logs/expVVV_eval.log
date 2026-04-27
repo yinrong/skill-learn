@@ -1,0 +1,32 @@
+评测模型: expVVV  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.273
+  [40/200] running rule_f1=0.358
+  [60/200] running rule_f1=0.397
+  [80/200] running rule_f1=0.412
+  [100/200] running rule_f1=0.425
+  [120/200] running rule_f1=0.404
+  [140/200] running rule_f1=0.409
+  [160/200] running rule_f1=0.401
+  [180/200] running rule_f1=0.418
+  [200/200] running rule_f1=0.413
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.413
+  cpk_mae:                 0.084
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  46635.1
+  inference_time_ms_p95:   51289.2
+
+各规则 recall：
+  rule1: 0.75
+  rule2: 0.345
+  rule3: 0.571
+  rule4: 0.917
+  rule5: 0.636
+  rule6: 0.818
+  rule7: 0.444
+  rule8: 0.923
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expVVV.json
+

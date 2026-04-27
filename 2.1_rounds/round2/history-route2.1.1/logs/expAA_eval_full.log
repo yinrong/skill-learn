@@ -1,0 +1,46 @@
+=== 评测 expAA (GPU 0, port 8100) ===
+🔗 合并 LoRA adapter...
+  ✓ 合并完成 → /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expAA-merged
+🚀 启动 vLLM (GPU 0, port 8100)...
+  等待 vLLM 启动...
+  ❌ vLLM 进程意外终止
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+✗ vLLM 启动超时，请检查 /tmp/vllm_8100.log
+=== 评测 expAA (GPU 0, port 8100) ===
+  ✓ 已有合并模型，跳过
+🚀 启动 vLLM (GPU 0, port 8100)...
+  等待 vLLM 启动...
+  ✓ vLLM 就绪 (11×5s)
+📊 开始评测（200条测试集）...
+  ✓ vLLM 已停止
+
+=== expAA 评测结果 ===
+  rule_detection_f1: 0.164
+  cpk_found_rate:    0.98
+  per_rule_recall:
+    rule1: 0.8  ████████████████
+    rule2: 0.241  ████
+    rule3: 0.107  ██
+    rule4: 0.208  ████
+    rule5: 0.0  
+    rule6: 0.03  
+    rule7: 0.0  
+    rule8: 0.077  █

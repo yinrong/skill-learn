@@ -1,0 +1,21 @@
+=== 评测 expEE_s1 (GPU 2, port 8102) ===
+🔗 合并 LoRA adapter...
+  ✓ 合并完成 → /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expEE_s1-merged
+🚀 启动 vLLM (GPU 2, port 8102)...
+  等待 vLLM 启动...
+  ✓ vLLM 就绪 (17×5s)
+📊 开始评测（200条测试集）...
+  ✓ vLLM 已停止
+
+=== expEE_s1 评测结果 ===
+  rule_detection_f1: 0.118
+  cpk_found_rate:    0.67
+  per_rule_recall:
+    rule1: 0.75  ███████████████
+    rule2: 0.069  █
+    rule3: 0.036  
+    rule4: 0.0  
+    rule5: 0.091  █
+    rule6: 0.0  
+    rule7: 0.0  
+    rule8: 0.538  ██████████

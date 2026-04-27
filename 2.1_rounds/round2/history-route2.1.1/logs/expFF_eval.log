@@ -1,0 +1,31 @@
+评测模型: expFF  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.165
+  [40/200] running rule_f1=0.236
+  [60/200] running rule_f1=0.188
+  [80/200] running rule_f1=0.184
+  [100/200] running rule_f1=0.174
+  [120/200] running rule_f1=0.172
+  [140/200] running rule_f1=0.178
+  [160/200] running rule_f1=0.163
+  [180/200] running rule_f1=0.151
+  [200/200] running rule_f1=0.148
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.148
+  cpk_mae:                 0.342
+  cpk_found_rate:          0.44
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  2262.9
+  inference_time_ms_p95:   5818.8
+
+各规则 recall：
+  rule1: 0.175
+  rule2: 0.31
+  rule3: 0.321
+  rule4: 0.25
+  rule5: 0.273
+  rule6: 0.212
+  rule7: 0.167
+  rule8: 0.077
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expFF.json

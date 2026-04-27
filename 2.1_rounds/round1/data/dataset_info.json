@@ -1,0 +1,132 @@
+{
+  "spc_N1": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_N1.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_N2": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_N2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_N3": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_N3.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_N4": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_N4.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_v2_N1": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_v2_N1.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_v2_N2": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_v2_N2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_v2_N3": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_v2_N3.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_v2_N4": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_v2_N4.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_N1": {
+    "file_name": "/home/yinrong/phase2.1/history-2026-04-23-1213-round3/data/train_N1.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_N2": {
+    "file_name": "/home/yinrong/phase2.1/history-2026-04-23-1213-round3/data/train_N2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_N3": {
+    "file_name": "/home/yinrong/phase2.1/history-2026-04-23-1213-round3/data/train_N3.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_N4": {
+    "file_name": "/home/yinrong/phase2.1/history-2026-04-23-1213-round3/data/train_N4.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_textbook": {
+    "file_name": "/home/yinrong/phase2.1/history-2026-04-23-1213-round3/data/train_textbook.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

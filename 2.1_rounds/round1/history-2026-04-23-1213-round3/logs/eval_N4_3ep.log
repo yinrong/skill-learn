@@ -1,0 +1,31 @@
+评测模型: qwen3-14b-sft-r3-N4-3ep  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.203
+  [40/200] running rule_f1=0.143
+  [60/200] running rule_f1=0.140
+  [80/200] running rule_f1=0.111
+  [100/200] running rule_f1=0.106
+  [120/200] running rule_f1=0.094
+  [140/200] running rule_f1=0.098
+  [160/200] running rule_f1=0.100
+  [180/200] running rule_f1=0.093
+  [200/200] running rule_f1=0.090
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.09
+  cpk_mae:                 0.594
+  cpk_found_rate:          0.095
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  3027.8
+  inference_time_ms_p95:   4366.1
+
+各规则 recall：
+  rule1: 0.5
+  rule2: 0.138
+  rule3: 0.0
+  rule4: 0.0
+  rule5: 0.182
+  rule6: 0.0
+  rule7: 0.0
+  rule8: 0.0
+
+结果已写入：history-2026-04-23-1213-round3/results/sft_r3_N4_3ep.json

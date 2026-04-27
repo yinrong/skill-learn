@@ -1,0 +1,44 @@
+⚠ expG2: 训练可能未完成，继续尝试...
+=== 评测 expG2 (GPU 7, port 8107) ===
+🔗 合并 LoRA adapter...
+=== 评测 expG2 (GPU 7, port 8107) ===
+🔗 合并 LoRA adapter...
+  ✓ 合并完成 → /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expG2-merged
+🚀 启动 vLLM (GPU 7, port 8107)...
+  等待 vLLM 启动...
+  ✓ vLLM 就绪 (18×5s)
+📊 开始评测（200条测试集）...
+=== 评测 expG2 (GPU 7, port 8107) ===
+  ✓ 已有合并模型，跳过
+🚀 启动 vLLM (GPU 7, port 8107)...
+  等待 vLLM 启动...
+  ✓ vLLM 已停止
+
+=== expG2 评测结果 ===
+  rule_detection_f1: 0.049
+  cpk_found_rate:    0.16
+  per_rule_recall:
+    rule1: 0.05  █
+    rule2: 0.0  
+    rule3: 0.0  
+    rule4: 0.25  █████
+    rule5: 0.273  █████
+    rule6: 0.061  █
+    rule7: 0.056  █
+    rule8: 0.308  ██████
+  ✓ vLLM 就绪 (11×5s)
+📊 开始评测（200条测试集）...
+  ✓ vLLM 已停止
+
+=== expG2 评测结果 ===
+  rule_detection_f1: 0.033
+  cpk_found_rate:    0.105
+  per_rule_recall:
+    rule1: 0.05  █
+    rule2: 0.0  
+    rule3: 0.0  
+    rule4: 0.167  ███
+    rule5: 0.136  ██
+    rule6: 0.0  
+    rule7: 0.0  
+    rule8: 0.231  ████

@@ -1,0 +1,31 @@
+评测模型: expTTT  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.343
+  [40/200] running rule_f1=0.349
+  [60/200] running rule_f1=0.383
+  [80/200] running rule_f1=0.406
+  [100/200] running rule_f1=0.425
+  [120/200] running rule_f1=0.395
+  [140/200] running rule_f1=0.394
+  [160/200] running rule_f1=0.427
+  [180/200] running rule_f1=0.417
+  [200/200] running rule_f1=0.426
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.426
+  cpk_mae:                 0.086
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  47577.0
+  inference_time_ms_p95:   52359.0
+
+各规则 recall：
+  rule1: 0.75
+  rule2: 0.517
+  rule3: 0.464
+  rule4: 0.917
+  rule5: 0.727
+  rule6: 0.879
+  rule7: 0.333
+  rule8: 0.769
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expTTT.json

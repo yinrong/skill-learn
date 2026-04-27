@@ -1,0 +1,31 @@
+评测模型: expUUU  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.368
+  [40/200] running rule_f1=0.315
+  [60/200] running rule_f1=0.360
+  [80/200] running rule_f1=0.391
+  [100/200] running rule_f1=0.413
+  [120/200] running rule_f1=0.415
+  [140/200] running rule_f1=0.401
+  [160/200] running rule_f1=0.393
+  [180/200] running rule_f1=0.399
+  [200/200] running rule_f1=0.395
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.395
+  cpk_mae:                 0.07
+  cpk_found_rate:          0.995
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  103227.2
+  inference_time_ms_p95:   115792.4
+
+各规则 recall：
+  rule1: 0.7
+  rule2: 0.552
+  rule3: 0.464
+  rule4: 0.875
+  rule5: 0.818
+  rule6: 0.667
+  rule7: 0.556
+  rule8: 0.692
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expUUU.json

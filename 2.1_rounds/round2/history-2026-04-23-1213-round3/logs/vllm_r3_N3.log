@@ -1,0 +1,22 @@
+启动 vLLM：port=8043  model=/home/yinrong/phase2.1/history-2026-04-23-1213-round3/checkpoints/demo-r3-N3-14b-merged
+  pid=3765776  日志：/tmp/vllm_8043.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+  等待 vLLM 启动... (http://localhost:8043/health)
+✓ vLLM 已就绪：http://localhost:8043

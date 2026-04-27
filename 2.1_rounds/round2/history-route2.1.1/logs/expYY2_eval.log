@@ -1,0 +1,31 @@
+评测模型: expYY2  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.313
+  [40/200] running rule_f1=0.341
+  [60/200] running rule_f1=0.352
+  [80/200] running rule_f1=0.342
+  [100/200] running rule_f1=0.361
+  [120/200] running rule_f1=0.357
+  [140/200] running rule_f1=0.348
+  [160/200] running rule_f1=0.359
+  [180/200] running rule_f1=0.367
+  [200/200] running rule_f1=0.364
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.364
+  cpk_mae:                 0.068
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  40404.0
+  inference_time_ms_p95:   41032.0
+
+各规则 recall：
+  rule1: 0.7
+  rule2: 0.552
+  rule3: 0.571
+  rule4: 0.792
+  rule5: 1.0
+  rule6: 0.697
+  rule7: 0.167
+  rule8: 0.154
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expYY2.json

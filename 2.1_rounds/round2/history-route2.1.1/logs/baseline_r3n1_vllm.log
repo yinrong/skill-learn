@@ -1,0 +1,25 @@
+启动 vLLM：port=8050  model=/home/yinrong/impl/2.1/history-2026-04-23-1213-round3/checkpoints/demo-r3-N1-14b-merged
+  pid=13540  日志：/tmp/vllm_8050.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+  等待 vLLM 启动... (http://localhost:8050/health)
+✓ vLLM 已就绪：http://localhost:8050

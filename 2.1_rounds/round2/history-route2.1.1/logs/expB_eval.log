@@ -1,0 +1,31 @@
+评测模型: expB  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.140
+  [40/200] running rule_f1=0.128
+  [60/200] running rule_f1=0.157
+  [80/200] running rule_f1=0.168
+  [100/200] running rule_f1=0.171
+  [120/200] running rule_f1=0.161
+  [140/200] running rule_f1=0.165
+  [160/200] running rule_f1=0.162
+  [180/200] running rule_f1=0.161
+  [200/200] running rule_f1=0.164
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.164
+  cpk_mae:                 0.496
+  cpk_found_rate:          0.6
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  3819.7
+  inference_time_ms_p95:   6551.2
+
+各规则 recall：
+  rule1: 0.125
+  rule2: 0.69
+  rule3: 0.107
+  rule4: 0.583
+  rule5: 0.364
+  rule6: 0.242
+  rule7: 0.111
+  rule8: 0.0
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expB.json

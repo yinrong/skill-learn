@@ -1,0 +1,31 @@
+评测模型: expQQ  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.000
+  [40/200] running rule_f1=0.000
+  [60/200] running rule_f1=0.000
+  [80/200] running rule_f1=0.000
+  [100/200] running rule_f1=0.000
+  [120/200] running rule_f1=0.000
+  [140/200] running rule_f1=0.000
+  [160/200] running rule_f1=0.000
+  [180/200] running rule_f1=0.004
+  [200/200] running rule_f1=0.003
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.003
+  cpk_mae:                 0.09
+  cpk_found_rate:          0.975
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  20296.5
+  inference_time_ms_p95:   20690.6
+
+各规则 recall：
+  rule1: 0.025
+  rule2: 0.0
+  rule3: 0.0
+  rule4: 0.0
+  rule5: 0.0
+  rule6: 0.0
+  rule7: 0.0
+  rule8: 0.0
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expQQ.json

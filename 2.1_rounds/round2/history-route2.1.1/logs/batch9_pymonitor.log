@@ -1,0 +1,34 @@
+[06:43:38] Starting monitor for: ['expIII', 'expJJJ', 'expKKK', 'expLLL', 'expMMM']
+[06:43:38] ✅ expIII: training complete
+[06:43:38] 📊 expIII: launching eval on GPU 5...
+[06:43:38]    eval PID=246790
+[06:43:38] ✅ expJJJ: training complete
+[06:43:38] 📊 expJJJ: launching eval on GPU 6...
+[06:43:38]    eval PID=246791
+[06:43:38] ✅ expKKK: training complete
+[06:43:38] 📊 expKKK: launching eval on GPU 2...
+[06:43:38]    eval PID=246796
+[06:43:38] ✅ expLLL: training complete
+[06:43:38] 📊 expLLL: launching eval on GPU 3...
+[06:43:38]    eval PID=246803
+[06:43:38] ✅ expMMM: training complete
+[06:43:38] 📊 expMMM: launching eval on GPU 4...
+[06:43:38]    eval PID=246811
+[08:21:46] 🎯 expLLL: F1=0.340 cpk=0.995 per_rule={'rule1': 0.75, 'rule2': 0.517, 'rule3': 0.214, 'rule4': 0.625, 'rule5': 0.727, 'rule6': 0.636, 'rule7': 0.222, 'rule8': 0.538}
+[09:19:50] 🎯 expJJJ: F1=0.394 cpk=1.000 per_rule={'rule1': 0.775, 'rule2': 0.552, 'rule3': 0.607, 'rule4': 0.917, 'rule5': 0.545, 'rule6': 0.788, 'rule7': 0.278, 'rule8': 0.615}
+[09:52:52] 🎯 expKKK: F1=0.364 cpk=1.000 per_rule={'rule1': 0.7, 'rule2': 0.517, 'rule3': 0.357, 'rule4': 0.75, 'rule5': 0.636, 'rule6': 0.818, 'rule7': 0.222, 'rule8': 0.538}
+[09:54:52] 🎯 expMMM: F1=0.392 cpk=0.995 per_rule={'rule1': 0.825, 'rule2': 0.517, 'rule3': 0.464, 'rule4': 0.875, 'rule5': 0.909, 'rule6': 0.848, 'rule7': 0.389, 'rule8': 0.538}
+[10:00:52] 🎯 expIII: F1=0.354 cpk=0.985 per_rule={'rule1': 0.75, 'rule2': 0.379, 'rule3': 0.357, 'rule4': 0.875, 'rule5': 0.909, 'rule6': 0.848, 'rule7': 0.5, 'rule8': 0.769}
+[10:00:52] ✅ All experiments complete!
+
+=== Results Summary ===
+  expIII: F1=0.354 cpk=0.985
+    per_rule: {'rule1': 0.75, 'rule2': 0.379, 'rule3': 0.357, 'rule4': 0.875, 'rule5': 0.909, 'rule6': 0.848, 'rule7': 0.5, 'rule8': 0.769}
+  expJJJ: F1=0.394 cpk=1.000
+    per_rule: {'rule1': 0.775, 'rule2': 0.552, 'rule3': 0.607, 'rule4': 0.917, 'rule5': 0.545, 'rule6': 0.788, 'rule7': 0.278, 'rule8': 0.615}
+  expKKK: F1=0.364 cpk=1.000
+    per_rule: {'rule1': 0.7, 'rule2': 0.517, 'rule3': 0.357, 'rule4': 0.75, 'rule5': 0.636, 'rule6': 0.818, 'rule7': 0.222, 'rule8': 0.538}
+  expLLL: F1=0.360 cpk=0.995
+    per_rule: {'rule1': 0.625, 'rule2': 0.517, 'rule3': 0.536, 'rule4': 0.625, 'rule5': 0.591, 'rule6': 0.636, 'rule7': 0.167, 'rule8': 0.615}
+  expMMM: F1=0.392 cpk=0.995
+    per_rule: {'rule1': 0.825, 'rule2': 0.517, 'rule3': 0.464, 'rule4': 0.875, 'rule5': 0.909, 'rule6': 0.848, 'rule7': 0.389, 'rule8': 0.538}

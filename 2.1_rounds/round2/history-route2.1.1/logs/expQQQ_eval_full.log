@@ -1,0 +1,24 @@
+=== 评测 expQQQ (GPU 3, port 8103) ===
+  ✓ 已有合并模型，跳过
+🚀 启动 vLLM (GPU 3, port 8103)...
+  等待 vLLM 启动...
+  ✓ vLLM 就绪 (16×5s)
+📊 开始评测（200条测试集）...
+  ✓ vLLM 已停止
+
+=== expQQQ 评测结果 ===
+  rule_detection_f1: 0.322
+  cpk_foun  ✓ vLLM 已停止
+
+=== expQQQ 评测结果 ===
+  rule_detection_f1: 0.34
+  cpk_found_rate:    1.0
+  per_rule_recall:
+    rule1: 0.675  █████████████
+    rule2: 0.448  ████████
+    rule3: 0.286  █████
+    rule4: 0.667  █████████████
+    rule5: 0.864  █████████████████
+    rule6: 0.758  ███████████████
+    rule7: 0.333  ██████
+    rule8: 0.538  ██████████

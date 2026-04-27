@@ -1,0 +1,17 @@
+启动 vLLM：port=8105  model=history-route2.1.1/checkpoints/expZ-merged
+  pid=69425  日志：/tmp/vllm_8105.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+  等待 vLLM 启动... (http://localhost:8105/health)
+✓ vLLM 已就绪：http://localhost:8105

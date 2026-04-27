@@ -1,0 +1,31 @@
+评测模型: expF2  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.212
+  [40/200] running rule_f1=0.168
+  [60/200] running rule_f1=0.150
+  [80/200] running rule_f1=0.145
+  [100/200] running rule_f1=0.131
+  [120/200] running rule_f1=0.121
+  [140/200] running rule_f1=0.128
+  [160/200] running rule_f1=0.121
+  [180/200] running rule_f1=0.125
+  [200/200] running rule_f1=0.131
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.131
+  cpk_mae:                 0.343
+  cpk_found_rate:          0.89
+  has_reasoning_rate:      0.145
+  inference_time_ms_mean:  5665.2
+  inference_time_ms_p95:   6927.6
+
+各规则 recall：
+  rule1: 0.125
+  rule2: 0.172
+  rule3: 0.286
+  rule4: 0.042
+  rule5: 0.318
+  rule6: 0.152
+  rule7: 0.278
+  rule8: 0.615
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expF2.json

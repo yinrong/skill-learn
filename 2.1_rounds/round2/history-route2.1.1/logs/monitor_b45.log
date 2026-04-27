@@ -1,0 +1,482 @@
+[Fri Apr 24 10:46:08 PM CST 2026] 开始监控训练进度...
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expA: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expB: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expC: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expD: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expE: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expF2: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expG2: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expX: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expY: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expZ: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expW: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expU: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expT: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expV: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expS: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expAA: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expBB: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expCC: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expDD: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expFF: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expGG: 评测已完成
+[Fri Apr 24 10:46:08 PM CST 2026] ⏳ expMM: step=133/150
+[Fri Apr 24 10:46:08 PM CST 2026] ⏳ expNN: step=109/160
+[Fri Apr 24 10:46:08 PM CST 2026] ⏭ expOO: 评测已完成
+[Fri Apr 24 10:46:09 PM CST 2026] ⏳ expPP: step=108/160
+[Fri Apr 24 10:46:09 PM CST 2026] ⏳ expQQ: step=135/190
+[Fri Apr 24 10:46:09 PM CST 2026] ⏳ expRR: step=4/125
+[Fri Apr 24 10:46:09 PM CST 2026] ⏳ expSS: step=4/190
+[Fri Apr 24 10:46:09 PM CST 2026] ⏳ expTT: step=4/189
+[Fri Apr 24 10:46:09 PM CST 2026] ⏳ expUU: step=3/190
+[Fri Apr 24 10:47:09 PM CST 2026] ⏳ expMM: step=137/150
+[Fri Apr 24 10:47:09 PM CST 2026] ⏳ expNN: step=110/160
+[Fri Apr 24 10:47:09 PM CST 2026] ⏳ expPP: step=110/160
+[Fri Apr 24 10:47:09 PM CST 2026] ⏳ expQQ: step=139/190
+[Fri Apr 24 10:47:09 PM CST 2026] ⏳ expRR: step=6/125
+[Fri Apr 24 10:47:09 PM CST 2026] ⏳ expSS: step=6/190
+[Fri Apr 24 10:47:09 PM CST 2026] ⏳ expTT: step=6/189
+[Fri Apr 24 10:47:09 PM CST 2026] ⏳ expUU: step=6/190
+[Fri Apr 24 10:48:09 PM CST 2026] ⏳ expMM: step=139/150
+[Fri Apr 24 10:48:09 PM CST 2026] ⏳ expNN: step=112/160
+[Fri Apr 24 10:48:10 PM CST 2026] ⏳ expPP: step=112/160
+[Fri Apr 24 10:48:10 PM CST 2026] ⏳ expQQ: step=142/190
+[Fri Apr 24 10:48:10 PM CST 2026] ⏳ expRR: step=8/125
+[Fri Apr 24 10:48:10 PM CST 2026] ⏳ expSS: step=8/190
+[Fri Apr 24 10:48:10 PM CST 2026] ⏳ expTT: step=8/189
+[Fri Apr 24 10:48:10 PM CST 2026] ⏳ expUU: step=8/190
+[Fri Apr 24 10:49:10 PM CST 2026] ⏳ expMM: step=140/150
+[Fri Apr 24 10:49:10 PM CST 2026] ⏳ expNN: step=114/160
+[Fri Apr 24 10:49:10 PM CST 2026] ⏳ expPP: step=114/160
+[Fri Apr 24 10:49:10 PM CST 2026] ⏳ expQQ: step=144/190
+[Fri Apr 24 10:49:10 PM CST 2026] ⏳ expRR: step=10/125
+[Fri Apr 24 10:49:10 PM CST 2026] ⏳ expSS: step=10/190
+[Fri Apr 24 10:49:10 PM CST 2026] ⏳ expTT: step=10/189
+[Fri Apr 24 10:49:10 PM CST 2026] ⏳ expUU: step=10/190
+[Fri Apr 24 10:50:10 PM CST 2026] ⏳ expMM: step=143/150
+[Fri Apr 24 10:50:10 PM CST 2026] ⏳ expNN: step=116/160
+[Fri Apr 24 10:50:10 PM CST 2026] ⏳ expPP: step=116/160
+[Fri Apr 24 10:50:11 PM CST 2026] ⏳ expQQ: step=147/190
+[Fri Apr 24 10:50:11 PM CST 2026] ⏳ expRR: step=12/125
+[Fri Apr 24 10:50:11 PM CST 2026] ⏳ expSS: step=12/190
+[Fri Apr 24 10:50:11 PM CST 2026] ⏳ expTT: step=12/189
+[Fri Apr 24 10:50:11 PM CST 2026] ⏳ expUU: step=12/190
+[Fri Apr 24 10:51:11 PM CST 2026] ⏳ expMM: step=147/150
+[Fri Apr 24 10:51:11 PM CST 2026] ⏳ expNN: step=118/160
+[Fri Apr 24 10:51:11 PM CST 2026] ⏳ expPP: step=118/160
+[Fri Apr 24 10:51:11 PM CST 2026] ⏳ expQQ: step=150/190
+[Fri Apr 24 10:51:11 PM CST 2026] ⏳ expRR: step=14/125
+[Fri Apr 24 10:51:11 PM CST 2026] ⏳ expSS: step=14/190
+[Fri Apr 24 10:51:11 PM CST 2026] ⏳ expTT: step=14/189
+[Fri Apr 24 10:51:11 PM CST 2026] ⏳ expUU: step=14/190
+[Fri Apr 24 10:52:11 PM CST 2026] ⏳ expMM: step=149/150
+[Fri Apr 24 10:52:11 PM CST 2026] ⏳ expNN: step=120/160
+[Fri Apr 24 10:52:11 PM CST 2026] ⏳ expPP: step=120/160
+[Fri Apr 24 10:52:12 PM CST 2026] ⏳ expQQ: step=153/190
+[Fri Apr 24 10:52:12 PM CST 2026] ⏳ expRR: step=16/125
+[Fri Apr 24 10:52:12 PM CST 2026] ⏳ expSS: step=16/190
+[Fri Apr 24 10:52:12 PM CST 2026] ⏳ expTT: step=16/189
+[Fri Apr 24 10:52:12 PM CST 2026] ⏳ expUU: step=17/190
+[Fri Apr 24 10:53:12 PM CST 2026] ✅ expMM: 训练完成，启动评测...
+[Fri Apr 24 10:53:12 PM CST 2026] 📊 expMM: 评测已在 GPU 2 后台启动 (PID=94448)
+[Fri Apr 24 10:53:12 PM CST 2026] ⏳ expNN: step=122/160
+[Fri Apr 24 10:53:12 PM CST 2026] ⏳ expPP: step=122/160
+[Fri Apr 24 10:53:12 PM CST 2026] ⏳ expQQ: step=156/190
+[Fri Apr 24 10:53:12 PM CST 2026] ⏳ expRR: step=18/125
+[Fri Apr 24 10:53:12 PM CST 2026] ⏳ expSS: step=18/190
+[Fri Apr 24 10:53:12 PM CST 2026] ⏳ expTT: step=18/189
+[Fri Apr 24 10:53:12 PM CST 2026] ⏳ expUU: step=19/190
+[Fri Apr 24 10:54:13 PM CST 2026] ⏳ expNN: step=124/160
+[Fri Apr 24 10:54:13 PM CST 2026] ⏳ expPP: step=124/160
+[Fri Apr 24 10:54:13 PM CST 2026] ⏳ expQQ: step=159/190
+[Fri Apr 24 10:54:13 PM CST 2026] ⏳ expRR: step=20/125
+[Fri Apr 24 10:54:13 PM CST 2026] ⏳ expSS: step=20/190
+[Fri Apr 24 10:54:13 PM CST 2026] ⏳ expTT: step=20/189
+[Fri Apr 24 10:54:13 PM CST 2026] ⏳ expUU: step=22/190
+[Fri Apr 24 10:55:13 PM CST 2026] ⏳ expNN: step=126/160
+[Fri Apr 24 10:55:13 PM CST 2026] ⏳ expPP: step=126/160
+[Fri Apr 24 10:55:13 PM CST 2026] ⏳ expQQ: step=162/190
+[Fri Apr 24 10:55:14 PM CST 2026] ⏳ expRR: step=23/125
+[Fri Apr 24 10:55:14 PM CST 2026] ⏳ expSS: step=22/190
+[Fri Apr 24 10:55:14 PM CST 2026] ⏳ expTT: step=22/189
+[Fri Apr 24 10:55:14 PM CST 2026] ⏳ expUU: step=24/190
+[Fri Apr 24 10:56:14 PM CST 2026] ⏳ expNN: step=129/160
+[Fri Apr 24 10:56:14 PM CST 2026] ⏳ expPP: step=128/160
+[Fri Apr 24 10:56:14 PM CST 2026] ⏳ expQQ: step=166/190
+[Fri Apr 24 10:56:14 PM CST 2026] ⏳ expRR: step=25/125
+[Fri Apr 24 10:56:14 PM CST 2026] ⏳ expSS: step=25/190
+[Fri Apr 24 10:56:14 PM CST 2026] ⏳ expTT: step=24/189
+[Fri Apr 24 10:56:14 PM CST 2026] ⏳ expUU: step=26/190
+[Fri Apr 24 10:57:14 PM CST 2026] ⏳ expNN: step=131/160
+[Fri Apr 24 10:57:14 PM CST 2026] ⏳ expPP: step=130/160
+[Fri Apr 24 10:57:15 PM CST 2026] ⏳ expQQ: step=169/190
+[Fri Apr 24 10:57:15 PM CST 2026] ⏳ expRR: step=26/125
+[Fri Apr 24 10:57:15 PM CST 2026] ⏳ expSS: step=27/190
+[Fri Apr 24 10:57:15 PM CST 2026] ⏳ expTT: step=26/189
+[Fri Apr 24 10:57:15 PM CST 2026] ⏳ expUU: step=28/190
+[Fri Apr 24 10:58:15 PM CST 2026] ⏳ expNN: step=132/160
+[Fri Apr 24 10:58:15 PM CST 2026] ⏳ expPP: step=132/160
+[Fri Apr 24 10:58:15 PM CST 2026] ⏳ expQQ: step=171/190
+[Fri Apr 24 10:58:15 PM CST 2026] ⏳ expRR: step=29/125
+[Fri Apr 24 10:58:15 PM CST 2026] ⏳ expSS: step=29/190
+[Fri Apr 24 10:58:15 PM CST 2026] ⏳ expTT: step=28/189
+[Fri Apr 24 10:58:15 PM CST 2026] ⏳ expUU: step=30/190
+[Fri Apr 24 10:59:15 PM CST 2026] ⏳ expNN: step=135/160
+[Fri Apr 24 10:59:15 PM CST 2026] ⏳ expPP: step=134/160
+[Fri Apr 24 10:59:15 PM CST 2026] ⏳ expQQ: step=175/190
+[Fri Apr 24 10:59:15 PM CST 2026] ⏳ expRR: step=31/125
+[Fri Apr 24 10:59:16 PM CST 2026] ⏳ expSS: step=31/190
+[Fri Apr 24 10:59:16 PM CST 2026] ⏳ expTT: step=30/189
+[Fri Apr 24 10:59:16 PM CST 2026] ⏳ expUU: step=33/190
+[Fri Apr 24 11:00:16 PM CST 2026] ⏳ expNN: step=137/160
+[Fri Apr 24 11:00:16 PM CST 2026] ⏳ expPP: step=136/160
+[Fri Apr 24 11:00:16 PM CST 2026] ⏳ expQQ: step=178/190
+[Fri Apr 24 11:00:16 PM CST 2026] ⏳ expRR: step=33/125
+[Fri Apr 24 11:00:16 PM CST 2026] ⏳ expSS: step=33/190
+[Fri Apr 24 11:00:16 PM CST 2026] ⏳ expTT: step=32/189
+[Fri Apr 24 11:00:16 PM CST 2026] ⏳ expUU: step=35/190
+[Fri Apr 24 11:01:16 PM CST 2026] ⏳ expNN: step=139/160
+[Fri Apr 24 11:01:16 PM CST 2026] ⏳ expPP: step=138/160
+[Fri Apr 24 11:01:16 PM CST 2026] ⏳ expQQ: step=182/190
+[Fri Apr 24 11:01:17 PM CST 2026] ⏳ expRR: step=35/125
+[Fri Apr 24 11:01:17 PM CST 2026] ⏳ expSS: step=35/190
+[Fri Apr 24 11:01:17 PM CST 2026] ⏳ expTT: step=34/189
+[Fri Apr 24 11:01:17 PM CST 2026] ⏳ expUU: step=38/190
+[Fri Apr 24 11:02:17 PM CST 2026] ⏳ expNN: step=141/160
+[Fri Apr 24 11:02:17 PM CST 2026] ⏳ expPP: step=140/160
+[Fri Apr 24 11:02:17 PM CST 2026] ⏳ expQQ: step=186/190
+[Fri Apr 24 11:02:17 PM CST 2026] ⏳ expRR: step=37/125
+[Fri Apr 24 11:02:17 PM CST 2026] ⏳ expSS: step=37/190
+[Fri Apr 24 11:02:17 PM CST 2026] ⏳ expTT: step=36/189
+[Fri Apr 24 11:02:17 PM CST 2026] ⏳ expUU: step=39/190
+[Fri Apr 24 11:03:17 PM CST 2026] ⏳ expNN: step=143/160
+[Fri Apr 24 11:03:17 PM CST 2026] ⏳ expPP: step=142/160
+[Fri Apr 24 11:03:17 PM CST 2026] ✅ expQQ: 训练完成，启动评测...
+[Fri Apr 24 11:03:17 PM CST 2026] 📊 expQQ: 评测已在 GPU 5 后台启动 (PID=96868)
+[Fri Apr 24 11:03:17 PM CST 2026] ⏳ expRR: step=39/125
+[Fri Apr 24 11:03:18 PM CST 2026] ⏳ expSS: step=39/190
+[Fri Apr 24 11:03:18 PM CST 2026] ⏳ expTT: step=38/189
+[Fri Apr 24 11:03:18 PM CST 2026] ⏳ expUU: step=42/190
+[Fri Apr 24 11:04:18 PM CST 2026] ⏳ expNN: step=145/160
+[Fri Apr 24 11:04:18 PM CST 2026] ⏳ expPP: step=144/160
+[Fri Apr 24 11:04:18 PM CST 2026] ⏳ expRR: step=41/125
+[Fri Apr 24 11:04:18 PM CST 2026] ⏳ expSS: step=41/190
+[Fri Apr 24 11:04:19 PM CST 2026] ⏳ expTT: step=40/189
+[Fri Apr 24 11:04:19 PM CST 2026] ⏳ expUU: step=44/190
+[Fri Apr 24 11:05:19 PM CST 2026] ⏳ expNN: step=147/160
+[Fri Apr 24 11:05:19 PM CST 2026] ⏳ expPP: step=146/160
+[Fri Apr 24 11:05:19 PM CST 2026] ⏳ expRR: step=43/125
+[Fri Apr 24 11:05:19 PM CST 2026] ⏳ expSS: step=44/190
+[Fri Apr 24 11:05:19 PM CST 2026] ⏳ expTT: step=42/189
+[Fri Apr 24 11:05:19 PM CST 2026] ⏳ expUU: step=46/190
+[Fri Apr 24 11:06:19 PM CST 2026] ⏳ expNN: step=149/160
+[Fri Apr 24 11:06:19 PM CST 2026] ⏳ expPP: step=148/160
+[Fri Apr 24 11:06:19 PM CST 2026] ⏳ expRR: step=45/125
+[Fri Apr 24 11:06:19 PM CST 2026] ⏳ expSS: step=46/190
+[Fri Apr 24 11:06:19 PM CST 2026] ⏳ expTT: step=44/189
+[Fri Apr 24 11:06:19 PM CST 2026] ⏳ expUU: step=48/190
+[Fri Apr 24 11:07:20 PM CST 2026] ⏳ expNN: step=151/160
+[Fri Apr 24 11:07:20 PM CST 2026] ⏳ expPP: step=150/160
+[Fri Apr 24 11:07:20 PM CST 2026] ⏳ expRR: step=47/125
+[Fri Apr 24 11:07:20 PM CST 2026] ⏳ expSS: step=48/190
+[Fri Apr 24 11:07:20 PM CST 2026] ⏳ expTT: step=47/189
+[Fri Apr 24 11:07:20 PM CST 2026] ⏳ expUU: step=50/190
+[Fri Apr 24 11:08:20 PM CST 2026] ⏳ expNN: step=153/160
+[Fri Apr 24 11:08:20 PM CST 2026] ⏳ expPP: step=152/160
+[Fri Apr 24 11:08:20 PM CST 2026] ⏳ expRR: step=49/125
+[Fri Apr 24 11:08:20 PM CST 2026] ⏳ expSS: step=50/190
+[Fri Apr 24 11:08:20 PM CST 2026] ⏳ expTT: step=49/189
+[Fri Apr 24 11:08:20 PM CST 2026] ⏳ expUU: step=52/190
+[Fri Apr 24 11:09:20 PM CST 2026] ⏳ expNN: step=155/160
+[Fri Apr 24 11:09:20 PM CST 2026] ⏳ expPP: step=154/160
+[Fri Apr 24 11:09:20 PM CST 2026] ⏳ expRR: step=51/125
+[Fri Apr 24 11:09:20 PM CST 2026] ⏳ expSS: step=52/190
+[Fri Apr 24 11:09:21 PM CST 2026] ⏳ expTT: step=51/189
+[Fri Apr 24 11:09:21 PM CST 2026] ⏳ expUU: step=55/190
+[Fri Apr 24 11:10:21 PM CST 2026] ⏳ expNN: step=157/160
+[Fri Apr 24 11:10:21 PM CST 2026] ⏳ expPP: step=156/160
+[Fri Apr 24 11:10:21 PM CST 2026] ⏳ expRR: step=53/125
+[Fri Apr 24 11:10:21 PM CST 2026] ⏳ expSS: step=54/190
+[Fri Apr 24 11:10:21 PM CST 2026] ⏳ expTT: step=53/189
+[Fri Apr 24 11:10:21 PM CST 2026] ⏳ expUU: step=57/190
+[Fri Apr 24 11:11:21 PM CST 2026] ⏳ expNN: step=159/160
+[Fri Apr 24 11:11:21 PM CST 2026] ⏳ expPP: step=158/160
+[Fri Apr 24 11:11:21 PM CST 2026] ⏳ expRR: step=55/125
+[Fri Apr 24 11:11:21 PM CST 2026] ⏳ expSS: step=56/190
+[Fri Apr 24 11:11:21 PM CST 2026] ⏳ expTT: step=55/189
+[Fri Apr 24 11:11:21 PM CST 2026] ⏳ expUU: step=59/190
+[Fri Apr 24 11:12:22 PM CST 2026] ✅ expNN: 训练完成，启动评测...
+[Fri Apr 24 11:12:22 PM CST 2026] 📊 expNN: 评测已在 GPU 3 后台启动 (PID=99117)
+[Fri Apr 24 11:12:22 PM CST 2026] ✅ expPP: 训练完成，启动评测...
+[Fri Apr 24 11:12:22 PM CST 2026] 📊 expPP: 评测已在 GPU 6 后台启动 (PID=99122)
+[Fri Apr 24 11:12:22 PM CST 2026] ⏳ expRR: step=57/125
+[Fri Apr 24 11:12:22 PM CST 2026] ⏳ expSS: step=58/190
+[Fri Apr 24 11:12:22 PM CST 2026] ⏳ expTT: step=57/189
+[Fri Apr 24 11:12:22 PM CST 2026] ⏳ expUU: step=61/190
+[Fri Apr 24 11:13:22 PM CST 2026] ⏳ expRR: step=60/125
+[Fri Apr 24 11:13:22 PM CST 2026] ⏳ expSS: step=60/190
+[Fri Apr 24 11:13:22 PM CST 2026] ⏳ expTT: step=59/189
+[Fri Apr 24 11:13:22 PM CST 2026] ⏳ expUU: step=63/190
+[Fri Apr 24 11:14:22 PM CST 2026] ⏳ expRR: step=62/125
+[Fri Apr 24 11:14:23 PM CST 2026] ⏳ expSS: step=62/190
+[Fri Apr 24 11:14:23 PM CST 2026] ⏳ expTT: step=61/189
+[Fri Apr 24 11:14:23 PM CST 2026] ⏳ expUU: step=65/190
+[Fri Apr 24 11:15:23 PM CST 2026] ⏳ expRR: step=64/125
+[Fri Apr 24 11:15:23 PM CST 2026] ⏳ expSS: step=64/190
+[Fri Apr 24 11:15:23 PM CST 2026] ⏳ expTT: step=64/189
+[Fri Apr 24 11:15:23 PM CST 2026] ⏳ expUU: step=67/190
+[Fri Apr 24 11:16:23 PM CST 2026] ⏳ expRR: step=66/125
+[Fri Apr 24 11:16:23 PM CST 2026] ⏳ expSS: step=66/190
+[Fri Apr 24 11:16:23 PM CST 2026] ⏳ expTT: step=66/189
+[Fri Apr 24 11:16:23 PM CST 2026] ⏳ expUU: step=69/190
+[Fri Apr 24 11:17:23 PM CST 2026] ⏳ expRR: step=68/125
+[Fri Apr 24 11:17:23 PM CST 2026] ⏳ expSS: step=68/190
+[Fri Apr 24 11:17:23 PM CST 2026] ⏳ expTT: step=68/189
+[Fri Apr 24 11:17:24 PM CST 2026] ⏳ expUU: step=71/190
+[Fri Apr 24 11:18:24 PM CST 2026] ⏳ expRR: step=70/125
+[Fri Apr 24 11:18:24 PM CST 2026] ⏳ expSS: step=70/190
+[Fri Apr 24 11:18:24 PM CST 2026] ⏳ expTT: step=70/189
+[Fri Apr 24 11:18:24 PM CST 2026] ⏳ expUU: step=73/190
+[Fri Apr 24 11:19:24 PM CST 2026] ⏳ expRR: step=72/125
+[Fri Apr 24 11:19:24 PM CST 2026] ⏳ expSS: step=72/190
+[Fri Apr 24 11:19:24 PM CST 2026] ⏳ expTT: step=72/189
+[Fri Apr 24 11:19:24 PM CST 2026] ⏳ expUU: step=76/190
+[Fri Apr 24 11:20:24 PM CST 2026] ⏳ expRR: step=74/125
+[Fri Apr 24 11:20:24 PM CST 2026] ⏳ expSS: step=74/190
+[Fri Apr 24 11:20:24 PM CST 2026] ⏳ expTT: step=74/189
+[Fri Apr 24 11:20:24 PM CST 2026] ⏳ expUU: step=78/190
+[Fri Apr 24 11:21:24 PM CST 2026] ⏳ expRR: step=76/125
+[Fri Apr 24 11:21:25 PM CST 2026] ⏳ expSS: step=77/190
+[Fri Apr 24 11:21:25 PM CST 2026] ⏳ expTT: step=76/189
+[Fri Apr 24 11:21:25 PM CST 2026] ⏳ expUU: step=80/190
+[Fri Apr 24 11:22:25 PM CST 2026] ⏳ expRR: step=78/125
+[Fri Apr 24 11:22:25 PM CST 2026] ⏳ expSS: step=79/190
+[Fri Apr 24 11:22:25 PM CST 2026] ⏳ expTT: step=78/189
+[Fri Apr 24 11:22:25 PM CST 2026] ⏳ expUU: step=82/190
+[Fri Apr 24 11:23:25 PM CST 2026] ⏳ expRR: step=80/125
+[Fri Apr 24 11:23:25 PM CST 2026] ⏳ expSS: step=81/190
+[Fri Apr 24 11:23:25 PM CST 2026] ⏳ expTT: step=80/189
+[Fri Apr 24 11:23:25 PM CST 2026] ⏳ expUU: step=85/190
+[Fri Apr 24 11:24:25 PM CST 2026] ⏳ expRR: step=82/125
+[Fri Apr 24 11:24:26 PM CST 2026] ⏳ expSS: step=83/190
+[Fri Apr 24 11:24:26 PM CST 2026] ⏳ expTT: step=82/189
+[Fri Apr 24 11:24:26 PM CST 2026] ⏳ expUU: step=87/190
+[Fri Apr 24 11:25:26 PM CST 2026] ⏳ expRR: step=84/125
+[Fri Apr 24 11:25:26 PM CST 2026] ⏳ expSS: step=85/190
+[Fri Apr 24 11:25:26 PM CST 2026] ⏳ expTT: step=84/189
+[Fri Apr 24 11:25:26 PM CST 2026] ⏳ expUU: step=89/190
+[Fri Apr 24 11:26:26 PM CST 2026] ⏳ expRR: step=86/125
+[Fri Apr 24 11:26:26 PM CST 2026] ⏳ expSS: step=87/190
+[Fri Apr 24 11:26:26 PM CST 2026] ⏳ expTT: step=87/189
+[Fri Apr 24 11:26:26 PM CST 2026] ⏳ expUU: step=91/190
+[Fri Apr 24 11:27:26 PM CST 2026] ⏳ expRR: step=88/125
+[Fri Apr 24 11:27:26 PM CST 2026] ⏳ expSS: step=89/190
+[Fri Apr 24 11:27:26 PM CST 2026] ⏳ expTT: step=89/189
+[Fri Apr 24 11:27:27 PM CST 2026] ⏳ expUU: step=93/190
+[Fri Apr 24 11:28:27 PM CST 2026] ⏳ expRR: step=90/125
+[Fri Apr 24 11:28:27 PM CST 2026] ⏳ expSS: step=91/190
+[Fri Apr 24 11:28:27 PM CST 2026] ⏳ expTT: step=91/189
+[Fri Apr 24 11:28:27 PM CST 2026] ⏳ expUU: step=95/190
+[Fri Apr 24 11:29:27 PM CST 2026] ⏳ expRR: step=92/125
+[Fri Apr 24 11:29:27 PM CST 2026] ⏳ expSS: step=93/190
+[Fri Apr 24 11:29:27 PM CST 2026] ⏳ expTT: step=93/189
+[Fri Apr 24 11:29:27 PM CST 2026] ⏳ expUU: step=97/190
+[Fri Apr 24 11:30:27 PM CST 2026] ⏳ expRR: step=94/125
+[Fri Apr 24 11:30:28 PM CST 2026] ⏳ expSS: step=95/190
+[Fri Apr 24 11:30:28 PM CST 2026] ⏳ expTT: step=95/189
+[Fri Apr 24 11:30:28 PM CST 2026] ⏳ expUU: step=99/190
+[Fri Apr 24 11:31:28 PM CST 2026] ⏳ expRR: step=96/125
+[Fri Apr 24 11:31:28 PM CST 2026] ⏳ expSS: step=97/190
+[Fri Apr 24 11:31:28 PM CST 2026] ⏳ expTT: step=97/189
+[Fri Apr 24 11:31:28 PM CST 2026] ⏳ expUU: step=101/190
+[Fri Apr 24 11:32:28 PM CST 2026] ⏳ expRR: step=99/125
+[Fri Apr 24 11:32:28 PM CST 2026] ⏳ expSS: step=99/190
+[Fri Apr 24 11:32:28 PM CST 2026] ⏳ expTT: step=99/189
+[Fri Apr 24 11:32:28 PM CST 2026] ⏳ expUU: step=103/190
+[Fri Apr 24 11:33:28 PM CST 2026] ⏳ expRR: step=100/125
+[Fri Apr 24 11:33:29 PM CST 2026] ⏳ expSS: step=101/190
+[Fri Apr 24 11:33:29 PM CST 2026] ⏳ expTT: step=101/189
+[Fri Apr 24 11:33:29 PM CST 2026] ⏳ expUU: step=106/190
+[Fri Apr 24 11:34:29 PM CST 2026] ⏳ expRR: step=103/125
+[Fri Apr 24 11:34:29 PM CST 2026] ⏳ expSS: step=104/190
+[Fri Apr 24 11:34:29 PM CST 2026] ⏳ expTT: step=103/189
+[Fri Apr 24 11:34:29 PM CST 2026] ⏳ expUU: step=108/190
+[Fri Apr 24 11:35:29 PM CST 2026] ⏳ expRR: step=105/125
+[Fri Apr 24 11:35:30 PM CST 2026] ⏳ expSS: step=106/190
+[Fri Apr 24 11:35:30 PM CST 2026] ⏳ expTT: step=105/189
+[Fri Apr 24 11:35:30 PM CST 2026] ⏳ expUU: step=110/190
+[Fri Apr 24 11:36:30 PM CST 2026] ⏳ expRR: step=107/125
+[Fri Apr 24 11:36:30 PM CST 2026] ⏳ expSS: step=108/190
+[Fri Apr 24 11:36:30 PM CST 2026] ⏳ expTT: step=107/189
+[Fri Apr 24 11:36:30 PM CST 2026] ⏳ expUU: step=113/190
+[Fri Apr 24 11:37:30 PM CST 2026] ⏳ expRR: step=109/125
+[Fri Apr 24 11:37:30 PM CST 2026] ⏳ expSS: step=110/190
+[Fri Apr 24 11:37:30 PM CST 2026] ⏳ expTT: step=109/189
+[Fri Apr 24 11:37:30 PM CST 2026] ⏳ expUU: step=115/190
+[Fri Apr 24 11:38:31 PM CST 2026] ⏳ expRR: step=111/125
+[Fri Apr 24 11:38:31 PM CST 2026] ⏳ expSS: step=112/190
+[Fri Apr 24 11:38:31 PM CST 2026] ⏳ expTT: step=111/189
+[Fri Apr 24 11:38:31 PM CST 2026] ⏳ expUU: step=117/190
+[Fri Apr 24 11:39:31 PM CST 2026] ⏳ expRR: step=113/125
+[Fri Apr 24 11:39:31 PM CST 2026] ⏳ expSS: step=114/190
+[Fri Apr 24 11:39:31 PM CST 2026] ⏳ expTT: step=113/189
+[Fri Apr 24 11:39:31 PM CST 2026] ⏳ expUU: step=119/190
+[Fri Apr 24 11:40:31 PM CST 2026] ⏳ expRR: step=115/125
+[Fri Apr 24 11:40:31 PM CST 2026] ⏳ expSS: step=116/190
+[Fri Apr 24 11:40:31 PM CST 2026] ⏳ expTT: step=115/189
+[Fri Apr 24 11:40:31 PM CST 2026] ⏳ expUU: step=121/190
+[Fri Apr 24 11:41:32 PM CST 2026] ⏳ expRR: step=117/125
+[Fri Apr 24 11:41:32 PM CST 2026] ⏳ expSS: step=118/190
+[Fri Apr 24 11:41:32 PM CST 2026] ⏳ expTT: step=117/189
+[Fri Apr 24 11:41:32 PM CST 2026] ⏳ expUU: step=124/190
+[Fri Apr 24 11:42:32 PM CST 2026] ⏳ expRR: step=119/125
+[Fri Apr 24 11:42:32 PM CST 2026] ⏳ expSS: step=121/190
+[Fri Apr 24 11:42:32 PM CST 2026] ⏳ expTT: step=119/189
+[Fri Apr 24 11:42:32 PM CST 2026] ⏳ expUU: step=126/190
+[Fri Apr 24 11:43:32 PM CST 2026] ⏳ expRR: step=121/125
+[Fri Apr 24 11:43:32 PM CST 2026] ⏳ expSS: step=123/190
+[Fri Apr 24 11:43:32 PM CST 2026] ⏳ expTT: step=121/189
+[Fri Apr 24 11:43:32 PM CST 2026] ⏳ expUU: step=128/190
+[Fri Apr 24 11:44:33 PM CST 2026] ⏳ expRR: step=123/125
+[Fri Apr 24 11:44:33 PM CST 2026] ⏳ expSS: step=125/190
+[Fri Apr 24 11:44:33 PM CST 2026] ⏳ expTT: step=123/189
+[Fri Apr 24 11:44:33 PM CST 2026] ⏳ expUU: step=130/190
+[Fri Apr 24 11:45:33 PM CST 2026] ✅ expRR: 训练完成，启动评测...
+[Fri Apr 24 11:45:33 PM CST 2026] 📊 expRR: 评测已在 GPU 0 后台启动 (PID=104835)
+[Fri Apr 24 11:45:33 PM CST 2026] ⏳ expSS: step=127/190
+[Fri Apr 24 11:45:33 PM CST 2026] ⏳ expTT: step=126/189
+[Fri Apr 24 11:45:33 PM CST 2026] ⏳ expUU: step=132/190
+[Fri Apr 24 11:46:33 PM CST 2026] ⏳ expSS: step=129/190
+[Fri Apr 24 11:46:33 PM CST 2026] ⏳ expTT: step=127/189
+[Fri Apr 24 11:46:33 PM CST 2026] ⏳ expUU: step=135/190
+[Fri Apr 24 11:47:33 PM CST 2026] ⏳ expSS: step=131/190
+[Fri Apr 24 11:47:33 PM CST 2026] ⏳ expTT: step=130/189
+[Fri Apr 24 11:47:33 PM CST 2026] ⏳ expUU: step=138/190
+[Fri Apr 24 11:48:34 PM CST 2026] ⏳ expSS: step=133/190
+[Fri Apr 24 11:48:34 PM CST 2026] ⏳ expTT: step=132/189
+[Fri Apr 24 11:48:34 PM CST 2026] ⏳ expUU: step=140/190
+[Fri Apr 24 11:49:34 PM CST 2026] ⏳ expSS: step=135/190
+[Fri Apr 24 11:49:34 PM CST 2026] ⏳ expTT: step=134/189
+[Fri Apr 24 11:49:34 PM CST 2026] ⏳ expUU: step=141/190
+[Fri Apr 24 11:50:34 PM CST 2026] ⏳ expSS: step=137/190
+[Fri Apr 24 11:50:34 PM CST 2026] ⏳ expTT: step=136/189
+[Fri Apr 24 11:50:34 PM CST 2026] ⏳ expUU: step=143/190
+[Fri Apr 24 11:51:34 PM CST 2026] ⏳ expSS: step=139/190
+[Fri Apr 24 11:51:34 PM CST 2026] ⏳ expTT: step=138/189
+[Fri Apr 24 11:51:34 PM CST 2026] ⏳ expUU: step=146/190
+[Fri Apr 24 11:52:34 PM CST 2026] ⏳ expSS: step=141/190
+[Fri Apr 24 11:52:34 PM CST 2026] ⏳ expTT: step=140/189
+[Fri Apr 24 11:52:34 PM CST 2026] ⏳ expUU: step=148/190
+[Fri Apr 24 11:53:35 PM CST 2026] ⏳ expSS: step=143/190
+[Fri Apr 24 11:53:35 PM CST 2026] ⏳ expTT: step=142/189
+[Fri Apr 24 11:53:35 PM CST 2026] ⏳ expUU: step=149/190
+[Fri Apr 24 11:54:35 PM CST 2026] ⏳ expSS: step=145/190
+[Fri Apr 24 11:54:35 PM CST 2026] ⏳ expTT: step=144/189
+[Fri Apr 24 11:54:35 PM CST 2026] ⏳ expUU: step=152/190
+[Fri Apr 24 11:55:35 PM CST 2026] ⏳ expSS: step=147/190
+[Fri Apr 24 11:55:35 PM CST 2026] ⏳ expTT: step=146/189
+[Fri Apr 24 11:55:35 PM CST 2026] ⏳ expUU: step=154/190
+[Fri Apr 24 11:56:35 PM CST 2026] ⏳ expSS: step=149/190
+[Fri Apr 24 11:56:35 PM CST 2026] ⏳ expTT: step=148/189
+[Fri Apr 24 11:56:35 PM CST 2026] ⏳ expUU: step=155/190
+[Fri Apr 24 11:57:35 PM CST 2026] ⏳ expSS: step=152/190
+[Fri Apr 24 11:57:35 PM CST 2026] ⏳ expTT: step=150/189
+[Fri Apr 24 11:57:36 PM CST 2026] ⏳ expUU: step=158/190
+[Fri Apr 24 11:58:36 PM CST 2026] ⏳ expSS: step=154/190
+[Fri Apr 24 11:58:36 PM CST 2026] ⏳ expTT: step=152/189
+[Fri Apr 24 11:58:36 PM CST 2026] ⏳ expUU: step=160/190
+[Fri Apr 24 11:59:36 PM CST 2026] ⏳ expSS: step=156/190
+[Fri Apr 24 11:59:36 PM CST 2026] ⏳ expTT: step=154/189
+[Fri Apr 24 11:59:36 PM CST 2026] ⏳ expUU: step=162/190
+[Sat Apr 25 12:00:36 AM CST 2026] ⏳ expSS: step=158/190
+[Sat Apr 25 12:00:36 AM CST 2026] ⏳ expTT: step=157/189
+[Sat Apr 25 12:00:36 AM CST 2026] ⏳ expUU: step=164/190
+[Sat Apr 25 12:01:36 AM CST 2026] ⏳ expSS: step=160/190
+[Sat Apr 25 12:01:36 AM CST 2026] ⏳ expTT: step=158/189
+[Sat Apr 25 12:01:36 AM CST 2026] ⏳ expUU: step=166/190
+[Sat Apr 25 12:02:36 AM CST 2026] ⏳ expSS: step=162/190
+[Sat Apr 25 12:02:36 AM CST 2026] ⏳ expTT: step=160/189
+[Sat Apr 25 12:02:37 AM CST 2026] ⏳ expUU: step=168/190
+[Sat Apr 25 12:03:37 AM CST 2026] ⏳ expSS: step=164/190
+[Sat Apr 25 12:03:37 AM CST 2026] ⏳ expTT: step=162/189
+[Sat Apr 25 12:03:37 AM CST 2026] ⏳ expUU: step=170/190
+[Sat Apr 25 12:04:37 AM CST 2026] ⏳ expSS: step=166/190
+[Sat Apr 25 12:04:37 AM CST 2026] ⏳ expTT: step=164/189
+[Sat Apr 25 12:04:37 AM CST 2026] ⏳ expUU: step=173/190
+[Sat Apr 25 12:04:37 AM CST 2026] 🎯 expMM: 评测完成 F1=0.038
+[Sat Apr 25 12:05:37 AM CST 2026] ⏳ expSS: step=168/190
+[Sat Apr 25 12:05:37 AM CST 2026] ⏳ expTT: step=166/189
+[Sat Apr 25 12:05:37 AM CST 2026] ⏳ expUU: step=175/190
+[Sat Apr 25 12:06:37 AM CST 2026] ⏳ expSS: step=170/190
+[Sat Apr 25 12:06:37 AM CST 2026] ⏳ expTT: step=168/189
+[Sat Apr 25 12:06:37 AM CST 2026] ⏳ expUU: step=177/190
+[Sat Apr 25 12:07:37 AM CST 2026] ⏳ expSS: step=172/190
+[Sat Apr 25 12:07:38 AM CST 2026] ⏳ expTT: step=171/189
+[Sat Apr 25 12:07:38 AM CST 2026] ⏳ expUU: step=179/190
+[Sat Apr 25 12:08:38 AM CST 2026] ⏳ expSS: step=174/190
+[Sat Apr 25 12:08:38 AM CST 2026] ⏳ expTT: step=173/189
+[Sat Apr 25 12:08:38 AM CST 2026] ⏳ expUU: step=181/190
+[Sat Apr 25 12:09:38 AM CST 2026] ⏳ expSS: step=176/190
+[Sat Apr 25 12:09:38 AM CST 2026] ⏳ expTT: step=175/189
+[Sat Apr 25 12:09:38 AM CST 2026] ⏳ expUU: step=183/190
+[Sat Apr 25 12:10:38 AM CST 2026] ⏳ expSS: step=178/190
+[Sat Apr 25 12:10:38 AM CST 2026] ⏳ expTT: step=177/189
+[Sat Apr 25 12:10:38 AM CST 2026] ⏳ expUU: step=186/190
+[Sat Apr 25 12:11:38 AM CST 2026] ⏳ expSS: step=181/190
+[Sat Apr 25 12:11:38 AM CST 2026] ⏳ expTT: step=179/189
+[Sat Apr 25 12:11:38 AM CST 2026] ⏳ expUU: step=188/190
+[Sat Apr 25 12:12:39 AM CST 2026] ⏳ expSS: step=183/190
+[Sat Apr 25 12:12:39 AM CST 2026] ⏳ expTT: step=181/189
+[Sat Apr 25 12:12:39 AM CST 2026] ✅ expUU: 训练完成，启动评测...
+[Sat Apr 25 12:12:39 AM CST 2026] 📊 expUU: 评测已在 GPU 7 后台启动 (PID=108512)
+[Sat Apr 25 12:13:39 AM CST 2026] ⏳ expSS: step=185/190
+[Sat Apr 25 12:13:39 AM CST 2026] ⏳ expTT: step=183/189
+[Sat Apr 25 12:14:39 AM CST 2026] ⏳ expSS: step=187/190
+[Sat Apr 25 12:14:39 AM CST 2026] ⏳ expTT: step=185/189
+[Sat Apr 25 12:14:39 AM CST 2026] 🎯 expQQ: 评测完成 F1=0.003
+[Sat Apr 25 12:15:39 AM CST 2026] ⏳ expSS: step=189/190
+[Sat Apr 25 12:15:39 AM CST 2026] ⏳ expTT: step=187/189
+[Sat Apr 25 12:16:39 AM CST 2026] ✅ expSS: 训练完成，启动评测...
+[Sat Apr 25 12:16:39 AM CST 2026] 📊 expSS: 评测已在 GPU 1 后台启动 (PID=110230)
+[Sat Apr 25 12:16:39 AM CST 2026] ✅ expTT: 训练完成，启动评测...
+[Sat Apr 25 12:16:39 AM CST 2026] 📊 expTT: 评测已在 GPU 4 后台启动 (PID=110237)
+[Sat Apr 25 02:17:43 AM CST 2026] 🎯 expSS: 评测完成 F1=0.313
+[Sat Apr 25 02:17:43 AM CST 2026] 🎯 expTT: 评测完成 F1=0.319
+[Sat Apr 25 02:19:43 AM CST 2026] 🎯 expNN: 评测完成 F1=0.279
+[Sat Apr 25 02:19:44 AM CST 2026] 🎯 expRR: 评测完成 F1=0.358
+[Sat Apr 25 02:19:44 AM CST 2026] 🎯 expUU: 评测完成 F1=0.343
+[Sat Apr 25 02:20:44 AM CST 2026] 🎯 expPP: 评测完成 F1=0.29
+[Sat Apr 25 02:20:44 AM CST 2026] ✅ 所有训练和评测已完成！
+
+=== Round 4 实验结果汇总 ===
+  expA: F1=0.173  rule1=0.0  rule2=1.0
+  expB: F1=0.164  rule1=0.125  rule2=0.69
+  expC: F1=0.173  rule1=0.575  rule2=0.276
+  expD: F1=0.136  rule1=0.3  rule2=0.345
+  expE: F1=0.121  rule1=0.15  rule2=0.069
+  expF2: F1=0.131  rule1=0.125  rule2=0.172
+  expG2: F1=0.033  rule1=0.05  rule2=0.0
+  expX: F1=0.133  rule1=0.125  rule2=0.897
+  expY: F1=0.144  rule1=0.025  rule2=0.966
+  expZ: F1=0.174  rule1=0.025  rule2=1.0
+  expW: F1=0.134  rule1=0.05  rule2=0.931
+  expU: F1=0.129  rule1=0.0  rule2=0.793
+  expT: F1=0.082  rule1=0.125  rule2=0.483
+  expV: F1=0.134  rule1=0.025  rule2=0.931
+  expS: F1=0.133  rule1=0.0  rule2=0.0
+  expAA: F1=0.164  rule1=0.8  rule2=0.241
+  expBB: F1=0.239  rule1=0.75  rule2=0.586
+  expCC: F1=0.146  rule1=0.0  rule2=1.0
+  expDD: F1=0.132  rule1=0.325  rule2=0.552
+  expFF: F1=0.148  rule1=0.175  rule2=0.31
+  expGG: F1=0.132  rule1=0.025  rule2=0.31
+  expMM: F1=0.273  rule1=0.7  rule2=0.379
+  expNN: F1=0.279  rule1=0.675  rule2=0.345
+  expOO: F1=0.074  rule1=0.0  rule2=0.448
+  expPP: F1=0.29  rule1=0.55  rule2=0.379
+  expQQ: F1=0.255  rule1=0.525  rule2=0.345
+  expRR: F1=0.358  rule1=0.7  rule2=0.448
+  expSS: F1=0.313  rule1=0.725  rule2=0.483
+  expTT: F1=0.319  rule1=0.725  rule2=0.379
+  expUU: F1=0.343  rule1=0.575  rule2=0.31
+[Sat Apr 25 02:20:48 AM CST 2026] 监控完成。

@@ -1,0 +1,15 @@
+启动 vLLM：port=8100  model=/home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expAA-merged
+  pid=76189  日志：/tmp/vllm_8100.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+  等待 vLLM 启动... (http://localhost:8100/health)
+✓ vLLM 已就绪：http://localhost:8100

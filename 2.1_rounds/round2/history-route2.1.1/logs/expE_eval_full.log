@@ -1,0 +1,44 @@
+⚠ expE: 训练可能未完成，继续尝试...
+=== 评测 expE (GPU 4, port 8104) ===
+🔗 合并 LoRA adapter...
+=== 评测 expE (GPU 4, port 8104) ===
+🔗 合并 LoRA adapter...
+  ✓ 合并完成 → /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expE-merged
+🚀 启动 vLLM (GPU 4, port 8104)...
+  等待 vLLM 启动...
+  ✓ vLLM 就绪 (14×5s)
+📊 开始评测（200条测试集）...
+=== 评测 expE (GPU 4, port 8104) ===
+  ✓ 已有合并模型，跳过
+🚀 启动 vLLM (GPU 4, port 8104)...
+  等待 vLLM 启动...
+  ✓ vLLM 已停止
+
+=== expE 评测结果 ===
+  rule_detection_f1: 0.047
+  cpk_found_rate:    0.14
+  per_rule_recall:
+    rule1: 0.075  █
+    rule2: 0.034  
+    rule3: 0.107  ██
+    rule4: 0.208  ████
+    rule5: 0.045  
+    rule6: 0.182  ███
+    rule7: 0.111  ██
+    rule8: 0.154  ███
+  ✓ vLLM 就绪 (9×5s)
+📊 开始评测（200条测试集）...
+  ✓ vLLM 已停止
+
+=== expE 评测结果 ===
+  rule_detection_f1: 0.121
+  cpk_found_rate:    0.5
+  per_rule_recall:
+    rule1: 0.15  ███
+    rule2: 0.069  █
+    rule3: 0.429  ████████
+    rule4: 0.292  █████
+    rule5: 0.091  █
+    rule6: 0.364  ███████
+    rule7: 0.222  ████
+    rule8: 0.538  ██████████

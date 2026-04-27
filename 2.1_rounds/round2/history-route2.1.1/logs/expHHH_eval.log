@@ -1,0 +1,31 @@
+评测模型: expHHH  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.351
+  [40/200] running rule_f1=0.318
+  [60/200] running rule_f1=0.368
+  [80/200] running rule_f1=0.379
+  [100/200] running rule_f1=0.403
+  [120/200] running rule_f1=0.398
+  [140/200] running rule_f1=0.395
+  [160/200] running rule_f1=0.411
+  [180/200] running rule_f1=0.397
+  [200/200] running rule_f1=0.400
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.4
+  cpk_mae:                 0.081
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  102289.0
+  inference_time_ms_p95:   112246.0
+
+各规则 recall：
+  rule1: 0.725
+  rule2: 0.414
+  rule3: 0.5
+  rule4: 0.875
+  rule5: 0.727
+  rule6: 0.909
+  rule7: 0.444
+  rule8: 0.769
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expHHH.json

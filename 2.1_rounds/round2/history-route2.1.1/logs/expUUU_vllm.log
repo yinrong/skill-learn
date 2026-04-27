@@ -1,0 +1,38 @@
+⚠ 端口 8106 已有 vLLM 进程（pid=296737），先停止...
+✓ 已发送 SIGTERM 给 vLLM 进程组（pid=296737，port=8106）
+启动 vLLM：port=8106  model=/home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expUUU-merged
+  pid=297005  日志：/tmp/vllm_8106.log
+  等待健康检  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+  等待 vLLM 启动... (http://localhost:8106/health)
+✓ vLLM 已就绪：http://localhost:8106
+��... (http://localhost:8106/health)
+✓ vLLM 已就绪：http://localhost:8106

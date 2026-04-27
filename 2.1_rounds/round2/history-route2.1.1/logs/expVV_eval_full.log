@@ -1,0 +1,21 @@
+=== 评测 expVV (GPU 4, port 8104) ===
+🔗 合并 LoRA adapter...
+  ✓ 合并完成 → /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expVV-merged
+🚀 启动 vLLM (GPU 4, port 8104)...
+  等待 vLLM 启动...
+  ✓ vLLM 就绪 (18×5s)
+📊 开始评测（200条测试集）...
+  ✓ vLLM 已停止
+
+=== expVV 评测结果 ===
+  rule_detection_f1: 0.0
+  cpk_found_rate:    0.0
+  per_rule_recall:
+    rule1: 0.0  
+    rule2: 0.0  
+    rule3: 0.0  
+    rule4: 0.0  
+    rule5: 0.0  
+    rule6: 0.0  
+    rule7: 0.0  
+    rule8: 0.0  

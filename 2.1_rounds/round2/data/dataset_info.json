@@ -1,0 +1,692 @@
+{
+  "spc_N1": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_N1.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_N2": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_N2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_N3": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_N3.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_N4": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_N4.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_v2_N1": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_v2_N1.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_v2_N2": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_v2_N2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_v2_N3": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_v2_N3.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_v2_N4": {
+    "file_name": "/home/yinrong/phase2.1/data/demo/train_v2_N4.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_N1": {
+    "file_name": "/home/yinrong/phase2.1/history-2026-04-23-1213-round3/data/train_N1.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_N2": {
+    "file_name": "/home/yinrong/phase2.1/history-2026-04-23-1213-round3/data/train_N2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_N3": {
+    "file_name": "/home/yinrong/phase2.1/history-2026-04-23-1213-round3/data/train_N3.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_N4": {
+    "file_name": "/home/yinrong/phase2.1/history-2026-04-23-1213-round3/data/train_N4.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_textbook": {
+    "file_name": "/home/yinrong/phase2.1/history-2026-04-23-1213-round3/data/train_textbook.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expA": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expA.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expB": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expB.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expC": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expC.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expD": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expD.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expF2": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expF2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expG2": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expG2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expX": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expX.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expY": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expY.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expZ": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expZ.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expW": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expW.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expU": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expU.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expT": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expT.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expV": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expV.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expS": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expS.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expAA": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expAA.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expBB": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expBB.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expCC": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expCC.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expDD": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expDD.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expEE_s1": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expEE_s1.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expEE_s2": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expEE_s2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expFF": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expFF.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expGG": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expGG.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expMM": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expMM.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expNN": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expNN.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expOO": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expOO.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expPP": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expPP.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expQQ": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expQQ.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expRR": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expRR.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expSS": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expSS.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expTT": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expTT.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r4_expUU": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expUU.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expWW": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expWW.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_r5_expXX": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expXX.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_r5_expVV": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expVV.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_r5_expYY2": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expYY2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "spc_r5_expZZ": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expZZ.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expAAA": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expAAA.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expBBB": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expBBB.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expCCC": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expCCC.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expMMM": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expMMM.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expLLL": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expLLL.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expKKK": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expKKK.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expIII": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expIII.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expJJJ": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expJJJ.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expNNN": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expNNN.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expOOO": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expOOO.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expPPP": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expPPP.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expQQQ": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expQQQ.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expSSS": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expSSS.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expTTT": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expTTT.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expUUU": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expUUU.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expVVV": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expVVV.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expWWW": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expWWW.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expXXX": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expXXX.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expYYY": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expYYY.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r5_expZZZ": {
+    "file_name": "/home/yinrong/impl/2.1.1/history-route2.1.1/data/train_expZZZ.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

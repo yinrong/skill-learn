@@ -1,0 +1,5 @@
+评测模型: expRR  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.000
+  [40/200] running rule_f1=0.017
+  [60/200] running rule_f1=0.011
+  [80/200] running rule_f1=0.008

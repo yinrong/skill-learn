@@ -1,0 +1,31 @@
+评测模型: expZ  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.198
+  [40/200] running rule_f1=0.166
+  [60/200] running rule_f1=0.145
+  [80/200] running rule_f1=0.136
+  [100/200] running rule_f1=0.141
+  [120/200] running rule_f1=0.165
+  [140/200] running rule_f1=0.172
+  [160/200] running rule_f1=0.168
+  [180/200] running rule_f1=0.178
+  [200/200] running rule_f1=0.174
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.174
+  cpk_mae:                 0.479
+  cpk_found_rate:          0.495
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  1703.6
+  inference_time_ms_p95:   3316.7
+
+各规则 recall：
+  rule1: 0.025
+  rule2: 1.0
+  rule3: 0.036
+  rule4: 0.458
+  rule5: 0.636
+  rule6: 0.061
+  rule7: 0.222
+  rule8: 0.462
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expZ.json

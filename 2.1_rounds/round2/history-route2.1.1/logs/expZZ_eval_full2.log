@@ -1,0 +1,20 @@
+=== 评测 expZZ (GPU 2, port 8102) ===
+  ✓ 已有合并模型，跳过
+🚀 启动 vLLM (GPU 2, port 8102)...
+  等待 vLLM 启动...
+  ✓ vLLM 就绪 (13×5s)
+📊 开始评测（200条测试集）...
+  ✓ vLLM 已停止
+
+=== expZZ 评测结果 ===
+  rule_detection_f1: 0.316
+  cpk_found_rate:    1.0
+  per_rule_recall:
+    rule1: 0.625  ████████████
+    rule2: 0.241  ████
+    rule3: 0.321  ██████
+    rule4: 0.708  ██████████████
+    rule5: 0.545  ██████████
+    rule6: 0.667  █████████████
+    rule7: 0.167  ███
+    rule8: 0.077  █

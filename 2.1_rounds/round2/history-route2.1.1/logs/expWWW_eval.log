@@ -1,0 +1,31 @@
+评测模型: expWWW  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.375
+  [40/200] running rule_f1=0.346
+  [60/200] running rule_f1=0.368
+  [80/200] running rule_f1=0.401
+  [100/200] running rule_f1=0.399
+  [120/200] running rule_f1=0.393
+  [140/200] running rule_f1=0.399
+  [160/200] running rule_f1=0.412
+  [180/200] running rule_f1=0.406
+  [200/200] running rule_f1=0.410
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.41
+  cpk_mae:                 0.091
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  46549.9
+  inference_time_ms_p95:   50943.8
+
+各规则 recall：
+  rule1: 0.775
+  rule2: 0.552
+  rule3: 0.607
+  rule4: 0.875
+  rule5: 0.727
+  rule6: 0.758
+  rule7: 0.389
+  rule8: 0.462
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expWWW.json

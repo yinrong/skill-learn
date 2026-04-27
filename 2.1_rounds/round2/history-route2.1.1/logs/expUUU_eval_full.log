@@ -1,0 +1,21 @@
+=== 评测 expUUU (GPU 6, port 8106) ===
+🔗 合并 LoRA adapter...
+  ✓ 合并完成 → /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expUUU-merged
+🚀 启动 vLLM (GPU 6, port 8106)...
+  等待 vLLM 启动...
+  ✓ vLLM 就绪 (32×5s)
+📊 开始评测（200条测试集）...
+  ✓ vLLM 已停止
+
+=== expUUU 评测结果 ===
+  rule_detection_f1: 0.395
+  cpk_found_rate:    0.995
+  per_rule_recall:
+    rule1: 0.7  ██████████████
+    rule2: 0.552  ███████████
+    rule3: 0.464  █████████
+    rule4: 0.875  █████████████████
+    rule5: 0.818  ████████████████
+    rule6: 0.667  █████████████
+    rule7: 0.556  ███████████
+    rule8: 0.692  █████████████

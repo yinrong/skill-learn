@@ -1,0 +1,32 @@
+评测模型: expOOO  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.376
+  [40/200] running rule_f1=0.369
+  [60/200] running rule_f1=0.380
+  [80/200] running rule_f1=0.368
+  [100/200] running rule_f1=0.349
+  [120/200] running rule_f1=0.333
+  [140/200] running rule_f1=0.337
+  [160/200] running rule_f1=0.346
+  [180/200] running rule_f1=0.339
+  [200/200] running rule_f1=0.335
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.335
+  cpk_mae:                 0.082
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  46301.7
+  inference_time_ms_p95:   51535.8
+
+各规则 recall：
+  rule1: 0.625
+  rule2: 0.379
+  rule3: 0.25
+  rule4: 0.75
+  rule5: 0.591
+  rule6: 0.758
+  rule7: 0.222
+  rule8: 0.769
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expOOO.json
+on

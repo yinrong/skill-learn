@@ -1,0 +1,31 @@
+评测模型: expMM  样本数: 200  并发: 1  条件: no_skill
+  [20/200] running rule_f1=0.050
+  [40/200] running rule_f1=0.025
+  [60/200] running rule_f1=0.044
+  [80/200] running rule_f1=0.033
+  [100/200] running rule_f1=0.037
+  [120/200] running rule_f1=0.042
+  [140/200] running rule_f1=0.043
+  [160/200] running rule_f1=0.042
+  [180/200] running rule_f1=0.043
+  [200/200] running rule_f1=0.038
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.038
+  cpk_mae:                 0.082
+  cpk_found_rate:          0.995
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  20441.6
+  inference_time_ms_p95:   20787.7
+
+各规则 recall：
+  rule1: 0.2
+  rule2: 0.034
+  rule3: 0.0
+  rule4: 0.0
+  rule5: 0.0
+  rule6: 0.0
+  rule7: 0.0
+  rule8: 0.0
+
+结果已写入：/home/yinrong/impl/2.1.1/history-route2.1.1/results/expMM.json

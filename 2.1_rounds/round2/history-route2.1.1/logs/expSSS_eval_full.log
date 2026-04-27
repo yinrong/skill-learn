@@ -1,0 +1,21 @@
+=== 评测 expSSS (GPU 4, port 8104) ===
+🔗 合并 LoRA adapter...
+  ✓ 合并完成 → /home/yinrong/impl/2.1.1/history-route2.1.1/checkpoints/expSSS-merged
+🚀 启动 vLLM (GPU 4, port 8104)...
+  等待 vLLM 启动...
+  ✓ vLLM 就绪 (23×5s)
+📊 开始评测（200条测试集）...
+  ✓ vLLM 已停止
+
+=== expSSS 评测结果 ===
+  rule_detection_f1: 0.364
+  cpk_found_rate:    0.99
+  per_rule_recall:
+    rule1: 0.625  ████████████
+    rule2: 0.517  ██████████
+    rule3: 0.429  ████████
+    rule4: 0.875  █████████████████
+    rule5: 0.864  █████████████████
+    rule6: 0.848  ████████████████
+    rule7: 0.444  ████████
+    rule8: 0.769  ███████████████

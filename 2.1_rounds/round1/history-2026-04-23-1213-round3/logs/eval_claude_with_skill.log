@@ -1,0 +1,24 @@
+评测模型: ppio/pa/claude-sonnet-4-6  样本数: 50  thinking: False
+  [10/50] running rule_f1=0.251
+  [20/50] running rule_f1=0.237
+  [30/50] running rule_f1=0.214
+  [40/50] running rule_f1=0.243
+  [50/50] running rule_f1=0.232
+
+=== Claude 评测结果 ===
+  rule_detection_f1:  0.232
+  cpk_mae:            0.162
+  cpk_found_rate:     0.02
+  has_reasoning_rate: 0.0
+
+各规则 recall：
+  rule1: 1.0
+  rule2: 1.0
+  rule3: 0.75
+  rule4: 1.0
+  rule5: 1.0
+  rule6: 1.0
+  rule7: 0.429
+  rule8: 0.0
+
+结果已写入：history-2026-04-23-1213-round3/results/base_claude_with_skill.json

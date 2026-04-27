@@ -1,0 +1,15 @@
+启动 vLLM：port=8040  model=/home/yinrong/models/Qwen3-14B
+  pid=2719539  日志：/tmp/vllm_8040.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8040/health)
+  等待 vLLM 启动... (http://localhost:8040/health)
+  等待 vLLM 启动... (http://localhost:8040/health)
+  等待 vLLM 启动... (http://localhost:8040/health)
+  等待 vLLM 启动... (http://localhost:8040/health)
+  等待 vLLM 启动... (http://localhost:8040/health)
+  等待 vLLM 启动... (http://localhost:8040/health)
+  等待 vLLM 启动... (http://localhost:8040/health)
+  等待 vLLM 启动... (http://localhost:8040/health)
+  等待 vLLM 启动... (http://localhost:8040/health)
+  等待 vLLM 启动... (http://localhost:8040/health)
+✓ vLLM 已就绪：http://localhost:8040

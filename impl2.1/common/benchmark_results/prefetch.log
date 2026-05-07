@@ -1,0 +1,3 @@
+usage: prefetch_datasets.py [-h] [--endpoint ENDPOINT] [--jobs JOBS]
+                            [--file-workers FILE_WORKERS]
+prefetch_datasets.py: error: unrecognized arguments: --connections 16 --parallel 8

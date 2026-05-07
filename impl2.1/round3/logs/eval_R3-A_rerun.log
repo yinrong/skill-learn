@@ -1,0 +1,9 @@
+评测模型: R3-A  样本数: 200  并发: 8  条件: no_skill
+  [20/200] running rule_f1=0.000
+  [40/200] running rule_f1=0.000
+  [60/200] running rule_f1=0.017
+  [80/200] running rule_f1=0.013
+  [100/200] running rule_f1=0.020
+  [120/200] running rule_f1=0.025
+  [140/200] running rule_f1=0.021
+  [160/200] running rule_f1=0.029

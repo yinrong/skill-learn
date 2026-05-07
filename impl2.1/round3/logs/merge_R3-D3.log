@@ -1,0 +1,7 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading base model in bf16...
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 138.12it/s]
+Loading adapter...
+Merging...
+Saving merged model to round3/checkpoints/R3-D3-qlora-14b-int8-merged
+DONE

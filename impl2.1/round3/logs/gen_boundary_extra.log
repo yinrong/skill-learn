@@ -1,0 +1,437 @@
+
+──────────────────────────────────────────────────
+[rule2_boundary] 目标=35，最大尝试=210，并发=4
+  ✓ [1/35] 通过（尝试1）
+  ✓ [2/35] 通过（尝试2）
+  [样本3] 验证未过：recall=0.50，gt=['rule1', 'rule2']，pred=['rule2', 'rule6', 'rule7']
+  ✓ [3/35] 通过（尝试4）
+  [样本5] 验证未过：recall=0.00，gt=['rule2']，pred=['rule1', 'rule5']
+  [样本4] 验证未过：recall=0.50，gt=['rule2', 'rule7']，pred=['rule2', 'rule5']
+  [样本6] 验证未过：recall=0.33，gt=['rule2', 'rule4', 'rule6']，pred=['rule5', 'rule6', 'rule7']
+  ✓ [4/35] 通过（尝试8）
+  ✓ [5/35] 通过（尝试9）
+  [样本9] 验证未过：recall=0.50，gt=['rule2', 'rule7']，pred=['rule6', 'rule7']
+  [样本11] 验证未过：recall=0.00，gt=['rule2']，pred=['rule5']
+  ✓ [6/35] 通过（尝试12）
+  [样本12] 验证未过：recall=0.00，gt=['rule2']，pred=['rule5']
+  ✓ [7/35] 通过（尝试14）
+  ✓ [8/35] 通过（尝试15）
+  ✓ [9/35] 通过（尝试16）
+  [样本17] 验证未过：recall=0.00，gt=['rule1', 'rule2']，pred=['rule5']
+  ✓ [10/35] 通过（尝试18）
+  [样本16] 验证未过：recall=0.50，gt=['rule2', 'rule7']，pred=['rule7']
+  ✓ [11/35] 通过（尝试20）
+  [样本22] 验证未过：recall=0.67，gt=['rule1', 'rule2', 'rule3']，pred=['rule1', 'rule3']
+  [样本20] 验证未过：recall=0.50，gt=['rule2', 'rule5']，pred=['rule5', 'rule6', 'rule7']
+  ✓ [12/35] 通过（尝试23）
+  [样本23] 验证未过：recall=0.00，gt=['rule2']，pred=['rule5']
+  ✓ [13/35] 通过（尝试25）
+  [样本26] 验证未过：recall=0.50，gt=['rule1', 'rule2']，pred=['rule1', 'rule5']
+  [样本24] 验证未过：recall=0.50，gt=['rule2', 'rule3']，pred=['rule1', 'rule2', 'rule5']
+  ✓ [14/35] 通过（尝试28）
+  [样本28] 验证未过：recall=0.00，gt=['rule2']，pred=['rule1', 'rule5']
+  ✓ [15/35] 通过（尝试30）
+  ✓ [16/35] 通过（尝试31）
+  ✓ [17/35] 通过（尝试32）
+  ✓ [18/35] 通过（尝试33）
+  ✓ [19/35] 通过（尝试34）
+  ✓ [20/35] 通过（尝试35）
+  [样本35] 验证未过：recall=0.50，gt=['rule2', 'rule7']，pred=['rule2']
+  ✓ [21/35] 通过（尝试37）
+  ✓ [22/35] 通过（尝试38）
+  ✓ [23/35] 通过（尝试39）
+  [样本36] 验证未过：recall=0.67，gt=['rule1', 'rule2', 'rule5']，pred=['rule2', 'rule5', 'rule6']
+  ✓ [24/35] 通过（尝试41）
+  [样本42] 验证未过：recall=0.50，gt=['rule1', 'rule2']，pred=['rule1']
+  [样本40] 验证未过：recall=0.75，gt=['rule1', 'rule2', 'rule3', 'rule5']，pred=['rule1', 'rule2', 'rule5', 'rule6']
+  ✓ [25/35] 通过（尝试44）
+  ✓ [26/35] 通过（尝试45）
+  [样本46] 验证未过：recall=0.50，gt=['rule1', 'rule2']，pred=['rule1']
+  [样本47] 验证未过：recall=0.50，gt=['rule1', 'rule2']，pred=['rule2', 'rule5', 'rule7']
+  ✓ [27/35] 通过（尝试48）
+  ✓ [28/35] 通过（尝试49）
+  ✓ [29/35] 通过（尝试50）
+  [样本49] 验证未过：recall=0.50，gt=['rule2', 'rule3']，pred=['rule2', 'rule5', 'rule6']
+  ✓ [30/35] 通过（尝试52）
+  [样本53] 验证未过：recall=0.00，gt=['rule2']，pred=['rule5']
+  ✓ [31/35] 通过（尝试54）
+  ✓ [32/35] 通过（尝试55）
+  [样本52] 验证未过：recall=0.00，gt=['rule2']，pred=['rule4', 'rule6', 'rule7', 'rule8']
+  ✓ [33/35] 通过（尝试57）
+  [样本59] 验证未过：recall=0.67，gt=['rule1', 'rule2', 'rule7']，pred=['rule2', 'rule5', 'rule6', 'rule7']
+  [样本57] 验证未过：recall=0.00，gt=['rule2', 'rule3']，pred=['rule5']
+  [样本58] 验证未过：recall=0.00，gt=['rule2']，pred=['rule5', 'rule6', 'rule8']
+  ✓ [34/35] 通过（尝试61）
+  ✓ [35/35] 通过（尝试62）
+[rule2_boundary] 完成：35/35，总尝试：62
+
+──────────────────────────────────────────────────
+[rule2_near_miss] 目标=35，最大尝试=210，并发=4
+  [样本0] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3']
+  [样本1] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本2] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  ✓ [1/35] 通过（尝试4）
+  [样本3] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule7']
+  ✓ [2/35] 通过（尝试6）
+  [样本5] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6']
+  ✓ [3/35] 通过（尝试8）
+  [样本10] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  ✓ [4/35] 通过（尝试10）
+  ✓ [5/35] 通过（尝试11）
+  [样本9] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  ✓ [6/35] 通过（尝试13）
+  [样本14] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5', 'rule6']
+  [样本13] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule7']
+  [样本15] 验证未过：recall=0.50，gt=[]，pred=['rule6', 'rule7']
+  ✓ [7/35] 通过（尝试17）
+  [样本16] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5']
+  ✓ [8/35] 通过（尝试19）
+  [样本18] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule7']
+  [样本20] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6']
+  ✓ [9/35] 通过（尝试22）
+  [样本23] 验证未过：recall=0.50，gt=['rule1', 'rule6']，pred=['rule1', 'rule7']
+  [样本22] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6', 'rule7']
+  [样本27] 验证未过：recall=0.50，gt=[]，pred=['rule2']
+  ✓ [10/35] 通过（尝试26）
+  ✓ [11/35] 通过（尝试27）
+  [样本24] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3', 'rule6']
+  [样本30] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3']
+  [样本31] 验证未过：recall=0.00，gt=['rule1', 'rule7']，pred=['rule5']
+  ✓ [12/35] 通过（尝试31）
+  ✓ [13/35] 通过（尝试32）
+  [样本34] 验证未过：recall=0.00，gt=['rule1']，pred=['rule5', 'rule6', 'rule7', 'rule8']
+  ✓ [14/35] 通过（尝试34）
+  ✓ [15/35] 通过（尝试35）
+  ✓ [16/35] 通过（尝试36）
+  [样本37] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本38] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  [样本35] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本39] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule7']
+  [样本41] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5', 'rule8']
+  [样本40] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule5', 'rule8']
+  [样本42] 验证未过：recall=0.00，gt=['rule1']，pred=['rule5', 'rule6', 'rule7']
+  [样本43] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  [样本45] 验证未过：recall=0.50，gt=[]，pred=['rule6']
+  [样本44] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6', 'rule7', 'rule8']
+  [样本46] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule8']
+  [样本47] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule6', 'rule7']
+  [样本48] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule1', 'rule8']
+  [样本49] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本51] 验证未过：recall=0.50，gt=[]，pred=['rule6', 'rule8']
+  ✓ [17/35] 通过（尝试52）
+  [样本52] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5']
+  [样本53] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5', 'rule6']
+  [样本54] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3', 'rule4', 'rule5', 'rule6', 'rule7', 'rule8']
+  [样本55] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule5']
+  [样本57] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3', 'rule5']
+  [样本56] 验证未过：recall=0.00，gt=['rule7']，pred=['rule5']
+  [样本59] 验证未过：recall=0.00，gt=['rule1']，pred=['rule2', 'rule5']
+  [样本58] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5']
+  [样本60] 验证未过：recall=0.00，gt=['rule7']，pred=['rule5']
+  [样本61] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule7', 'rule8']
+  ✓ [18/35] 通过（尝试63）
+  [样本63] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3', 'rule8']
+  ✓ [19/35] 通过（尝试65）
+  [样本67] 验证未过：recall=0.50，gt=['rule1', 'rule6']，pred=['rule2', 'rule5', 'rule6', 'rule8']
+  [样本64] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6', 'rule7']
+  ✓ [20/35] 通过（尝试68）
+  [样本68] 验证未过：recall=0.50，gt=[]，pred=['rule4', 'rule5', 'rule6']
+  [样本69] 验证未过：recall=0.00，gt=['rule1']，pred=['rule2', 'rule5', 'rule7']
+  [样本71] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本70] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6']
+  [样本73] 验证未过：recall=0.67，gt=['rule1', 'rule5', 'rule7']，pred=['rule1', 'rule7']
+  [样本75] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本74] 验证未过：recall=0.50，gt=[]，pred=['rule6']
+  ✓ [21/35] 通过（尝试76）
+  ✓ [22/35] 通过（尝试77）
+  [样本79] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule5', 'rule7']
+  [样本78] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule8']
+  [样本77] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule5', 'rule6', 'rule8']
+  [样本82] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule1', 'rule2']
+  ✓ [23/35] 通过（尝试82）
+  ✓ [24/35] 通过（尝试83）
+  [样本83] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6', 'rule7']
+  [样本86] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule7']
+  [样本85] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule7']
+  [样本84] 验证未过：recall=0.00，gt=['rule6']，pred=['rule2', 'rule7']
+  [样本87] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6', 'rule7']
+  [样本91] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本89] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  ✓ [25/35] 通过（尝试91）
+  [样本88] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  ✓ [26/35] 通过（尝试93）
+  [样本93] 验证未过：recall=0.50，gt=['rule1', 'rule6']，pred=['rule6', 'rule7']
+  [样本92] 验证未过：recall=0.00，gt=['rule3']，pred=['rule2', 'rule5', 'rule6']
+  [样本95] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3', 'rule4', 'rule5', 'rule6', 'rule7']
+  [样本99] 验证未过：recall=0.50，gt=['rule1', 'rule5']，pred=['rule5', 'rule6']
+  [样本98] 验证未过：recall=0.00，gt=['rule7']，pred=[]
+  [样本97] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6', 'rule8']
+  [样本96] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5']
+  ✓ [27/35] 通过（尝试101）
+  [样本101] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6', 'rule7']
+  [样本102] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本103] 验证未过：recall=0.00，gt=['rule1']，pred=['rule2', 'rule5', 'rule6']
+  [样本107] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5', 'rule8']
+  [样本105] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule6']
+  [样本106] 验证未过：recall=0.00，gt=['rule6']，pred=['rule5']
+  [样本104] 验证未过：recall=0.50，gt=[]，pred=['rule4', 'rule5', 'rule6']
+  ✓ [28/35] 通过（尝试109）
+  [样本109] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule5']
+  ✓ [29/35] 通过（尝试111）
+  [样本111] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6', 'rule7', 'rule8']
+  ✓ [30/35] 通过（尝试113）
+  [样本114] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本115] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6', 'rule7', 'rule8']
+  [样本112] 验证未过：recall=0.50，gt=['rule1', 'rule6']，pred=['rule2', 'rule5', 'rule6']
+  [样本117] 验证未过：recall=0.50，gt=[]，pred=['rule2']
+  [样本116] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2']
+  [样本119] 验证未过：recall=0.00，gt=['rule1']，pred=['rule5']
+  ✓ [31/35] 通过（尝试120）
+  [样本121] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule7']
+  ✓ [32/35] 通过（尝试122）
+  [样本123] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5']
+  ✓ [33/35] 通过（尝试124）
+  ✓ [34/35] 通过（尝试125）
+  [样本125] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5', 'rule8']
+  [样本126] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本127] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule7']
+  [样本130] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  [样本129] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule7']
+  [样本128] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5', 'rule6', 'rule7']
+  [样本131] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3', 'rule4', 'rule5', 'rule6', 'rule7', 'rule8']
+  [样本132] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule2', 'rule5', 'rule8']
+  [样本133] 验证未过：recall=0.50，gt=['rule5', 'rule6']，pred=['rule2', 'rule5']
+  ✓ [35/35] 通过（尝试135）
+  [样本135] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule5', 'rule6', 'rule8']
+  [样本134] 验证未过：recall=0.00，gt=['rule6']，pred=['rule1', 'rule2', 'rule3', 'rule5']
+[rule2_near_miss] 完成：35/35，总尝试：135
+
+──────────────────────────────────────────────────
+[rule7_boundary] 目标=35，最大尝试=210，并发=4
+  [样本4] 验证未过：recall=0.67，gt=['rule3', 'rule5', 'rule7']，pred=['rule1', 'rule5', 'rule7']
+  ✓ [1/35] 通过（尝试3）
+  [样本0] 验证未过：recall=0.00，gt=['rule1', 'rule7']，pred=['rule6']
+  [样本2] 验证未过：recall=0.00，gt=['rule7']，pred=['rule5', 'rule6']
+  [样本6] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule1']
+  ✓ [2/35] 通过（尝试8）
+  ✓ [3/35] 通过（尝试10）
+  ✓ [4/35] 通过（尝试11）
+  [样本12] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule2', 'rule3', 'rule5', 'rule6', 'rule8']
+  ✓ [5/35] 通过（尝试14）
+  [样本13] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule5', 'rule8']
+  ✓ [6/35] 通过（尝试16）
+  ✓ [7/35] 通过（尝试19）
+  ✓ [8/35] 通过（尝试20）
+  ✓ [9/35] 通过（尝试21）
+  [样本18] 验证未过：recall=0.00，gt=['rule7']，pred=['rule2', 'rule5', 'rule6']
+  ✓ [10/35] 通过（尝试23）
+  [样本23] 验证未过：recall=0.00，gt=['rule7']，pred=['rule2', 'rule5', 'rule6', 'rule8']
+  ✓ [11/35] 通过（尝试28）
+  [样本30] 验证未过：recall=0.67，gt=['rule1', 'rule6', 'rule7']，pred=['rule1', 'rule2', 'rule7']
+  [样本29] 验证未过：recall=0.67，gt=['rule2', 'rule6', 'rule7']，pred=['rule2', 'rule5', 'rule6']
+  ✓ [12/35] 通过（尝试31）
+  [样本25] 验证未过：recall=0.00，gt=['rule1', 'rule7']，pred=['rule2', 'rule5']
+  [样本35] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule8']
+  [样本33] 验证未过：recall=0.67，gt=['rule1', 'rule3', 'rule7']，pred=['rule1', 'rule3']
+  ✓ [13/35] 通过（尝试35）
+  ✓ [14/35] 通过（尝试36）
+  [样本36] 验证未过：recall=0.50，gt=['rule5', 'rule7']，pred=['rule2', 'rule5']
+  ✓ [15/35] 通过（尝试38）
+  ✓ [16/35] 通过（尝试39）
+  [样本37] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule8']
+  [样本44] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule5', 'rule8']
+  [样本40] 验证未过：recall=0.67，gt=['rule1', 'rule4', 'rule7']，pred=['rule1', 'rule7']
+  ✓ [17/35] 通过（尝试46）
+  ✓ [18/35] 通过（尝试47）
+  [样本47] 验证未过：recall=0.67，gt=['rule6', 'rule7', 'rule8']，pred=['rule5', 'rule6', 'rule8']
+  [样本52] 验证未过：recall=0.50，gt=['rule4', 'rule7']，pred=['rule6', 'rule7']
+  ✓ [19/35] 通过（尝试51）
+  ✓ [20/35] 通过（尝试52）
+  [样本53] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule3', 'rule5', 'rule6', 'rule7']
+  [样本54] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule1', 'rule5']
+  ✓ [21/35] 通过（尝试55）
+  ✓ [22/35] 通过（尝试56）
+  ✓ [23/35] 通过（尝试59）
+  ✓ [24/35] 通过（尝试60）
+  [样本61] 验证未过：recall=0.00，gt=['rule1', 'rule3', 'rule7']，pred=['rule5']
+  [样本60] 验证未过：recall=0.00，gt=['rule1', 'rule7']，pred=['rule5', 'rule6']
+  [样本62] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule5', 'rule7']
+  ✓ [25/35] 通过（尝试64）
+  [样本66] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule2', 'rule5', 'rule8']
+  [样本65] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule1', 'rule2', 'rule5']
+  [样本70] 验证未过：recall=0.00，gt=['rule3', 'rule7']，pred=['rule5']
+  [样本71] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule1', 'rule5']
+  ✓ [26/35] 通过（尝试75）
+  ✓ [27/35] 通过（尝试77）
+  ✓ [28/35] 通过（尝试78）
+  ✓ [29/35] 通过（尝试79）
+  [样本79] 验证未过：recall=0.00，gt=['rule7']，pred=['rule5']
+  ✓ [30/35] 通过（尝试84）
+  ✓ [31/35] 通过（尝试86）
+  ✓ [32/35] 通过（尝试87）
+  [样本86] 验证未过：recall=0.00，gt=['rule7']，pred=['rule5', 'rule6', 'rule8']
+  ✓ [33/35] 通过（尝试92）
+  [样本90] 验证未过：recall=0.00，gt=['rule1', 'rule7']，pred=[]
+  [样本94] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule2', 'rule5', 'rule8']
+  [样本88] 验证未过：recall=0.50，gt=['rule1', 'rule7']，pred=['rule2', 'rule3', 'rule5', 'rule6', 'rule7', 'rule8']
+  ✓ [34/35] 通过（尝试96）
+  ✓ [35/35] 通过（尝试97）
+  [样本96] 验证未过：recall=0.00，gt=['rule7']，pred=['rule1', 'rule5', 'rule8']
+[rule7_boundary] 完成：35/35，总尝试：97
+
+──────────────────────────────────────────────────
+[rule7_near_miss] 目标=35，最大尝试=210，并发=4
+  ✓ [1/35] 通过（尝试2）
+  [样本3] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5', 'rule8']
+  [样本1] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule8']
+  [样本4] 验证未过：recall=0.50，gt=[]，pred=['rule6']
+  [样本6] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3', 'rule5', 'rule6']
+  [样本5] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本7] 验证未过：recall=0.00，gt=['rule4']，pred=['rule2', 'rule3', 'rule5']
+  [样本12] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3', 'rule4', 'rule5', 'rule6', 'rule7', 'rule8']
+  [样本9] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3', 'rule5']
+  [样本8] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本13] 验证未过：recall=0.50，gt=[]，pred=['rule6']
+  ✓ [2/35] 通过（尝试16）
+  ✓ [3/35] 通过（尝试18）
+  [样本20] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本18] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6', 'rule7', 'rule8']
+  [样本21] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6', 'rule7']
+  [样本16] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本26] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3']
+  [样本24] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6', 'rule7']
+  [样本25] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  ✓ [4/35] 通过（尝试29）
+  [样本29] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5']
+  [样本30] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  [样本31] 验证未过：recall=0.00，gt=['rule4']，pred=[]
+  ✓ [5/35] 通过（尝试33）
+  [样本33] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  [样本35] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  ✓ [6/35] 通过（尝试36）
+  ✓ [7/35] 通过（尝试37）
+  ✓ [8/35] 通过（尝试38）
+  ✓ [9/35] 通过（尝试39）
+  [样本36] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule4', 'rule5', 'rule6', 'rule7']
+  [样本42] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule8']
+  [样本41] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本43] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3', 'rule7']
+  [样本40] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6']
+  ✓ [10/35] 通过（尝试47）
+  [样本44] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6', 'rule7']
+  ✓ [11/35] 通过（尝试49）
+  [样本51] 验证未过：recall=0.00，gt=['rule2']，pred=['rule1', 'rule5']
+  [样本50] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6', 'rule7']
+  [样本48] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3', 'rule5']
+  [样本52] 验证未过：recall=0.50，gt=[]，pred=['rule6']
+  [样本54] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3', 'rule7']
+  [样本55] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  [样本53] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本59] 验证未过：recall=0.00，gt=['rule5']，pred=[]
+  ✓ [12/35] 通过（尝试58）
+  [样本58] 验证未过：recall=0.00，gt=['rule1']，pred=[]
+  ✓ [13/35] 通过（尝试60）
+  ✓ [14/35] 通过（尝试62）
+  [样本57] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule6', 'rule7']
+  [样本62] 验证未过：recall=0.50，gt=[]，pred=['rule6']
+  [样本68] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  ✓ [15/35] 通过（尝试68）
+  [样本66] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule6', 'rule7']
+  [样本65] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  ✓ [16/35] 通过（尝试71）
+  ✓ [17/35] 通过（尝试72）
+  [样本77] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5']
+  [样本72] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5', 'rule8']
+  [样本76] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3', 'rule4', 'rule5', 'rule6', 'rule7', 'rule8']
+  [样本78] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  ✓ [18/35] 通过（尝试80）
+  [样本82] 验证未过：recall=0.00，gt=['rule1']，pred=['rule5', 'rule7']
+  ✓ [19/35] 通过（尝试82）
+  [样本81] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6', 'rule7']
+  [样本86] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本87] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  [样本84] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  [样本80] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule8']
+  ✓ [20/35] 通过（尝试90）
+  [样本92] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  ✓ [21/35] 通过（尝试92）
+  ✓ [22/35] 通过（尝试93）
+  [样本94] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本93] 验证未过：recall=0.50，gt=[]，pred=['rule4', 'rule5', 'rule7', 'rule8']
+  [样本95] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本98] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule6']
+  [样本96] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5', 'rule6']
+  [样本99] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3', 'rule4', 'rule5', 'rule6', 'rule7', 'rule8']
+  [样本97] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本102] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本101] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule8']
+  ✓ [23/35] 通过（尝试103）
+  ✓ [24/35] 通过（尝试104）
+  [样本106] 验证未过：recall=0.00，gt=['rule1']，pred=['rule5']
+  [样本107] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6', 'rule7']
+  [样本105] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule6']
+  [样本109] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本108] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本110] 验证未过：recall=0.00，gt=['rule1']，pred=[]
+  ✓ [25/35] 通过（尝试111）
+  [样本111] 验证未过：recall=0.50，gt=[]，pred=['rule6']
+  [样本112] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5', 'rule7', 'rule8']
+  [样本114] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3', 'rule5', 'rule8']
+  [样本113] 验证未过：recall=0.00，gt=['rule6']，pred=['rule2', 'rule3', 'rule5']
+  [样本115] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule5', 'rule6']
+  [样本117] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本118] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本120] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5', 'rule8']
+  ✓ [26/35] 通过（尝试124）
+  [样本124] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5']
+  [样本122] 验证未过：recall=0.50，gt=[]，pred=['rule4', 'rule5', 'rule6', 'rule7']
+  ✓ [27/35] 通过（尝试127）
+  ✓ [28/35] 通过（尝试128）
+  [样本131] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule7']
+  [样本130] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  ✓ [29/35] 通过（尝试131）
+  [样本129] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3', 'rule5', 'rule6']
+  [样本133] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule7', 'rule8']
+  [样本132] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule5']
+  [样本134] 验证未过：recall=0.00，gt=['rule6']，pred=['rule1', 'rule8']
+  [样本135] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本141] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule8']
+  [样本136] 验证未过：recall=0.00，gt=['rule4']，pred=['rule7']
+  [样本138] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule5']
+  [样本142] 验证未过：recall=0.50，gt=[]，pred=['rule6']
+  [样本143] 验证未过：recall=0.00，gt=['rule1']，pred=['rule2', 'rule5', 'rule6']
+  ✓ [30/35] 通过（尝试145）
+  [样本145] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本148] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6']
+  [样本149] 验证未过：recall=0.50，gt=['rule1', 'rule4']，pred=['rule1', 'rule2']
+  ✓ [31/35] 通过（尝试149）
+  [样本151] 验证未过：recall=0.00，gt=['rule4']，pred=[]
+  [样本146] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6', 'rule7']
+  ✓ [32/35] 通过（尝试152）
+  ✓ [33/35] 通过（尝试155）
+  [样本157] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule6']
+  [样本154] 验证未过：recall=0.50，gt=[]，pred=['rule2', 'rule3', 'rule5', 'rule6', 'rule8']
+  [样本153] 验证未过：recall=0.00，gt=['rule1']，pred=[]
+  [样本158] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3', 'rule5', 'rule8']
+  [样本159] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule8']
+  [样本160] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule8']
+  [样本162] 验证未过：recall=0.50，gt=[]，pred=['rule5']
+  [样本161] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule5']
+  [样本163] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule8']
+  [样本170] 验证未过：recall=0.50，gt=[]，pred=['rule7']
+  [样本168] 验证未过：recall=0.00，gt=['rule1', 'rule5']，pred=['rule6']
+  [样本167] 验证未过：recall=0.00，gt=['rule3']，pred=[]
+  ✓ [34/35] 通过（尝试171）
+  [样本171] 验证未过：recall=0.50，gt=[]，pred=['rule1', 'rule2', 'rule3']
+  ✓ [35/35] 通过（尝试175）
+  [样本175] 验证未过：recall=0.50，gt=[]，pred=['rule5', 'rule6', 'rule7', 'rule8']
+[rule7_near_miss] 完成：35/35，总尝试：175
+
+✓ WS 数据写入：round3/data/boundary_ws_extra.jsonl（140 条）
+✓ NS 数据写入：round3/data/boundary_ns_extra.jsonl（140 条）
+
+分布：
+  rule2_boundary: 35
+  rule2_near_miss: 35
+  rule7_boundary: 35
+  rule7_near_miss: 35

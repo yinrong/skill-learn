@@ -1,0 +1,20 @@
+启动 vLLM：port=8038  model=round3/checkpoints/R3-D2-qlora-32b-merged
+  pid=45764  日志：/tmp/vllm_8038.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+✓ vLLM 已就绪：http://localhost:8038

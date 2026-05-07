@@ -1,0 +1,47 @@
+# R3-D2：QLoRA int4 — Qwen3-32B（方向D）
+# 目标：验证 32B QLoRA 量化损失 ≤ 2% vs 同规模 bf16 LoRA
+# 训练显存预期：~22GB/卡（对比 bf16 LoRA 需 2+ 卡）
+
+model_name_or_path: /home/yinrong/models/Qwen3-32B
+template: qwen3
+trust_remote_code: true
+low_cpu_mem_usage: true
+
+finetuning_type: lora
+lora_rank: 128
+lora_alpha: 256
+lora_dropout: 0.0
+lora_target: all
+
+# QLoRA 量化设置
+quantization_bit: 4
+quantization_method: bitsandbytes   # NF4 量化
+# FSDP 处理模型分片，不需要 quantization_device_map
+
+# FSDP 4卡设置（torchrun --nproc_per_node=4）
+fsdp: full_shard auto_wrap
+fsdp_config: /home/yinrong/post-train/impl2.1/round3/configs/fsdp_config.json
+
+dataset: spc_r3_AB_v2
+dataset_dir: /home/yinrong/post-train/impl2.1/round3/data
+cutoff_len: 5120
+
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4      # 4卡×4accum=16 effective batch（与原单卡相同）
+learning_rate: 1.0e-04
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 1
+
+output_dir: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-D2-qlora-32b
+
+do_train: true
+report_to: none

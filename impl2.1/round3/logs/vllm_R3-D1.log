@@ -1,0 +1,24 @@
+启动 vLLM：port=8036  model=/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-D1-qlora-14b-merged
+  pid=494616  日志：/tmp/vllm_8036.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+  等待 vLLM 启动... (http://localhost:8036/health)
+✓ vLLM 已就绪：http://localhost:8036

@@ -3,15 +3,23 @@
 *.bin
 *.pt
 
-# 合并后 checkpoint 目录（模型权重）
-2.1_rounds/*/history-route*/checkpoints/*/model*
-2.1_rounds/*/history-*/checkpoints/*/model*
+# checkpoint 目录（LoRA adapter + merged 模型权重，体积 GB 级）
+impl2.1/round*/checkpoints/
+impl2.1/round*/history-*/checkpoints/
+impl2.1/round*/history-route*/checkpoints/
+2.1_rounds/*/history-*/checkpoints/
+2.1_rounds/*/history-route*/checkpoints/
+
+# benchmark 原始 sample 文件（每个几十 MB，只保留汇总 JSON）
+impl2.1/common/benchmark_results/**/samples_*.jsonl
+impl2.1/common/benchmark_results/**/run.log
 
 # Python 缓存
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.memory/
 
 # 编辑器
 .idea/

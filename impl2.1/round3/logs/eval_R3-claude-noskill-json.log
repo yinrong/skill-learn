@@ -1,0 +1,26 @@
+评测模型: ppio/pa/claude-sonnet-4-6  样本数: 50  thinking: True
+条件: no_skill_json  with_skill=False  json_output=True
+  [10/50] running rule_f1=0.577
+  [20/50] running rule_f1=0.349
+  [30/50] running rule_f1=0.325
+  [40/50] running rule_f1=0.411
+  [50/50] running rule_f1=0.424
+
+=== Claude 评测结果 [no_skill_json] ===
+  rule_detection_f1:  0.424
+  cpk_mae:            0.052
+  cpk_found_rate:     0.88
+  has_reasoning_rate: 0.0
+  json_parse_fail:    7/50
+
+各规则 recall：
+  rule1: 0.909
+  rule2: 0.75
+  rule3: 0.25
+  rule4: 0.6
+  rule5: 0.833
+  rule6: 0.727
+  rule7: 0.286
+  rule8: 0.333
+
+结果已写入：round3/results/R3-claude-noskill-json.json

@@ -1,0 +1,215 @@
+[2026-04-29 21:47:28] Monitoring R3-D3 (int8 training)...
+[2026-04-29 21:47:28] Monitoring R3-C (GRPO)...
+[2026-04-29 21:47:28] Monitoring R3-E1 (32B bf16 8-GPU)...
+[2026-04-29 21:47:28] All monitors started (PIDs: D3=60313, C=60318, E1=60322)
+[2026-04-29 21:47:28] This script will run in the background and auto-complete experiments.
+[2026-04-30 01:11:38] [fixed D3 watcher] Started - will use GPU 0 for vLLM
+[2026-04-30 01:13:14] [GRPO watcher v2] Started - will merge before vLLM
+[2026-04-30 01:18:18] [E1 launcher] Waiting for all GPUs to be free and GRPO eval done...
+[2026-04-30 01:18:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 01:23:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 01:28:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 01:33:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 01:38:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 01:43:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 01:48:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 01:53:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 01:58:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:03:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:08:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:13:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:18:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:23:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:28:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:33:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:38:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:43:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:46:30] [D3 merge] Starting merge R3-D3-qlora-14b-int8 -> R3-D3-qlora-14b-int8-merged
+[2026-04-30 02:46:30] [D3 merge] Starting merge R3-D3-qlora-14b-int8 -> R3-D3-qlora-14b-int8-merged
+[2026-04-30 02:46:36] [D3] MERGE FAILED
+[2026-04-30 02:46:36] [D3] MERGE FAILED
+[2026-04-30 02:47:42] [D3 post-merge watcher] Waiting for merge PID 83026...
+[2026-04-30 02:48:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:48:42] [D3] Merge successful. Starting vLLM GPU 0 port 8041...
+[2026-04-30 02:48:42] [D3] vLLM PID=83413, waiting 90s...
+[2026-04-30 02:50:12] [D3] Running eval...
+[2026-04-30 02:50:12] [D3] Eval DONE. F1=0.0
+[2026-04-30 02:53:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:58:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 02:59:08] [D3 result watcher] Waiting for R3-D3.json...
+[2026-04-30 03:03:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:08:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:13:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:18:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:23:18] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:28:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:33:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:38:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:43:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:48:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:53:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 03:58:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:03:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:08:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:13:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:18:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:23:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:28:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:33:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:38:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:43:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:48:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:53:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 04:58:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:03:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:08:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:13:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:18:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:23:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:28:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:33:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:38:19] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:43:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:48:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:53:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 05:58:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:03:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:08:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:13:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:18:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:23:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:28:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:33:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:38:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:43:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:48:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:53:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 06:58:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:03:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:08:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:13:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:18:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:23:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:28:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:33:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:38:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:43:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:48:20] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:53:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 07:58:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:03:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:08:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:13:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:18:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:23:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:28:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:33:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:38:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:43:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:48:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:53:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 08:58:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:03:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:08:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:13:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:18:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:23:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:28:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:33:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:38:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:43:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:48:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:53:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 09:58:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:03:21] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:08:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:13:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:18:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:23:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:28:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:33:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:38:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:43:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:48:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:53:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 10:58:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:03:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:08:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:13:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:18:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:23:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:28:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:33:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:38:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:43:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:48:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:53:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 11:58:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:03:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:08:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:13:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:18:22] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:23:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:28:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:33:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:38:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:43:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:48:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:53:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 12:58:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:03:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:08:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:13:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:18:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:23:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:28:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:33:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:38:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:43:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:48:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:53:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 13:58:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:03:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:08:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:13:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:18:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:23:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:28:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:33:23] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:38:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:43:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:48:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:53:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 14:58:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:03:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:08:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:13:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:18:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:23:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:28:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:33:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:38:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:43:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:48:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:53:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 15:58:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:03:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:08:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:13:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:18:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:23:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:28:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:33:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:38:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:43:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:48:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:53:24] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 16:58:25] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 17:03:25] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 17:08:25] [E1 launcher] Waiting: R3-C-grpo.json not yet present
+[2026-04-30 19:05:44] R3-C GRPO training completed. Starting eval...
+[2026-04-30 19:06:45] R3-C eval done. F1=0.0
+[2026-04-30 19:08:19] [GRPO] Training done! Merging adapter...
+[2026-04-30 19:09:55] [GRPO] Merge done. Starting vLLM on GPU 0 port 8042...
+[2026-04-30 19:11:25] [GRPO] Running eval...
+[2026-04-30 19:11:25] [GRPO] Eval done. F1=0.0

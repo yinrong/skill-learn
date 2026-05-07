@@ -1,0 +1,280 @@
+[11:55:01] 等待 R3-AB-v3 训练完成（GPU 释放）...
+[12:44:33] 等待 GPU 显存释放...
+[12:44:33] GPU 空闲（97387MiB）
+[12:44:48] [R3-D2] 已有 checkpoint，跳过
+[12:44:48] [R3-D2] 合并 adapter...
+[WARNING|2026-04-29 12:44:52] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,538 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,538 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,538 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,538 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,538 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,538 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,538 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-29 12:44:58,832 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-04-29 12:44:58,846 >> loading configuration file /home/yinrong/models/Qwen3-32B/config.json
+[INFO|configuration_utils.py:839] 2026-04-29 12:44:58,848 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 25600,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 64,
+  "model_type": "qwen3",
+  "num_attention_heads": 64,
+  "num_hidden_layers": 64,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,864 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,864 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,864 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,864 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,864 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,864 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-29 12:44:58,865 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-29 12:44:59,147 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-04-29 12:44:59,169 >> loading configuration file /home/yinrong/models/Qwen3-32B/config.json
+[INFO|configuration_utils.py:839] 2026-04-29 12:44:59,170 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 25600,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 64,
+  "model_type": "qwen3",
+  "num_attention_heads": 64,
+  "num_hidden_layers": 64,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[WARNING|logging.py:328] 2026-04-29 12:44:59,170 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|2026-04-29 12:44:59] llamafactory.model.model_utils.kv_cache:143 >> KV cache is enabled for faster generation.
+[WARNING|logging.py:328] 2026-04-29 12:44:59,290 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|modeling_utils.py:1169] 2026-04-29 12:44:59,301 >> loading weights file /home/yinrong/models/Qwen3-32B/model.safetensors.index.json
+[INFO|modeling_utils.py:2341] 2026-04-29 12:44:59,301 >> Instantiating Qwen3ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:986] 2026-04-29 12:44:59,303 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:  53%|█████▎    | 9/17 [00:00<00:00, 17.10it/s]Loading checkpoint shards:  65%|██████▍   | 11/17 [00:01<00:01,  5.96it/s]Loading checkpoint shards:  71%|███████   | 12/17 [00:02<00:01,  4.07it/s]Loading checkpoint shards:  76%|███████▋  | 13/17 [00:02<00:01,  3.34it/s]Loading checkpoint shards:  82%|████████▏ | 14/17 [00:03<00:01,  2.72it/s]Loading checkpoint shards:  88%|████████▊ | 15/17 [00:03<00:00,  2.48it/s]Loading checkpoint shards:  94%|█████████▍| 16/17 [00:04<00:00,  2.26it/s]Loading checkpoint shards: 100%|██████████| 17/17 [00:04<00:00,  2.53it/s]Loading checkpoint shards: 100%|██████████| 17/17 [00:04<00:00,  3.54it/s]
+[INFO|configuration_utils.py:939] 2026-04-29 12:45:04,194 >> loading configuration file /home/yinrong/models/Qwen3-32B/generation_config.json
+[INFO|configuration_utils.py:986] 2026-04-29 12:45:04,194 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "temperature": 0.6,
+  "top_k": 20,
+  "top_p": 0.95
+}
+
+[INFO|dynamic_module_utils.py:423] 2026-04-29 12:45:04,197 >> Could not locate the custom_generate/generate.py inside /home/yinrong/models/Qwen3-32B.
+[INFO|2026-04-29 12:45:04] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/peft/config.py", line 260, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/usr/local/lib/python3.10/dist-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/usr/local/lib/python3.10/dist-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-D2-qlora-32b'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/llamafactory-cli", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/llamafactory/cli.py", line 151, in main
+    COMMAND_MAP[command]()
+  File "/usr/local/lib/python3.10/dist-packages/llamafactory/train/tuner.py", line 126, in export_model
+    model = load_model(tokenizer, model_args, finetuning_args)  # must after fixing tokenizer to resize vocab
+  File "/usr/local/lib/python3.10/dist-packages/llamafactory/model/loader.py", line 189, in load_model
+    model = init_adapter(config, model, model_args, finetuning_args, is_trainable)
+  File "/usr/local/lib/python3.10/dist-packages/llamafactory/model/adapter.py", line 300, in init_adapter
+    model = _setup_lora_tuning(
+  File "/usr/local/lib/python3.10/dist-packages/llamafactory/model/adapter.py", line 183, in _setup_lora_tuning
+    model: LoraModel = PeftModel.from_pretrained(model, adapter, **init_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/peft/peft_model.py", line 439, in from_pretrained
+    PeftConfig._get_peft_type(
+  File "/usr/local/lib/python3.10/dist-packages/peft/config.py", line 266, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-D2-qlora-32b'
+合并配置：
+  base:    /home/yinrong/models/Qwen3-32B
+  adapter: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-D2-qlora-32b
+  output:  /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-D2-qlora-32b-merged
+执行：llamafactory-cli export /tmp/tmp2jh_s6xj.yaml
+✗ 合并失败（exit code 1），请检查 adapter 路径和 base 模型版本

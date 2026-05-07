@@ -1,0 +1,24 @@
+启动 vLLM：port=8032  model=/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged
+  pid=449629  日志：/tmp/vllm_8032.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+✓ vLLM 已就绪：http://localhost:8032

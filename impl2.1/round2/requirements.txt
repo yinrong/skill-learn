@@ -1,0 +1,10 @@
+llamafactory
+vllm>=0.4.0
+modelscope
+scipy
+scikit-learn
+matplotlib
+numpy
+transformers>=4.40.0
+torch>=2.1.0
+peft>=0.10.0

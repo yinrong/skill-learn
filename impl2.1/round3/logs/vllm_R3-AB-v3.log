@@ -1,0 +1,28 @@
+启动 vLLM：port=8038  model=/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-v3-merged
+  pid=14341  日志：/tmp/vllm_8038.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+  等待 vLLM 启动... (http://localhost:8038/health)
+✓ vLLM 已就绪：http://localhost:8038

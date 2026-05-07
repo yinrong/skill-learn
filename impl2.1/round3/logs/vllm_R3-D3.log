@@ -1,0 +1,22 @@
+启动 vLLM：port=8041  model=round3/checkpoints/R3-D3-qlora-14b-int8-merged
+  pid=83419  日志：/tmp/vllm_8041.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)
+  等待 vLLM 启动... (http://localhost:8041/health)

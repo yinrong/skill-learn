@@ -1,0 +1,22 @@
+启动 vLLM：port=8042  model=round3/checkpoints/R3-C-grpo-merged
+  pid=159397  日志：/tmp/vllm_8042.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)
+  等待 vLLM 启动... (http://localhost:8042/health)

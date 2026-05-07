@@ -1,0 +1,38 @@
+# R3-AB：A+B 组合最优（方向A+B综合）
+# 数据：expYYY(250ws+250ns) + boundary_rule27(90ws+90ns) + ns_v5(300) + multirole_ws(200) = ~1180 条
+# 基础：Qwen3-14B  目标：F1 ~0.48+
+
+model_name_or_path: /home/yinrong/models/Qwen3-14B
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 128
+lora_alpha: 256
+lora_dropout: 0.0
+lora_target: all
+
+# dataset: 由 prepare_data.sh 注册后填写
+dataset: spc_r3_AB
+dataset_dir: /home/yinrong/post-train/impl2.1/round3/data
+cutoff_len: 5120
+
+num_train_epochs: 3
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-04
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 1
+
+output_dir: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB
+
+do_train: true
+report_to: none

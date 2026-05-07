@@ -1,0 +1,31 @@
+评测模型: R3-AB-v3  样本数: 200  并发: 4  条件: no_skill
+  [20/200] running rule_f1=0.318
+  [40/200] running rule_f1=0.359
+  [60/200] running rule_f1=0.373
+  [80/200] running rule_f1=0.353
+  [100/200] running rule_f1=0.387
+  [120/200] running rule_f1=0.393
+  [140/200] running rule_f1=0.396
+  [160/200] running rule_f1=0.423
+  [180/200] running rule_f1=0.430
+  [200/200] running rule_f1=0.418
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.418
+  cpk_mae:                 0.066
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  45314.5
+  inference_time_ms_p95:   46408.6
+
+各规则 recall：
+  rule1: 0.725
+  rule2: 0.448
+  rule3: 0.571
+  rule4: 0.792
+  rule5: 0.682
+  rule6: 0.788
+  rule7: 0.389
+  rule8: 0.154
+
+结果已写入：/home/yinrong/post-train/impl2.1/round3/results/R3-AB-v3.json

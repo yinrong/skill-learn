@@ -1,0 +1,26 @@
+[15:30:40] 等待额外数据生成进程完成...
+[17:38:47] ns_v5_extra 生成完成
+[17:38:47] multirole_ws_extra 生成完成
+[18:08:18] boundary_ws/ns_extra 生成完成
+[18:08:18] 所有额外数据生成完毕，开始过滤...
+  ns_v5_extra.jsonl: 200 → kept 200, dropped 0 (0%)
+  multirole_ws_extra.jsonl: 160 → kept 160, dropped 0 (0%)
+  boundary_ws_extra.jsonl: 140 → kept 140, dropped 0 (0%)
+  boundary_ns_extra.jsonl: 140 → kept 140, dropped 0 (0%)
+[18:08:19]   ns_v5_extra_clean: 200 条
+[18:08:19]   multirole_ws_extra_clean: 160 条
+[18:08:19]   boundary_ws_extra_clean: 140 条
+[18:08:19]   boundary_ns_extra_clean: 140 条
+[18:08:19] 额外清洗数据总计: 640 条
+[18:08:20] 合并 v3 数据集...
+  v2 base: 1131 samples
+  + ns_v5_extra_clean.jsonl: 200 samples
+  + multirole_ws_extra_clean.jsonl: 160 samples
+  + boundary_ws_extra_clean.jsonl: 140 samples
+  + boundary_ns_extra_clean.jsonl: 140 samples
+
+train_R3-AB-v3.jsonl: 1771 samples total
+  spc_r3_AB_v3 registered in dataset_info.json
+[18:08:20] v3 数据集准备完毕：round3/data/train_R3-AB-v3.jsonl
+[18:08:20] 如需训练 v3，运行：
+[18:08:20]   DISABLE_VERSION_CHECK=1 llamafactory-cli train round3/configs/R3-AB-v3.yaml

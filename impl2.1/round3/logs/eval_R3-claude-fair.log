@@ -1,0 +1,36 @@
+Total samples: 200, model: ppio/pa/claude-sonnet-4-6
+[10/200] running F1=0.067 cpk_rate=0.00
+[20/200] running F1=0.033 cpk_rate=0.00
+[30/200] running F1=0.022 cpk_rate=0.00
+[40/200] running F1=0.034 cpk_rate=0.00
+[50/200] running F1=0.100 cpk_rate=0.02
+[60/200] running F1=0.093 cpk_rate=0.02
+[70/200] running F1=0.083 cpk_rate=0.04
+[80/200] running F1=0.080 cpk_rate=0.04
+[90/200] running F1=0.097 cpk_rate=0.03
+[100/200] running F1=0.105 cpk_rate=0.04
+[110/200] running F1=0.112 cpk_rate=0.04
+[120/200] running F1=0.108 cpk_rate=0.04
+[130/200] running F1=0.112 cpk_rate=0.04
+[140/200] running F1=0.114 cpk_rate=0.04
+[150/200] running F1=0.116 cpk_rate=0.03
+[160/200] running F1=0.116 cpk_rate=0.03
+[170/200] running F1=0.120 cpk_rate=0.03
+[180/200] running F1=0.117 cpk_rate=0.03
+[190/200] running F1=0.113 cpk_rate=0.03
+[200/200] running F1=0.110 cpk_rate=0.03
+
+=== 公平条件 Claude 评测结果 ===
+  F1:        0.11
+  CPK_MAE:   0.012
+  CPK_rate:  0.025
+  rule1: 0.4
+  rule2: 0.276
+  rule3: 0.25
+  rule4: 0.25
+  rule5: 0.136
+  rule6: 0.03
+  rule7: 0.0
+  rule8: 0.0
+
+已写入: /home/yinrong/post-train/impl2.1/round3/results/R3-claude-fair.json

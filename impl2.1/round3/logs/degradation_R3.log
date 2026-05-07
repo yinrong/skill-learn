@@ -1,0 +1,31 @@
+Loaded base scores for base-14B: ['arc_challenge', 'gsm8k', 'hellaswag', 'mmlu', 'truthfulqa_mc1', 'winogrande']
+Loaded base scores for base-32B: ['arc_challenge', 'gsm8k', 'hellaswag', 'mmlu', 'truthfulqa_mc1', 'winogrande']
+
+sft-14B-R3-AB-v2 (base: base-14B):
+  arc_challenge: base=0.6075 sft=0.6101 deg=-0.0042
+  gsm8k: base=0.1827 sft=0.1486 deg=0.1867
+  hellaswag: base=0.7882 sft=0.7991 deg=-0.0139
+  mmlu: base=0.7715 sft=0.7682 deg=0.0042
+  truthfulqa_mc1: base=0.4051 sft=0.4051 deg=0.0000
+  winogrande: base=0.7309 sft=0.7222 deg=0.0119
+  → avg_degradation: 0.0308 (3.08%)
+
+sft-14B-R3-D1 (base: base-14B):
+  arc_challenge: base=0.6075 sft=0.6118 deg=-0.0070
+  gsm8k: base=0.1827 sft=0.1562 deg=0.1452
+  hellaswag: base=0.7882 sft=0.7985 deg=-0.0131
+  mmlu: base=0.7715 sft=0.7674 deg=0.0053
+  truthfulqa_mc1: base=0.4051 sft=0.4027 deg=0.0060
+  winogrande: base=0.7309 sft=0.7285 deg=0.0032
+  → avg_degradation: 0.0233 (2.33%)
+
+sft-32B-R3-D2 (base: base-32B):
+  arc_challenge: base=0.6092 sft=0.6041 deg=0.0084
+  gsm8k: base=0.6444 sft=0.6217 deg=0.0353
+  hellaswag: base=0.8268 sft=0.8275 deg=-0.0008
+  mmlu: base=0.8072 sft=0.8104 deg=-0.0039
+  truthfulqa_mc1: base=0.3868 sft=0.3892 deg=-0.0063
+  winogrande: base=0.7301 sft=0.7340 deg=-0.0054
+  → avg_degradation: 0.0045 (0.45%)
+
+Degradation summary written to common/benchmark_results/degradation_summary.json

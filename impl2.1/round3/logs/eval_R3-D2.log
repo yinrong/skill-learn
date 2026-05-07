@@ -1,0 +1,4 @@
+评测模型: R3-D2  样本数: 200  并发: 4  条件: no_skill
+  [20/200] running rule_f1=0.383
+  [40/200] running rule_f1=0.374
+  [60/200] running rule_f1=0.396

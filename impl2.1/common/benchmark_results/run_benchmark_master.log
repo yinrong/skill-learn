@@ -1,0 +1,29 @@
+[16:15:46] aria2c 预下载数据集（16连接/文件，8文件并行）...
+[16:15:46] 预下载部分失败（见 prefetch.log），继续推理
+[16:15:46] HF_DATASETS_OFFLINE=1，开始并行推理
+[16:15:46] START  base-8B  GPU=0
+[16:15:46] START  sft-8B-expLLL  GPU=1
+[16:15:46] START  base-14B  GPU=2
+[16:15:46] START  sft-14B-expYYY  GPU=3
+[16:15:46] START  base-32B  GPU=4
+[16:15:46] START  sft-32B-expHHH  GPU=5
+[17:05:28] FINISH sft-8B-expLLL
+[17:07:58] FINISH base-8B
+OK:   base-8B
+OK:   sft-8B-expLLL
+[17:23:03] FINISH sft-14B-expYYY
+[17:25:03] FINISH base-14B
+OK:   base-14B
+OK:   sft-14B-expYYY
+[18:13:20] FINISH base-32B
+OK:   base-32B
+[18:14:41] FINISH sft-32B-expHHH
+OK:   sft-32B-expHHH
+
+所有模型评测完成，运行 compute_degradation.py 计算退化率
+[skip] missing results for sft-8B-expLLL or base-8B
+[skip] missing results for sft-14B-expYYY or base-14B
+[skip] missing results for sft-32B-expHHH or base-32B
+
+[saved] /home/yinrong/post-train/impl2.1/common/tools/benchmark/../../benchmark_results/degradation_summary.json
+[saved] /home/yinrong/post-train/impl2.1/common/tools/benchmark/../../benchmark_results/degradation_summary.md

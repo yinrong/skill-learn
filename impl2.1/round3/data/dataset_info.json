@@ -1,0 +1,102 @@
+{
+  "spc_r3_A": {
+    "file_name": "/home/yinrong/post-train/impl2.1/round3/data/train_R3-A.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_B": {
+    "file_name": "/home/yinrong/post-train/impl2.1/round3/data/train_R3-B.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_AB": {
+    "file_name": "/home/yinrong/post-train/impl2.1/round3/data/train_R3-AB.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_A_v2": {
+    "file_name": "/home/yinrong/post-train/impl2.1/round3/data/train_R3-A-v2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_B_v2": {
+    "file_name": "/home/yinrong/post-train/impl2.1/round3/data/train_R3-B-v2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_AB_v2": {
+    "file_name": "/home/yinrong/post-train/impl2.1/round3/data/train_R3-AB-v2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_grpo": {
+    "file_name": "/home/yinrong/post-train/impl2.1/round3/data/train_R3-grpo.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_AB_v3": {
+    "file_name": "/home/yinrong/post-train/impl2.1/round3/data/train_R3-AB-v3.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_AB_v4": {
+    "file_name": "train_R3-AB-v4.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "spc_r3_AB_v2_lowlr": {
+    "file_name": "train_R3-AB-v2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+# R3-B：扩充 ns 数据池 + 多角色 ws（方向B）
+# 数据：expYYY(250ws+250ns) + ns_v5(300) + multirole_ws(200) = ~1000 条
+# 基础：Qwen3-14B  目标：F1 ~0.46+
+
+model_name_or_path: /home/yinrong/models/Qwen3-14B
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 128
+lora_alpha: 256
+lora_dropout: 0.0
+lora_target: all
+
+# dataset: 由 prepare_data.sh 注册后填写
+dataset: spc_r3_B
+dataset_dir: /home/yinrong/post-train/impl2.1/round3/data
+cutoff_len: 5120
+
+num_train_epochs: 3
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-04
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 1
+
+output_dir: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B
+
+do_train: true
+report_to: none

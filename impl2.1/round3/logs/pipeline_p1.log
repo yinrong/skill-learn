@@ -1,0 +1,129 @@
+[15:27:16] 等待 R3-AB-v2 评测完成...
+[17:58:54] R3-AB-v2 评测完成！
+=== R3-AB-v2 评测结果 ===
+  rule_f1=0.420
+  per_rule_recall: {'rule1': 0.925, 'rule2': 0.276, 'rule3': 0.5, 'rule4': 0.875, 'rule5': 0.545, 'rule6': 0.667, 'rule7': 0.389, 'rule8': 0.385}
+  cpk_mae=0.078, inference=45.4s
+[17:58:54] ===== 开始 R3-C GRPO 训练 =====
+[17:58:54] [R3-C] 开始 GRPO 训练...
+[WARNING|2026-04-28 17:59:00] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[INFO|2026-04-28 17:59:06] llamafactory.cli:143 >> Initializing 8 distributed tasks at: 127.0.0.1:46413
+W0428 17:59:08.308000 469358 torch/distributed/run.py:852] 
+W0428 17:59:08.308000 469358 torch/distributed/run.py:852] *****************************************
+W0428 17:59:08.308000 469358 torch/distributed/run.py:852] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0428 17:59:08.308000 469358 torch/distributed/run.py:852] *****************************************
+[W428 17:59:19.559072466 ProcessGroupNCCL.cpp:929] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[WARNING|2026-04-28 17:59:21] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/llamafactory/launcher.py", line 23, in <module>
+[rank3]:     launch()
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/llamafactory/launcher.py", line 19, in launch
+[rank3]:     run_exp()
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/llamafactory/train/tuner.py", line 110, in run_exp
+[rank3]:     _training_function(config={"args": args, "callbacks": callbacks})
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/llamafactory/train/tuner.py", line 55, in _training_function
+[rank3]:     model_args, data_args, training_args, finetuning_args, generating_args = get_train_args(args)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/llamafactory/hparams/parser.py", line 208, in get_train_args
+[rank3]:     model_args, data_args, training_args, finetuning_args, generating_args = _parse_train_args(args)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/llamafactory/hparams/parser.py", line 186, in _parse_train_args
+[rank3]:     return _parse_args(parser, args, allow_extra_keys=allow_extra_keys)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/llamafactory/hparams/parser.py", line 80, in _parse_args
+[rank3]:     return parser.parse_dict(args, allow_extra_keys=allow_extra_keys)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/transformers/hf_argparser.py", line 383, in parse_dict
+[rank3]:     raise ValueError(f"Some keys are not used by the HfArgumentParser: {sorted(unused_keys)}")
+[rank3]: ValueError: Some keys are not used by the HfArgumentParser: ['grpo_beta', 'num_generations', 'reward_fn_name']
+W0428 17:59:23.222000 469358 torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 469423 closing signal SIGTERM
+W0428 17:59:23.222000 469358 torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 469424 closing signal SIGTERM
+W0428 17:59:23.223000 469358 torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 469425 closing signal SIGTERM
+W0428 17:59:23.223000 469358 torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 469427 closing signal SIGTERM
+W0428 17:59:23.224000 469358 torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 469428 closing signal SIGTERM
+W0428 17:59:23.224000 469358 torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 469429 closing signal SIGTERM
+W0428 17:59:23.224000 469358 torch/distributed/elastic/multiprocessing/api.py:1010] Sending process 469430 closing signal SIGTERM
+E0428 17:59:23.518000 469358 torch/distributed/elastic/multiprocessing/api.py:984] failed (exitcode: 1) local_rank: 3 (pid: 469426) of binary: /usr/bin/python3.10
+Traceback (most recent call last):
+  File "/usr/local/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 362, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 991, in main
+    run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 982, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 170, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 317, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/usr/local/lib/python3.10/dist-packages/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-04-28_17:59:23
+  host      : de-13162-0421104910-rqkhj-0421104911-7bd89c888c-szfnz
+  rank      : 0 (local_rank: 0)
+  exitcode  : -15 (pid: 469423)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 469423
+[2]:
+  time      : 2026-04-28_17:59:23
+  host      : de-13162-0421104910-rqkhj-0421104911-7bd89c888c-szfnz
+  rank      : 1 (local_rank: 1)
+  exitcode  : -15 (pid: 469424)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 469424
+[3]:
+  time      : 2026-04-28_17:59:23
+  host      : de-13162-0421104910-rqkhj-0421104911-7bd89c888c-szfnz
+  rank      : 2 (local_rank: 2)
+  exitcode  : -15 (pid: 469425)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 469425
+[4]:
+  time      : 2026-04-28_17:59:23
+  host      : de-13162-0421104910-rqkhj-0421104911-7bd89c888c-szfnz
+  rank      : 4 (local_rank: 4)
+  exitcode  : -15 (pid: 469427)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 469427
+[5]:
+  time      : 2026-04-28_17:59:23
+  host      : de-13162-0421104910-rqkhj-0421104911-7bd89c888c-szfnz
+  rank      : 5 (local_rank: 5)
+  exitcode  : -15 (pid: 469428)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 469428
+[6]:
+  time      : 2026-04-28_17:59:23
+  host      : de-13162-0421104910-rqkhj-0421104911-7bd89c888c-szfnz
+  rank      : 6 (local_rank: 6)
+  exitcode  : -15 (pid: 469429)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 469429
+[7]:
+  time      : 2026-04-28_17:59:23
+  host      : de-13162-0421104910-rqkhj-0421104911-7bd89c888c-szfnz
+  rank      : 7 (local_rank: 7)
+  exitcode  : -15 (pid: 469430)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 469430
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-04-28_17:59:23
+  host      : de-13162-0421104910-rqkhj-0421104911-7bd89c888c-szfnz
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 469426)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Traceback (most recent call last):
+  File "/usr/local/bin/llamafactory-cli", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/llamafactory/cli.py", line 130, in main
+    process = subprocess.run(
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['torchrun', '--nnodes', '1', '--node_rank', '0', '--nproc_per_node', '8', '--master_addr', '127.0.0.1', '--master_port', '46413', '/usr/local/lib/python3.10/dist-packages/llamafactory/launcher.py', '/home/yinrong/post-train/impl2.1/round3/configs/R3-C-grpo.yaml']' returned non-zero exit status 1.
+[17:59:25] [R3-C] GRPO 训练失败，跳过（继续 QLoRA 实验）
+touch: cannot touch '/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C/.failed': No such file or directory

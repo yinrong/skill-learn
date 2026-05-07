@@ -1,0 +1,1813 @@
+[13:43:00] 等待 R3-B 训练完成...
+[14:13:03] R3-B 训练完成！
+[14:13:04] [R3-B] 合并 adapter...
+[WARNING|2026-04-28 14:13:10] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,251 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,252 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,252 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,252 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,252 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,252 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,252 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-28 14:13:16,548 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-04-28 14:13:16,562 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-28 14:13:16,564 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,583 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,583 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,583 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,583 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,583 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,583 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:13:16,583 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-28 14:13:16,862 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-04-28 14:13:16,885 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-28 14:13:16,885 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[WARNING|logging.py:328] 2026-04-28 14:13:16,885 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|2026-04-28 14:13:16] llamafactory.model.model_utils.kv_cache:143 >> KV cache is enabled for faster generation.
+[WARNING|logging.py:328] 2026-04-28 14:13:17,001 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|modeling_utils.py:1169] 2026-04-28 14:13:17,010 >> loading weights file /home/yinrong/models/Qwen3-14B/model.safetensors.index.json
+[INFO|modeling_utils.py:2341] 2026-04-28 14:13:17,014 >> Instantiating Qwen3ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:986] 2026-04-28 14:13:17,015 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 147.75it/s]
+[INFO|configuration_utils.py:939] 2026-04-28 14:13:17,131 >> loading configuration file /home/yinrong/models/Qwen3-14B/generation_config.json
+[INFO|configuration_utils.py:986] 2026-04-28 14:13:17,132 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "temperature": 0.6,
+  "top_k": 20,
+  "top_p": 0.95
+}
+
+[INFO|dynamic_module_utils.py:423] 2026-04-28 14:13:17,134 >> Could not locate the custom_generate/generate.py inside /home/yinrong/models/Qwen3-14B.
+[INFO|2026-04-28 14:13:17] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-04-28 14:13:59] llamafactory.model.adapter:143 >> Merged 1 adapter(s).
+[INFO|2026-04-28 14:13:59] llamafactory.model.adapter:143 >> Loaded adapter(s): /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B
+[INFO|2026-04-28 14:13:59] llamafactory.model.loader:143 >> all params: 14,768,307,200
+[INFO|2026-04-28 14:13:59] llamafactory.train.tuner:143 >> Convert model dtype to: torch.bfloat16.
+[INFO|configuration_utils.py:491] 2026-04-28 14:13:59,331 >> Configuration saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged/config.json
+[INFO|configuration_utils.py:757] 2026-04-28 14:13:59,349 >> Configuration saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged/generation_config.json
+[INFO|modeling_utils.py:4189] 2026-04-28 14:14:58,418 >> The model is bigger than the maximum size per checkpoint (2GB) and is going to be split in 15 checkpoint shards. You can find where each parameters has been saved in the index located at /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2561] 2026-04-28 14:14:58,432 >> chat template saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-28 14:14:58,450 >> tokenizer config file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-28 14:14:58,471 >> Special tokens file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged/special_tokens_map.json
+[INFO|2026-04-28 14:14:58] llamafactory.train.tuner:143 >> Ollama modelfile saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged/Modelfile
+合并配置：
+  base:    /home/yinrong/models/Qwen3-14B
+  adapter: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B
+  output:  /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged
+执行：llamafactory-cli export /tmp/tmpqtmrdaqf.yaml
+✓ 合并完成，safetensors 文件数：15
+  输出目录：/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged
+[14:15:03] [R3-B] 合并完成：/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged
+[14:15:03] [R3-B] 启动 vLLM（端口 8032）...
+[14:15:03] 等待 vLLM 就绪（port 8032）...
+启动 vLLM：port=8032  model=/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-B-merged
+  pid=449629  日志：/tmp/vllm_8032.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+  等待 vLLM 启动... (http://localhost:8032/health)
+✓ vLLM 已就绪：http://localhost:8032
+[14:16:44] vLLM 8032 就绪（21×5s）
+[14:16:44] [R3-B] 开始评测...
+评测模型: R3-B  样本数: 200  并发: 4  条件: no_skill
+  [20/200] running rule_f1=0.374
+  [40/200] running rule_f1=0.434
+  [60/200] running rule_f1=0.450
+  [80/200] running rule_f1=0.412
+  [100/200] running rule_f1=0.423
+  [120/200] running rule_f1=0.400
+  [140/200] running rule_f1=0.386
+  [160/200] running rule_f1=0.390
+  [180/200] running rule_f1=0.383
+  [200/200] running rule_f1=0.372
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.372
+  cpk_mae:                 0.076
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  45491.4
+  inference_time_ms_p95:   47097.8
+
+各规则 recall：
+  rule1: 0.725
+  rule2: 0.276
+  rule3: 0.464
+  rule4: 0.875
+  rule5: 0.636
+  rule6: 0.667
+  rule7: 0.278
+  rule8: 0.308
+
+结果已写入：/home/yinrong/post-train/impl2.1/round3/results/R3-B.json
+[14:54:48] [R3-B] 评测完成：/home/yinrong/post-train/impl2.1/round3/results/R3-B.json
+=== R3-B 评测结果 ===
+  rule_f1=0.372
+  per_rule_recall: {'rule1': 0.725, 'rule2': 0.276, 'rule3': 0.464, 'rule4': 0.875, 'rule5': 0.636, 'rule6': 0.667, 'rule7': 0.278, 'rule8': 0.308}
+  cpk_mae=0.076, inference=45.5s
+[14:54:54] ===== 开始 R3-AB 训练（A+B 组合，1460 条）=====
+[14:54:54] [R3-AB] 开始训练...
+[WARNING|2026-04-28 14:55:00] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[INFO|2026-04-28 14:55:05] llamafactory.cli:143 >> Initializing 8 distributed tasks at: 127.0.0.1:50101
+W0428 14:55:08.044000 452486 torch/distributed/run.py:852] 
+W0428 14:55:08.044000 452486 torch/distributed/run.py:852] *****************************************
+W0428 14:55:08.044000 452486 torch/distributed/run.py:852] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0428 14:55:08.044000 452486 torch/distributed/run.py:852] *****************************************
+[WARNING|2026-04-28 14:55:18] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[W428 14:55:21.034543512 ProcessGroupNCCL.cpp:929] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[W428 14:55:21.125996541 ProcessGroupNCCL.cpp:929] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[INFO|2026-04-28 14:55:21] llamafactory.hparams.parser:143 >> Set `ddp_find_unused_parameters` to False in DDP training since LoRA is enabled.
+[INFO|2026-04-28 14:55:21] llamafactory.hparams.parser:406 >> Process rank: 6, world size: 8, device: cuda:6, distributed training: True, compute dtype: torch.bfloat16
+[INFO|2026-04-28 14:55:21] llamafactory.hparams.parser:406 >> Process rank: 0, world size: 8, device: cuda:0, distributed training: True, compute dtype: torch.bfloat16
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:21,966 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:21,966 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:21,966 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:21,966 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:21,966 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:21,966 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:21,966 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-28 14:55:22,249 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-04-28 14:55:22,267 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-28 14:55:22,269 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:22,290 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:22,290 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:22,290 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:22,290 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:22,290 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:22,290 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 14:55:22,290 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-28 14:55:22,591 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|2026-04-28 14:55:22] llamafactory.data.loader:143 >> Loading dataset /home/yinrong/post-train/impl2.1/round3/data/train_R3-AB.jsonl...
+[W428 14:55:22.814162878 ProcessGroupNCCL.cpp:929] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[W428 14:55:23.198550619 ProcessGroupNCCL.cpp:929] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[W428 14:55:23.410382154 ProcessGroupNCCL.cpp:929] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[W428 14:55:23.446886433 ProcessGroupNCCL.cpp:929] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[INFO|2026-04-28 14:55:23] llamafactory.hparams.parser:406 >> Process rank: 4, world size: 8, device: cuda:4, distributed training: True, compute dtype: torch.bfloat16
+[W428 14:55:23.594319672 ProcessGroupNCCL.cpp:929] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[W428 14:55:23.605150670 ProcessGroupNCCL.cpp:929] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 1101 examples [00:00, 5997.42 examples/s]Generating train split: 1460 examples [00:00, 5881.29 examples/s]
+[INFO|2026-04-28 14:55:24] llamafactory.hparams.parser:406 >> Process rank: 1, world size: 8, device: cuda:1, distributed training: True, compute dtype: torch.bfloat16
+Converting format of dataset:   0%|          | 0/1460 [00:00<?, ? examples/s]Converting format of dataset:  23%|██▎       | 334/1460 [00:00<00:00, 2551.61 examples/s]Converting format of dataset: 100%|██████████| 1460/1460 [00:00<00:00, 5434.92 examples/s]Converting format of dataset: 100%|██████████| 1460/1460 [00:00<00:00, 4635.15 examples/s]
+/usr/local/lib/python3.10/dist-packages/torch/distributed/c10d_logger.py:83: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  return func(*args, **kwargs)
+[rank0]:[W428 14:55:24.592294849 ProcessGroupNCCL.cpp:5138] Guessing device ID based on global rank. This can cause a hang if rank to GPU mapping is heterogeneous. You can specify device_id in init_process_group()
+[INFO|2026-04-28 14:55:24] llamafactory.hparams.parser:406 >> Process rank: 3, world size: 8, device: cuda:3, distributed training: True, compute dtype: torch.bfloat16
+[INFO|2026-04-28 14:55:24] llamafactory.hparams.parser:406 >> Process rank: 2, world size: 8, device: cuda:2, distributed training: True, compute dtype: torch.bfloat16
+[INFO|2026-04-28 14:55:24] llamafactory.hparams.parser:406 >> Process rank: 7, world size: 8, device: cuda:7, distributed training: True, compute dtype: torch.bfloat16
+[INFO|2026-04-28 14:55:24] llamafactory.hparams.parser:406 >> Process rank: 5, world size: 8, device: cuda:5, distributed training: True, compute dtype: torch.bfloat16
+Parameter 'function'=<bound method SupervisedDatasetProcessor.preprocess_dataset of SupervisedDatasetProcessor(template=ReasoningTemplate(format_user=StringFormatter(slots=['<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_assistant=StringFormatter(slots=['{{content}}<|im_end|>\n'], tool_format=None), format_system=StringFormatter(slots=['<|im_start|>system\n{{content}}<|im_end|>\n'], tool_format=None), format_function=FunctionFormatter(slots=['{{content}}<|im_end|>\n'], tool_format='qwen'), format_observation=StringFormatter(slots=['<|im_start|>user\n<tool_response>\n{{content}}\n</tool_response><|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_tools=ToolFormatter(slots=[], tool_format='qwen'), format_prefix=EmptyFormatter(slots=[], tool_format=None), default_system='', stop_words=['<|im_end|>'], thought_words=('<think>', '</think>'), efficient_eos=False, replace_eos=True, replace_jinja_template=False, enable_thinking=True, mm_plugin=BasePlugin(image_token=None, video_token=None, audio_token=None, expand_mm_tokens=True)), tokenizer=Qwen2TokenizerFast(name_or_path='/home/yinrong/models/Qwen3-14B', vocab_size=151643, model_max_length=131072, is_fast=True, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'additional_special_tokens': ['<|im_start|>', '<|im_end|>', '<|object_ref_start|>', '<|object_ref_end|>', '<|box_start|>', '<|box_end|>', '<|quad_start|>', '<|quad_end|>', '<|vision_start|>', '<|vision_end|>', '<|vision_pad|>', '<|image_pad|>', '<|video_pad|>']}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	151643: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151644: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151645: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151646: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151647: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151648: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151649: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151650: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151651: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151652: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151653: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151654: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151655: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151656: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151657: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151658: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151659: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151660: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151661: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151662: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151663: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151664: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151665: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151666: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151667: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151668: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+}
+), processor=None, data_args=DataArguments(template='qwen3', dataset=['spc_r3_AB'], eval_dataset=None, dataset_dir='/home/yinrong/post-train/impl2.1/round3/data', media_dir='/home/yinrong/post-train/impl2.1/round3/data', cutoff_len=5120, train_on_prompt=False, mask_history=False, streaming=False, buffer_size=16384, mix_strategy='concat', interleave_probs=None, overwrite_cache=False, preprocessing_batch_size=1000, preprocessing_num_workers=None, max_samples=None, eval_num_beams=None, ignore_pad_token_for_loss=True, val_size=0.0, eval_on_each_dataset=False, packing=False, neat_packing=False, tool_format=None, default_system=None, enable_thinking=True, tokenized_path=None, data_shared_file_system=False))> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Running tokenizer on dataset:   0%|          | 0/1460 [00:00<?, ? examples/s]Running tokenizer on dataset:  68%|██████▊   | 1000/1460 [00:07<00:03, 142.65 examples/s]Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 139.71 examples/s]Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 135.60 examples/s]
+training example:
+input_ids:
+[151644, 8948, 198, 56568, 110124, 328, 4872, 83002, 98, 38507, 99235, 3407, 46725, 328, 4872, 58657, 97771, 101139, 108750, 30742, 271, 14777, 5373, 45, 21395, 220, 23, 38989, 100359, 28029, 104190, 271, 104190, 29991, 37029, 105205, 106918, 9909, 12937, 16, 21216, 12937, 23, 48272, 104317, 13343, 100645, 103346, 106918, 29991, 3407, 91, 54955, 226, 46448, 915, 760, 54955, 99, 28291, 76095, 9909, 99219, 60610, 64559, 7552, 760, 38433, 104, 64559, 9248, 91, 513, 91, 771, 4421, 91, 16565, 7360, 91, 5912, 16, 760, 220, 108112, 334, 16, 27442, 334, 108337, 547, 3140, 92313, 444, 3140, 9909, 52, 3140, 28, 99472, 25511, 10, 18, 43928, 3837, 43, 3140, 28, 99472, 25511, 12, 18, 43928, 7552, 760, 10236, 103, 223, 28291, 70633, 3837, 100360, 104078, 102808, 9248, 91, 5912, 17, 760, 32181, 252, 99448, 334, 24, 27442, 334, 85248, 18493, 99472, 25511, 102700, 99772, 9909, 35987, 29, 99472, 25511, 92313, 34369, 101, 27, 99472, 25511, 7552, 760, 4891, 251, 229, 25511, 72448, 33071, 100574, 59534, 9248, 91, 5912, 18, 760, 32181, 252, 99448, 334, 21, 27442, 334, 100470, 118682, 100520, 49185, 92313, 220, 100470, 118682, 100520, 99536, 760, 8908, 114, 233, 99272, 33071, 100574, 59534, 9909, 113951, 5373, 109964, 7552, 9248, 91, 5912, 19, 760, 32181, 252, 99448, 334, 16, 19, 27442, 334, 100470, 115662, 114648, 9909, 35363, 92674, 3837, 73157, 118616, 112244, 100696, 99604, 7552, 760, 4891, 239, 101, 22704, 33071, 107696, 9248, 91, 5912, 20, 760, 32181, 252, 99448, 334, 18, 27442, 334, 105656, 334, 17, 27442, 334, 18493, 40916, 99772, 17, 43928, 21216, 18, 43928, 108617, 9909, 71304, 17, 43928, 77288, 38342, 71304, 18, 43928, 7552, 760, 32181, 229, 38507, 99788, 105184, 112115, 104757, 9248, 91, 5912, 21, 760, 32181, 252, 99448, 334, 20, 27442, 334, 105656, 334, 19, 27442, 334, 18493, 40916, 99772, 16, 43928, 21216, 18, 43928, 108617, 9909, 71304, 16, 43928, 77288, 38342, 71304, 18, 43928, 7552, 760, 4891, 251, 229, 25511, 99835, 59534, 106338, 9248, 91, 5912, 22, 760, 32181, 252, 99448, 334, 16, 20, 27442, 334, 85248, 18493, 99472, 25511, 37021, 16, 43928, 108341, 9909, 101244, 113379, 27, 43928, 7552, 760, 98313, 233, 32757, 115801, 102004, 57191, 20074, 99250, 119506, 22418, 9248, 91, 5912, 23, 760, 32181, 252, 99448, 334, 23, 27442, 334, 85248, 18493, 99472, 25511, 37021, 16, 43928, 105175, 3837, 100136, 107648, 101103, 9909, 37021, 108549, 7552, 760, 26853, 234, 100035, 101450, 57191, 100235, 43268, 100235, 41406, 35721, 99335, 108568, 28311, 12, 547, 3140, 7434, 3140, 54851, 100359, 47149, 9909, 28, 4891, 251, 229, 25511, 37021, 18, 43928, 3837, 67071, 20074, 100775, 100768, 48272, 45, 21395, 54955, 226, 46448, 37029, 100359, 47149, 198, 12, 2274, 43, 14, 7268, 43, 54851, 106453, 47149, 9909, 67071, 99655, 101931, 89012, 22382, 48272, 100751, 100768, 15284, 42, 198, 12, 220, 16, 43928, 99278, 284, 508, 99472, 25511, 12, 43928, 11, 4891, 251, 229, 25511, 10, 43928, 60, 24968, 17, 43928, 99278, 108758, 284, 4891, 251, 229, 25511, 37021, 17, 43928, 24968, 18, 43928, 99278, 108758, 284, 547, 3140, 7434, 3140, 271, 40820, 5373, 101065, 70538, 9909, 100751, 5912, 20, 7382, 1111, 21, 7382, 1111, 22, 7382, 1111, 23, 19468, 79326, 27866, 220, 94305, 118, 99390, 32, 9909, 108337, 100359, 47149, 3837, 91, 113379, 91, 29, 18, 43928, 7552, 51018, 5912, 16, 198, 220, 94305, 118, 99390, 33, 9909, 17, 43928, 27, 91, 113379, 91, 144570, 18, 43928, 7552, 260, 11397, 5912, 20, 43589, 1, 47815, 99772, 17, 27442, 698, 220, 94305, 118, 99390, 34, 9909, 16, 43928, 27, 91, 113379, 91, 144570, 17, 43928, 7552, 260, 11397, 5912, 21, 43589, 1, 47815, 99772, 19, 27442, 698, 220, 94305, 118, 99390, 35, 9909, 91, 113379, 91, 144570, 16, 43928, 3837, 91676, 37021, 16, 43928, 31843, 7552, 220, 11397, 5912, 22, 24968, 37021, 16, 43928, 47815, 118410, 5912, 23, 43589, 1, 47815, 99772, 1837, 44991, 5373, 7123, 42, 33424, 94, 69103, 105652, 271, 220, 220, 16, 13, 33424, 94, 69103, 856, 136, 226, 9909, 110241, 99472, 25511, 7552, 33108, 274, 9909, 110241, 100142, 99572, 23083, 220, 220, 17, 13, 547, 3140, 284, 856, 136, 226, 488, 220, 18, 82, 3837, 43, 3140, 284, 856, 136, 226, 481, 220, 18, 82, 9909, 100359, 47149, 3837, 100751, 26464, 54955, 226, 46448, 104317, 23083, 220, 220, 18, 13, 13940, 284, 320, 2034, 43, 481, 856, 136, 226, 8, 608, 320, 18, 82, 340, 220, 220, 19, 13, 89480, 284, 320, 87, 136, 226, 481, 444, 7984, 8, 608, 320, 18, 82, 340, 220, 220, 20, 13, 15284, 42, 284, 1308, 3025, 6325, 11, 89480, 692, 220, 760, 15284, 42, 981, 760, 10236, 255, 231, 52334, 256, 760, 4891, 119, 118, 96422, 104776, 981, 9248, 220, 760, 18088, 91, 513, 91, 771, 7360, 220, 760, 62147, 220, 16, 13, 21, 22, 262, 760, 220, 101944, 256, 760, 26853, 107, 101134, 104778, 64952, 32571, 220, 9248, 220, 760, 220, 16, 13, 18, 18, 93, 16, 13, 21, 22, 760, 8908, 231, 107, 52801, 256, 760, 44054, 112, 68878, 104728, 104238, 262, 9248, 220, 760, 220, 16, 13, 15, 15, 93, 16, 13, 18, 18, 760, 220, 100141, 256, 760, 93883, 99193, 104814, 286, 9248, 220, 760, 366, 220, 16, 13, 15, 15, 262, 760, 86009, 102418, 760, 10236, 104, 233, 91676, 105853, 99917, 262, 35721, 63703, 5373, 66017, 68805, 101882, 271, 220, 220, 16, 13, 73562, 220, 151667, 4891, 251, 245, 31843, 100062, 38989, 101071, 5912, 16, 21216, 12937, 23, 3837, 111916, 104190, 100645, 103346, 100398, 27442, 24156, 33108, 111944, 198, 220, 220, 17, 13, 19468, 245, 20221, 856, 136, 226, 5373, 82, 5373, 52, 3140, 5373, 43, 3140, 5373, 31615, 5373, 34, 2916, 5373, 7123, 42, 43589, 100768, 100178, 198, 220, 220, 18, 13, 71928, 96, 16744, 1, 70633, 104317, 1, 37474, 100645, 11622, 5912, 16, 7382, 1111, 17, 14, 1112, 14, 12937, 23, 51461, 229, 99334, 29991, 114116, 102615, 104190, 198, 220, 220, 19, 13, 44054, 247, 20221, 104102, 18, 38989, 104285, 30440, 101041, 75117, 9370, 104776, 101898, 198, 1518, 43256, 151645, 198, 151644, 872, 198, 14880, 101042, 107976, 99433, 90885, 20074, 3837, 110298, 101071, 55338, 220, 23, 60596, 94, 26464, 54955, 226, 46448, 64471, 102615, 3837, 100768, 15284, 42, 90395, 107485, 104285, 30440, 101041, 75117, 9370, 104776, 101898, 8997, 99433, 90885, 27442, 20074, 9909, 54899, 17, 20, 27442, 7552, 5122, 58, 24, 13, 22, 19, 11, 220, 16, 15, 13, 15, 16, 11, 220, 24, 13, 22, 19, 11, 220, 24, 13, 16, 17, 11, 220, 16, 16, 13, 15, 19, 11, 220, 24, 13, 21, 19, 11, 220, 24, 13, 20, 22, 11, 220, 24, 13, 24, 11, 220, 24, 13, 20, 11, 220, 24, 13, 21, 11, 220, 24, 13, 16, 11, 220, 24, 13, 21, 20, 11, 220, 24, 13, 20, 23, 11, 220, 24, 13, 23, 17, 11, 220, 24, 13, 22, 11, 220, 24, 13, 15, 24, 11, 220, 23, 13, 24, 18, 11, 220, 24, 13, 19, 17, 11, 220, 24, 13, 21, 24, 11, 220, 24, 13, 20, 16, 11, 220, 24, 13, 24, 11, 220, 24, 13, 24, 17, 11, 220, 24, 13, 17, 20, 11, 220, 24, 13, 15, 22, 11, 220, 24, 13, 22, 17, 921, 2034, 43, 28, 16, 16, 13, 21, 3837, 7268, 43, 28, 23, 13, 15, 19, 3837, 3140, 28, 24, 13, 21, 22, 23, 151645, 198, 151644, 77091, 198, 151667, 271, 151668, 271, 334, 10904, 109331, 5122, 100787, 100768, 10958, 56177, 334, 105966, 20074, 9909, 17, 20, 27442, 7552, 5122, 1019, 24, 13, 22, 19, 11, 220, 16, 15, 13, 15, 16, 11, 220, 24, 13, 22, 19, 11, 220, 24, 13, 16, 17, 11, 220, 16, 16, 13, 15, 19, 11, 220, 24, 13, 21, 19, 11, 220, 24, 13, 20, 22, 11, 220, 24, 13, 24, 11, 220, 24, 13, 20, 11, 220, 24, 13, 21, 11, 220, 24, 13, 16, 11, 220, 24, 13, 21, 20, 11, 220, 24, 13, 20, 23, 11, 220, 24, 13, 23, 17, 11, 220, 24, 13, 22, 11, 220, 24, 13, 15, 24, 11, 220, 23, 13, 24, 18, 11, 220, 24, 13, 19, 17, 11, 220, 24, 13, 21, 24, 11, 220, 24, 13, 20, 16, 11, 220, 24, 13, 24, 11, 220, 24, 13, 24, 17, 11, 220, 24, 13, 17, 20, 11, 220, 24, 13, 15, 22, 11, 220, 24, 13, 22, 17, 271, 334, 48312, 254, 33424, 94, 69103, 99472, 25511, 856, 136, 226, 5122, 1019, 59743, 33108, 284, 220, 24, 13, 22, 19, 10, 16, 15, 13, 15, 16, 10, 24, 13, 22, 19, 10, 24, 13, 16, 17, 10, 16, 16, 13, 15, 19, 10, 24, 13, 21, 19, 10, 24, 13, 20, 22, 10, 24, 13, 24, 10, 24, 13, 20, 10, 24, 13, 21, 10, 24, 13, 16, 10, 24, 13, 21, 20, 10, 24, 13, 20, 23, 10, 24, 13, 23, 17, 10, 24, 13, 22, 10, 24, 13, 15, 24, 10, 23, 13, 24, 18, 10, 24, 13, 19, 17, 10, 24, 13, 21, 24, 10, 24, 13, 20, 16, 10, 24, 13, 24, 10, 24, 13, 24, 17, 10, 24, 13, 17, 20, 10, 24, 13, 15, 22, 10, 24, 13, 22, 17, 198, 28, 3070, 17, 19, 16, 13, 18, 16, 1019, 87, 136, 226, 284, 220, 17, 19, 16, 13, 18, 16, 608, 220, 17, 20, 284, 3070, 24, 13, 21, 20, 17, 19, 56177, 334, 48312, 94, 33424, 94, 69103, 110241, 100142, 99572, 274, 5122, 1019, 99200, 27442, 113379, 100835, 33108, 9909, 100062, 27442, 100768, 320, 87, 123912, 95, 481, 220, 24, 13, 21, 20, 17, 19, 8, 29456, 7552, 48443, 91, 10236, 23272, 760, 4891, 222, 120, 760, 4891, 223, 237, 99572, 760, 4891, 223, 237, 99572, 29456, 9248, 91, 4421, 91, 4421, 91, 4421, 91, 4421, 7360, 91, 16, 91, 24, 13, 22, 19, 91, 10, 15, 13, 15, 23, 22, 21, 91, 15, 13, 15, 15, 22, 21, 22, 19, 7360, 91, 17, 91, 16, 15, 13, 15, 16, 91, 10, 15, 13, 18, 20, 22, 21, 91, 15, 13, 16, 17, 22, 24, 16, 23, 7360, 91, 18, 91, 24, 13, 22, 19, 91, 10, 15, 13, 15, 23, 22, 21, 91, 15, 13, 15, 15, 22, 21, 22, 19, 7360, 91, 19, 91, 24, 13, 16, 17, 91, 33263, 15, 13, 20, 18, 17, 19, 91, 15, 13, 17, 23, 18, 19, 20, 15, 7360, 91, 20, 91, 16, 16, 13, 15, 19, 91, 10, 16, 13, 18, 23, 22, 21, 91, 16, 13, 24, 17, 20, 20, 20, 20, 7360, 91, 21, 91, 24, 13, 21, 19, 91, 33263, 15, 13, 15, 16, 17, 19, 91, 15, 13, 15, 15, 15, 16, 20, 19, 7360, 91, 22, 91, 24, 13, 20, 22, 91, 33263, 15, 13, 15, 23, 17, 19, 91, 15, 13, 15, 15, 21, 22, 24, 15, 7360, 91, 23, 91, 24, 13, 24, 15, 91, 10, 15, 13, 17, 19, 22, 21, 91, 15, 13, 15, 21, 16, 18, 15, 21, 7360, 91, 24, 91, 24, 13, 20, 15, 91, 33263, 15, 13, 16, 20, 17, 19, 91, 15, 13, 15, 17, 18, 17, 17, 21, 7360, 91, 16, 15, 91, 24, 13, 21, 15, 91, 33263, 15, 13, 15, 20, 17, 19, 91, 15, 13, 15, 15, 17, 22, 19, 21, 7360, 91, 16, 16, 91, 24, 13, 16, 15, 91, 33263, 15, 13, 20, 20, 17, 19, 91, 15, 13, 18, 15, 20, 16, 19, 21, 7360, 91, 16, 17, 91, 24, 13, 21, 20, 91, 33263, 15, 13, 15, 15, 17, 19, 91, 15, 13, 15, 15, 15, 15, 15, 21, 7360, 91, 16, 18, 91, 24, 13, 20, 23, 91, 33263, 15, 13, 15, 22, 17, 19, 91, 15, 13, 15, 15, 20, 17, 19, 17, 7360, 91, 16, 19, 91, 24, 13, 23, 17, 91, 10, 15, 13, 16, 21, 22, 21, 91, 15, 13, 15, 17, 23, 15, 24, 15, 7360, 91, 16, 20, 91, 24, 13, 22, 15, 91, 10, 15, 13, 15, 19, 22, 21, 91, 15, 13, 15, 15, 17, 17, 21, 21, 7360, 91, 16, 21, 91, 24, 13, 15, 24, 91, 33263, 15, 13, 20, 21, 17, 19, 91, 15, 13, 18, 16, 21, 17, 24, 19, 7360, 91, 16, 22, 91, 23, 13, 24, 18, 91, 33263, 15, 13, 22, 17, 17, 19, 91, 15, 13, 20, 17, 16, 23, 19, 17, 7360, 91, 16, 23, 91, 24, 13, 19, 17, 91, 33263, 15, 13, 17, 18, 17, 19, 91, 15, 13, 15, 20, 19, 15, 16, 15, 7360, 91, 16, 24, 91, 24, 13, 21, 24, 91, 10, 15, 13, 15, 18, 22, 21, 91, 15, 13, 15, 15, 16, 19, 16, 19, 7360, 91, 17, 15, 91, 24, 13, 20, 16, 91, 33263, 15, 13, 16, 19, 17, 19, 91, 15, 13, 15, 17, 15, 17, 22, 23, 7360, 91, 17, 16, 91, 24, 13, 24, 15, 91, 10, 15, 13, 17, 19, 22, 21, 91, 15, 13, 15, 21, 16, 18, 15, 21, 7360, 91, 17, 17, 91, 24, 13, 24, 17, 91, 10, 15, 13, 17, 21, 22, 21, 91, 15, 13, 15, 22, 16, 21, 16, 15, 7360, 91, 17, 18, 91, 24, 13, 17, 20, 91, 33263, 15, 13, 19, 15, 17, 19, 91, 15, 13, 16, 21, 16, 24, 17, 21, 7360, 91, 17, 19, 91, 24, 13, 15, 22, 91, 33263, 15, 13, 20, 23, 17, 19, 91, 15, 13, 18, 18, 24, 16, 24, 15, 7360, 91, 17, 20, 91, 24, 13, 22, 17, 91, 10, 15, 13, 15, 21, 22, 21, 91, 15, 13, 15, 15, 19, 20, 22, 15, 43738, 113379, 100835, 33108, 7851, 96, 284, 220, 15, 13, 15, 15, 22, 21, 22, 19, 10, 15, 13, 16, 17, 22, 24, 16, 23, 10, 15, 13, 15, 15, 22, 21, 22, 19, 10, 15, 13, 17, 23, 18, 19, 20, 15, 10, 16, 13, 24, 17, 20, 20, 20, 20, 10, 15, 13, 15, 15, 15, 16, 20, 19, 10, 15, 13, 15, 15, 21, 22, 24, 15, 10, 15, 13, 15, 21, 16, 18, 15, 21, 10, 15, 13, 15, 17, 18, 17, 17, 21, 10, 15, 13, 15, 15, 17, 22, 19, 21, 10, 15, 13, 18, 15, 20, 16, 19, 21, 10, 15, 13, 15, 15, 15, 15, 15, 21, 10, 15, 13, 15, 15, 20, 17, 19, 17, 10, 15, 13, 15, 17, 23, 15, 24, 15, 10, 15, 13, 15, 15, 17, 17, 21, 21, 10, 15, 13, 18, 16, 21, 17, 24, 19, 10, 15, 13, 20, 17, 16, 23, 19, 17, 10, 15, 13, 15, 20, 19, 15, 16, 15, 10, 15, 13, 15, 15, 16, 19, 16, 19, 10, 15, 13, 15, 17, 15, 17, 22, 23, 10, 15, 13, 15, 21, 16, 18, 15, 21, 10, 15, 13, 15, 22, 16, 21, 16, 15, 10, 15, 13, 16, 21, 16, 24, 17, 21, 10, 15, 13, 18, 18, 24, 16, 24, 15, 10, 15, 13, 15, 15, 19, 20, 22, 15, 198, 334, 28, 220, 19, 13, 18, 19, 19, 19, 23, 18, 56177, 82, 29456, 284, 220, 19, 13, 18, 19, 19, 19, 23, 18, 608, 320, 17, 20, 33263, 16, 8, 284, 220, 19, 13, 18, 19, 19, 19, 23, 18, 608, 220, 17, 19, 284, 3070, 15, 13, 16, 23, 16, 15, 17, 15, 1019, 82, 284, 11995, 248, 15, 13, 16, 23, 16, 15, 17, 15, 284, 3070, 15, 13, 19, 17, 20, 20, 56177, 334, 48312, 95, 80851, 43316, 47149, 9909, 45, 21395, 54955, 226, 46448, 37029, 7552, 5122, 1019, 12, 547, 3140, 284, 856, 136, 226, 488, 220, 18, 82, 284, 220, 24, 13, 21, 20, 17, 19, 488, 220, 18, 17568, 15, 13, 19, 17, 20, 20, 284, 220, 24, 13, 21, 20, 17, 19, 488, 220, 16, 13, 17, 22, 21, 20, 284, 3070, 16, 15, 13, 24, 17, 23, 24, 1019, 12, 444, 3140, 284, 856, 136, 226, 24196, 220, 18, 82, 284, 220, 24, 13, 21, 20, 17, 19, 24196, 220, 16, 13, 17, 22, 21, 20, 284, 3070, 23, 13, 18, 22, 20, 24, 56177, 334, 48312, 96, 47723, 101065, 108758, 5122, 1019, 12, 20287, 16, 43928, 5122, 58, 24, 13, 17, 17, 21, 24, 11, 220, 16, 15, 13, 15, 22, 22, 24, 921, 12, 20287, 17, 43928, 5122, 58, 23, 13, 23, 15, 16, 19, 11, 220, 16, 15, 13, 20, 15, 18, 19, 921, 12, 20287, 18, 43928, 9909, 100359, 47149, 7552, 5122, 58, 23, 13, 18, 22, 20, 24, 11, 220, 16, 15, 13, 24, 17, 23, 24, 2533, 334, 48312, 97, 15284, 42, 33424, 94, 69103, 9909, 106453, 47149, 2274, 43, 28, 16, 16, 13, 21, 3837, 7268, 43, 28, 23, 13, 15, 19, 7552, 5122, 1019, 12, 13940, 284, 320, 2034, 43, 24196, 856, 136, 226, 8, 608, 320, 18, 82, 8, 284, 320, 16, 16, 13, 21, 24196, 220, 24, 13, 21, 20, 17, 19, 8, 608, 220, 16, 13, 17, 22, 21, 20, 284, 220, 16, 13, 24, 19, 22, 21, 608, 220, 16, 13, 17, 22, 21, 20, 284, 3070, 16, 13, 20, 17, 21, 1019, 12, 89480, 284, 320, 87, 136, 226, 24196, 444, 7984, 8, 608, 320, 18, 82, 8, 284, 320, 24, 13, 21, 20, 17, 19, 24196, 220, 23, 13, 15, 19, 8, 608, 220, 16, 13, 17, 22, 21, 20, 284, 220, 16, 13, 21, 16, 17, 19, 608, 220, 16, 13, 17, 22, 21, 20, 284, 3070, 16, 13, 17, 21, 18, 1019, 12, 3070, 7123, 42, 284, 1308, 7, 16, 13, 20, 17, 21, 11, 220, 16, 13, 17, 21, 18, 8, 284, 220, 16, 13, 17, 21, 18, 56177, 44364, 334, 10904, 99802, 64682, 5122, 100062, 38989, 101071, 26464, 54955, 226, 46448, 10958, 56177, 29, 26853, 224, 77598, 109371, 5122, 87, 136, 226, 28, 24, 13, 21, 20, 17, 19, 3837, 82, 28, 15, 13, 19, 17, 20, 20, 3837, 52, 3140, 28, 16, 15, 13, 24, 17, 23, 24, 3837, 43, 3140, 28, 23, 13, 18, 22, 20, 24, 198, 29, 220, 16, 43928, 97120, 5122, 24, 13, 17, 17, 21, 24, 93, 16, 15, 13, 15, 22, 22, 24, 24968, 17, 43928, 97120, 5122, 23, 13, 23, 15, 16, 19, 93, 16, 15, 13, 20, 15, 18, 19, 271, 334, 99200, 27442, 101065, 115892, 108788, 5122, 56177, 91, 10236, 23272, 760, 4891, 222, 120, 760, 220, 57218, 99472, 25511, 100145, 760, 94305, 118, 99390, 9248, 91, 4421, 91, 4421, 91, 4421, 91, 4421, 7360, 91, 16, 91, 24, 13, 22, 19, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 91, 16, 15, 13, 15, 16, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 18, 91, 24, 13, 22, 19, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 19, 91, 24, 13, 16, 17, 91, 16872, 99772, 91, 34, 9909, 16, 43928, 93, 17, 43928, 47815, 7552, 7360, 91, 20, 91, 16, 16, 13, 15, 19, 91, 17447, 99772, 91, 334, 33, 9909, 17, 43928, 93, 18, 43928, 3837, 71304, 17, 43928, 38342, 71304, 52, 3140, 7552, 334, 7360, 91, 21, 91, 24, 13, 21, 19, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 22, 91, 24, 13, 20, 22, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 23, 91, 24, 13, 24, 15, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 24, 91, 24, 13, 20, 15, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 15, 91, 24, 13, 21, 15, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 16, 91, 24, 13, 16, 15, 91, 16872, 99772, 91, 34, 9909, 16, 43928, 93, 17, 43928, 47815, 7552, 7360, 91, 16, 17, 91, 24, 13, 21, 20, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 18, 91, 24, 13, 20, 23, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 19, 91, 24, 13, 23, 17, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 20, 91, 24, 13, 22, 15, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 21, 91, 24, 13, 15, 24, 91, 16872, 99772, 91, 34, 9909, 16, 43928, 93, 17, 43928, 47815, 7552, 7360, 91, 16, 22, 91, 23, 13, 24, 18, 91, 16872, 99772, 91, 34, 9909, 16, 43928, 93, 17, 43928, 47815, 7552, 7360, 91, 16, 23, 91, 24, 13, 19, 17, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 24, 91, 24, 13, 21, 24, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 15, 91, 24, 13, 20, 16, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 16, 91, 24, 13, 24, 15, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 17, 91, 24, 13, 24, 17, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 18, 91, 24, 13, 17, 20, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 19, 91, 24, 13, 15, 22, 91, 16872, 99772, 91, 34, 9909, 16, 43928, 93, 17, 43928, 47815, 7552, 7360, 91, 17, 20, 91, 24, 13, 22, 17, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 43738, 44364, 334, 12937, 16, 5122, 145072, 30543, 54955, 99, 28291, 1019, 2293, 10236, 23272, 20, 9909, 25511, 28, 16, 16, 13, 15, 19, 7552, 29, 547, 3140, 9909, 16, 15, 13, 24, 17, 23, 24, 48272, 108337, 17447, 100359, 47149, 1773, 334, 12937, 16, 54955, 99, 28291, 34204, 29437, 20, 27442, 334, 3407, 334, 12937, 17, 5122, 38342, 111916, 1019, 2293, 6567, 96, 222, 32876, 107189, 104005, 24, 27442, 35987, 18493, 99472, 25511, 40916, 99772, 8997, 100062, 37474, 106229, 5122, 27442, 16, 93, 18, 99472, 18493, 17447, 99772, 9909, 99373, 18, 27442, 48272, 27442, 19, 110697, 56137, 16872, 99772, 24968, 27442, 21, 93, 16, 18, 15946, 100696, 18830, 100682, 9909, 27442, 23, 17447, 99772, 3837, 27442, 16, 19, 93, 16, 20, 17447, 99772, 7552, 24968, 27442, 16, 21, 93, 17, 15, 5122, 16872, 14, 16872, 14, 16872, 14, 17447, 14, 16872, 9909, 17447, 99772, 99621, 101255, 74276, 69184, 104005, 24, 27442, 40916, 99772, 9370, 116951, 1773, 38342, 111916, 3407, 334, 12937, 18, 5122, 38342, 111916, 1019, 2293, 6567, 96, 222, 32876, 104005, 21, 27442, 100470, 118682, 8997, 12, 10236, 23272, 16, 51018, 17, 51018, 18, 51018, 19, 51018, 20, 5122, 24, 13, 22, 19, 51018, 16, 15, 13, 15, 16, 9909, 99294, 7552, 51018, 24, 13, 22, 19, 9909, 99457, 48272, 16530, 118682, 8997, 12, 10236, 23272, 16, 16, 51018, 16, 17, 51018, 16, 18, 51018, 16, 19, 51018, 16, 20, 51018, 16, 21, 5122, 24, 13, 16, 15, 51018, 24, 13, 21, 20, 51018, 24, 13, 20, 23, 9909, 99457, 7552, 51018, 24, 13, 23, 17, 9909, 99294, 48272, 16530, 118682, 8997, 12, 10236, 23272, 16, 21, 51018, 16, 22, 51018, 16, 23, 51018, 16, 24, 51018, 17, 15, 51018, 17, 16, 5122, 24, 13, 15, 24, 51018, 23, 13, 24, 18, 51018, 24, 13, 19, 17, 9909, 99294, 3837, 99577, 99457, 7552, 16530, 118682, 8997, 105088, 42192, 104005, 21, 27442, 100470, 118682, 116951, 1773, 38342, 111916, 3407, 334, 12937, 19, 5122, 38342, 111916, 1019, 2293, 6567, 96, 222, 32876, 104005, 16, 19, 27442, 100470, 115662, 114648, 9909, 35363, 92674, 7552, 8997, 45181, 27442, 16, 71618, 5122, 16, 51018, 17, 99294, 7, 143617, 69515, 17, 51018, 18, 99457, 7, 143617, 69515, 18, 51018, 19, 99457, 7, 145986, 69515, 104005, 77540, 99457, 3837, 116951, 112788, 8997, 99200, 37474, 99472, 101068, 104601, 16, 19, 27442, 104005, 115662, 1773, 38342, 111916, 3407, 334, 12937, 20, 5122, 145072, 30543, 54955, 99, 28291, 1019, 2293, 54955, 226, 46448, 5122, 104005, 18, 27442, 105656, 17, 27442, 18493, 40916, 99772, 17, 43928, 93, 18, 43928, 108617, 9909, 33, 23836, 7552, 8997, 33, 23836, 9909, 17447, 99772, 7552, 5122, 29, 16, 15, 13, 20, 15, 18, 19, 100136, 144570, 16, 15, 13, 24, 17, 23, 24, 24968, 33, 23836, 9909, 16872, 99772, 7552, 90737, 23, 13, 23, 15, 16, 19, 100136, 144481, 23, 13, 18, 22, 20, 24, 8997, 12, 10236, 23272, 20, 9909, 16, 16, 13, 15, 19, 7552, 99397, 17447, 99772, 33, 23836, 9909, 17, 43928, 93, 18, 43928, 5122, 16, 15, 13, 20, 15, 18, 19, 93, 16, 15, 13, 24, 17, 23, 24, 7552, 143617, 9909, 16, 16, 13, 15, 19, 29, 16, 15, 13, 24, 17, 23, 24, 39973, 17714, 108337, 52, 3140, 3837, 99397, 32, 23836, 27866, 29, 3070, 70361, 81167, 27442, 20, 101065, 5122, 334, 220, 16, 16, 13, 15, 19, 861, 547, 3140, 9909, 16, 15, 13, 24, 17, 23, 24, 48272, 101886, 27442, 20, 100409, 334, 32, 23836, 9909, 71304, 100359, 47149, 7552, 334, 3837, 115084, 33, 23836, 8997, 29, 425, 23836, 17447, 99772, 101121, 5122, 16, 15, 13, 20, 15, 18, 19, 366, 856, 37294, 220, 16, 15, 13, 24, 17, 23, 24, 24968, 33, 23836, 16872, 99772, 101121, 5122, 23, 13, 18, 22, 20, 24, 37294, 856, 366, 220, 23, 13, 23, 15, 16, 19, 8997, 29, 46750, 104, 100948, 55338, 27442, 5122, 42192, 99885, 27442, 118225, 33, 23836, 9909, 17447, 99772, 57191, 16872, 99772, 7552, 3407, 12937, 20, 5122, 334, 38342, 111916, 334, 1959, 220, 42192, 99885, 27442, 118225, 17, 43928, 93, 18, 43928, 9370, 33, 23836, 9909, 27442, 20, 36667, 71304, 52, 3140, 100040, 17714, 32, 23836, 48272, 16530, 101929, 1, 18, 27442, 15946, 17, 27442, 40916, 99772, 33, 23836, 1, 76095, 3407, 334, 12937, 21, 5122, 38342, 111916, 1019, 2293, 54955, 226, 46448, 5122, 104005, 20, 27442, 105656, 19, 27442, 18493, 40916, 99772, 16, 43928, 93, 18, 43928, 108617, 9909, 34, 23836, 3837, 71304, 16, 43928, 38342, 71304, 18, 43928, 7552, 8997, 34, 23836, 9909, 16872, 99772, 7552, 90737, 220, 24, 13, 17, 17, 21, 24, 220, 100136, 62147, 220, 23, 13, 18, 22, 20, 24, 24968, 34, 23836, 9909, 17447, 99772, 7552, 5122, 29, 220, 16, 15, 13, 15, 22, 22, 24, 220, 100136, 37294, 220, 16, 15, 13, 24, 17, 23, 24, 8997, 16872, 99772, 34, 23836, 27442, 5122, 27442, 19, 7, 24, 13, 16, 17, 8, 5373, 27442, 16, 16, 7, 24, 13, 16, 15, 8, 5373, 27442, 16, 21, 7, 24, 13, 15, 24, 8, 5373, 27442, 16, 22, 7, 23, 13, 24, 18, 8, 5373, 27442, 17, 19, 7, 24, 13, 15, 22, 8, 8997, 17447, 99772, 34, 23836, 27442, 5122, 27442, 17, 7, 16, 15, 13, 15, 16, 3837, 113573, 18493, 16, 43928, 108758, 16, 15, 13, 15, 22, 22, 24, 31843, 3837, 16530, 99397, 34, 23836, 8, 8997, 29, 10236, 23272, 17, 28, 16, 15, 13, 15, 16, 3837, 16, 43928, 17447, 97120, 28, 16, 15, 13, 15, 22, 22, 24, 3837, 16, 15, 13, 15, 16, 366, 220, 16, 15, 13, 15, 22, 22, 24, 3837, 99397, 35, 23836, 1773, 17447, 99772, 34, 23836, 42192, 27442, 8997, 101071, 16872, 99772, 34, 23836, 64471, 18493, 104005, 20, 27442, 105271, 15946, 100347, 19, 32571, 28311, 12, 10236, 103, 245, 39426, 58, 18, 11, 19, 11, 20, 11, 21, 11, 22, 60, 5122, 34, 23836, 27442, 99373, 27442, 19, 3837, 54899, 16, 27442, 8997, 12, 10236, 103, 245, 39426, 58, 24, 11, 16, 15, 11, 16, 16, 11, 16, 17, 11, 16, 18, 60, 5122, 34, 23836, 27442, 99373, 27442, 16, 16, 3837, 54899, 16, 27442, 8997, 12, 10236, 103, 245, 39426, 58, 16, 19, 11, 16, 20, 11, 16, 21, 11, 16, 22, 11, 16, 23, 60, 5122, 34, 23836, 27442, 17714, 27442, 16, 21, 5373, 27442, 16, 22, 3837, 54899, 17, 27442, 9909, 38342, 93488, 19, 27442, 7552, 8997, 12, 10236, 103, 245, 39426, 58, 16, 20, 11, 16, 21, 11, 16, 22, 11, 16, 23, 11, 16, 24, 60, 5122, 34, 23836, 27442, 17714, 27442, 16, 21, 5373, 27442, 16, 22, 3837, 54899, 17, 27442, 8997, 12, 10236, 103, 245, 39426, 58, 17, 17, 11, 17, 18, 11, 17, 19, 11, 17, 20, 95097, 60, 5122, 34, 23836, 27442, 99373, 27442, 17, 19, 3837, 54899, 16, 27442, 8997, 105088, 42192, 104005, 20, 27442, 105271, 31843, 40916, 99772, 34, 23836, 144481, 19, 27442, 1773, 38342, 111916, 3407, 334, 12937, 22, 5122, 38342, 111916, 1019, 2293, 54955, 226, 46448, 5122, 104005, 16, 20, 27442, 85248, 18493, 37021, 16, 43928, 108341, 9909, 35, 23836, 7552, 8997, 35, 23836, 27442, 101121, 5122, 24, 13, 17, 17, 21, 24, 93, 16, 15, 13, 15, 22, 22, 24, 8997, 65676, 35, 23836, 27442, 5122, 27442, 19, 7, 24, 13, 16, 17, 8, 5373, 27442, 20, 7, 16, 16, 13, 15, 19, 8, 5373, 27442, 16, 16, 7, 24, 13, 16, 15, 8, 5373, 27442, 16, 21, 7, 24, 13, 15, 24, 8, 5373, 27442, 16, 22, 7, 23, 13, 24, 18, 8, 5373, 27442, 17, 18, 7, 24, 13, 17, 20, 2293, 24, 13, 17, 20, 29, 24, 13, 17, 17, 21, 24, 143617, 99397, 35, 23836, 8, 5373, 27442, 17, 19, 7, 24, 13, 15, 22, 8, 8997, 29, 10236, 23272, 17, 18, 28, 24, 13, 17, 20, 3837, 24, 13, 17, 20, 861, 220, 24, 13, 17, 17, 21, 24, 3837, 99397, 35, 23836, 52375, 198, 99912, 65676, 35, 23836, 27442, 5122, 19, 5373, 20, 5373, 16, 16, 5373, 16, 21, 5373, 16, 22, 5373, 17, 19, 8997, 27442, 101920, 100082, 35, 23836, 104005, 37474, 28311, 12, 10236, 23272, 21, 93, 16, 15, 9909, 20, 27442, 104005, 35, 23836, 48272, 27442, 16, 17, 93, 16, 20, 9909, 19, 27442, 48272, 27442, 16, 23, 93, 17, 17, 9909, 20, 27442, 7552, 99472, 99427, 82647, 34204, 16, 20, 27442, 1773, 38342, 111916, 3407, 334, 12937, 23, 5122, 38342, 111916, 1019, 2293, 54955, 226, 46448, 5122, 104005, 23, 27442, 85248, 18493, 37021, 16, 43928, 105175, 3837, 100136, 102285, 99772, 108549, 8997, 37021, 16, 43928, 47815, 9370, 27442, 5122, 27442, 19, 7, 24, 13, 16, 17, 11, 16872, 8, 5373, 27442, 20, 7, 16, 16, 13, 15, 19, 11, 17447, 8, 5373, 27442, 16, 16, 7, 24, 13, 16, 15, 11, 16872, 8, 5373, 27442, 16, 21, 7, 24, 13, 15, 24, 11, 16872, 8, 5373, 27442, 16, 22, 7, 23, 13, 24, 18, 11, 16872, 8, 5373, 27442, 17, 19, 7, 24, 13, 15, 22, 11, 16872, 8, 8997, 100001, 27442, 18493, 17, 20, 18947, 99433, 90885, 15946, 16530, 104384, 104005, 23, 27442, 116951, 9909, 118616, 65676, 35, 23836, 27442, 102538, 99373, 27442, 16, 21, 5373, 16, 22, 104005, 17, 27442, 74276, 38342, 111916, 3407, 44364, 334, 10904, 106073, 5122, 70633, 104317, 10958, 56177, 97557, 20221, 3070, 16, 38989, 102615, 334, 48443, 12, 3070]
+inputs:
+<|im_start|>system
+你是一名 SPC 工程师。
+
+===== SPC 分析技能手册 =====
+
+一、Nelson 8条控制图规则
+
+规则名称使用英文标识（rule1～rule8），判断时必须引用标识名称。
+
+| 规则ID | 触发条件（精确定义） | 含义 |
+|--------|-------------------|------|
+| rule1 | 任意**1点**超出 UCL 或 LCL（UCL=均值+3σ，LCL=均值-3σ） | 突发异常，须立即响应 |
+| rule2 | 连续**9点**全部在均值同一侧（全>均值 或 全<均值） | 均值系统性漂移 |
+| rule3 | 连续**6点**严格单调递增 或 严格单调递减 | 趋势性漂移（磨损、老化） |
+| rule4 | 连续**14点**严格交替升降（zigzag，每相邻两点方向不同） | 周期性干扰 |
+| rule5 | 连续**3点**中有**2点**在同侧2σ～3σ区间（超2σ但未超3σ） | 过程能力早期恶化信号 |
+| rule6 | 连续**5点**中有**4点**在同侧1σ～3σ区间（超1σ但未超3σ） | 均值偏移预警 |
+| rule7 | 连续**15点**全部在均值±1σ以内（绝对偏差<σ） | 测量分辨率不足或数据被篡改 |
+| rule8 | 连续**8点**全部在均值±1σ以外，且两侧都有（±均有） | 双峰分布或混线混料 |
+
+重要区分：
+- UCL/LCL 是控制限（= 均值±3σ，由数据本身计算），Nelson 规则使用控制限
+- USL/LSL 是规格限（由工程规范给定），用于计算 CPK
+- 1σ带 = [均值-σ, 均值+σ]；2σ带边界 = 均值±2σ；3σ带边界 = UCL/LCL
+
+二、区域分类（用于 rule5/rule6/rule7/rule8 判断）
+
+  区域A（超出控制限，|偏差|>3σ）→ rule1
+  区域B（2σ<|偏差|≤3σ）         → rule5 的"外侧2点"
+  区域C（1σ<|偏差|≤2σ）         → rule6 的"外侧4点"
+  区域D（|偏差|≤1σ，即±1σ内）  → rule7；±1σ外才算 rule8 的"外侧"
+
+三、CPK 计算步骤
+
+  1. 计算 x̄（样本均值）和 s（样本标准差）
+  2. UCL = x̄ + 3s，LCL = x̄ - 3s（控制限，用于 Nelson 规则判断）
+  3. CPU = (USL - x̄) / (3s)
+  4. CPL = (x̄ - LSL) / (3s)
+  5. CPK = min(CPU, CPL)
+
+  | CPK       | 等级   | 建议处置       |
+  |-----------|--------|----------------|
+  | ≥ 1.67    | 优秀   | 可降低检验频次  |
+  | 1.33~1.67 | 良好   | 维持现有策略    |
+  | 1.00~1.33 | 一般   | 加强监控        |
+  | < 1.00    | 不合格 | 立即排查原因    |
+
+四、输出格式要求
+
+  1. 在 <think> 块内逐条检查 rule1～rule8，触发规则必须引用具体点位和数值
+  2. 列出 x̄、s、UCL、LCL、CPU、CPL、CPK 的计算过程
+  3. 正文"异常判断"段必须用 rule1/rule2/.../rule8 标识名称列出违规规则
+  4. 给出至少3条工厂可直接执行的处置建议
+==========================<|im_end|>
+<|im_start|>user
+请分析下列采样数据，依次检查所有 8 条 Nelson 规则是否违规，计算 CPK，并给出工厂可直接执行的处置建议。
+采样点数据（共25点）：[9.74, 10.01, 9.74, 9.12, 11.04, 9.64, 9.57, 9.9, 9.5, 9.6, 9.1, 9.65, 9.58, 9.82, 9.7, 9.09, 8.93, 9.42, 9.69, 9.51, 9.9, 9.92, 9.25, 9.07, 9.72]
+USL=11.6，LSL=8.04，CL=9.678<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+**【第一步：统计计算】**
+
+**原始数据（25点）：**
+9.74, 10.01, 9.74, 9.12, 11.04, 9.64, 9.57, 9.9, 9.5, 9.6, 9.1, 9.65, 9.58, 9.82, 9.7, 9.09, 8.93, 9.42, 9.69, 9.51, 9.9, 9.92, 9.25, 9.07, 9.72
+
+**① 计算均值 x̄：**
+总和 = 9.74+10.01+9.74+9.12+11.04+9.64+9.57+9.9+9.5+9.6+9.1+9.65+9.58+9.82+9.7+9.09+8.93+9.42+9.69+9.51+9.9+9.92+9.25+9.07+9.72
+= **241.31**
+x̄ = 241.31 / 25 = **9.6524**
+
+**② 计算样本标准差 s：**
+各点偏差平方和（逐点计算 (xᵢ - 9.6524)²）：
+
+| 点 | 值 | 偏差 | 偏差² |
+|---|---|---|---|
+|1|9.74|+0.0876|0.007674|
+|2|10.01|+0.3576|0.127918|
+|3|9.74|+0.0876|0.007674|
+|4|9.12|−0.5324|0.283450|
+|5|11.04|+1.3876|1.925555|
+|6|9.64|−0.0124|0.000154|
+|7|9.57|−0.0824|0.006790|
+|8|9.90|+0.2476|0.061306|
+|9|9.50|−0.1524|0.023226|
+|10|9.60|−0.0524|0.002746|
+|11|9.10|−0.5524|0.305146|
+|12|9.65|−0.0024|0.000006|
+|13|9.58|−0.0724|0.005242|
+|14|9.82|+0.1676|0.028090|
+|15|9.70|+0.0476|0.002266|
+|16|9.09|−0.5624|0.316294|
+|17|8.93|−0.7224|0.521842|
+|18|9.42|−0.2324|0.054010|
+|19|9.69|+0.0376|0.001414|
+|20|9.51|−0.1424|0.020278|
+|21|9.90|+0.2476|0.061306|
+|22|9.92|+0.2676|0.071610|
+|23|9.25|−0.4024|0.161926|
+|24|9.07|−0.5824|0.339190|
+|25|9.72|+0.0676|0.004570|
+
+偏差平方和 Σ = 0.007674+0.127918+0.007674+0.283450+1.925555+0.000154+0.006790+0.061306+0.023226+0.002746+0.305146+0.000006+0.005242+0.028090+0.002266+0.316294+0.521842+0.054010+0.001414+0.020278+0.061306+0.071610+0.161926+0.339190+0.004570
+**= 4.344483**
+
+s² = 4.344483 / (25−1) = 4.344483 / 24 = **0.181020**
+s = √0.181020 = **0.4255**
+
+**③ 控制限（Nelson 规则使用）：**
+- UCL = x̄ + 3s = 9.6524 + 3×0.4255 = 9.6524 + 1.2765 = **10.9289**
+- LCL = x̄ − 3s = 9.6524 − 1.2765 = **8.3759**
+
+**④ σ区域边界：**
+- ±1σ：[9.2269, 10.0779]
+- ±2σ：[8.8014, 10.5034]
+- ±3σ（控制限）：[8.3759, 10.9289]
+
+**⑤ CPK 计算（规格限 USL=11.6，LSL=8.04）：**
+- CPU = (USL − x̄) / (3s) = (11.6 − 9.6524) / 1.2765 = 1.9476 / 1.2765 = **1.526**
+- CPL = (x̄ − LSL) / (3s) = (9.6524 − 8.04) / 1.2765 = 1.6124 / 1.2765 = **1.263**
+- **CPK = min(1.526, 1.263) = 1.263**
+
+---
+
+**【第二步：逐条检查 Nelson 规则】**
+
+> 参考基准：x̄=9.6524，s=0.4255，UCL=10.9289，LCL=8.3759
+> 1σ界：9.2269~10.0779；2σ界：8.8014~10.5034
+
+**各点区域归属汇总：**
+
+| 点 | 值 | 与均值关系 | 区域 |
+|---|---|---|---|
+|1|9.74|上侧|D（±1σ内）|
+|2|10.01|上侧|D（±1σ内）|
+|3|9.74|上侧|D（±1σ内）|
+|4|9.12|下侧|C（1σ~2σ外）|
+|5|11.04|上侧|**B（2σ~3σ，超2σ未超UCL）**|
+|6|9.64|下侧|D（±1σ内）|
+|7|9.57|下侧|D（±1σ内）|
+|8|9.90|上侧|D（±1σ内）|
+|9|9.50|下侧|D（±1σ内）|
+|10|9.60|下侧|D（±1σ内）|
+|11|9.10|下侧|C（1σ~2σ外）|
+|12|9.65|下侧|D（±1σ内）|
+|13|9.58|下侧|D（±1σ内）|
+|14|9.82|上侧|D（±1σ内）|
+|15|9.70|上侧|D（±1σ内）|
+|16|9.09|下侧|C（1σ~2σ外）|
+|17|8.93|下侧|C（1σ~2σ外）|
+|18|9.42|下侧|D（±1σ内）|
+|19|9.69|上侧|D（±1σ内）|
+|20|9.51|下侧|D（±1σ内）|
+|21|9.90|上侧|D（±1σ内）|
+|22|9.92|上侧|D（±1σ内）|
+|23|9.25|下侧|D（±1σ内）|
+|24|9.07|下侧|C（1σ~2σ外）|
+|25|9.72|上侧|D（±1σ内）|
+
+---
+
+**rule1：⚠️ 触发**
+— 点5（值=11.04）> UCL（10.9289），超出上控制限。**rule1 触发于第5点**。
+
+**rule2：未触发**
+— 检查是否有连续9点全在均值同侧。
+逐段扫描：点1~3均在上侧（仅3点），点4切换至下侧；点6~13中方向有变化（点8上侧，点14~15上侧）；点16~20：下/下/下/上/下（上侧穿插）。不存在连续9点同侧的序列。未触发。
+
+**rule3：未触发**
+— 检查连续6点严格单调。
+- 点1→2→3→4→5：9.74→10.01（升）→9.74（降），不单调。
+- 点11→12→13→14→15→16：9.10→9.65→9.58（降）→9.82（升），不单调。
+- 点16→17→18→19→20→21：9.09→8.93→9.42（升，破降）不单调。
+全程无连续6点严格单调序列。未触发。
+
+**rule4：未触发**
+— 检查连续14点严格交替升降（zigzag）。
+从点1起：1→2升(✓)，2→3降(✓)，3→4降(✗)，连续两降，序列中断。
+各段均无法维持14点连续交替。未触发。
+
+**rule5：⚠️ 触发**
+— 规则：连续3点中有2点在同侧2σ~3σ区间（B区）。
+B区（上侧）：>10.5034且≤10.9289；B区（下侧）：<8.8014且≥8.3759。
+- 点5（11.04）属上侧B区（2σ~3σ：10.5034~10.9289）✓（11.04>10.9289实为超出UCL，属A区）
+
+> **重新确认点5区域：** 11.04 > UCL（10.9289），因此点5属于**A区（超控制限）**，不属于B区。
+> B区上侧范围：10.5034 < x ≤ 10.9289；B区下侧范围：8.3759 ≤ x < 8.8014。
+> 扫描所有点：无任何点落入B区（上侧或下侧）。
+
+rule5：**未触发** — 无任何点落入2σ~3σ的B区（点5已超UCL归为A区），不满足"3点中2点同侧B区"条件。
+
+**rule6：未触发**
+— 规则：连续5点中有4点在同侧1σ~3σ区间（C区，超1σ未超3σ）。
+C区（下侧）：< 9.2269 且 ≥ 8.3759；C区（上侧）：> 10.0779 且 ≤ 10.9289。
+下侧C区点：点4(9.12)、点11(9.10)、点16(9.09)、点17(8.93)、点24(9.07)。
+上侧C区点：点2(10.01，恰好在1σ边界10.0779内，不属C区)。
+> 点2=10.01，1σ上界=10.0779，10.01 < 10.0779，属D区。上侧C区无点。
+检查下侧C区是否在连续5点窗口中出现4次：
+- 窗口[3,4,5,6,7]：C区点仅点4，共1点。
+- 窗口[9,10,11,12,13]：C区点仅点11，共1点。
+- 窗口[14,15,16,17,18]：C区点为点16、点17，共2点（未达4点）。
+- 窗口[15,16,17,18,19]：C区点为点16、点17，共2点。
+- 窗口[22,23,24,25,—]：C区点仅点24，共1点。
+全程无连续5点窗口内同侧C区≥4点。未触发。
+
+**rule7：未触发**
+— 规则：连续15点全部在±1σ以内（D区）。
+D区点范围：9.2269~10.0779。
+非D区点：点4(9.12)、点5(11.04)、点11(9.10)、点16(9.09)、点17(8.93)、点23(9.25—9.25>9.2269✓属D区)、点24(9.07)。
+> 点23=9.25，9.25 > 9.2269，属D区 ✓
+实际非D区点：4、5、11、16、17、24。
+点之间最大D区连续段：
+- 点6~10（5点连续D区），点12~15（4点），点18~22（5点）均远少于15点。未触发。
+
+**rule8：未触发**
+— 规则：连续8点全部在±1σ以外，且上下侧均有。
+±1σ外的点：点4(9.12,下)、点5(11.04,上)、点11(9.10,下)、点16(9.09,下)、点17(8.93,下)、点24(9.07,下)。
+这些点在25个采样中不构成连续8点序列（相邻非D区点最多仅点16、17连续2点）。未触发。
+
+---
+
+**【结论：异常判断】**
+
+检出 **1条违规**：
+
+- **
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 151667, 271, 151668, 271, 334, 10904, 109331, 5122, 100787, 100768, 10958, 56177, 334, 105966, 20074, 9909, 17, 20, 27442, 7552, 5122, 1019, 24, 13, 22, 19, 11, 220, 16, 15, 13, 15, 16, 11, 220, 24, 13, 22, 19, 11, 220, 24, 13, 16, 17, 11, 220, 16, 16, 13, 15, 19, 11, 220, 24, 13, 21, 19, 11, 220, 24, 13, 20, 22, 11, 220, 24, 13, 24, 11, 220, 24, 13, 20, 11, 220, 24, 13, 21, 11, 220, 24, 13, 16, 11, 220, 24, 13, 21, 20, 11, 220, 24, 13, 20, 23, 11, 220, 24, 13, 23, 17, 11, 220, 24, 13, 22, 11, 220, 24, 13, 15, 24, 11, 220, 23, 13, 24, 18, 11, 220, 24, 13, 19, 17, 11, 220, 24, 13, 21, 24, 11, 220, 24, 13, 20, 16, 11, 220, 24, 13, 24, 11, 220, 24, 13, 24, 17, 11, 220, 24, 13, 17, 20, 11, 220, 24, 13, 15, 22, 11, 220, 24, 13, 22, 17, 271, 334, 48312, 254, 33424, 94, 69103, 99472, 25511, 856, 136, 226, 5122, 1019, 59743, 33108, 284, 220, 24, 13, 22, 19, 10, 16, 15, 13, 15, 16, 10, 24, 13, 22, 19, 10, 24, 13, 16, 17, 10, 16, 16, 13, 15, 19, 10, 24, 13, 21, 19, 10, 24, 13, 20, 22, 10, 24, 13, 24, 10, 24, 13, 20, 10, 24, 13, 21, 10, 24, 13, 16, 10, 24, 13, 21, 20, 10, 24, 13, 20, 23, 10, 24, 13, 23, 17, 10, 24, 13, 22, 10, 24, 13, 15, 24, 10, 23, 13, 24, 18, 10, 24, 13, 19, 17, 10, 24, 13, 21, 24, 10, 24, 13, 20, 16, 10, 24, 13, 24, 10, 24, 13, 24, 17, 10, 24, 13, 17, 20, 10, 24, 13, 15, 22, 10, 24, 13, 22, 17, 198, 28, 3070, 17, 19, 16, 13, 18, 16, 1019, 87, 136, 226, 284, 220, 17, 19, 16, 13, 18, 16, 608, 220, 17, 20, 284, 3070, 24, 13, 21, 20, 17, 19, 56177, 334, 48312, 94, 33424, 94, 69103, 110241, 100142, 99572, 274, 5122, 1019, 99200, 27442, 113379, 100835, 33108, 9909, 100062, 27442, 100768, 320, 87, 123912, 95, 481, 220, 24, 13, 21, 20, 17, 19, 8, 29456, 7552, 48443, 91, 10236, 23272, 760, 4891, 222, 120, 760, 4891, 223, 237, 99572, 760, 4891, 223, 237, 99572, 29456, 9248, 91, 4421, 91, 4421, 91, 4421, 91, 4421, 7360, 91, 16, 91, 24, 13, 22, 19, 91, 10, 15, 13, 15, 23, 22, 21, 91, 15, 13, 15, 15, 22, 21, 22, 19, 7360, 91, 17, 91, 16, 15, 13, 15, 16, 91, 10, 15, 13, 18, 20, 22, 21, 91, 15, 13, 16, 17, 22, 24, 16, 23, 7360, 91, 18, 91, 24, 13, 22, 19, 91, 10, 15, 13, 15, 23, 22, 21, 91, 15, 13, 15, 15, 22, 21, 22, 19, 7360, 91, 19, 91, 24, 13, 16, 17, 91, 33263, 15, 13, 20, 18, 17, 19, 91, 15, 13, 17, 23, 18, 19, 20, 15, 7360, 91, 20, 91, 16, 16, 13, 15, 19, 91, 10, 16, 13, 18, 23, 22, 21, 91, 16, 13, 24, 17, 20, 20, 20, 20, 7360, 91, 21, 91, 24, 13, 21, 19, 91, 33263, 15, 13, 15, 16, 17, 19, 91, 15, 13, 15, 15, 15, 16, 20, 19, 7360, 91, 22, 91, 24, 13, 20, 22, 91, 33263, 15, 13, 15, 23, 17, 19, 91, 15, 13, 15, 15, 21, 22, 24, 15, 7360, 91, 23, 91, 24, 13, 24, 15, 91, 10, 15, 13, 17, 19, 22, 21, 91, 15, 13, 15, 21, 16, 18, 15, 21, 7360, 91, 24, 91, 24, 13, 20, 15, 91, 33263, 15, 13, 16, 20, 17, 19, 91, 15, 13, 15, 17, 18, 17, 17, 21, 7360, 91, 16, 15, 91, 24, 13, 21, 15, 91, 33263, 15, 13, 15, 20, 17, 19, 91, 15, 13, 15, 15, 17, 22, 19, 21, 7360, 91, 16, 16, 91, 24, 13, 16, 15, 91, 33263, 15, 13, 20, 20, 17, 19, 91, 15, 13, 18, 15, 20, 16, 19, 21, 7360, 91, 16, 17, 91, 24, 13, 21, 20, 91, 33263, 15, 13, 15, 15, 17, 19, 91, 15, 13, 15, 15, 15, 15, 15, 21, 7360, 91, 16, 18, 91, 24, 13, 20, 23, 91, 33263, 15, 13, 15, 22, 17, 19, 91, 15, 13, 15, 15, 20, 17, 19, 17, 7360, 91, 16, 19, 91, 24, 13, 23, 17, 91, 10, 15, 13, 16, 21, 22, 21, 91, 15, 13, 15, 17, 23, 15, 24, 15, 7360, 91, 16, 20, 91, 24, 13, 22, 15, 91, 10, 15, 13, 15, 19, 22, 21, 91, 15, 13, 15, 15, 17, 17, 21, 21, 7360, 91, 16, 21, 91, 24, 13, 15, 24, 91, 33263, 15, 13, 20, 21, 17, 19, 91, 15, 13, 18, 16, 21, 17, 24, 19, 7360, 91, 16, 22, 91, 23, 13, 24, 18, 91, 33263, 15, 13, 22, 17, 17, 19, 91, 15, 13, 20, 17, 16, 23, 19, 17, 7360, 91, 16, 23, 91, 24, 13, 19, 17, 91, 33263, 15, 13, 17, 18, 17, 19, 91, 15, 13, 15, 20, 19, 15, 16, 15, 7360, 91, 16, 24, 91, 24, 13, 21, 24, 91, 10, 15, 13, 15, 18, 22, 21, 91, 15, 13, 15, 15, 16, 19, 16, 19, 7360, 91, 17, 15, 91, 24, 13, 20, 16, 91, 33263, 15, 13, 16, 19, 17, 19, 91, 15, 13, 15, 17, 15, 17, 22, 23, 7360, 91, 17, 16, 91, 24, 13, 24, 15, 91, 10, 15, 13, 17, 19, 22, 21, 91, 15, 13, 15, 21, 16, 18, 15, 21, 7360, 91, 17, 17, 91, 24, 13, 24, 17, 91, 10, 15, 13, 17, 21, 22, 21, 91, 15, 13, 15, 22, 16, 21, 16, 15, 7360, 91, 17, 18, 91, 24, 13, 17, 20, 91, 33263, 15, 13, 19, 15, 17, 19, 91, 15, 13, 16, 21, 16, 24, 17, 21, 7360, 91, 17, 19, 91, 24, 13, 15, 22, 91, 33263, 15, 13, 20, 23, 17, 19, 91, 15, 13, 18, 18, 24, 16, 24, 15, 7360, 91, 17, 20, 91, 24, 13, 22, 17, 91, 10, 15, 13, 15, 21, 22, 21, 91, 15, 13, 15, 15, 19, 20, 22, 15, 43738, 113379, 100835, 33108, 7851, 96, 284, 220, 15, 13, 15, 15, 22, 21, 22, 19, 10, 15, 13, 16, 17, 22, 24, 16, 23, 10, 15, 13, 15, 15, 22, 21, 22, 19, 10, 15, 13, 17, 23, 18, 19, 20, 15, 10, 16, 13, 24, 17, 20, 20, 20, 20, 10, 15, 13, 15, 15, 15, 16, 20, 19, 10, 15, 13, 15, 15, 21, 22, 24, 15, 10, 15, 13, 15, 21, 16, 18, 15, 21, 10, 15, 13, 15, 17, 18, 17, 17, 21, 10, 15, 13, 15, 15, 17, 22, 19, 21, 10, 15, 13, 18, 15, 20, 16, 19, 21, 10, 15, 13, 15, 15, 15, 15, 15, 21, 10, 15, 13, 15, 15, 20, 17, 19, 17, 10, 15, 13, 15, 17, 23, 15, 24, 15, 10, 15, 13, 15, 15, 17, 17, 21, 21, 10, 15, 13, 18, 16, 21, 17, 24, 19, 10, 15, 13, 20, 17, 16, 23, 19, 17, 10, 15, 13, 15, 20, 19, 15, 16, 15, 10, 15, 13, 15, 15, 16, 19, 16, 19, 10, 15, 13, 15, 17, 15, 17, 22, 23, 10, 15, 13, 15, 21, 16, 18, 15, 21, 10, 15, 13, 15, 22, 16, 21, 16, 15, 10, 15, 13, 16, 21, 16, 24, 17, 21, 10, 15, 13, 18, 18, 24, 16, 24, 15, 10, 15, 13, 15, 15, 19, 20, 22, 15, 198, 334, 28, 220, 19, 13, 18, 19, 19, 19, 23, 18, 56177, 82, 29456, 284, 220, 19, 13, 18, 19, 19, 19, 23, 18, 608, 320, 17, 20, 33263, 16, 8, 284, 220, 19, 13, 18, 19, 19, 19, 23, 18, 608, 220, 17, 19, 284, 3070, 15, 13, 16, 23, 16, 15, 17, 15, 1019, 82, 284, 11995, 248, 15, 13, 16, 23, 16, 15, 17, 15, 284, 3070, 15, 13, 19, 17, 20, 20, 56177, 334, 48312, 95, 80851, 43316, 47149, 9909, 45, 21395, 54955, 226, 46448, 37029, 7552, 5122, 1019, 12, 547, 3140, 284, 856, 136, 226, 488, 220, 18, 82, 284, 220, 24, 13, 21, 20, 17, 19, 488, 220, 18, 17568, 15, 13, 19, 17, 20, 20, 284, 220, 24, 13, 21, 20, 17, 19, 488, 220, 16, 13, 17, 22, 21, 20, 284, 3070, 16, 15, 13, 24, 17, 23, 24, 1019, 12, 444, 3140, 284, 856, 136, 226, 24196, 220, 18, 82, 284, 220, 24, 13, 21, 20, 17, 19, 24196, 220, 16, 13, 17, 22, 21, 20, 284, 3070, 23, 13, 18, 22, 20, 24, 56177, 334, 48312, 96, 47723, 101065, 108758, 5122, 1019, 12, 20287, 16, 43928, 5122, 58, 24, 13, 17, 17, 21, 24, 11, 220, 16, 15, 13, 15, 22, 22, 24, 921, 12, 20287, 17, 43928, 5122, 58, 23, 13, 23, 15, 16, 19, 11, 220, 16, 15, 13, 20, 15, 18, 19, 921, 12, 20287, 18, 43928, 9909, 100359, 47149, 7552, 5122, 58, 23, 13, 18, 22, 20, 24, 11, 220, 16, 15, 13, 24, 17, 23, 24, 2533, 334, 48312, 97, 15284, 42, 33424, 94, 69103, 9909, 106453, 47149, 2274, 43, 28, 16, 16, 13, 21, 3837, 7268, 43, 28, 23, 13, 15, 19, 7552, 5122, 1019, 12, 13940, 284, 320, 2034, 43, 24196, 856, 136, 226, 8, 608, 320, 18, 82, 8, 284, 320, 16, 16, 13, 21, 24196, 220, 24, 13, 21, 20, 17, 19, 8, 608, 220, 16, 13, 17, 22, 21, 20, 284, 220, 16, 13, 24, 19, 22, 21, 608, 220, 16, 13, 17, 22, 21, 20, 284, 3070, 16, 13, 20, 17, 21, 1019, 12, 89480, 284, 320, 87, 136, 226, 24196, 444, 7984, 8, 608, 320, 18, 82, 8, 284, 320, 24, 13, 21, 20, 17, 19, 24196, 220, 23, 13, 15, 19, 8, 608, 220, 16, 13, 17, 22, 21, 20, 284, 220, 16, 13, 21, 16, 17, 19, 608, 220, 16, 13, 17, 22, 21, 20, 284, 3070, 16, 13, 17, 21, 18, 1019, 12, 3070, 7123, 42, 284, 1308, 7, 16, 13, 20, 17, 21, 11, 220, 16, 13, 17, 21, 18, 8, 284, 220, 16, 13, 17, 21, 18, 56177, 44364, 334, 10904, 99802, 64682, 5122, 100062, 38989, 101071, 26464, 54955, 226, 46448, 10958, 56177, 29, 26853, 224, 77598, 109371, 5122, 87, 136, 226, 28, 24, 13, 21, 20, 17, 19, 3837, 82, 28, 15, 13, 19, 17, 20, 20, 3837, 52, 3140, 28, 16, 15, 13, 24, 17, 23, 24, 3837, 43, 3140, 28, 23, 13, 18, 22, 20, 24, 198, 29, 220, 16, 43928, 97120, 5122, 24, 13, 17, 17, 21, 24, 93, 16, 15, 13, 15, 22, 22, 24, 24968, 17, 43928, 97120, 5122, 23, 13, 23, 15, 16, 19, 93, 16, 15, 13, 20, 15, 18, 19, 271, 334, 99200, 27442, 101065, 115892, 108788, 5122, 56177, 91, 10236, 23272, 760, 4891, 222, 120, 760, 220, 57218, 99472, 25511, 100145, 760, 94305, 118, 99390, 9248, 91, 4421, 91, 4421, 91, 4421, 91, 4421, 7360, 91, 16, 91, 24, 13, 22, 19, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 91, 16, 15, 13, 15, 16, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 18, 91, 24, 13, 22, 19, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 19, 91, 24, 13, 16, 17, 91, 16872, 99772, 91, 34, 9909, 16, 43928, 93, 17, 43928, 47815, 7552, 7360, 91, 20, 91, 16, 16, 13, 15, 19, 91, 17447, 99772, 91, 334, 33, 9909, 17, 43928, 93, 18, 43928, 3837, 71304, 17, 43928, 38342, 71304, 52, 3140, 7552, 334, 7360, 91, 21, 91, 24, 13, 21, 19, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 22, 91, 24, 13, 20, 22, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 23, 91, 24, 13, 24, 15, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 24, 91, 24, 13, 20, 15, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 15, 91, 24, 13, 21, 15, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 16, 91, 24, 13, 16, 15, 91, 16872, 99772, 91, 34, 9909, 16, 43928, 93, 17, 43928, 47815, 7552, 7360, 91, 16, 17, 91, 24, 13, 21, 20, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 18, 91, 24, 13, 20, 23, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 19, 91, 24, 13, 23, 17, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 20, 91, 24, 13, 22, 15, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 21, 91, 24, 13, 15, 24, 91, 16872, 99772, 91, 34, 9909, 16, 43928, 93, 17, 43928, 47815, 7552, 7360, 91, 16, 22, 91, 23, 13, 24, 18, 91, 16872, 99772, 91, 34, 9909, 16, 43928, 93, 17, 43928, 47815, 7552, 7360, 91, 16, 23, 91, 24, 13, 19, 17, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 16, 24, 91, 24, 13, 21, 24, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 15, 91, 24, 13, 20, 16, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 16, 91, 24, 13, 24, 15, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 17, 91, 24, 13, 24, 17, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 18, 91, 24, 13, 17, 20, 91, 16872, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 7360, 91, 17, 19, 91, 24, 13, 15, 22, 91, 16872, 99772, 91, 34, 9909, 16, 43928, 93, 17, 43928, 47815, 7552, 7360, 91, 17, 20, 91, 24, 13, 22, 17, 91, 17447, 99772, 91, 35, 9909, 37021, 16, 43928, 31843, 7552, 43738, 44364, 334, 12937, 16, 5122, 145072, 30543, 54955, 99, 28291, 1019, 2293, 10236, 23272, 20, 9909, 25511, 28, 16, 16, 13, 15, 19, 7552, 29, 547, 3140, 9909, 16, 15, 13, 24, 17, 23, 24, 48272, 108337, 17447, 100359, 47149, 1773, 334, 12937, 16, 54955, 99, 28291, 34204, 29437, 20, 27442, 334, 3407, 334, 12937, 17, 5122, 38342, 111916, 1019, 2293, 6567, 96, 222, 32876, 107189, 104005, 24, 27442, 35987, 18493, 99472, 25511, 40916, 99772, 8997, 100062, 37474, 106229, 5122, 27442, 16, 93, 18, 99472, 18493, 17447, 99772, 9909, 99373, 18, 27442, 48272, 27442, 19, 110697, 56137, 16872, 99772, 24968, 27442, 21, 93, 16, 18, 15946, 100696, 18830, 100682, 9909, 27442, 23, 17447, 99772, 3837, 27442, 16, 19, 93, 16, 20, 17447, 99772, 7552, 24968, 27442, 16, 21, 93, 17, 15, 5122, 16872, 14, 16872, 14, 16872, 14, 17447, 14, 16872, 9909, 17447, 99772, 99621, 101255, 74276, 69184, 104005, 24, 27442, 40916, 99772, 9370, 116951, 1773, 38342, 111916, 3407, 334, 12937, 18, 5122, 38342, 111916, 1019, 2293, 6567, 96, 222, 32876, 104005, 21, 27442, 100470, 118682, 8997, 12, 10236, 23272, 16, 51018, 17, 51018, 18, 51018, 19, 51018, 20, 5122, 24, 13, 22, 19, 51018, 16, 15, 13, 15, 16, 9909, 99294, 7552, 51018, 24, 13, 22, 19, 9909, 99457, 48272, 16530, 118682, 8997, 12, 10236, 23272, 16, 16, 51018, 16, 17, 51018, 16, 18, 51018, 16, 19, 51018, 16, 20, 51018, 16, 21, 5122, 24, 13, 16, 15, 51018, 24, 13, 21, 20, 51018, 24, 13, 20, 23, 9909, 99457, 7552, 51018, 24, 13, 23, 17, 9909, 99294, 48272, 16530, 118682, 8997, 12, 10236, 23272, 16, 21, 51018, 16, 22, 51018, 16, 23, 51018, 16, 24, 51018, 17, 15, 51018, 17, 16, 5122, 24, 13, 15, 24, 51018, 23, 13, 24, 18, 51018, 24, 13, 19, 17, 9909, 99294, 3837, 99577, 99457, 7552, 16530, 118682, 8997, 105088, 42192, 104005, 21, 27442, 100470, 118682, 116951, 1773, 38342, 111916, 3407, 334, 12937, 19, 5122, 38342, 111916, 1019, 2293, 6567, 96, 222, 32876, 104005, 16, 19, 27442, 100470, 115662, 114648, 9909, 35363, 92674, 7552, 8997, 45181, 27442, 16, 71618, 5122, 16, 51018, 17, 99294, 7, 143617, 69515, 17, 51018, 18, 99457, 7, 143617, 69515, 18, 51018, 19, 99457, 7, 145986, 69515, 104005, 77540, 99457, 3837, 116951, 112788, 8997, 99200, 37474, 99472, 101068, 104601, 16, 19, 27442, 104005, 115662, 1773, 38342, 111916, 3407, 334, 12937, 20, 5122, 145072, 30543, 54955, 99, 28291, 1019, 2293, 54955, 226, 46448, 5122, 104005, 18, 27442, 105656, 17, 27442, 18493, 40916, 99772, 17, 43928, 93, 18, 43928, 108617, 9909, 33, 23836, 7552, 8997, 33, 23836, 9909, 17447, 99772, 7552, 5122, 29, 16, 15, 13, 20, 15, 18, 19, 100136, 144570, 16, 15, 13, 24, 17, 23, 24, 24968, 33, 23836, 9909, 16872, 99772, 7552, 90737, 23, 13, 23, 15, 16, 19, 100136, 144481, 23, 13, 18, 22, 20, 24, 8997, 12, 10236, 23272, 20, 9909, 16, 16, 13, 15, 19, 7552, 99397, 17447, 99772, 33, 23836, 9909, 17, 43928, 93, 18, 43928, 5122, 16, 15, 13, 20, 15, 18, 19, 93, 16, 15, 13, 24, 17, 23, 24, 7552, 143617, 9909, 16, 16, 13, 15, 19, 29, 16, 15, 13, 24, 17, 23, 24, 39973, 17714, 108337, 52, 3140, 3837, 99397, 32, 23836, 27866, 29, 3070, 70361, 81167, 27442, 20, 101065, 5122, 334, 220, 16, 16, 13, 15, 19, 861, 547, 3140, 9909, 16, 15, 13, 24, 17, 23, 24, 48272, 101886, 27442, 20, 100409, 334, 32, 23836, 9909, 71304, 100359, 47149, 7552, 334, 3837, 115084, 33, 23836, 8997, 29, 425, 23836, 17447, 99772, 101121, 5122, 16, 15, 13, 20, 15, 18, 19, 366, 856, 37294, 220, 16, 15, 13, 24, 17, 23, 24, 24968, 33, 23836, 16872, 99772, 101121, 5122, 23, 13, 18, 22, 20, 24, 37294, 856, 366, 220, 23, 13, 23, 15, 16, 19, 8997, 29, 46750, 104, 100948, 55338, 27442, 5122, 42192, 99885, 27442, 118225, 33, 23836, 9909, 17447, 99772, 57191, 16872, 99772, 7552, 3407, 12937, 20, 5122, 334, 38342, 111916, 334, 1959, 220, 42192, 99885, 27442, 118225, 17, 43928, 93, 18, 43928, 9370, 33, 23836, 9909, 27442, 20, 36667, 71304, 52, 3140, 100040, 17714, 32, 23836, 48272, 16530, 101929, 1, 18, 27442, 15946, 17, 27442, 40916, 99772, 33, 23836, 1, 76095, 3407, 334, 12937, 21, 5122, 38342, 111916, 1019, 2293, 54955, 226, 46448, 5122, 104005, 20, 27442, 105656, 19, 27442, 18493, 40916, 99772, 16, 43928, 93, 18, 43928, 108617, 9909, 34, 23836, 3837, 71304, 16, 43928, 38342, 71304, 18, 43928, 7552, 8997, 34, 23836, 9909, 16872, 99772, 7552, 90737, 220, 24, 13, 17, 17, 21, 24, 220, 100136, 62147, 220, 23, 13, 18, 22, 20, 24, 24968, 34, 23836, 9909, 17447, 99772, 7552, 5122, 29, 220, 16, 15, 13, 15, 22, 22, 24, 220, 100136, 37294, 220, 16, 15, 13, 24, 17, 23, 24, 8997, 16872, 99772, 34, 23836, 27442, 5122, 27442, 19, 7, 24, 13, 16, 17, 8, 5373, 27442, 16, 16, 7, 24, 13, 16, 15, 8, 5373, 27442, 16, 21, 7, 24, 13, 15, 24, 8, 5373, 27442, 16, 22, 7, 23, 13, 24, 18, 8, 5373, 27442, 17, 19, 7, 24, 13, 15, 22, 8, 8997, 17447, 99772, 34, 23836, 27442, 5122, 27442, 17, 7, 16, 15, 13, 15, 16, 3837, 113573, 18493, 16, 43928, 108758, 16, 15, 13, 15, 22, 22, 24, 31843, 3837, 16530, 99397, 34, 23836, 8, 8997, 29, 10236, 23272, 17, 28, 16, 15, 13, 15, 16, 3837, 16, 43928, 17447, 97120, 28, 16, 15, 13, 15, 22, 22, 24, 3837, 16, 15, 13, 15, 16, 366, 220, 16, 15, 13, 15, 22, 22, 24, 3837, 99397, 35, 23836, 1773, 17447, 99772, 34, 23836, 42192, 27442, 8997, 101071, 16872, 99772, 34, 23836, 64471, 18493, 104005, 20, 27442, 105271, 15946, 100347, 19, 32571, 28311, 12, 10236, 103, 245, 39426, 58, 18, 11, 19, 11, 20, 11, 21, 11, 22, 60, 5122, 34, 23836, 27442, 99373, 27442, 19, 3837, 54899, 16, 27442, 8997, 12, 10236, 103, 245, 39426, 58, 24, 11, 16, 15, 11, 16, 16, 11, 16, 17, 11, 16, 18, 60, 5122, 34, 23836, 27442, 99373, 27442, 16, 16, 3837, 54899, 16, 27442, 8997, 12, 10236, 103, 245, 39426, 58, 16, 19, 11, 16, 20, 11, 16, 21, 11, 16, 22, 11, 16, 23, 60, 5122, 34, 23836, 27442, 17714, 27442, 16, 21, 5373, 27442, 16, 22, 3837, 54899, 17, 27442, 9909, 38342, 93488, 19, 27442, 7552, 8997, 12, 10236, 103, 245, 39426, 58, 16, 20, 11, 16, 21, 11, 16, 22, 11, 16, 23, 11, 16, 24, 60, 5122, 34, 23836, 27442, 17714, 27442, 16, 21, 5373, 27442, 16, 22, 3837, 54899, 17, 27442, 8997, 12, 10236, 103, 245, 39426, 58, 17, 17, 11, 17, 18, 11, 17, 19, 11, 17, 20, 95097, 60, 5122, 34, 23836, 27442, 99373, 27442, 17, 19, 3837, 54899, 16, 27442, 8997, 105088, 42192, 104005, 20, 27442, 105271, 31843, 40916, 99772, 34, 23836, 144481, 19, 27442, 1773, 38342, 111916, 3407, 334, 12937, 22, 5122, 38342, 111916, 1019, 2293, 54955, 226, 46448, 5122, 104005, 16, 20, 27442, 85248, 18493, 37021, 16, 43928, 108341, 9909, 35, 23836, 7552, 8997, 35, 23836, 27442, 101121, 5122, 24, 13, 17, 17, 21, 24, 93, 16, 15, 13, 15, 22, 22, 24, 8997, 65676, 35, 23836, 27442, 5122, 27442, 19, 7, 24, 13, 16, 17, 8, 5373, 27442, 20, 7, 16, 16, 13, 15, 19, 8, 5373, 27442, 16, 16, 7, 24, 13, 16, 15, 8, 5373, 27442, 16, 21, 7, 24, 13, 15, 24, 8, 5373, 27442, 16, 22, 7, 23, 13, 24, 18, 8, 5373, 27442, 17, 18, 7, 24, 13, 17, 20, 2293, 24, 13, 17, 20, 29, 24, 13, 17, 17, 21, 24, 143617, 99397, 35, 23836, 8, 5373, 27442, 17, 19, 7, 24, 13, 15, 22, 8, 8997, 29, 10236, 23272, 17, 18, 28, 24, 13, 17, 20, 3837, 24, 13, 17, 20, 861, 220, 24, 13, 17, 17, 21, 24, 3837, 99397, 35, 23836, 52375, 198, 99912, 65676, 35, 23836, 27442, 5122, 19, 5373, 20, 5373, 16, 16, 5373, 16, 21, 5373, 16, 22, 5373, 17, 19, 8997, 27442, 101920, 100082, 35, 23836, 104005, 37474, 28311, 12, 10236, 23272, 21, 93, 16, 15, 9909, 20, 27442, 104005, 35, 23836, 48272, 27442, 16, 17, 93, 16, 20, 9909, 19, 27442, 48272, 27442, 16, 23, 93, 17, 17, 9909, 20, 27442, 7552, 99472, 99427, 82647, 34204, 16, 20, 27442, 1773, 38342, 111916, 3407, 334, 12937, 23, 5122, 38342, 111916, 1019, 2293, 54955, 226, 46448, 5122, 104005, 23, 27442, 85248, 18493, 37021, 16, 43928, 105175, 3837, 100136, 102285, 99772, 108549, 8997, 37021, 16, 43928, 47815, 9370, 27442, 5122, 27442, 19, 7, 24, 13, 16, 17, 11, 16872, 8, 5373, 27442, 20, 7, 16, 16, 13, 15, 19, 11, 17447, 8, 5373, 27442, 16, 16, 7, 24, 13, 16, 15, 11, 16872, 8, 5373, 27442, 16, 21, 7, 24, 13, 15, 24, 11, 16872, 8, 5373, 27442, 16, 22, 7, 23, 13, 24, 18, 11, 16872, 8, 5373, 27442, 17, 19, 7, 24, 13, 15, 22, 11, 16872, 8, 8997, 100001, 27442, 18493, 17, 20, 18947, 99433, 90885, 15946, 16530, 104384, 104005, 23, 27442, 116951, 9909, 118616, 65676, 35, 23836, 27442, 102538, 99373, 27442, 16, 21, 5373, 16, 22, 104005, 17, 27442, 74276, 38342, 111916, 3407, 44364, 334, 10904, 106073, 5122, 70633, 104317, 10958, 56177, 97557, 20221, 3070, 16, 38989, 102615, 334, 48443, 12, 3070]
+labels:
+<think>
+
+</think>
+
+**【第一步：统计计算】**
+
+**原始数据（25点）：**
+9.74, 10.01, 9.74, 9.12, 11.04, 9.64, 9.57, 9.9, 9.5, 9.6, 9.1, 9.65, 9.58, 9.82, 9.7, 9.09, 8.93, 9.42, 9.69, 9.51, 9.9, 9.92, 9.25, 9.07, 9.72
+
+**① 计算均值 x̄：**
+总和 = 9.74+10.01+9.74+9.12+11.04+9.64+9.57+9.9+9.5+9.6+9.1+9.65+9.58+9.82+9.7+9.09+8.93+9.42+9.69+9.51+9.9+9.92+9.25+9.07+9.72
+= **241.31**
+x̄ = 241.31 / 25 = **9.6524**
+
+**② 计算样本标准差 s：**
+各点偏差平方和（逐点计算 (xᵢ - 9.6524)²）：
+
+| 点 | 值 | 偏差 | 偏差² |
+|---|---|---|---|
+|1|9.74|+0.0876|0.007674|
+|2|10.01|+0.3576|0.127918|
+|3|9.74|+0.0876|0.007674|
+|4|9.12|−0.5324|0.283450|
+|5|11.04|+1.3876|1.925555|
+|6|9.64|−0.0124|0.000154|
+|7|9.57|−0.0824|0.006790|
+|8|9.90|+0.2476|0.061306|
+|9|9.50|−0.1524|0.023226|
+|10|9.60|−0.0524|0.002746|
+|11|9.10|−0.5524|0.305146|
+|12|9.65|−0.0024|0.000006|
+|13|9.58|−0.0724|0.005242|
+|14|9.82|+0.1676|0.028090|
+|15|9.70|+0.0476|0.002266|
+|16|9.09|−0.5624|0.316294|
+|17|8.93|−0.7224|0.521842|
+|18|9.42|−0.2324|0.054010|
+|19|9.69|+0.0376|0.001414|
+|20|9.51|−0.1424|0.020278|
+|21|9.90|+0.2476|0.061306|
+|22|9.92|+0.2676|0.071610|
+|23|9.25|−0.4024|0.161926|
+|24|9.07|−0.5824|0.339190|
+|25|9.72|+0.0676|0.004570|
+
+偏差平方和 Σ = 0.007674+0.127918+0.007674+0.283450+1.925555+0.000154+0.006790+0.061306+0.023226+0.002746+0.305146+0.000006+0.005242+0.028090+0.002266+0.316294+0.521842+0.054010+0.001414+0.020278+0.061306+0.071610+0.161926+0.339190+0.004570
+**= 4.344483**
+
+s² = 4.344483 / (25−1) = 4.344483 / 24 = **0.181020**
+s = √0.181020 = **0.4255**
+
+**③ 控制限（Nelson 规则使用）：**
+- UCL = x̄ + 3s = 9.6524 + 3×0.4255 = 9.6524 + 1.2765 = **10.9289**
+- LCL = x̄ − 3s = 9.6524 − 1.2765 = **8.3759**
+
+**④ σ区域边界：**
+- ±1σ：[9.2269, 10.0779]
+- ±2σ：[8.8014, 10.5034]
+- ±3σ（控制限）：[8.3759, 10.9289]
+
+**⑤ CPK 计算（规格限 USL=11.6，LSL=8.04）：**
+- CPU = (USL − x̄) / (3s) = (11.6 − 9.6524) / 1.2765 = 1.9476 / 1.2765 = **1.526**
+- CPL = (x̄ − LSL) / (3s) = (9.6524 − 8.04) / 1.2765 = 1.6124 / 1.2765 = **1.263**
+- **CPK = min(1.526, 1.263) = 1.263**
+
+---
+
+**【第二步：逐条检查 Nelson 规则】**
+
+> 参考基准：x̄=9.6524，s=0.4255，UCL=10.9289，LCL=8.3759
+> 1σ界：9.2269~10.0779；2σ界：8.8014~10.5034
+
+**各点区域归属汇总：**
+
+| 点 | 值 | 与均值关系 | 区域 |
+|---|---|---|---|
+|1|9.74|上侧|D（±1σ内）|
+|2|10.01|上侧|D（±1σ内）|
+|3|9.74|上侧|D（±1σ内）|
+|4|9.12|下侧|C（1σ~2σ外）|
+|5|11.04|上侧|**B（2σ~3σ，超2σ未超UCL）**|
+|6|9.64|下侧|D（±1σ内）|
+|7|9.57|下侧|D（±1σ内）|
+|8|9.90|上侧|D（±1σ内）|
+|9|9.50|下侧|D（±1σ内）|
+|10|9.60|下侧|D（±1σ内）|
+|11|9.10|下侧|C（1σ~2σ外）|
+|12|9.65|下侧|D（±1σ内）|
+|13|9.58|下侧|D（±1σ内）|
+|14|9.82|上侧|D（±1σ内）|
+|15|9.70|上侧|D（±1σ内）|
+|16|9.09|下侧|C（1σ~2σ外）|
+|17|8.93|下侧|C（1σ~2σ外）|
+|18|9.42|下侧|D（±1σ内）|
+|19|9.69|上侧|D（±1σ内）|
+|20|9.51|下侧|D（±1σ内）|
+|21|9.90|上侧|D（±1σ内）|
+|22|9.92|上侧|D（±1σ内）|
+|23|9.25|下侧|D（±1σ内）|
+|24|9.07|下侧|C（1σ~2σ外）|
+|25|9.72|上侧|D（±1σ内）|
+
+---
+
+**rule1：⚠️ 触发**
+— 点5（值=11.04）> UCL（10.9289），超出上控制限。**rule1 触发于第5点**。
+
+**rule2：未触发**
+— 检查是否有连续9点全在均值同侧。
+逐段扫描：点1~3均在上侧（仅3点），点4切换至下侧；点6~13中方向有变化（点8上侧，点14~15上侧）；点16~20：下/下/下/上/下（上侧穿插）。不存在连续9点同侧的序列。未触发。
+
+**rule3：未触发**
+— 检查连续6点严格单调。
+- 点1→2→3→4→5：9.74→10.01（升）→9.74（降），不单调。
+- 点11→12→13→14→15→16：9.10→9.65→9.58（降）→9.82（升），不单调。
+- 点16→17→18→19→20→21：9.09→8.93→9.42（升，破降）不单调。
+全程无连续6点严格单调序列。未触发。
+
+**rule4：未触发**
+— 检查连续14点严格交替升降（zigzag）。
+从点1起：1→2升(✓)，2→3降(✓)，3→4降(✗)，连续两降，序列中断。
+各段均无法维持14点连续交替。未触发。
+
+**rule5：⚠️ 触发**
+— 规则：连续3点中有2点在同侧2σ~3σ区间（B区）。
+B区（上侧）：>10.5034且≤10.9289；B区（下侧）：<8.8014且≥8.3759。
+- 点5（11.04）属上侧B区（2σ~3σ：10.5034~10.9289）✓（11.04>10.9289实为超出UCL，属A区）
+
+> **重新确认点5区域：** 11.04 > UCL（10.9289），因此点5属于**A区（超控制限）**，不属于B区。
+> B区上侧范围：10.5034 < x ≤ 10.9289；B区下侧范围：8.3759 ≤ x < 8.8014。
+> 扫描所有点：无任何点落入B区（上侧或下侧）。
+
+rule5：**未触发** — 无任何点落入2σ~3σ的B区（点5已超UCL归为A区），不满足"3点中2点同侧B区"条件。
+
+**rule6：未触发**
+— 规则：连续5点中有4点在同侧1σ~3σ区间（C区，超1σ未超3σ）。
+C区（下侧）：< 9.2269 且 ≥ 8.3759；C区（上侧）：> 10.0779 且 ≤ 10.9289。
+下侧C区点：点4(9.12)、点11(9.10)、点16(9.09)、点17(8.93)、点24(9.07)。
+上侧C区点：点2(10.01，恰好在1σ边界10.0779内，不属C区)。
+> 点2=10.01，1σ上界=10.0779，10.01 < 10.0779，属D区。上侧C区无点。
+检查下侧C区是否在连续5点窗口中出现4次：
+- 窗口[3,4,5,6,7]：C区点仅点4，共1点。
+- 窗口[9,10,11,12,13]：C区点仅点11，共1点。
+- 窗口[14,15,16,17,18]：C区点为点16、点17，共2点（未达4点）。
+- 窗口[15,16,17,18,19]：C区点为点16、点17，共2点。
+- 窗口[22,23,24,25,—]：C区点仅点24，共1点。
+全程无连续5点窗口内同侧C区≥4点。未触发。
+
+**rule7：未触发**
+— 规则：连续15点全部在±1σ以内（D区）。
+D区点范围：9.2269~10.0779。
+非D区点：点4(9.12)、点5(11.04)、点11(9.10)、点16(9.09)、点17(8.93)、点23(9.25—9.25>9.2269✓属D区)、点24(9.07)。
+> 点23=9.25，9.25 > 9.2269，属D区 ✓
+实际非D区点：4、5、11、16、17、24。
+点之间最大D区连续段：
+- 点6~10（5点连续D区），点12~15（4点），点18~22（5点）均远少于15点。未触发。
+
+**rule8：未触发**
+— 规则：连续8点全部在±1σ以外，且上下侧均有。
+±1σ外的点：点4(9.12,下)、点5(11.04,上)、点11(9.10,下)、点16(9.09,下)、点17(8.93,下)、点24(9.07,下)。
+这些点在25个采样中不构成连续8点序列（相邻非D区点最多仅点16、17连续2点）。未触发。
+
+---
+
+**【结论：异常判断】**
+
+检出 **1条违规**：
+
+- **
+Parameter 'function'=<bound method SupervisedDatasetProcessor.preprocess_dataset of SupervisedDatasetProcessor(template=ReasoningTemplate(format_user=StringFormatter(slots=['<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_assistant=StringFormatter(slots=['{{content}}<|im_end|>\n'], tool_format=None), format_system=StringFormatter(slots=['<|im_start|>system\n{{content}}<|im_end|>\n'], tool_format=None), format_function=FunctionFormatter(slots=['{{content}}<|im_end|>\n'], tool_format='qwen'), format_observation=StringFormatter(slots=['<|im_start|>user\n<tool_response>\n{{content}}\n</tool_response><|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_tools=ToolFormatter(slots=[], tool_format='qwen'), format_prefix=EmptyFormatter(slots=[], tool_format=None), default_system='', stop_words=['<|im_end|>'], thought_words=('<think>', '</think>'), efficient_eos=False, replace_eos=True, replace_jinja_template=False, enable_thinking=True, mm_plugin=BasePlugin(image_token=None, video_token=None, audio_token=None, expand_mm_tokens=True)), tokenizer=Qwen2TokenizerFast(name_or_path='/home/yinrong/models/Qwen3-14B', vocab_size=151643, model_max_length=131072, is_fast=True, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'additional_special_tokens': ['<|im_start|>', '<|im_end|>', '<|object_ref_start|>', '<|object_ref_end|>', '<|box_start|>', '<|box_end|>', '<|quad_start|>', '<|quad_end|>', '<|vision_start|>', '<|vision_end|>', '<|vision_pad|>', '<|image_pad|>', '<|video_pad|>']}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	151643: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151644: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151645: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151646: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151647: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151648: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151649: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151650: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151651: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151652: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151653: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151654: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151655: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151656: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151657: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151658: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151659: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151660: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151661: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151662: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151663: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151664: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151665: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151666: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151667: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151668: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+}
+), processor=None, data_args=DataArguments(template='qwen3', dataset=['spc_r3_AB'], eval_dataset=None, dataset_dir='/home/yinrong/post-train/impl2.1/round3/data', media_dir='/home/yinrong/post-train/impl2.1/round3/data', cutoff_len=5120, train_on_prompt=False, mask_history=False, streaming=False, buffer_size=16384, mix_strategy='concat', interleave_probs=None, overwrite_cache=False, preprocessing_batch_size=1000, preprocessing_num_workers=None, max_samples=None, eval_num_beams=None, ignore_pad_token_for_loss=True, val_size=0.0, eval_on_each_dataset=False, packing=False, neat_packing=False, tool_format=None, default_system=None, enable_thinking=True, tokenized_path=None, data_shared_file_system=False))> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Parameter 'function'=<bound method SupervisedDatasetProcessor.preprocess_dataset of SupervisedDatasetProcessor(template=ReasoningTemplate(format_user=StringFormatter(slots=['<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_assistant=StringFormatter(slots=['{{content}}<|im_end|>\n'], tool_format=None), format_system=StringFormatter(slots=['<|im_start|>system\n{{content}}<|im_end|>\n'], tool_format=None), format_function=FunctionFormatter(slots=['{{content}}<|im_end|>\n'], tool_format='qwen'), format_observation=StringFormatter(slots=['<|im_start|>user\n<tool_response>\n{{content}}\n</tool_response><|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_tools=ToolFormatter(slots=[], tool_format='qwen'), format_prefix=EmptyFormatter(slots=[], tool_format=None), default_system='', stop_words=['<|im_end|>'], thought_words=('<think>', '</think>'), efficient_eos=False, replace_eos=True, replace_jinja_template=False, enable_thinking=True, mm_plugin=BasePlugin(image_token=None, video_token=None, audio_token=None, expand_mm_tokens=True)), tokenizer=Qwen2TokenizerFast(name_or_path='/home/yinrong/models/Qwen3-14B', vocab_size=151643, model_max_length=131072, is_fast=True, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'additional_special_tokens': ['<|im_start|>', '<|im_end|>', '<|object_ref_start|>', '<|object_ref_end|>', '<|box_start|>', '<|box_end|>', '<|quad_start|>', '<|quad_end|>', '<|vision_start|>', '<|vision_end|>', '<|vision_pad|>', '<|image_pad|>', '<|video_pad|>']}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	151643: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151644: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151645: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151646: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151647: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151648: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151649: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151650: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151651: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151652: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151653: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151654: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151655: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151656: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151657: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151658: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151659: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151660: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151661: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151662: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151663: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151664: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151665: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151666: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151667: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151668: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+}
+), processor=None, data_args=DataArguments(template='qwen3', dataset=['spc_r3_AB'], eval_dataset=None, dataset_dir='/home/yinrong/post-train/impl2.1/round3/data', media_dir='/home/yinrong/post-train/impl2.1/round3/data', cutoff_len=5120, train_on_prompt=False, mask_history=False, streaming=False, buffer_size=16384, mix_strategy='concat', interleave_probs=None, overwrite_cache=False, preprocessing_batch_size=1000, preprocessing_num_workers=None, max_samples=None, eval_num_beams=None, ignore_pad_token_for_loss=True, val_size=0.0, eval_on_each_dataset=False, packing=False, neat_packing=False, tool_format=None, default_system=None, enable_thinking=True, tokenized_path=None, data_shared_file_system=False))> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Parameter 'function'=<bound method SupervisedDatasetProcessor.preprocess_dataset of SupervisedDatasetProcessor(template=ReasoningTemplate(format_user=StringFormatter(slots=['<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_assistant=StringFormatter(slots=['{{content}}<|im_end|>\n'], tool_format=None), format_system=StringFormatter(slots=['<|im_start|>system\n{{content}}<|im_end|>\n'], tool_format=None), format_function=FunctionFormatter(slots=['{{content}}<|im_end|>\n'], tool_format='qwen'), format_observation=StringFormatter(slots=['<|im_start|>user\n<tool_response>\n{{content}}\n</tool_response><|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_tools=ToolFormatter(slots=[], tool_format='qwen'), format_prefix=EmptyFormatter(slots=[], tool_format=None), default_system='', stop_words=['<|im_end|>'], thought_words=('<think>', '</think>'), efficient_eos=False, replace_eos=True, replace_jinja_template=False, enable_thinking=True, mm_plugin=BasePlugin(image_token=None, video_token=None, audio_token=None, expand_mm_tokens=True)), tokenizer=Qwen2TokenizerFast(name_or_path='/home/yinrong/models/Qwen3-14B', vocab_size=151643, model_max_length=131072, is_fast=True, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'additional_special_tokens': ['<|im_start|>', '<|im_end|>', '<|object_ref_start|>', '<|object_ref_end|>', '<|box_start|>', '<|box_end|>', '<|quad_start|>', '<|quad_end|>', '<|vision_start|>', '<|vision_end|>', '<|vision_pad|>', '<|image_pad|>', '<|video_pad|>']}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	151643: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151644: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151645: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151646: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151647: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151648: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151649: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151650: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151651: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151652: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151653: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151654: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151655: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151656: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151657: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151658: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151659: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151660: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151661: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151662: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151663: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151664: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151665: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151666: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151667: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151668: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+}
+), processor=None, data_args=DataArguments(template='qwen3', dataset=['spc_r3_AB'], eval_dataset=None, dataset_dir='/home/yinrong/post-train/impl2.1/round3/data', media_dir='/home/yinrong/post-train/impl2.1/round3/data', cutoff_len=5120, train_on_prompt=False, mask_history=False, streaming=False, buffer_size=16384, mix_strategy='concat', interleave_probs=None, overwrite_cache=False, preprocessing_batch_size=1000, preprocessing_num_workers=None, max_samples=None, eval_num_beams=None, ignore_pad_token_for_loss=True, val_size=0.0, eval_on_each_dataset=False, packing=False, neat_packing=False, tool_format=None, default_system=None, enable_thinking=True, tokenized_path=None, data_shared_file_system=False))> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Parameter 'function'=<bound method SupervisedDatasetProcessor.preprocess_dataset of SupervisedDatasetProcessor(template=ReasoningTemplate(format_user=StringFormatter(slots=['<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_assistant=StringFormatter(slots=['{{content}}<|im_end|>\n'], tool_format=None), format_system=StringFormatter(slots=['<|im_start|>system\n{{content}}<|im_end|>\n'], tool_format=None), format_function=FunctionFormatter(slots=['{{content}}<|im_end|>\n'], tool_format='qwen'), format_observation=StringFormatter(slots=['<|im_start|>user\n<tool_response>\n{{content}}\n</tool_response><|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_tools=ToolFormatter(slots=[], tool_format='qwen'), format_prefix=EmptyFormatter(slots=[], tool_format=None), default_system='', stop_words=['<|im_end|>'], thought_words=('<think>', '</think>'), efficient_eos=False, replace_eos=True, replace_jinja_template=False, enable_thinking=True, mm_plugin=BasePlugin(image_token=None, video_token=None, audio_token=None, expand_mm_tokens=True)), tokenizer=Qwen2TokenizerFast(name_or_path='/home/yinrong/models/Qwen3-14B', vocab_size=151643, model_max_length=131072, is_fast=True, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'additional_special_tokens': ['<|im_start|>', '<|im_end|>', '<|object_ref_start|>', '<|object_ref_end|>', '<|box_start|>', '<|box_end|>', '<|quad_start|>', '<|quad_end|>', '<|vision_start|>', '<|vision_end|>', '<|vision_pad|>', '<|image_pad|>', '<|video_pad|>']}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	151643: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151644: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151645: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151646: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151647: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151648: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151649: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151650: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151651: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151652: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151653: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151654: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151655: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151656: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151657: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151658: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151659: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151660: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151661: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151662: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151663: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151664: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151665: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151666: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151667: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151668: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+}
+), processor=None, data_args=DataArguments(template='qwen3', dataset=['spc_r3_AB'], eval_dataset=None, dataset_dir='/home/yinrong/post-train/impl2.1/round3/data', media_dir='/home/yinrong/post-train/impl2.1/round3/data', cutoff_len=5120, train_on_prompt=False, mask_history=False, streaming=False, buffer_size=16384, mix_strategy='concat', interleave_probs=None, overwrite_cache=False, preprocessing_batch_size=1000, preprocessing_num_workers=None, max_samples=None, eval_num_beams=None, ignore_pad_token_for_loss=True, val_size=0.0, eval_on_each_dataset=False, packing=False, neat_packing=False, tool_format=None, default_system=None, enable_thinking=True, tokenized_path=None, data_shared_file_system=False))> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Parameter 'function'=<bound method SupervisedDatasetProcessor.preprocess_dataset of SupervisedDatasetProcessor(template=ReasoningTemplate(format_user=StringFormatter(slots=['<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_assistant=StringFormatter(slots=['{{content}}<|im_end|>\n'], tool_format=None), format_system=StringFormatter(slots=['<|im_start|>system\n{{content}}<|im_end|>\n'], tool_format=None), format_function=FunctionFormatter(slots=['{{content}}<|im_end|>\n'], tool_format='qwen'), format_observation=StringFormatter(slots=['<|im_start|>user\n<tool_response>\n{{content}}\n</tool_response><|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_tools=ToolFormatter(slots=[], tool_format='qwen'), format_prefix=EmptyFormatter(slots=[], tool_format=None), default_system='', stop_words=['<|im_end|>'], thought_words=('<think>', '</think>'), efficient_eos=False, replace_eos=True, replace_jinja_template=False, enable_thinking=True, mm_plugin=BasePlugin(image_token=None, video_token=None, audio_token=None, expand_mm_tokens=True)), tokenizer=Qwen2TokenizerFast(name_or_path='/home/yinrong/models/Qwen3-14B', vocab_size=151643, model_max_length=131072, is_fast=True, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'additional_special_tokens': ['<|im_start|>', '<|im_end|>', '<|object_ref_start|>', '<|object_ref_end|>', '<|box_start|>', '<|box_end|>', '<|quad_start|>', '<|quad_end|>', '<|vision_start|>', '<|vision_end|>', '<|vision_pad|>', '<|image_pad|>', '<|video_pad|>']}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	151643: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151644: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151645: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151646: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151647: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151648: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151649: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151650: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151651: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151652: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151653: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151654: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151655: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151656: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151657: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151658: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151659: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151660: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151661: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151662: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151663: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151664: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151665: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151666: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151667: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151668: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+}
+), processor=None, data_args=DataArguments(template='qwen3', dataset=['spc_r3_AB'], eval_dataset=None, dataset_dir='/home/yinrong/post-train/impl2.1/round3/data', media_dir='/home/yinrong/post-train/impl2.1/round3/data', cutoff_len=5120, train_on_prompt=False, mask_history=False, streaming=False, buffer_size=16384, mix_strategy='concat', interleave_probs=None, overwrite_cache=False, preprocessing_batch_size=1000, preprocessing_num_workers=None, max_samples=None, eval_num_beams=None, ignore_pad_token_for_loss=True, val_size=0.0, eval_on_each_dataset=False, packing=False, neat_packing=False, tool_format=None, default_system=None, enable_thinking=True, tokenized_path=None, data_shared_file_system=False))> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Parameter 'function'=<bound method SupervisedDatasetProcessor.preprocess_dataset of SupervisedDatasetProcessor(template=ReasoningTemplate(format_user=StringFormatter(slots=['<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_assistant=StringFormatter(slots=['{{content}}<|im_end|>\n'], tool_format=None), format_system=StringFormatter(slots=['<|im_start|>system\n{{content}}<|im_end|>\n'], tool_format=None), format_function=FunctionFormatter(slots=['{{content}}<|im_end|>\n'], tool_format='qwen'), format_observation=StringFormatter(slots=['<|im_start|>user\n<tool_response>\n{{content}}\n</tool_response><|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_tools=ToolFormatter(slots=[], tool_format='qwen'), format_prefix=EmptyFormatter(slots=[], tool_format=None), default_system='', stop_words=['<|im_end|>'], thought_words=('<think>', '</think>'), efficient_eos=False, replace_eos=True, replace_jinja_template=False, enable_thinking=True, mm_plugin=BasePlugin(image_token=None, video_token=None, audio_token=None, expand_mm_tokens=True)), tokenizer=Qwen2TokenizerFast(name_or_path='/home/yinrong/models/Qwen3-14B', vocab_size=151643, model_max_length=131072, is_fast=True, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'additional_special_tokens': ['<|im_start|>', '<|im_end|>', '<|object_ref_start|>', '<|object_ref_end|>', '<|box_start|>', '<|box_end|>', '<|quad_start|>', '<|quad_end|>', '<|vision_start|>', '<|vision_end|>', '<|vision_pad|>', '<|image_pad|>', '<|video_pad|>']}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	151643: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151644: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151645: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151646: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151647: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151648: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151649: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151650: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151651: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151652: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151653: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151654: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151655: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151656: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151657: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151658: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151659: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151660: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151661: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151662: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151663: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151664: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151665: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151666: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151667: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151668: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+}
+), processor=None, data_args=DataArguments(template='qwen3', dataset=['spc_r3_AB'], eval_dataset=None, dataset_dir='/home/yinrong/post-train/impl2.1/round3/data', media_dir='/home/yinrong/post-train/impl2.1/round3/data', cutoff_len=5120, train_on_prompt=False, mask_history=False, streaming=False, buffer_size=16384, mix_strategy='concat', interleave_probs=None, overwrite_cache=False, preprocessing_batch_size=1000, preprocessing_num_workers=None, max_samples=None, eval_num_beams=None, ignore_pad_token_for_loss=True, val_size=0.0, eval_on_each_dataset=False, packing=False, neat_packing=False, tool_format=None, default_system=None, enable_thinking=True, tokenized_path=None, data_shared_file_system=False))> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Running tokenizer on dataset:   0%|          | 0/1460 [00:00<?, ? examples/s]Running tokenizer on dataset:   0%|          | 0/1460 [00:00<?, ? examples/s]Running tokenizer on dataset:   0%|          | 0/1460 [00:00<?, ? examples/s]Running tokenizer on dataset:   0%|          | 0/1460 [00:00<?, ? examples/s]Running tokenizer on dataset:   0%|          | 0/1460 [00:00<?, ? examples/s]Running tokenizer on dataset:   0%|          | 0/1460 [00:00<?, ? examples/s]Parameter 'function'=<bound method SupervisedDatasetProcessor.preprocess_dataset of SupervisedDatasetProcessor(template=ReasoningTemplate(format_user=StringFormatter(slots=['<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_assistant=StringFormatter(slots=['{{content}}<|im_end|>\n'], tool_format=None), format_system=StringFormatter(slots=['<|im_start|>system\n{{content}}<|im_end|>\n'], tool_format=None), format_function=FunctionFormatter(slots=['{{content}}<|im_end|>\n'], tool_format='qwen'), format_observation=StringFormatter(slots=['<|im_start|>user\n<tool_response>\n{{content}}\n</tool_response><|im_end|>\n<|im_start|>assistant\n'], tool_format=None), format_tools=ToolFormatter(slots=[], tool_format='qwen'), format_prefix=EmptyFormatter(slots=[], tool_format=None), default_system='', stop_words=['<|im_end|>'], thought_words=('<think>', '</think>'), efficient_eos=False, replace_eos=True, replace_jinja_template=False, enable_thinking=True, mm_plugin=BasePlugin(image_token=None, video_token=None, audio_token=None, expand_mm_tokens=True)), tokenizer=Qwen2TokenizerFast(name_or_path='/home/yinrong/models/Qwen3-14B', vocab_size=151643, model_max_length=131072, is_fast=True, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'additional_special_tokens': ['<|im_start|>', '<|im_end|>', '<|object_ref_start|>', '<|object_ref_end|>', '<|box_start|>', '<|box_end|>', '<|quad_start|>', '<|quad_end|>', '<|vision_start|>', '<|vision_end|>', '<|vision_pad|>', '<|image_pad|>', '<|video_pad|>']}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	151643: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151644: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151645: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151646: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151647: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151648: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151649: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151650: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151651: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151652: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151653: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151654: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151655: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151656: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	151657: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151658: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151659: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151660: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151661: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151662: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151663: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151664: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151665: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151666: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151667: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	151668: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+}
+), processor=None, data_args=DataArguments(template='qwen3', dataset=['spc_r3_AB'], eval_dataset=None, dataset_dir='/home/yinrong/post-train/impl2.1/round3/data', media_dir='/home/yinrong/post-train/impl2.1/round3/data', cutoff_len=5120, train_on_prompt=False, mask_history=False, streaming=False, buffer_size=16384, mix_strategy='concat', interleave_probs=None, overwrite_cache=False, preprocessing_batch_size=1000, preprocessing_num_workers=None, max_samples=None, eval_num_beams=None, ignore_pad_token_for_loss=True, val_size=0.0, eval_on_each_dataset=False, packing=False, neat_packing=False, tool_format=None, default_system=None, enable_thinking=True, tokenized_path=None, data_shared_file_system=False))> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Running tokenizer on dataset:   0%|          | 0/1460 [00:00<?, ? examples/s][INFO|configuration_utils.py:763] 2026-04-28 14:55:42,851 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-28 14:55:42,852 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|2026-04-28 14:55:42] llamafactory.model.model_utils.kv_cache:143 >> KV cache is disabled during training.
+[WARNING|logging.py:328] 2026-04-28 14:55:42,976 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|modeling_utils.py:1169] 2026-04-28 14:55:42,984 >> loading weights file /home/yinrong/models/Qwen3-14B/model.safetensors.index.json
+[INFO|modeling_utils.py:2341] 2026-04-28 14:55:42,987 >> Instantiating Qwen3ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:986] 2026-04-28 14:55:42,989 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "use_cache": false
+}
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.21it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.21it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.19it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.21it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.22it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.19it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.32it/s]
+[INFO|configuration_utils.py:939] 2026-04-28 14:55:49,143 >> loading configuration file /home/yinrong/models/Qwen3-14B/generation_config.json
+[INFO|configuration_utils.py:986] 2026-04-28 14:55:49,143 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "temperature": 0.6,
+  "top_k": 20,
+  "top_p": 0.95
+}
+
+[INFO|dynamic_module_utils.py:423] 2026-04-28 14:55:49,145 >> Could not locate the custom_generate/generate.py inside /home/yinrong/models/Qwen3-14B.
+[INFO|2026-04-28 14:55:49] llamafactory.model.model_utils.checkpointing:143 >> Gradient checkpointing enabled.
+[INFO|2026-04-28 14:55:49] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-04-28 14:55:49] llamafactory.model.adapter:143 >> Upcasting trainable params to float32.
+[INFO|2026-04-28 14:55:49] llamafactory.model.adapter:143 >> Fine-tuning method: LoRA
+[INFO|2026-04-28 14:55:49] llamafactory.model.model_utils.misc:143 >> Found linear modules: gate_proj,up_proj,q_proj,k_proj,down_proj,v_proj,o_proj
+Running tokenizer on dataset:  68%|██████▊   | 1000/1460 [00:07<00:03, 141.71 examples/s]Running tokenizer on dataset:  68%|██████▊   | 1000/1460 [00:07<00:03, 141.59 examples/s]Running tokenizer on dataset:  68%|██████▊   | 1000/1460 [00:07<00:03, 141.38 examples/s]Running tokenizer on dataset:  68%|██████▊   | 1000/1460 [00:07<00:03, 139.36 examples/s]Running tokenizer on dataset:  68%|██████▊   | 1000/1460 [00:07<00:03, 138.62 examples/s]Running tokenizer on dataset:  68%|██████▊   | 1000/1460 [00:07<00:03, 138.18 examples/s]Running tokenizer on dataset:  68%|██████▊   | 1000/1460 [00:07<00:03, 137.80 examples/s][INFO|2026-04-28 14:55:52] llamafactory.model.loader:143 >> trainable params: 513,802,240 || all params: 15,282,109,440 || trainable%: 3.3621
+[WARNING|trainer.py:906] 2026-04-28 14:55:52,575 >> The model is already on multiple devices. Skipping the move to device specified in `args`.
+[INFO|trainer.py:749] 2026-04-28 14:55:52,612 >> Using auto half precision backend
+[WARNING|trainer.py:982] 2026-04-28 14:55:52,619 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 141.78 examples/s]Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 140.76 examples/s]Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 140.62 examples/s]Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 137.80 examples/s]Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 137.95 examples/s]
+Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 137.91 examples/s]Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 137.75 examples/s]Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 137.37 examples/s]Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 136.26 examples/s]
+`torch_dtype` is deprecated! Use `dtype` instead!
+Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 135.91 examples/s]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 133.97 examples/s]
+Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 133.91 examples/s]
+Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 133.88 examples/s]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Running tokenizer on dataset: 100%|██████████| 1460/1460 [00:10<00:00, 133.37 examples/s]
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.26it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.33it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.32it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.28it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.12it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.10it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.11it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.22it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.29it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.31it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.25it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.14it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.06it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.05it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.08it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.06it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.04it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.15it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.02it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.02it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:04,  1.02s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.14it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.01it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:04,  1.00s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.02it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.01it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.25it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:03,  1.06s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:05<00:03,  1.07s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:03,  1.06s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.02it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.24it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.01it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.01it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.22it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:06<00:02,  1.11s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:06<00:02,  1.10s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:06<00:02,  1.10s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:02,  1.05s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.01it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.01it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.31it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:07<00:01,  1.11s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:07<00:01,  1.04s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:07<00:01,  1.04s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:07<00:01,  1.09s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:07<00:01,  1.13s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:07<00:01,  1.12s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.16it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.06it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.04it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.16it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.07it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.15it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.06it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.08it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.03it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.06it/s]
+The model is already on multiple devices. Skipping the move to device specified in `args`.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+The model is already on multiple devices. Skipping the move to device specified in `args`.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+The model is already on multiple devices. Skipping the move to device specified in `args`.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+The model is already on multiple devices. Skipping the move to device specified in `args`.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+The model is already on multiple devices. Skipping the move to device specified in `args`.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+The model is already on multiple devices. Skipping the move to device specified in `args`.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+The model is already on multiple devices. Skipping the move to device specified in `args`.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None, 'pad_token_id': 151643}.
+[INFO|trainer.py:2519] 2026-04-28 14:56:05,659 >> ***** Running training *****
+[INFO|trainer.py:2520] 2026-04-28 14:56:05,659 >>   Num examples = 1,460
+[INFO|trainer.py:2521] 2026-04-28 14:56:05,659 >>   Num Epochs = 3
+[INFO|trainer.py:2522] 2026-04-28 14:56:05,659 >>   Instantaneous batch size per device = 2
+[INFO|trainer.py:2525] 2026-04-28 14:56:05,659 >>   Total train batch size (w. parallel, distributed & accumulation) = 64
+[INFO|trainer.py:2526] 2026-04-28 14:56:05,659 >>   Gradient Accumulation steps = 4
+[INFO|trainer.py:2527] 2026-04-28 14:56:05,659 >>   Total optimization steps = 69
+[INFO|trainer.py:2528] 2026-04-28 14:56:05,663 >>   Number of trainable parameters = 513,802,240
+  0%|          | 0/69 [00:00<?, ?it/s]  1%|▏         | 1/69 [00:48<55:25, 48.90s/it]  3%|▎         | 2/69 [01:35<53:18, 47.74s/it]  4%|▍         | 3/69 [02:23<52:39, 47.87s/it]  6%|▌         | 4/69 [03:12<52:03, 48.05s/it]  7%|▋         | 5/69 [03:58<50:33, 47.39s/it]                                              {'loss': 0.4401, 'grad_norm': 0.10124766826629639, 'learning_rate': 0.0001, 'epoch': 0.22}
+  7%|▋         | 5/69 [03:58<50:33, 47.39s/it]  9%|▊         | 6/69 [04:46<50:05, 47.71s/it] 10%|█         | 7/69 [05:35<49:35, 47.99s/it] 12%|█▏        | 8/69 [06:23<48:52, 48.07s/it] 13%|█▎        | 9/69 [07:11<48:08, 48.14s/it] 14%|█▍        | 10/69 [08:00<47:22, 48.18s/it]                                               {'loss': 0.3294, 'grad_norm': 0.08162261545658112, 'learning_rate': 9.85470908713026e-05, 'epoch': 0.43}
+ 14%|█▍        | 10/69 [08:00<47:22, 48.18s/it] 16%|█▌        | 11/69 [08:48<46:36, 48.21s/it] 17%|█▋        | 12/69 [09:34<45:06, 47.48s/it] 19%|█▉        | 13/69 [10:21<44:22, 47.54s/it] 20%|██        | 14/69 [11:09<43:36, 47.58s/it] 22%|██▏       | 15/69 [11:56<42:42, 47.46s/it]                                               {'loss': 0.2871, 'grad_norm': 0.05308706685900688, 'learning_rate': 9.42728012826605e-05, 'epoch': 0.65}
+ 22%|██▏       | 15/69 [11:56<42:42, 47.46s/it] 23%|██▎       | 16/69 [12:44<41:55, 47.46s/it] 25%|██▍       | 17/69 [13:32<41:19, 47.69s/it] 26%|██▌       | 18/69 [14:19<40:22, 47.50s/it] 28%|██▊       | 19/69 [15:05<39:17, 47.15s/it] 29%|██▉       | 20/69 [15:52<38:26, 47.07s/it]                                               {'loss': 0.2572, 'grad_norm': 0.04584144428372383, 'learning_rate': 8.742553740855506e-05, 'epoch': 0.87}
+ 29%|██▉       | 20/69 [15:52<38:26, 47.07s/it] 30%|███       | 21/69 [16:40<37:46, 47.21s/it] 32%|███▏      | 22/69 [17:27<37:04, 47.34s/it] 33%|███▎      | 23/69 [18:14<36:08, 47.15s/it][INFO|trainer.py:4309] 2026-04-28 15:14:20,343 >> Saving model checkpoint to /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-23
+[INFO|configuration_utils.py:763] 2026-04-28 15:14:20,461 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-28 15:14:20,462 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-28 15:14:24,904 >> chat template saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-23/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-28 15:14:24,923 >> tokenizer config file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-23/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-28 15:14:24,941 >> Special tokens file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-23/special_tokens_map.json
+ 35%|███▍      | 24/69 [19:12<37:52, 50.50s/it] 36%|███▌      | 25/69 [20:01<36:37, 49.94s/it]                                               {'loss': 0.2405, 'grad_norm': 0.04278365522623062, 'learning_rate': 7.840323733655778e-05, 'epoch': 1.09}
+ 36%|███▌      | 25/69 [20:01<36:37, 49.94s/it] 38%|███▊      | 26/69 [20:49<35:25, 49.43s/it] 39%|███▉      | 27/69 [21:38<34:21, 49.07s/it] 41%|████      | 28/69 [22:24<33:06, 48.45s/it] 42%|████▏     | 29/69 [23:13<32:15, 48.40s/it] 43%|████▎     | 30/69 [24:01<31:26, 48.36s/it]                                               {'loss': 0.2285, 'grad_norm': 0.04095597565174103, 'learning_rate': 6.773024435212678e-05, 'epoch': 1.3}
+ 43%|████▎     | 30/69 [24:01<31:26, 48.36s/it] 45%|████▍     | 31/69 [24:48<30:17, 47.83s/it] 46%|████▋     | 32/69 [25:36<29:35, 47.98s/it] 48%|████▊     | 33/69 [26:23<28:37, 47.71s/it] 49%|████▉     | 34/69 [27:11<27:54, 47.85s/it] 51%|█████     | 35/69 [27:59<27:07, 47.88s/it]                                               {'loss': 0.2156, 'grad_norm': 0.03844776004552841, 'learning_rate': 5.602683401276615e-05, 'epoch': 1.52}
+ 51%|█████     | 35/69 [27:59<27:07, 47.88s/it] 52%|█████▏    | 36/69 [28:47<26:22, 47.97s/it] 54%|█████▎    | 37/69 [29:36<25:40, 48.13s/it] 55%|█████▌    | 38/69 [30:24<24:52, 48.15s/it] 57%|█████▋    | 39/69 [31:12<24:05, 48.18s/it] 58%|█████▊    | 40/69 [31:59<23:08, 47.87s/it]                                               {'loss': 0.2195, 'grad_norm': 0.039550382643938065, 'learning_rate': 4.397316598723385e-05, 'epoch': 1.74}
+ 58%|█████▊    | 40/69 [31:59<23:08, 47.87s/it] 59%|█████▉    | 41/69 [32:47<22:17, 47.76s/it] 61%|██████    | 42/69 [33:35<21:33, 47.91s/it] 62%|██████▏   | 43/69 [34:21<20:28, 47.23s/it] 64%|██████▍   | 44/69 [35:08<19:43, 47.33s/it] 65%|██████▌   | 45/69 [35:55<18:49, 47.05s/it]                                               {'loss': 0.2082, 'grad_norm': 0.04001609981060028, 'learning_rate': 3.226975564787322e-05, 'epoch': 1.96}
+ 65%|██████▌   | 45/69 [35:55<18:49, 47.05s/it] 67%|██████▋   | 46/69 [36:42<18:03, 47.11s/it][INFO|trainer.py:4309] 2026-04-28 15:32:48,340 >> Saving model checkpoint to /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-46
+[INFO|configuration_utils.py:763] 2026-04-28 15:32:48,457 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-28 15:32:48,457 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-28 15:32:52,988 >> chat template saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-46/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-28 15:32:53,006 >> tokenizer config file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-46/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-28 15:32:53,022 >> Special tokens file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-46/special_tokens_map.json
+[INFO|trainer.py:4418] 2026-04-28 15:32:58,181 >> Deleting older checkpoint [/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-23] due to args.save_total_limit
+ 68%|██████▊   | 47/69 [37:41<18:33, 50.63s/it] 70%|██████▉   | 48/69 [38:30<17:30, 50.02s/it] 71%|███████   | 49/69 [39:18<16:29, 49.47s/it] 72%|███████▏  | 50/69 [40:06<15:34, 49.19s/it]                                               {'loss': 0.2051, 'grad_norm': 0.038792550563812256, 'learning_rate': 2.1596762663442218e-05, 'epoch': 2.17}
+ 72%|███████▏  | 50/69 [40:06<15:34, 49.19s/it] 74%|███████▍  | 51/69 [40:53<14:33, 48.53s/it] 75%|███████▌  | 52/69 [41:41<13:42, 48.36s/it] 77%|███████▋  | 53/69 [42:29<12:53, 48.33s/it] 78%|███████▊  | 54/69 [43:18<12:04, 48.29s/it] 80%|███████▉  | 55/69 [44:06<11:15, 48.27s/it]                                               {'loss': 0.2001, 'grad_norm': 0.03771053999662399, 'learning_rate': 1.257446259144494e-05, 'epoch': 2.39}
+ 80%|███████▉  | 55/69 [44:06<11:15, 48.27s/it] 81%|████████  | 56/69 [44:54<10:27, 48.24s/it] 83%|████████▎ | 57/69 [45:40<09:29, 47.49s/it] 84%|████████▍ | 58/69 [46:28<08:44, 47.70s/it] 86%|████████▌ | 59/69 [47:15<07:56, 47.62s/it] 87%|████████▋ | 60/69 [48:03<07:08, 47.60s/it]                                               {'loss': 0.2026, 'grad_norm': 0.040222037583589554, 'learning_rate': 5.727198717339511e-06, 'epoch': 2.61}
+ 87%|████████▋ | 60/69 [48:03<07:08, 47.60s/it] 88%|████████▊ | 61/69 [48:50<06:19, 47.43s/it] 90%|████████▉ | 62/69 [49:38<05:32, 47.56s/it] 91%|█████████▏| 63/69 [50:26<04:46, 47.75s/it] 93%|█████████▎| 64/69 [51:14<03:59, 47.87s/it] 94%|█████████▍| 65/69 [52:02<03:11, 47.82s/it]                                               {'loss': 0.1964, 'grad_norm': 0.03632073849439621, 'learning_rate': 1.4529091286973995e-06, 'epoch': 2.83}
+ 94%|█████████▍| 65/69 [52:02<03:11, 47.82s/it] 96%|█████████▌| 66/69 [52:50<02:24, 48.02s/it] 97%|█████████▋| 67/69 [53:39<01:36, 48.06s/it] 99%|█████████▊| 68/69 [54:27<00:48, 48.19s/it]100%|██████████| 69/69 [55:14<00:00, 47.83s/it][INFO|trainer.py:4309] 2026-04-28 15:51:20,289 >> Saving model checkpoint to /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-69
+[INFO|configuration_utils.py:763] 2026-04-28 15:51:20,416 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-28 15:51:20,417 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-28 15:51:23,566 >> chat template saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-69/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-28 15:51:23,584 >> tokenizer config file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-69/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-28 15:51:23,603 >> Special tokens file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-69/special_tokens_map.json
+[INFO|trainer.py:4418] 2026-04-28 15:51:28,512 >> Deleting older checkpoint [/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/checkpoint-46] due to args.save_total_limit
+[INFO|trainer.py:2810] 2026-04-28 15:51:29,075 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+                                               {'train_runtime': 3323.4125, 'train_samples_per_second': 1.318, 'train_steps_per_second': 0.021, 'train_loss': 0.24598751033561816, 'epoch': 3.0}
+100%|██████████| 69/69 [55:23<00:00, 47.83s/it]100%|██████████| 69/69 [55:23<00:00, 48.16s/it]
+[INFO|trainer.py:4309] 2026-04-28 15:51:29,096 >> Saving model checkpoint to /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB
+[INFO|configuration_utils.py:763] 2026-04-28 15:51:29,156 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-28 15:51:29,157 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2561] 2026-04-28 15:51:32,153 >> chat template saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-28 15:51:32,173 >> tokenizer config file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-28 15:51:32,192 >> Special tokens file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB/special_tokens_map.json
+***** train metrics *****
+  epoch                    =          3.0
+  total_flos               = 1777142388GF
+  train_loss               =        0.246
+  train_runtime            =   0:55:23.41
+  train_samples_per_second =        1.318
+  train_steps_per_second   =        0.021
+[INFO|modelcard.py:456] 2026-04-28 15:51:32,582 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}
+[15:51:37] [R3-AB] 训练完成
+[15:51:37] [R3-AB] 合并 adapter...
+[WARNING|2026-04-28 15:51:44] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,348 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,348 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,348 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,348 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,348 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,349 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,349 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-28 15:51:49,643 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-04-28 15:51:49,659 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-28 15:51:49,661 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,681 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,681 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,681 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,681 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,681 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,681 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-04-28 15:51:49,681 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-04-28 15:51:49,958 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-04-28 15:51:49,981 >> loading configuration file /home/yinrong/models/Qwen3-14B/config.json
+[INFO|configuration_utils.py:839] 2026-04-28 15:51:49,982 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[WARNING|logging.py:328] 2026-04-28 15:51:49,982 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|2026-04-28 15:51:49] llamafactory.model.model_utils.kv_cache:143 >> KV cache is enabled for faster generation.
+[WARNING|logging.py:328] 2026-04-28 15:51:50,096 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|modeling_utils.py:1169] 2026-04-28 15:51:50,104 >> loading weights file /home/yinrong/models/Qwen3-14B/model.safetensors.index.json
+[INFO|modeling_utils.py:2341] 2026-04-28 15:51:50,108 >> Instantiating Qwen3ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:986] 2026-04-28 15:51:50,109 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:00<00:00, 141.77it/s]
+[INFO|configuration_utils.py:939] 2026-04-28 15:51:50,231 >> loading configuration file /home/yinrong/models/Qwen3-14B/generation_config.json
+[INFO|configuration_utils.py:986] 2026-04-28 15:51:50,231 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "temperature": 0.6,
+  "top_k": 20,
+  "top_p": 0.95
+}
+
+[INFO|dynamic_module_utils.py:423] 2026-04-28 15:51:50,234 >> Could not locate the custom_generate/generate.py inside /home/yinrong/models/Qwen3-14B.
+[INFO|2026-04-28 15:51:50] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-04-28 15:52:33] llamafactory.model.adapter:143 >> Merged 1 adapter(s).
+[INFO|2026-04-28 15:52:33] llamafactory.model.adapter:143 >> Loaded adapter(s): /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB
+[INFO|2026-04-28 15:52:33] llamafactory.model.loader:143 >> all params: 14,768,307,200
+[INFO|2026-04-28 15:52:33] llamafactory.train.tuner:143 >> Convert model dtype to: torch.bfloat16.
+[INFO|configuration_utils.py:491] 2026-04-28 15:52:33,580 >> Configuration saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged/config.json
+[INFO|configuration_utils.py:757] 2026-04-28 15:52:33,600 >> Configuration saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged/generation_config.json
+[INFO|modeling_utils.py:4189] 2026-04-28 15:53:17,696 >> The model is bigger than the maximum size per checkpoint (2GB) and is going to be split in 15 checkpoint shards. You can find where each parameters has been saved in the index located at /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2561] 2026-04-28 15:53:17,714 >> chat template saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-04-28 15:53:17,733 >> tokenizer config file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-04-28 15:53:17,756 >> Special tokens file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged/special_tokens_map.json
+[INFO|2026-04-28 15:53:18] llamafactory.train.tuner:143 >> Ollama modelfile saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged/Modelfile
+合并配置：
+  base:    /home/yinrong/models/Qwen3-14B
+  adapter: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB
+  output:  /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged
+执行：llamafactory-cli export /tmp/tmp447t6io3.yaml
+✓ 合并完成，safetensors 文件数：15
+  输出目录：/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged
+[15:53:23] [R3-AB] 合并完成：/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged
+[15:53:23] [R3-AB] 启动 vLLM（端口 8033）...
+[15:53:23] 等待 vLLM 就绪（port 8033）...
+启动 vLLM：port=8033  model=/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-AB-merged
+  pid=457916  日志：/tmp/vllm_8033.log
+  等待健康检查（最多300秒）...
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+  等待 vLLM 启动... (http://localhost:8033/health)
+✓ vLLM 已就绪：http://localhost:8033
+[15:55:08] vLLM 8033 就绪（22×5s）
+[15:55:08] [R3-AB] 开始评测...
+评测模型: R3-AB  样本数: 200  并发: 4  条件: no_skill
+  [20/200] running rule_f1=0.282
+  [40/200] running rule_f1=0.346
+  [60/200] running rule_f1=0.365
+  [80/200] running rule_f1=0.368
+  [100/200] running rule_f1=0.383
+  [120/200] running rule_f1=0.387
+  [140/200] running rule_f1=0.389
+  [160/200] running rule_f1=0.390
+  [180/200] running rule_f1=0.379
+  [200/200] running rule_f1=0.383
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.383
+  cpk_mae:                 0.073
+  cpk_found_rate:          0.835
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  45593.7
+  inference_time_ms_p95:   46788.9
+
+各规则 recall：
+  rule1: 0.725
+  rule2: 0.483
+  rule3: 0.393
+  rule4: 0.75
+  rule5: 0.591
+  rule6: 0.727
+  rule7: 0.278
+  rule8: 0.231
+
+结果已写入：/home/yinrong/post-train/impl2.1/round3/results/R3-AB.json
+[16:33:21] [R3-AB] 评测完成：/home/yinrong/post-train/impl2.1/round3/results/R3-AB.json
+=== R3-AB 评测结果 ===
+  rule_f1=0.383
+  per_rule_recall: {'rule1': 0.725, 'rule2': 0.483, 'rule3': 0.393, 'rule4': 0.75, 'rule5': 0.591, 'rule6': 0.727, 'rule7': 0.278, 'rule8': 0.231}
+  cpk_mae=0.073, inference=45.6s
+[16:33:21] ======================================================
+[16:33:21] ✓ R3-B + R3-AB 完成，结果在 /home/yinrong/post-train/impl2.1/round3/results/
+[16:33:21] ======================================================

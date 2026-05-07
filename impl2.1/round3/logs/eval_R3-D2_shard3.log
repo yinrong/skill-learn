@@ -1,0 +1,23 @@
+评测模型: R3-D2  样本数: 50  并发: 4  条件: no_skill
+  [20/50] running rule_f1=0.483
+  [40/50] running rule_f1=0.421
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.383
+  cpk_mae:                 0.071
+  cpk_found_rate:          0.98
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  97775.6
+  inference_time_ms_p95:   100841.7
+
+各规则 recall：
+  rule1: 0.7
+  rule2: 0.714
+  rule3: 0.5
+  rule4: 1.0
+  rule5: 0.571
+  rule6: 0.625
+  rule7: 0.0
+  rule8: 0.0
+
+结果已写入：/tmp/R3-D2-shard3.json

@@ -1,0 +1,29 @@
+2026-04-29 21:20:58,525 - modelscope - WARNING - Repo Qwen/Qwen3-72B not exists on https://www.modelscope.cn, will try on alternative endpoint https://www.modelscope.ai.
+2026-04-29 21:20:58,969 - modelscope - ERROR - Repo Qwen/Qwen3-72B not exists on either https://www.modelscope.cn or https://www.modelscope.ai
+
+ _   .-')                _ .-') _     ('-.             .-')                              _ (`-.    ('-.
+( '.( OO )_             ( (  OO) )  _(  OO)           ( OO ).                           ( (OO  ) _(  OO)
+ ,--.   ,--.).-'),-----. \     .'_ (,------.,--.     (_)---\_)   .-----.  .-'),-----.  _.`     \(,------.
+ |   `.'   |( OO'  .-.  ',`'--..._) |  .---'|  |.-') /    _ |   '  .--./ ( OO'  .-.  '(__...--'' |  .---'
+ |         |/   |  | |  ||  |  \  ' |  |    |  | OO )\  :` `.   |  |('-. /   |  | |  | |  /  | | |  |
+ |  |'.'|  |\_) |  |\|  ||  |   ' |(|  '--. |  |`-' | '..`''.) /_) |OO  )\_) |  |\|  | |  |_.' |(|  '--.
+ |  |   |  |  \ |  | |  ||  |   / : |  .--'(|  '---.'.-._)   \ ||  |`-'|   \ |  | |  | |  .___.' |  .--'
+ |  |   |  |   `'  '-'  '|  '--'  / |  `---.|      | \       /(_'  '--'\    `'  '-'  ' |  |      |  `---.
+ `--'   `--'     `-----' `-------'  `------'`------'  `-----'    `-----'      `-----'  `--'      `------'
+
+Traceback (most recent call last):
+  File "/usr/local/bin/modelscope", line 8, in <module>
+    sys.exit(run_cmd())
+  File "/usr/local/lib/python3.10/dist-packages/modelscope/cli/cli.py", line 57, in run_cmd
+    cmd.execute()
+  File "/usr/local/lib/python3.10/dist-packages/modelscope/cli/download.py", line 162, in execute
+    snapshot_download(
+  File "/usr/local/lib/python3.10/dist-packages/modelscope/hub/snapshot_download.py", line 144, in snapshot_download
+    return _snapshot_download(
+  File "/usr/local/lib/python3.10/dist-packages/modelscope/hub/snapshot_download.py", line 317, in _snapshot_download
+    endpoint = _api.get_endpoint_for_read(
+  File "/usr/local/lib/python3.10/dist-packages/modelscope/hub/api.py", line 552, in get_endpoint_for_read
+    self.repo_exists(
+  File "/usr/local/lib/python3.10/dist-packages/modelscope/hub/api.py", line 710, in repo_exists
+    raise HTTPError(r)
+requests.exceptions.HTTPError: <Response [404]>

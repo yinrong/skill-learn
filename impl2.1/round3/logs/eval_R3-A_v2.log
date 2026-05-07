@@ -1,0 +1,31 @@
+评测模型: R3-A  样本数: 200  并发: 4  条件: no_skill
+  [20/200] running rule_f1=0.240
+  [40/200] running rule_f1=0.329
+  [60/200] running rule_f1=0.358
+  [80/200] running rule_f1=0.352
+  [100/200] running rule_f1=0.375
+  [120/200] running rule_f1=0.371
+  [140/200] running rule_f1=0.382
+  [160/200] running rule_f1=0.396
+  [180/200] running rule_f1=0.407
+  [200/200] running rule_f1=0.403
+
+=== 评测结果 (no_skill) ===
+  rule_detection_f1:       0.403
+  cpk_mae:                 0.077
+  cpk_found_rate:          1.0
+  has_reasoning_rate:      0.0
+  inference_time_ms_mean:  45473.2
+  inference_time_ms_p95:   47033.9
+
+各规则 recall：
+  rule1: 0.675
+  rule2: 0.379
+  rule3: 0.321
+  rule4: 0.625
+  rule5: 0.409
+  rule6: 0.758
+  rule7: 0.5
+  rule8: 0.385
+
+结果已写入：round3/results/R3-A.json

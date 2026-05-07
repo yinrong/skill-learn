@@ -1,0 +1,49 @@
+# R3-E1：FSDP 4卡 bf16 LoRA — Qwen3-32B（最大规模实验）
+# 目标：验证在 4×H20（4×97GB）上能否以 bf16 精度训练 32B（无量化）
+# 意义：与 R3-D2（4卡 int4 QLoRA 32B）对比，证明 bf16 精度保留超过 int4 量化
+# 训练显存预期：~65GB/卡（32B bf16 权重 64GB 分片后每卡 16GB + 梯度16GB + 优化器32GB + 激活~5GB）
+# 注意：系统仅有 4×H20，故从原计划 8卡调整为 4卡。需等 GRPO 训练结束（~16:00）后全部 4 卡可用。
+#
+# 运行命令（需在 GRPO 完成后，从 impl2.1/ 目录执行）：
+#   CUDA_VISIBLE_DEVICES=0,1,2,3 FORCE_TORCHRUN=1 DISABLE_VERSION_CHECK=1 \
+#     llamafactory-cli train round3/configs/R3-E1-fsdp-32b-bf16.yaml \
+#     --fsdp "full_shard auto_wrap" \
+#     --fsdp_config round3/configs/fsdp_config.json
+
+model_name_or_path: /home/yinrong/models/Qwen3-32B
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 128
+lora_alpha: 256
+lora_dropout: 0.0
+lora_target: all
+
+# 无量化，直接 bf16
+quantization_bit: ~
+
+dataset: spc_r3_AB_v2
+dataset_dir: /home/yinrong/post-train/impl2.1/round3/data
+cutoff_len: 5120
+
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 5.0e-05
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 1
+ddp_find_unused_parameters: false
+
+output_dir: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-E1-fsdp-32b-bf16
+
+do_train: true
+report_to: none

@@ -1,0 +1,41 @@
+# R3-D3：QLoRA int8 — Qwen3-14B（方向D 补充）
+# 目标：验证 int8 量化损失 ≤ 2% vs 同规模 bf16 LoRA（对比 R3-D1 int4 损失 8.4%）
+# 训练显存预期：~20GB/卡（对比 int4 ~10GB/卡，bf16 LoRA ~36GB/卡）
+
+model_name_or_path: /home/yinrong/models/Qwen3-14B
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 128
+lora_alpha: 256
+lora_dropout: 0.0
+lora_target: all
+
+# QLoRA int8 量化设置
+quantization_bit: 8
+quantization_method: bitsandbytes   # LLM.int8() 量化
+
+dataset: spc_r3_AB_v2
+dataset_dir: /home/yinrong/post-train/impl2.1/round3/data
+cutoff_len: 5120
+
+num_train_epochs: 3
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-04
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 1
+
+output_dir: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-D3-qlora-14b-int8
+
+do_train: true
+report_to: none

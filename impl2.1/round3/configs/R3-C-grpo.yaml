@@ -1,0 +1,50 @@
+# R3-C：GRPO 强化训练（方向C）
+# 基础：expYYY-merged（14B，F1=0.430）接续 RL
+# 目标：F1 > 0.46，冲击 0.50
+#
+# 运行前需确认：
+#   1. expYYY-merged 已合并至 /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged
+#   2. dataset spc_r3_grpo 已注册（alpaca 格式，含 ground_truth 字段）
+#   3. reward_model 路径指向 common/tools/train/grpo_reward.py
+
+model_name_or_path: /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.0
+lora_target: all
+
+stage: grpo
+# GRPO 参数
+reward_model: /home/yinrong/post-train/impl2.1/common/tools/train/grpo_reward.py
+# reward_func 函数名
+reward_fn_name: reward_func
+num_generations: 8          # G=8：每 prompt 采样数
+grpo_beta: 0.01
+max_new_tokens: 2048
+
+dataset: spc_r3_grpo
+cutoff_len: 5120
+
+num_train_epochs: 2
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 5.0e-06        # RL 阶段用更小 lr
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 2
+
+output_dir: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C
+
+do_train: true
+report_to: none

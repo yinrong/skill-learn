@@ -1,0 +1,38 @@
+Loaded 412 samples (no filtering)
+Reference cutoff_len=65536 — all samples kept regardless of length
+
+Samples per skill:
+  general-kpi-query: 167
+  equipment-cpk-query: 59
+  lineside-material-query: 57
+  object-data-query: 56
+  line-exemption-query: 32
+  line-operation-skill: 16
+  line-attendance-query: 11
+  分板机过站明细查询: 10
+  project-kpi-query: 2
+  manufacturing-capability-analysis: 1
+  workstion-kpi-query: 1
+
+Train token length stats (n=349):
+  p50: 8802
+  p75: 12101
+  p90: 26232
+  p95: 38189
+  p99: 66980
+  p100: 78411
+  Samples > cutoff_len (65536): 4 (1%)
+
+Train: 349 samples → data/train_ns_all.jsonl
+Test:  63 samples  → data/test_ns_all.jsonl
+
+Test skill distribution:
+  general-kpi-query: 25
+  equipment-cpk-query: 9
+  lineside-material-query: 9
+  object-data-query: 8
+  line-exemption-query: 5
+  line-attendance-query: 2
+  line-operation-skill: 2
+  分板机过站明细查询: 2
+  project-kpi-query: 1

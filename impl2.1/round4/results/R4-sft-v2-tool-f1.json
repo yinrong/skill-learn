@@ -1,0 +1,1213 @@
+{
+  "summary": {
+    "name_acc": 0.3016,
+    "arg_key_f1": 0.3032,
+    "arg_kv_f1": 0.1455,
+    "combined_f1": 0.2235
+  },
+  "n_samples": 63,
+  "n_errors": 10,
+  "n_skipped": 0,
+  "model_url": "http://localhost:8035",
+  "model_name": "R4-sft-v2-merged",
+  "test_file": "round4/data/test_ns_all.jsonl",
+  "timestamp": "2026-05-13 10:11:35",
+  "samples": [
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"device_fail_item\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"between\\\", \\\"value\\\": \\\"2026-04-28 00:00:00,2026-04-28 01:00:00\\\"}]}]\", \"limit\": 200}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"project\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 0.5,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.5,
+        "latency_ms": 306
+      },
+      "prefix_len": 6
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"device_fail_item\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"column\\\": \\\"fault_tm\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"2026-05-08\\\"}]}]\", \"limit\": 100}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 6191
+      },
+      "prefix_len": 12
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"device_fail_item\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"ge\\\", \\\"value\\\": \\\"2026-04-25 09:00:00\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"le\\\", \\\"value\\\": \\\"2026-04-25 10:00:00\\\"}]}]\", \"limit\": 500}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"line\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}]}]\", \"limit\": 10}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.5,
+        "latency_ms": 1454
+      },
+      "prefix_len": 10
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"device_fail_item\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"gte\\\", \\\"value\\\": \\\"2026-05-11 20:00:00\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"lte\\\", \\\"value\\\": \\\"2026-05-11 21:00:00\\\"}]}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"line\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}]}]\", \"limit\": 10}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 0.8,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.5,
+        "latency_ms": 1248
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"device_fail_item\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"ge\\\", \\\"value\\\": \\\"2026-05-09 17:00:00\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"le\\\", \\\"value\\\": \\\"2026-05-09 18:00:00\\\"}]}]\", \"limit\": 500}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"line\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}]}]\", \"limit\": 10}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.5,
+        "latency_ms": 1238
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"device_fail_item\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}]}]\", \"limit\": 5}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 1949
+      },
+      "prefix_len": 18
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"device_fail_item\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"gte\\\", \\\"value\\\": \\\"2026-04-25 06:00:00\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"lte\\\", \\\"value\\\": \\\"2026-04-25 07:00:00\\\"}]}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"line\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}]}]\", \"limit\": 10}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 0.8,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.5,
+        "latency_ms": 1423
+      },
+      "prefix_len": 10
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12365, \"params_json\": \"[{\\\"name\\\": \\\"startTm\\\", \\\"value\\\": \\\"2026-04-24\\\"}, {\\\"name\\\": \\\"endTm\\\", \\\"value\\\": \\\"2026-04-24\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 6282
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"device_fail_item\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"gte\\\", \\\"value\\\": \\\"2026-05-07 14:00:00\\\"}, {\\\"column\\\": \\\"start_tm\\\", \\\"operator\\\": \\\"lte\\\", \\\"value\\\": \\\"2026-05-07 15:00:00\\\"}]}]\", \"limit\": 20000}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3757
+      },
+      "prefix_len": 12
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"sn_process_history\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S03\\\"}, {\\\"column\\\": \\\"process_time\\\", \\\"operator\\\": \\\"gte\\\", \\\"value\\\": \\\"2026-04-25 19:00:00\\\"}, {\\\"column\\\": \\\"process_time\\\", \\\"operator\\\": \\\"lt\\\", \\\"value\\\": \\\"2026-04-25 20:00:00\\\"}]}]\", \"limit\": 200}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 6954
+      },
+      "prefix_len": 22
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\":\\\"shift\\\",\\\"value\\\":\\\"D\\\"},{\\\"name\\\":\\\"start_date\\\",\\\"value\\\":\\\"2026-04-24\\\"}]\", \"limit\": 20000}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\":\\\"shift\\\",\\\"value\\\":\\\"D\\\"},{\\\"name\\\":\\\"start_date\\\",\\\"value\\\":\\\"2026-04-24\\\"}]\", \"limit\": 20000}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0,
+        "latency_ms": 2637
+      },
+      "prefix_len": 12
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"device_fail_item\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"column\\\": \\\"fault_tm\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"2026-05-09\\\"}]}]\", \"limit\": 200}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3948
+      },
+      "prefix_len": 10
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 6855
+      },
+      "prefix_len": 18
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-27\\\"}, {\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"N\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 5873
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"ALL\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-24\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3804
+      },
+      "prefix_len": 14
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"exemption_task\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 1780
+      },
+      "prefix_len": 12
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"N\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-27\\\"}]\", \"limit\": 1000, \"repo\": \"intelligent_manufacturing/changping_ontology\", \"branch\": \"main\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 4082
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"line\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S03\\\"}]}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 1539
+      },
+      "prefix_len": 10
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"D\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-25\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 5649
+      },
+      "prefix_len": 6
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_detail",
+          "arguments": "{\"api_names\": \"device_fail_item\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3143
+      },
+      "prefix_len": 6
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"D\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-25\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 6489
+      },
+      "prefix_len": 14
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\":\\\"shift\\\",\\\"value\\\":\\\"D\\\"},{\\\"name\\\":\\\"start_date\\\",\\\"value\\\":\\\"2026-04-27\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"N\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-27\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.5,
+        "combined_f1": 0.75,
+        "latency_ms": 1079
+      },
+      "prefix_len": 6
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12204, \"params_json\": \"[{\\\"name\\\":\\\"shift\\\",\\\"value\\\":\\\"ALL\\\"},{\\\"name\\\":\\\"line_code\\\",\\\"value\\\":\\\"S03,S04\\\"},{\\\"name\\\":\\\"start_shift_date\\\",\\\"value\\\":\\\"2026-04-28\\\"},{\\\"name\\\":\\\"end_shift_date\\\",\\\"value\\\":\\\"2026-04-28\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"line\", \"filter_json\": \"[]\", \"limit\": 20000}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 1178
+      },
+      "prefix_len": 6
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3964
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"D\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-27\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 1495
+      },
+      "prefix_len": 12
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"D\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-24\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"D\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-24\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0,
+        "latency_ms": 1328
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"N\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-27\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3417
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"D\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-25\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"line_code\\\", \\\"value\\\": \\\"S03\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-25\\\"}, {\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"ALL\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.5,
+        "combined_f1": 0.75,
+        "latency_ms": 2575
+      },
+      "prefix_len": 6
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12336, \"params_json\": \"[]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3228
+      },
+      "prefix_len": 10
+    },
+    {
+      "error": "400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions",
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"TPM_USER\", \"limit\": 20000}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3250
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"D\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-28\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"ALL\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-28\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.5,
+        "combined_f1": 0.75,
+        "latency_ms": 1084
+      },
+      "prefix_len": 6
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"D\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-28\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"D\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-28\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0,
+        "latency_ms": 918
+      },
+      "prefix_len": 4
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12207, \"params_json\": \"[{\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-28\\\"}, {\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"N\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12202, \"params_json\": \"[{\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"N\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-28\\\"}, {\\\"name\\\": \\\"qt_type\\\", \\\"value\\\": \\\"\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.5,
+        "latency_ms": 3300
+      },
+      "prefix_len": 6
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12389, \"params_json\": \"[{\\\"name\\\": \\\"线体\\\", \\\"value\\\": \\\"S03,S04\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-29\\\"}, {\\\"name\\\": \\\"end_date\\\", \\\"value\\\": \\\"2026-04-29\\\"}, {\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"ALL\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12389, \"params_json\": \"[{\\\"name\\\": \\\"线体\\\", \\\"value\\\": \\\"S03,S04\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-29\\\"}, {\\\"name\\\": \\\"end_date\\\", \\\"value\\\": \\\"2026-04-29\\\"}, {\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"ALL\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0,
+        "latency_ms": 2177
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12389, \"params_json\": \"[{\\\"name\\\": \\\"线体\\\", \\\"value\\\": \\\"S03,S04\\\"}, {\\\"name\\\": \\\"班次日期\\\", \\\"value\\\": \\\"2026-04-29\\\"}, {\\\"name\\\": \\\"班次\\\", \\\"value\\\": \\\"ALL\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 6437
+      },
+      "prefix_len": 22
+    },
+    {
+      "error": "400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions",
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"material_bind_detail\", \"limit\": 1}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "error": "400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions",
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"TPM_USER\", \"limit\": 1}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12231, \"params_json\": \"[{\\\"name\\\": \\\"shift_date\\\", \\\"value\\\": \\\"2026-04-29\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 1396
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12198, \"params_json\": \"[{\\\"name\\\": \\\"line_code\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"name\\\": \\\"startTime\\\", \\\"value\\\": \\\"2026-04-23 09:00:00\\\"}, {\\\"name\\\": \\\"endTime\\\", \\\"value\\\": \\\"2026-04-24 09:00:00\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3352
+      },
+      "prefix_len": 22
+    },
+    {
+      "error": "400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions",
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"material_bind_detail\", \"limit\": 1}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "error": "400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions",
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"material_bind_detail\", \"limit\": 1}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "error": "400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions",
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"SN\", \"limit\": 1}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "error": "400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions",
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12336, \"params_json\": \"[{\\\"name\\\": \\\"线体\\\", \\\"value\\\": \\\"S03\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "format_feishu_card",
+          "arguments": "{\"card_json\": \"{\\\"type\\\": \\\"single_metric\\\", \\\"data\\\": [{\\\"title\\\": \\\"S03线今日线边仓物料剩余情况\\\", \\\"value\\\": \\\"共 12 条记录，剩余时长均 >4h，无紧急物料\\\"}], \\\"config\\\": {\\\"color\\\": \\\"#4CAF50\\\"}}\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 1688
+      },
+      "prefix_len": 4
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"line\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"like\\\", \\\"value\\\": \\\"S03\\\"}]}]\", \"limit\": 10}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 4839
+      },
+      "prefix_len": 26
+    },
+    {
+      "error": "400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions",
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"ShiftLineProductionPlan\", \"params_json\": \"[{\\\"name\\\":\\\"line_code\\\",\\\"value\\\":\\\"S03\\\"},{\\\"name\\\":\\\"shift_date\\\",\\\"value\\\":\\\"2026-04-28\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12202, \"params_json\": \"[{\\\"name\\\": \\\"shift_date\\\", \\\"value\\\": \\\"2026-04-28\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12202, \"params_json\": \"[{\\\"name\\\": \\\"shift_date\\\", \\\"value\\\": \\\"2026-04-28\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0,
+        "latency_ms": 1831
+      },
+      "prefix_len": 16
+    },
+    {
+      "error": "400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions",
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"ShiftLineProductionPlan\", \"params_json\": \"[{\\\"name\\\":\\\"line_code\\\",\\\"value\\\":\\\"S03\\\"},{\\\"name\\\":\\\"shift_date\\\",\\\"value\\\":\\\"2026-04-28\\\"}]\", \"filter_json\": \"[]\", \"limit\": 20000}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\", \"repo\": \"intelligent_manufacturing/changping_ontology\", \"branch\": \"main\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3120
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"ShiftLineProductionPlan\", \"params_json\": \"[{\\\"name\\\": \\\"line_code\\\", \\\"value\\\": \\\"S03\\\"}, {\\\"name\\\": \\\"shift_date\\\", \\\"value\\\": \\\"2026-04-28\\\"}]\", \"filter_json\": \"[]\", \"limit\": 20000, \"repo\": \"intelligent_manufacturing/changping_ontology\", \"branch\": \"main\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 4242
+      },
+      "prefix_len": 16
+    },
+    {
+      "error": "400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions",
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"limit\": 100, \"model_id\": 12287, \"params_json\": \"[{\\\"name\\\": \\\"装备编码\\\", \\\"value\\\": \\\"M-PFA-FHDHA-D-YQL-0001\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"ShiftLineProductionPlan\", \"params_json\": \"[{\\\"name\\\": \\\"line_code\\\", \\\"value\\\": \\\"S03\\\"}, {\\\"name\\\": \\\"shift_date\\\", \\\"value\\\": \\\"2026-04-29\\\"}]\", \"filter_json\": \"[]\", \"limit\": 20000, \"repo\": \"intelligent_manufacturing/changping_ontology\", \"branch\": \"main\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 4800
+      },
+      "prefix_len": 36
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"exemption_task\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"column\\\": \\\"create_time\\\", \\\"operator\\\": \\\"ge\\\", \\\"value\\\": \\\"2026-04-27 17:00:00\\\"}, {\\\"column\\\": \\\"create_time\\\", \\\"operator\\\": \\\"lt\\\", \\\"value\\\": \\\"2026-04-27 18:00:00\\\"}]}]\", \"limit\": 20000}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"line\", \"filter_json\": \"[{\\\"logic\\\": \\\"and\\\", \\\"conditions\\\": [{\\\"column\\\": \\\"line_code\\\", \\\"operator\\\": \\\"eq\\\", \\\"value\\\": \\\"S04\\\"}]}]\", \"limit\": 10}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.5,
+        "latency_ms": 2116
+      },
+      "prefix_len": 8
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"exemption_task\", \"params_json\": \"[{\\\"name\\\":\\\"line\\\",\\\"value\\\":\\\"S04\\\"},{\\\"name\\\":\\\"start_tm\\\",\\\"value\\\":\\\"2026-04-27 15:00:00\\\"},{\\\"name\\\":\\\"end_tm\\\",\\\"value\\\":\\\"2026-04-27 16:00:00\\\"}]\", \"limit\": 500}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 3608
+      },
+      "prefix_len": 10
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"exemption_task\", \"filter_json\": \"[{\\\"logic\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"column\\\":\\\"line\\\",\\\"operator\\\":\\\"eq\\\",\\\"value\\\":\\\"S03\\\"},{\\\"column\\\":\\\"create_time\\\",\\\"operator\\\":\\\"ge\\\",\\\"value\\\":\\\"2026-05-08 00:00:00\\\"},{\\\"column\\\":\\\"create_time\\\",\\\"operator\\\":\\\"lt\\\",\\\"value\\\":\\\"2026-05-09 00:00:00\\\"}]}]\", \"limit\": 500}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"exemption_task\", \"filter_json\": \"[{\\\"logic\\\":\\\"and\\\",\\\"conditions\\\":[{\\\"column\\\":\\\"line\\\",\\\"operator\\\":\\\"eq\\\",\\\"value\\\":\\\"S03\\\"},{\\\"column\\\":\\\"create_time\\\",\\\"operator\\\":\\\"ge\\\",\\\"value\\\":\\\"2026-05-08 09:00:00\\\"},{\\\"column\\\":\\\"create_time\\\",\\\"operator\\\":\\\"lt\\\",\\\"value\\\":\\\"2026-05-09 09:00:00\\\"}]}]\", \"limit\": 500}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.6666666666666666,
+        "combined_f1": 0.8333333333333333,
+        "latency_ms": 2716
+      },
+      "prefix_len": 24
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0,
+        "latency_ms": 495
+      },
+      "prefix_len": 6
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"exemption_task\", \"params_json\": \"[{\\\"name\\\": \\\"line\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"name\\\": \\\"start_tm\\\", \\\"value\\\": \\\"2026-04-27 11:00:00\\\"}, {\\\"name\\\": \\\"end_tm\\\", \\\"value\\\": \\\"2026-04-27 12:00:00\\\"}]\", \"limit\": 20000}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 6010
+      },
+      "prefix_len": 10
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 8065, \"params_json\": \"[{\\\"name\\\": \\\"start_tm\\\", \\\"value\\\": \\\"2026-05-10 09:00:00\\\"}, {\\\"name\\\": \\\"end_tm\\\", \\\"value\\\": \\\"2026-05-11 09:00:00\\\"}, {\\\"name\\\": \\\"project\\\", \\\"value\\\": \\\"P17P,AI801,N3,BYRON,N801M,PRAGUE,WARSAW,N801AM,P17,O3,P3,Q18\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 6579
+      },
+      "prefix_len": 10
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12223, \"params_json\": \"[{\\\"name\\\": \\\"start_tm\\\", \\\"value\\\": \\\"2026-05-08 09:00:00\\\"}, {\\\"name\\\": \\\"end_tm\\\", \\\"value\\\": \\\"2026-05-09 09:00:00\\\"}, {\\\"name\\\": \\\"line\\\", \\\"value\\\": \\\"S04\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12223, \"params_json\": \"[{\\\"name\\\": \\\"line_code\\\", \\\"value\\\": \\\"S04\\\"}, {\\\"name\\\": \\\"start_tm\\\", \\\"value\\\": \\\"2026-05-08 09:00:00\\\"}, {\\\"name\\\": \\\"end_tm\\\", \\\"value\\\": \\\"2026-05-09 09:00:00\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.5,
+        "combined_f1": 0.75,
+        "latency_ms": 4224
+      },
+      "prefix_len": 26
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "pred_calls": [],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 0.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 5973
+      },
+      "prefix_len": 22
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12328, \"params_json\": \"[{\\\"name\\\": \\\"装备编码\\\", \\\"value\\\": \\\"M-SMT-PCBC-A-ZMO-0401\\\"}, {\\\"name\\\": \\\"startTm\\\", \\\"value\\\": \\\"2026-04-25 09:00:00\\\"}, {\\\"name\\\": \\\"endTm\\\", \\\"value\\\": \\\"2026-04-26 09:00:00\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12328, \"params_json\": \"[{\\\"name\\\": \\\"entity_code\\\", \\\"value\\\": \\\"M-SMT-PCBC-A-ZMO-0401\\\"}, {\\\"name\\\": \\\"shift\\\", \\\"value\\\": \\\"ALL\\\"}, {\\\"name\\\": \\\"start_date\\\", \\\"value\\\": \\\"2026-04-25\\\"}, {\\\"name\\\": \\\"end_date\\\", \\\"value\\\": \\\"2026-04-25\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.5,
+        "combined_f1": 0.75,
+        "latency_ms": 2159
+      },
+      "prefix_len": 10
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"device\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_object_type_detail",
+          "arguments": "{\"api_names\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_key_f1": 1.0,
+        "arg_kv_f1": 0.0,
+        "combined_f1": 0.0,
+        "latency_ms": 1821
+      },
+      "prefix_len": 10
+    }
+  ]
+}

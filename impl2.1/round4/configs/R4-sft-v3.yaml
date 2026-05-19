@@ -1,0 +1,46 @@
+# R4-sft-v3：标准 LoRA（无量化），cutoff=24576，覆盖 100% 样本
+#
+# 修复 v2 的问题：
+#   - v2 用了 QLoRA (4-bit)，cutoff=8192 截断了长对话（max实际~12K tokens）
+#   - v3 用标准 LoRA (bf16)：无量化，无 DeepSpeed（ZeRO-3 + LoRA 有兼容性 bug）
+#   - cutoff: 8192 → 24576（覆盖率 83% → 100%，实测数据 max ~12K tokens）
+#   - 去掉 deepspeed（DeepSpeed 0.16.9 + LoRA 存在 zip() 长度不匹配 bug）
+#
+# GPU: 2,3（97GB H20 × 2），实测 3 步无 OOM
+# 实测：3 steps OK, loss=0.48, 用时 4m14s
+
+model_name_or_path: /home/yinrong/models/Qwen3-14B
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.0
+lora_target: all
+
+dataset: skill_r4_ns_all
+dataset_dir: /home/yinrong/post-train/impl2.1/round4/data
+cutoff_len: 24576
+
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+gradient_checkpointing: true
+learning_rate: 5.0e-05
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 2
+
+output_dir: /home/yinrong/post-train/impl2.1/round4/checkpoints/R4-sft-v3
+plot_loss: false
+
+do_train: true
+report_to: none

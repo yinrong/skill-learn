@@ -1,0 +1,497 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "view_text_file",
+      "description": "View the file content in the specified range with line numbers. If `ranges` is not provided, the entire file will be returned.",
+      "parameters": {
+        "properties": {
+          "file_path": {
+            "description": "The target file path.",
+            "type": "string"
+          },
+          "ranges": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "integer"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "The range of lines to be viewed (e.g. lines 1 to 100: [1, 100]), inclusive. If not provided, the entire file will be returned. To view the last 100 lines, use [-100, -1]."
+          }
+        },
+        "required": [
+          "file_path"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "add_cron",
+      "description": "Add a scheduled cron job that will execute the given task description periodically.",
+      "parameters": {
+        "properties": {
+          "cron_expr": {
+            "description": "Cron expression string. Supports formats like:\n- \"*/5 * * * *\" - every 5 minutes\n- \"@minutely\" - every minute\n- \"@hourly\" - every hour\n- \"@daily\" - every day",
+            "type": "string"
+          },
+          "task_description": {
+            "description": "The task description to send to the AI agent when cron triggers",
+            "type": "string"
+          },
+          "push_time_window": {
+            "default": "",
+            "description": "Optional Feishu push window \"HH:MM-HH:MM\" (e.g. \"08:00-20:00\").\nEmpty string means always push. Supports overnight ranges like \"22:00-06:00\".",
+            "type": "string"
+          }
+        },
+        "required": [
+          "cron_expr",
+          "task_description"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "del_cron",
+      "description": "Delete a scheduled cron job by its job ID.",
+      "parameters": {
+        "properties": {
+          "job_id": {
+            "description": "The unique job ID returned by add_cron",
+            "type": "string"
+          }
+        },
+        "required": [
+          "job_id"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pause_cron",
+      "description": "Pause (disable) a scheduled cron job without deleting it.\nThe job can be resumed later with resume_cron.",
+      "parameters": {
+        "properties": {
+          "job_id": {
+            "description": "The unique job ID returned by add_cron or list_crons",
+            "type": "string"
+          }
+        },
+        "required": [
+          "job_id"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "resume_cron",
+      "description": "Resume a previously paused cron job.",
+      "parameters": {
+        "properties": {
+          "job_id": {
+            "description": "The unique job ID of the paused job",
+            "type": "string"
+          }
+        },
+        "required": [
+          "job_id"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list_crons",
+      "description": "List all scheduled cron jobs.",
+      "parameters": {
+        "properties": {},
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_cron_push_window",
+      "description": "Set or clear the Feishu push time window for an existing cron job.",
+      "parameters": {
+        "properties": {
+          "job_id": {
+            "description": "The job UUID returned by add_cron or list_crons.",
+            "type": "string"
+          },
+          "push_time_window": {
+            "description": "Window in \"HH:MM-HH:MM\" format (e.g. \"08:00-20:00\"),\nor empty string \"\" to remove the restriction.\nSupports overnight ranges like \"22:00-06:00\".",
+            "type": "string"
+          }
+        },
+        "required": [
+          "job_id",
+          "push_time_window"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "create_alert_rule",
+      "description": "创建告警规则，系统按 check_interval 定时检测，满足条件后推送告警到当前群聊/会话。",
+      "parameters": {
+        "properties": {
+          "name": {
+            "description": "规则名称，如\"S03线体良率告警\"",
+            "type": "string"
+          },
+          "metric_query": {
+            "description": "指标查询指令（自然语言），如\"查询S03线体当前一次良率\"",
+            "type": "string"
+          },
+          "rule_type": {
+            "description": "规则类型 —— threshold（阈值）/ change_rate（环比波动）/ trend_deviation（趋势偏离）",
+            "type": "string"
+          },
+          "severity": {
+            "default": "P1",
+            "description": "告警级别 —— P0（紧急）/ P1（高）/ P2（中），默认 P1",
+            "type": "string"
+          },
+          "threshold_op": {
+            "default": null,
+            "description": "阈值比较符，threshold 类型必填 —— > / >= / < / <= / == / !=",
+            "type": "string"
+          },
+          "threshold_value": {
+            "default": null,
+            "description": "阈值数值，threshold 类型必填。单位与 metric_query 返回值一致，如良率用百分比则填 95（不要填 0.95）",
+            "type": "number"
+          },
+          "threshold_unit": {
+            "default": "",
+            "description": "阈值单位，用于前端展示，如 \"%\"（出勤率/良率等百分比指标）、\"台\"（设备数量）、\"条\"（任务数量），纯数字留空字符串",
+            "type": "string"
+          },
+          "change_rate_pct": {
+            "default": null,
+            "description": "波动百分比阈值（如 20 = 20%），change_rate 类型必填",
+            "type": "number"
+          },
+          "change_period": {
+            "default": null,
+            "description": "对比周期 —— hour / day / week / month，change_rate 类型必填",
+            "type": "string"
+          },
+          "trend_deviation_pct": {
+            "default": null,
+            "description": "趋势偏离百分比阈值，trend_deviation 类型必填",
+            "type": "number"
+          },
+          "check_interval": {
+            "default": 5,
+            "description": "检测频率（分钟），默认 5。用户若未指定则使用默认值，不要随意改大",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "name",
+          "metric_query",
+          "rule_type"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list_alert_rules",
+      "description": "列出当前所有告警规则及其状态。\n当用户询问\"有哪些告警\"、\"告警配置\"、\"告警规则\"、\"监控了哪些指标\"时，必须调用此工具，\n不得凭记忆回答。",
+      "parameters": {
+        "properties": {},
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "delete_alert_rule",
+      "description": "删除告警规则。",
+      "parameters": {
+        "properties": {
+          "rule_id": {
+            "description": "告警规则 ID（由 list_alert_rules 返回）",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "rule_id"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "silence_alert_rule",
+      "description": "静默告警规则，静默期间即使触发也不推送。",
+      "parameters": {
+        "properties": {
+          "rule_id": {
+            "description": "告警规则 ID",
+            "type": "integer"
+          },
+          "duration": {
+            "description": "静默时长 —— 1h（1小时）/ 1d（1天）/ 1w（1周）",
+            "type": "string"
+          }
+        },
+        "required": [
+          "rule_id",
+          "duration"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list_object_types",
+      "description": "列出本体中的对象类型（可关键词搜索）。\nkeyword: 搜索关键词，空字符串表示全部。\nrepo, branch, user_id: 可选，不传则用默认值。\n返回 JSON：code, message, data 为对象列表，每项含 apiName, displayName, desc。",
+      "parameters": {
+        "properties": {
+          "keyword": {
+            "default": "",
+            "type": "string"
+          },
+          "repo": {
+            "default": "intelligent_manufacturing/changping_ontology",
+            "type": "string"
+          },
+          "branch": {
+            "default": "main",
+            "type": "string"
+          },
+          "user_id": {
+            "default": "zhanjiangcheng",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_object_type_detail",
+      "description": "获取指定对象类型的元数据（主键、列、参数、exampleData、count）。\napi_names: 逗号分隔的对象 apiName，如 \"project,line\"。\n返回 JSON：code, message, data 为对象详情列表。",
+      "parameters": {
+        "properties": {
+          "api_names": {
+            "type": "string"
+          },
+          "repo": {
+            "default": "intelligent_manufacturing/changping_ontology",
+            "type": "string"
+          },
+          "branch": {
+            "default": "main",
+            "type": "string"
+          },
+          "user_id": {
+            "default": "zhanjiangcheng",
+            "type": "string"
+          }
+        },
+        "required": [
+          "api_names"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_object_type_data",
+      "description": "按条件查询对象类型的数据。\napi_name: 对象 apiName，如 project、ng_sn_list。\nparams_json: JSON 数组字符串，如 \"[]\" 或 \"[{\"key\":\"value\"}]\"。\nfilter_json: 过滤条件 JSON 数组，每项为 { \"logic\": \"and\"|\"or\", \"conditions\": [ {\"column\":\"列名\",\"operator\":\"eq\",\"value\":\"值\"} ] }。\nlimit: 最大条数。\n返回 JSON：code, message, data 为数据行列表。",
+      "parameters": {
+        "properties": {
+          "api_name": {
+            "type": "string"
+          },
+          "params_json": {
+            "default": "[]",
+            "type": "string"
+          },
+          "filter_json": {
+            "default": "[]",
+            "type": "string"
+          },
+          "limit": {
+            "default": 20000,
+            "type": "integer"
+          },
+          "repo": {
+            "default": "intelligent_manufacturing/changping_ontology",
+            "type": "string"
+          },
+          "branch": {
+            "default": "main",
+            "type": "string"
+          },
+          "user_id": {
+            "default": "zhanjiangcheng",
+            "type": "string"
+          }
+        },
+        "required": [
+          "api_name"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_object_type_link_info",
+      "description": "获取对象类型之间的拓扑/关联关系。\napi_names: 逗号分隔的对象 apiName，如 \"project,device\"。\n返回 JSON：code, message, data 为关系列表。",
+      "parameters": {
+        "properties": {
+          "api_names": {
+            "type": "string"
+          },
+          "repo": {
+            "default": "intelligent_manufacturing/changping_ontology",
+            "type": "string"
+          },
+          "branch": {
+            "default": "main",
+            "type": "string"
+          },
+          "user_id": {
+            "default": "zhanjiangcheng",
+            "type": "string"
+          }
+        },
+        "required": [
+          "api_names"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_object_type_metrics",
+      "description": "获取对象类型绑定的指标函数（用于知道对象类型有哪些指标）。\napi_names: 逗号分隔的对象 apiName，如 \"project\"。\n返回 modelId、params 等，用于指标查询前获取 modelId 和 params，再调用 get_idi_model_data 拉取实际数据。",
+      "parameters": {
+        "properties": {
+          "api_names": {
+            "type": "string"
+          },
+          "repo": {
+            "default": "intelligent_manufacturing/changping_ontology",
+            "type": "string"
+          },
+          "branch": {
+            "default": "main",
+            "type": "string"
+          },
+          "user_id": {
+            "default": "zhanjiangcheng",
+            "type": "string"
+          }
+        },
+        "required": [
+          "api_names"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_idi_model_data",
+      "description": "获取中间表和指标数据（一次良率、终检良率等）。\nmodel_id: 指标模型 ID，由 get_object_type_metrics 返回的 modelBindings[].modelId 获取。\nparams_json: 参数 JSON 数组，每项 {\"name\":\"参数名\",\"value\":\"值\"}。支持逗号分隔多值，如 项目:\"O1,O3,P17\" 一次查询多项目良率。\n返回 JSON：code, message, data 为对象，含 data（数据行列表）、count、querySql。",
+      "parameters": {
+        "properties": {
+          "model_id": {
+            "type": "integer"
+          },
+          "params_json": {
+            "default": "[]",
+            "type": "string"
+          },
+          "limit": {
+            "default": 20000,
+            "type": "integer"
+          },
+          "repo": {
+            "default": "intelligent_manufacturing/changping_ontology",
+            "type": "string"
+          },
+          "branch": {
+            "default": "main",
+            "type": "string"
+          },
+          "user_id": {
+            "default": "zhanjiangcheng",
+            "type": "string"
+          }
+        },
+        "required": [
+          "model_id"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "format_feishu_card",
+      "description": "将数据查询结果格式化为飞书结构化卡片。\n完成数据查询后调用此工具提交结构化数据，系统将自动渲染为飞书卡片格式。\n仅在有真实数据结果需要展示时调用，不要在普通对话或解释说明时调用。",
+      "parameters": {
+        "properties": {
+          "card_json": {
+            "description": "JSON 字符串，必须含 \"type\" 字段：\n\"full_report\"    — 多指标全报告卡片（含折叠模块）\n\"single_metric\" — 单指标轻量卡片（2×2 宫格）\n完整字段规范见 feishu-card-format SKILL.md",
+            "type": "string"
+          }
+        },
+        "required": [
+          "card_json"
+        ],
+        "type": "object"
+      }
+    }
+  }
+]

@@ -1,0 +1,38 @@
+# R4-sft-v4b：原始 349 条 + 600 条合成 KPI 样本（修复 LF 格式转换后）
+# 与 v4 相同数据，但从零开始训练（独立 output_dir）
+
+model_name_or_path: /home/yinrong/models/Qwen3-14B
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.0
+lora_target: all
+
+dataset: skill_r4_ns_v4
+dataset_dir: /home/yinrong/post-train/impl2.1/round4/data
+cutoff_len: 24576
+
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+gradient_checkpointing: true
+learning_rate: 5.0e-05
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 2
+
+output_dir: /home/yinrong/post-train/impl2.1/round4/checkpoints/R4-sft-v4b
+plot_loss: false
+
+do_train: true
+report_to: none

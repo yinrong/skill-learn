@@ -1,15 +1,15 @@
-[WARNING|2026-04-30 19:08:23] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,203 >> loading file vocab.json
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,203 >> loading file merges.txt
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,203 >> loading file tokenizer.json
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,203 >> loading file added_tokens.json
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,203 >> loading file special_tokens_map.json
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,203 >> loading file tokenizer_config.json
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,203 >> loading file chat_template.jinja
-[INFO|tokenization_utils_base.py:2380] 2026-04-30 19:08:29,518 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-[WARNING|tokenization_utils_base.py:2493] 2026-04-30 19:08:29,522 >> The tokenizer you are loading from 'round3/checkpoints/R3-AB-v2-merged' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
-[INFO|configuration_utils.py:763] 2026-04-30 19:08:29,533 >> loading configuration file round3/checkpoints/R3-AB-v2-merged/config.json
-[INFO|configuration_utils.py:839] 2026-04-30 19:08:29,534 >> Model config Qwen3Config {
+[WARNING|2026-05-12 10:30:59] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-05-12 10:31:11,670 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[WARNING|tokenization_utils_base.py:2493] 2026-05-12 10:31:11,675 >> The tokenizer you are loading from '/home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[INFO|configuration_utils.py:763] 2026-05-12 10:31:11,686 >> loading configuration file /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged/config.json
+[INFO|configuration_utils.py:839] 2026-05-12 10:31:11,688 >> Model config Qwen3Config {
   "architectures": [
     "Qwen3ForCausalLM"
   ],
@@ -82,17 +82,17 @@
   "vocab_size": 151936
 }
 
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,545 >> loading file vocab.json
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,545 >> loading file merges.txt
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,545 >> loading file tokenizer.json
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,545 >> loading file added_tokens.json
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,545 >> loading file special_tokens_map.json
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,545 >> loading file tokenizer_config.json
-[INFO|tokenization_utils_base.py:2109] 2026-04-30 19:08:29,545 >> loading file chat_template.jinja
-[INFO|tokenization_utils_base.py:2380] 2026-04-30 19:08:29,831 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-[WARNING|tokenization_utils_base.py:2493] 2026-04-30 19:08:29,832 >> The tokenizer you are loading from 'round3/checkpoints/R3-AB-v2-merged' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
-[INFO|configuration_utils.py:763] 2026-04-30 19:08:29,855 >> loading configuration file round3/checkpoints/R3-AB-v2-merged/config.json
-[INFO|configuration_utils.py:839] 2026-04-30 19:08:29,855 >> Model config Qwen3Config {
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-05-12 10:31:11,972 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[WARNING|tokenization_utils_base.py:2493] 2026-05-12 10:31:11,972 >> The tokenizer you are loading from '/home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[INFO|configuration_utils.py:763] 2026-05-12 10:31:11,995 >> loading configuration file /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged/config.json
+[INFO|configuration_utils.py:839] 2026-05-12 10:31:11,996 >> Model config Qwen3Config {
   "architectures": [
     "Qwen3ForCausalLM"
   ],
@@ -165,19 +165,19 @@
   "vocab_size": 151936
 }
 
-[WARNING|logging.py:328] 2026-04-30 19:08:29,855 >> `torch_dtype` is deprecated! Use `dtype` instead!
-[INFO|2026-04-30 19:08:29] llamafactory.model.model_utils.kv_cache:143 >> KV cache is enabled for faster generation.
-[WARNING|logging.py:328] 2026-04-30 19:08:29,972 >> `torch_dtype` is deprecated! Use `dtype` instead!
-[INFO|modeling_utils.py:1169] 2026-04-30 19:08:29,986 >> loading weights file round3/checkpoints/R3-AB-v2-merged/model.safetensors.index.json
-[INFO|modeling_utils.py:2341] 2026-04-30 19:08:29,987 >> Instantiating Qwen3ForCausalLM model under default dtype torch.bfloat16.
-[INFO|configuration_utils.py:986] 2026-04-30 19:08:29,989 >> Generate config GenerationConfig {
+[WARNING|logging.py:328] 2026-05-12 10:31:11,996 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|2026-05-12 10:31:11] llamafactory.model.model_utils.kv_cache:143 >> KV cache is enabled for faster generation.
+[WARNING|logging.py:328] 2026-05-12 10:31:13,533 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|modeling_utils.py:1169] 2026-05-12 10:31:13,549 >> loading weights file /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged/model.safetensors.index.json
+[INFO|modeling_utils.py:2341] 2026-05-12 10:31:13,549 >> Instantiating Qwen3ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:986] 2026-05-12 10:31:13,551 >> Generate config GenerationConfig {
   "bos_token_id": 151643,
   "eos_token_id": 151645
 }
 
-Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 15/15 [00:00<00:00, 183.44it/s]
-[INFO|configuration_utils.py:939] 2026-04-30 19:08:30,116 >> loading configuration file round3/checkpoints/R3-AB-v2-merged/generation_config.json
-[INFO|configuration_utils.py:986] 2026-04-30 19:08:30,116 >> Generate config GenerationConfig {
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 15/15 [00:00<00:00, 193.22it/s]
+[INFO|configuration_utils.py:939] 2026-05-12 10:31:13,692 >> loading configuration file /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged/generation_config.json
+[INFO|configuration_utils.py:986] 2026-05-12 10:31:13,692 >> Generate config GenerationConfig {
   "bos_token_id": 151643,
   "do_sample": true,
   "eos_token_id": [
@@ -190,23 +190,23 @@
   "top_p": 0.95
 }
 
-[INFO|dynamic_module_utils.py:423] 2026-04-30 19:08:30,119 >> Could not locate the custom_generate/generate.py inside round3/checkpoints/R3-AB-v2-merged.
-[INFO|2026-04-30 19:08:30] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
-[INFO|2026-04-30 19:09:12] llamafactory.model.adapter:143 >> Merged 1 adapter(s).
-[INFO|2026-04-30 19:09:12] llamafactory.model.adapter:143 >> Loaded adapter(s): round3/checkpoints/R3-C-grpo
-[INFO|2026-04-30 19:09:12] llamafactory.model.loader:143 >> all params: 14,768,307,200
-[INFO|2026-04-30 19:09:12] llamafactory.train.tuner:143 >> Convert model dtype to: torch.bfloat16.
-[INFO|configuration_utils.py:491] 2026-04-30 19:09:12,137 >> Configuration saved in round3/checkpoints/R3-C-grpo-merged/config.json
-[INFO|configuration_utils.py:757] 2026-04-30 19:09:12,152 >> Configuration saved in round3/checkpoints/R3-C-grpo-merged/generation_config.json
-[INFO|modeling_utils.py:4189] 2026-04-30 19:09:49,423 >> The model is bigger than the maximum size per checkpoint (2GB) and is going to be split in 15 checkpoint shards. You can find where each parameters has been saved in the index located at round3/checkpoints/R3-C-grpo-merged/model.safetensors.index.json.
-[INFO|tokenization_utils_base.py:2561] 2026-04-30 19:09:49,440 >> chat template saved in round3/checkpoints/R3-C-grpo-merged/chat_template.jinja
-[INFO|tokenization_utils_base.py:2730] 2026-04-30 19:09:49,458 >> tokenizer config file saved in round3/checkpoints/R3-C-grpo-merged/tokenizer_config.json
-[INFO|tokenization_utils_base.py:2739] 2026-04-30 19:09:49,477 >> Special tokens file saved in round3/checkpoints/R3-C-grpo-merged/special_tokens_map.json
-[INFO|2026-04-30 19:09:49] llamafactory.train.tuner:143 >> Ollama modelfile saved in round3/checkpoints/R3-C-grpo-merged/Modelfile
+[INFO|dynamic_module_utils.py:423] 2026-05-12 10:31:13,695 >> Could not locate the custom_generate/generate.py inside /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged.
+[INFO|2026-05-12 10:31:13] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-05-12 10:31:55] llamafactory.model.adapter:143 >> Merged 1 adapter(s).
+[INFO|2026-05-12 10:31:55] llamafactory.model.adapter:143 >> Loaded adapter(s): /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C
+[INFO|2026-05-12 10:31:55] llamafactory.model.loader:143 >> all params: 14,768,307,200
+[INFO|2026-05-12 10:31:55] llamafactory.train.tuner:143 >> Convert model dtype to: torch.bfloat16.
+[INFO|configuration_utils.py:491] 2026-05-12 10:31:56,021 >> Configuration saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/config.json
+[INFO|configuration_utils.py:757] 2026-05-12 10:31:56,039 >> Configuration saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/generation_config.json
+[INFO|modeling_utils.py:4189] 2026-05-12 10:32:40,271 >> The model is bigger than the maximum size per checkpoint (2GB) and is going to be split in 15 checkpoint shards. You can find where each parameters has been saved in the index located at /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2561] 2026-05-12 10:32:40,288 >> chat template saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-05-12 10:32:40,304 >> tokenizer config file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-05-12 10:32:40,323 >> Special tokens file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/special_tokens_map.json
+[INFO|2026-05-12 10:32:40] llamafactory.train.tuner:143 >> Ollama modelfile saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/Modelfile
 合并配置：
-  base:    round3/checkpoints/R3-AB-v2-merged
-  adapter: round3/checkpoints/R3-C-grpo
-  output:  round3/checkpoints/R3-C-grpo-merged
-执行：llamafactory-cli export /tmp/tmp9t1np8ge.yaml
+  base:    /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged
+  adapter: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C
+  output:  /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged
+执行：llamafactory-cli export /tmp/tmpboztmbn_.yaml
 ✓ 合并完成，safetensors 文件数：15
-  输出目录：round3/checkpoints/R3-C-grpo-merged
+  输出目录：/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged

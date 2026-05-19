@@ -1,0 +1,46 @@
+# R4-sft-v4：原始 349 条 + 600 条合成 KPI 样本（model_id 多样化）
+#
+# 核心改进：
+#   - 增加 600 条合成样本，每条都有完整因果链：
+#     list_object_types → get_object_type_metrics（含随机 model_id）
+#                       → get_idi_model_data（使用 metrics 返回的 model_id）
+#   - 强迫模型学习"读 metrics 返回值确定 model_id"，而非记住固定映射
+#   - 600 个不同 model_id（10000-99999），模型无法记住某一特定值
+#
+# 对比 v3：cutoff 相同（24576），仅训练数据不同（349→949条）
+
+model_name_or_path: /home/yinrong/models/Qwen3-14B
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.0
+lora_target: all
+
+dataset: skill_r4_ns_v4
+dataset_dir: /home/yinrong/post-train/impl2.1/round4/data
+cutoff_len: 24576
+
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+gradient_checkpointing: true
+learning_rate: 5.0e-05
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 2
+
+output_dir: /home/yinrong/post-train/impl2.1/round4/checkpoints/R4-sft-v4
+plot_loss: false
+
+do_train: true
+report_to: none

@@ -1,0 +1,1209 @@
+{
+  "eval_type": "first_tool_prediction",
+  "summary": {
+    "name_acc": 0.8254,
+    "arg_kv_f1": 0.6354,
+    "combined_f1": 0.7304
+  },
+  "n_samples": 63,
+  "n_errors": 0,
+  "samples": [
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"异常\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.5
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"故障\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.5
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"设备\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.5
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.5
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"异常\", \"repo\": \"intelligent_manufacturing/changping_ontology\", \"branch\": \"main\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.5
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"故障\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.5
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\", \"repo\": \"intelligent_manufacturing/changping_ontology\", \"branch\": \"main\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"任务\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"任务\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"出勤\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.5
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"工站\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"工站\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12336, \"params_json\": \"[{\\\"name\\\": \\\"线体\\\", \\\"value\\\": \\\"S03\\\"}]\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "get_idi_model_data",
+          "arguments": "{\"model_id\": 12336, \"params_json\": \"[{\\\"name\\\": \\\"line_code\\\", \\\"value\\\": \\\"S03\\\"}]\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0.5,
+        "combined_f1": 0.75
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0.6666666666666666,
+        "combined_f1": 0.8333333333333333
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0.6666666666666666,
+        "combined_f1": 0.8333333333333333
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\", \"repo\": \"intelligent_manufacturing/changping_ontology\", \"branch\": \"main\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0.4,
+        "combined_f1": 0.7
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\", \"repo\": \"intelligent_manufacturing/changping_ontology\", \"branch\": \"main\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0.4,
+        "combined_f1": 0.7
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"胶水\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线边仓\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.5
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\", \"repo\": \"intelligent_manufacturing/changping_ontology\", \"branch\": \"main\", \"user_id\": \"zhanjiangcheng\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"排产\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0.4,
+        "combined_f1": 0.7
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"equipment\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 1.0,
+        "combined_f1": 1.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line,project\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "execute_shell_command",
+          "arguments": "{\"command\": \"date +%Y-%m-%d\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"项目\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 1.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.5
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_metrics",
+          "arguments": "{\"api_names\": \"line\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"线体\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_data",
+          "arguments": "{\"api_name\": \"equipment\", \"limit\": 500}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    },
+    {
+      "gt_calls": [
+        {
+          "name": "get_object_type_detail",
+          "arguments": "{\"api_names\": \"装备\"}"
+        }
+      ],
+      "pred_calls": [
+        {
+          "name": "list_object_types",
+          "arguments": "{\"keyword\": \"装备\"}"
+        }
+      ],
+      "metrics": {
+        "name_acc": 0.0,
+        "arg_kv_f1": 0,
+        "combined_f1": 0.0
+      }
+    }
+  ]
+}

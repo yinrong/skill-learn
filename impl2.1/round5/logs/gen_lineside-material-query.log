@@ -1,0 +1,22 @@
+[1/20] skill=lineside-material-query q=S04线线边仓今天有没有物料告警... OK
+[2/20] skill=lineside-material-query q=查一下S03线的热熔胶用量... OK
+[3/20] skill=lineside-material-query q=S04线今天线边仓物料剩余情况... OK
+[4/20] skill=lineside-material-query q=S03线线边仓今天有没有物料告警... OK
+[5/20] skill=lineside-material-query q=查一下S03线的热熔胶用量... OK
+[6/20] skill=lineside-material-query q=S03线今天线边仓物料剩余情况... OK
+[7/20] skill=lineside-material-query q=S05线线边仓今天有没有物料告警... OK
+[8/20] skill=lineside-material-query q=查一下S04线的热熔胶用量... OK
+[9/20] skill=lineside-material-query q=S04线今天线边仓物料剩余情况... OK
+[10/20] skill=lineside-material-query q=S05线线边仓今天有没有物料告警... OK
+[11/20] skill=lineside-material-query q=查一下S04线的热熔胶用量... OK
+[12/20] skill=lineside-material-query q=S03线线边仓今天有没有物料告警... OK
+[13/20] skill=lineside-material-query q=S04线线边仓今天有没有物料告警... OK
+[14/20] skill=lineside-material-query q=查一下S04线的热熔胶用量... OK
+[15/20] skill=lineside-material-query q=S05线今天线边仓物料剩余情况... OK
+[16/20] skill=lineside-material-query q=查一下S04线的热熔胶用量... OK
+[17/20] skill=lineside-material-query q=S05线线边仓今天有没有物料告警... OK
+[18/20] skill=lineside-material-query q=S03线今天线边仓物料剩余情况... OK
+[19/20] skill=lineside-material-query q=S04线今天线边仓物料剩余情况... OK
+[20/20] skill=lineside-material-query q=查一下S05线的热熔胶用量... OK
+
+Generated 20 valid samples → data/gen_lineside-material-query.jsonl

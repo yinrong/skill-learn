@@ -1,0 +1,1426 @@
+Fetching trace IDs for tags: ['alarm', 'crab', 'dolphin'] ...
+Processing 1393 trace(s) via API...
+  SKIP f0166f965f60e7bba7ba4cce4cb1425d: no AGENT and no GENERATION messages
+  SKIP 45dc45a8b40fa579a7cd4f7a5e5289f9: no AGENT and no GENERATION messages
+  SKIP 7f39c82d724dce22a0ff2622a7cca479: no AGENT and no GENERATION messages
+  SKIP 8c4311e9418bb0e81cd38f4d52fec640: no AGENT and no GENERATION messages
+  SKIP 204cfb1c80cc46a931fe517d88f08f86: no AGENT and no GENERATION messages
+  SKIP e788283c03deba5c7f830163f11f5f02: no AGENT and no GENERATION messages
+  SKIP d0859a92b08e723e4eba42c6bd938fef: no AGENT and no GENERATION messages
+  SKIP f79fd7e5dcbbbc013cea4acee4509547: no AGENT and no GENERATION messages
+  SKIP 9fc96a61ec076feb526fa38401cdd868: no AGENT and no GENERATION messages
+  SKIP 2e1131c57a8a122c13d059645a60e093: no AGENT and no GENERATION messages
+  SKIP c01c87cea80ef5ed17cf5707189daddf: no AGENT and no GENERATION messages
+  SKIP c506b16c44209aefad9d62838407d136: no AGENT and no GENERATION messages
+  SKIP d69edd37f5c8e2f20767cb93ad842f65: no AGENT and no GENERATION messages
+  SKIP 122c2a4518a392de00c14619b4b3c5f8: no AGENT and no GENERATION messages
+  SKIP 37d216af849480dea31ec0ad878550ff: no AGENT and no GENERATION messages
+  SKIP 0f10a5bee765cb8687a7055878ff3bf6: no AGENT and no GENERATION messages
+  SKIP 7bbed67a8d3a2058c35b91173c95afd4: no AGENT and no GENERATION messages
+  SKIP 62ece74501b00bbffcabd9cac55498b4: no AGENT and no GENERATION messages
+  SKIP c85c7df25300e5172bb8c336f957ac3e: no AGENT and no GENERATION messages
+  SKIP d1e95c948988acbf0e8225998115d8e9: no AGENT and no GENERATION messages
+  SKIP d13bc4e2401b241f51e26ac8996e4375: no AGENT and no GENERATION messages
+  SKIP 7a715cbc47eb00d2b68fe48bc4859303: no AGENT and no GENERATION messages
+  SKIP 83283f3f378a90f43f549dbb771c91f6: no AGENT and no GENERATION messages
+  SKIP ee6ea9282bfc905f9385ed583dbf269b: no AGENT and no GENERATION messages
+  SKIP 3d9fcb51748ad3ed01a75f0b02b86ec6: no AGENT and no GENERATION messages
+  SKIP e71aa44ec383ceb9024a252ff47489be: no AGENT and no GENERATION messages
+  SKIP 4c257df80c32074c0e00742a83d3c3f9: no AGENT and no GENERATION messages
+  SKIP bdb9ad19d29b92fc1d514fec7c0b1ee2: no AGENT and no GENERATION messages
+  SKIP 51ee93536e31fc980c0051f1ded3baa7: no AGENT and no GENERATION messages
+  SKIP ec57c95584e39e5b68983f18a5333708: no AGENT and no GENERATION messages
+  SKIP ebae8b36fa696d6f47ab841aa6eb736b: no AGENT and no GENERATION messages
+  SKIP 6fabe94477e5a9873770156a764cb2bb: no AGENT and no GENERATION messages
+  SKIP ef6cbc519867cd4db507d870ea0b0cf9: no AGENT and no GENERATION messages
+  SKIP 6789c65625a9572f0e0b9926692251a8: no AGENT and no GENERATION messages
+  SKIP 84b6e25d096885969815a67416b179bc: no AGENT and no GENERATION messages
+  SKIP 528d9b5d4c8dfde67fc799a6e5a48ae9: no AGENT and no GENERATION messages
+  SKIP e9e980ac4e6af70bf24273218493bfcc: no AGENT and no GENERATION messages
+  SKIP 92127662caf77a77a12671b4523f0072: no AGENT and no GENERATION messages
+  SKIP 497d92b609350791ebee2c8c27bc8866: no AGENT and no GENERATION messages
+  SKIP 4fb7a0e4cd51d00056b91ff34cd56ed5: no AGENT and no GENERATION messages
+  SKIP d980c2029a7b0c4892d82c30835b5122: no AGENT and no GENERATION messages
+  SKIP 4cd069afeb8216823af8346db2f2e513: no AGENT and no GENERATION messages
+  SKIP f97b5537c85d26415938ab0641f8719c: no AGENT and no GENERATION messages
+  SKIP 1b6786725ed1dd26df9e0587e85d1b30: no AGENT and no GENERATION messages
+  SKIP 7506e73faf667954592e3d9246344546: no AGENT and no GENERATION messages
+  SKIP 9ea8c1fd4898e093c1cbae83f5d743d1: no AGENT and no GENERATION messages
+  SKIP 08f3d7944f9ac4fecadf051e735bc04e: no AGENT and no GENERATION messages
+  SKIP c3cb9f843e596fef44acba5c4cf4f93a: no AGENT and no GENERATION messages
+  SKIP c0aab80a0e4dfcea0aa1bc48df445265: no AGENT and no GENERATION messages
+  SKIP daceb100c34b7f4f191e15a64ee4f5e0: no AGENT and no GENERATION messages
+  SKIP 3ab8b11a135397715b9aa43c8eb5b5e8: no AGENT and no GENERATION messages
+  SKIP a3e8bde573e6171cdb3fbd02d7163858: no AGENT and no GENERATION messages
+  SKIP 686af5f00580ed5de623f7274eccaadf: no AGENT and no GENERATION messages
+  SKIP aa9428df9259296258588372ee3884e8: no AGENT and no GENERATION messages
+  SKIP 17292987b6048cb1475f805466b8d23f: no AGENT and no GENERATION messages
+  SKIP 84c4f0e4fef75497307448d10d7c7a9e: no AGENT and no GENERATION messages
+  SKIP f98c928d7c674857db759a00642569ca: no AGENT and no GENERATION messages
+  SKIP 7edc349114c1d2c2ac6c4c2e0aca5d20: no AGENT and no GENERATION messages
+  SKIP 34cd69cf6836c1c8d57ff088f505d5d5: no AGENT and no GENERATION messages
+  SKIP 1465d251a02c9bc642ee3c6e5f639444: no AGENT and no GENERATION messages
+  SKIP f7d274adac9d89412ca77ae8d1831fa5: no AGENT and no GENERATION messages
+  SKIP 643eb2c4babb5b53c2ebcca8581f1263: no AGENT and no GENERATION messages
+  SKIP 2f8c9534dbf812d5ab4a0a5674ac5ea0: no AGENT and no GENERATION messages
+  SKIP 37040f895e5cd8e8e4465eb89e169f44: no AGENT and no GENERATION messages
+  SKIP 160c7c69340c3a7b955b58f79f106118: no AGENT and no GENERATION messages
+  SKIP 18624c7dac369cc4a92848249de2db36: no AGENT and no GENERATION messages
+  SKIP 03e5b40f7fb63f576ffd1d95ee87b945: no AGENT and no GENERATION messages
+  SKIP 7eeaecb696d3145e5a81e24e8c859089: no AGENT and no GENERATION messages
+  SKIP 1b598a6a2c345d59487e954559857dc4: no AGENT and no GENERATION messages
+  SKIP afeb8c1f3c8ef1ad224b3d1b2f49ac0e: no AGENT and no GENERATION messages
+  SKIP ac6309f268ffbf1ba7c807f731b81158: no AGENT and no GENERATION messages
+  SKIP 0b38b8eac65c9b0187ed4d5d22b494c8: no AGENT and no GENERATION messages
+  SKIP 9c909fc80df0f93573f6e0744f845808: no AGENT and no GENERATION messages
+  SKIP 6c83774a7791653af6d8be75f4500eef: no AGENT and no GENERATION messages
+  ERROR 1dc4af3999b7a419156058415e76e153: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/1dc4af3999b7a419156058415e76e153
+  SKIP b089aaf9e85d9a80f861570835a3913b: no AGENT and no GENERATION messages
+  SKIP 2517486473d46423728f488a25b5195b: no AGENT and no GENERATION messages
+  OK 666e2a91fe2a7dc1630f291dec0478e0: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  SKIP 70e33b67cac204ec5a82bb9906acfae6: no AGENT and no GENERATION messages
+  SKIP 7f394ce97f5b0d644be56729373f6df8: no AGENT and no GENERATION messages
+  OK 39281e6de9dd1a84e1e410c54373c81d: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP 5ebccf1bd0be5c4fb7bb136b44e65271: no AGENT and no GENERATION messages
+  SKIP 0853f8b3737f9956399e94acc9709953: no AGENT and no GENERATION messages
+  OK 45c1e8476e3f4eb78748eafc64386e7e: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP 1006fa9e130dc7343f9d1863b337fcd8: no AGENT and no GENERATION messages
+  SKIP dff916772322e08eabead41860503f20: no AGENT and no GENERATION messages
+  OK 9400ae9bad8c26e12ac64c1c0785668b: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  OK 0ea6420fcc0d6afbac3fc800b000190a: skills=['equipment-cpk-query'] steps=9 sft=1 grpo=9
+  OK 4fcf641e2cbfccd75f7f972b06264fde: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  SKIP 8333ac5d50c2c6529789d8fa56a4d9b0: no AGENT and no GENERATION messages
+  SKIP 22dc3d8931806f41ee1c206ce6fbcbc3: no AGENT and no GENERATION messages
+  OK 21262862785c92e28400ef9958ae352f: skills=['equipment-cpk-query'] steps=7 sft=1 grpo=7
+  SKIP 0d402070588e8ea81769eeff27a45fc1: no AGENT and no GENERATION messages
+  SKIP 9079059f5b63529e09365e5755f921ce: no AGENT and no GENERATION messages
+  OK 85fc0c6e6ca60fe9358295ed1dae4b0f: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP 1b690f00c26d3aec8d699007f852c057: no AGENT and no GENERATION messages
+  SKIP a26e48657600d3654cff8d45aaf4bc9d: no AGENT and no GENERATION messages
+  SKIP 50f47063147f303e54a8fb971e00e177: no AGENT and no GENERATION messages
+  SKIP 504db396a0521145332a064ce8ab6397: no AGENT and no GENERATION messages
+  SKIP 237ed85adbb2ec8179183f635df7f194: no AGENT and no GENERATION messages
+  SKIP 84b3b5058fc1dabbc054d8dda20bb92f: no AGENT and no GENERATION messages
+  SKIP 7016579c8aafc9dd2c8baab99e05392d: no AGENT and no GENERATION messages
+  SKIP ea51b66c9c4ec6616073c3be58141da8: no AGENT and no GENERATION messages
+  SKIP e04175821b732a9fb4b8600646ae6814: no AGENT and no GENERATION messages
+  SKIP 21d68fc66e65fc0d78f4b11ecf5e9b9b: no AGENT and no GENERATION messages
+  SKIP 46bc863501037873a6e3c1426a2e798c: no AGENT and no GENERATION messages
+  OK 0e823dc45c7d20cf7e04157f62f64646: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP fc2bc046007db7c51da9e6e29b93a77b: no AGENT and no GENERATION messages
+  SKIP 3a904fe92da1fbcdc3c277721fd4d419: no AGENT and no GENERATION messages
+  OK ae70d95eb465db70ab5e1b1a57935b29: skills=['equipment-cpk-query'] steps=7 sft=1 grpo=7
+  SKIP 213daa248334bb19b38b532a88820bf7: no AGENT and no GENERATION messages
+  SKIP 7e6ec6667c49dcceab0a8f03a26338df: no AGENT and no GENERATION messages
+  OK 45703c2d8bb284103dc6403659155ada: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  SKIP deed33bbd8d613547118c74599f8c087: no AGENT and no GENERATION messages
+  SKIP 4aad8fa933f4693a56dc8d25689f5f4d: no AGENT and no GENERATION messages
+  OK d0c68706517c67e246f56398052022bd: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP 57471ee626026a9a49e030c62b51e56f: no AGENT and no GENERATION messages
+  SKIP 19af2c91db50e8225849620e03685dfd: no AGENT and no GENERATION messages
+  OK 5d53b437dea6b6bd8c219385e29385b1: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  SKIP 22308eb35447ad9fc124d1b2ac9b37ea: no AGENT and no GENERATION messages
+  SKIP fb97c075ef703201e47f0f4ca09bd553: no AGENT and no GENERATION messages
+  SKIP a3e9e55323f50094cb8e9c61f808bc69: no AGENT and no GENERATION messages
+  SKIP 2fb0e0171875080691804ae21bb92a29: no AGENT and no GENERATION messages
+  SKIP c2179bf8a0351e2fb4cbd55702e1b6aa: no AGENT and no GENERATION messages
+  SKIP 6f45b455f54b5f78d359769bf7af9104: no AGENT and no GENERATION messages
+  SKIP 177a8153d6dd4a97fa48e7bc58edbe91: no AGENT and no GENERATION messages
+  SKIP 93915998f851de71b3ba232b6d945ce1: no AGENT and no GENERATION messages
+  SKIP ebdceb8910fd16d83c1d7ee7a2726245: no AGENT and no GENERATION messages
+  SKIP cc1c8e2fec6580f77008491ff79746ad: no AGENT and no GENERATION messages
+  SKIP 5a59980dc43e129042b842b2a0901cd9: no AGENT and no GENERATION messages
+  SKIP 898e082daf6454c25db0eea2321ff971: no AGENT and no GENERATION messages
+  SKIP fdc8e3b17cfdc06f176b4d5ad0b19b0a: no AGENT and no GENERATION messages
+  OK 90b81083a72d9d6d47cf210bc851c25f: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP a9647d71909c2c4b0075765382f6eab6: no AGENT and no GENERATION messages
+  SKIP 0a3919e06c0fb778b8bce3644a12b574: no AGENT and no GENERATION messages
+  SKIP af4f770648991ef87287ee9494dcdd02: no AGENT and no GENERATION messages
+  ERROR 7b5d71aa88b34e39315314b61f37968b: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/7b5d71aa88b34e39315314b61f37968b
+  SKIP 3ef7b36c50f2ffc0b911b3248072a43c: no AGENT and no GENERATION messages
+  SKIP 7c60560e5b910efde2963710fa52eb0e: no AGENT and no GENERATION messages
+  OK 48cdab2af9e9d52196627e0099f2f315: skills=['line-attendance-query'] steps=3 sft=1 grpo=3
+  SKIP 5dde779314ee20fb2b7a4964c2e21b75: no AGENT and no GENERATION messages
+  SKIP ba0a6c4db7742b42296dd1cea560c027: no AGENT and no GENERATION messages
+  OK ce54cd963955658b4b014e9529da730b: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  SKIP 02a8affc8a211ae0da3668dbb08da64e: no AGENT and no GENERATION messages
+  SKIP 9353c114726e984b2669c1f6fede0474: no AGENT and no GENERATION messages
+  SKIP c1c4a60b2f84f3b8bddc9ee83c1dd9dc: no AGENT and no GENERATION messages
+  SKIP 9aac128ed53fe389a0eb5e67e4e3a411: no AGENT and no GENERATION messages
+  SKIP 89adbe3c4155b131f293d0406924d43c: no AGENT and no GENERATION messages
+  SKIP d2d2a026d7f1f3cfedbaf021bab9ee5c: no AGENT and no GENERATION messages
+  SKIP 8fc127fd313b7479c49ed6f7c4f6f4ee: no AGENT and no GENERATION messages
+  SKIP 73ccfd7b1da53a83177a31eda2035d7d: no AGENT and no GENERATION messages
+  SKIP 304ddae166e1a36f0b9a5237ff59edd0: no AGENT and no GENERATION messages
+  SKIP bd0ca315d62645753012d22c90495838: no AGENT and no GENERATION messages
+  SKIP 46ea8fb9fa1635924a2051e961c0a3bd: no AGENT and no GENERATION messages
+  SKIP 92607c1219676bd61c0da51541447d32: no AGENT and no GENERATION messages
+  SKIP 2ce26145fa13f40b4f773d4e4e3b12d8: no AGENT and no GENERATION messages
+  SKIP 674f522fef1c720f3a498a5caed35043: no AGENT and no GENERATION messages
+  SKIP c4e7c534252e13f3a499cf2a28a05ced: no AGENT and no GENERATION messages
+  SKIP 5ad8cc5c24bd0d53751f6c954d7fc030: no AGENT and no GENERATION messages
+  SKIP 2de866e5fc943915dc64b4decfbf138b: no AGENT and no GENERATION messages
+  SKIP 3b07053c5b01acff2015b8a93e5aa0e4: no AGENT and no GENERATION messages
+  SKIP 7548e18d2e129cafd0df3728099641a9: no AGENT and no GENERATION messages
+  SKIP 66a8deb716543e47eb20f661de6f707f: no AGENT and no GENERATION messages
+  SKIP dcf7279f89dc93b4a20a1cca688dfa48: no AGENT and no GENERATION messages
+  SKIP 65b7fb45261ceabb142d44f21621a2fd: no AGENT and no GENERATION messages
+  SKIP 77231b7c398329f1931e83b2c277be85: no AGENT and no GENERATION messages
+  SKIP 965212475afab31687acea2aac43371c: no AGENT and no GENERATION messages
+  SKIP 3dd7dc3377bcdb13b1421f6260d9dcbe: no AGENT and no GENERATION messages
+  SKIP 80214f316988ba51de5e66f9dea59e3f: no AGENT and no GENERATION messages
+  SKIP d1fab5b9a583c8bd96adbe1b5e4cd909: no AGENT and no GENERATION messages
+  SKIP 1f49d1dc7667f00d41836bb26713d178: no AGENT and no GENERATION messages
+  SKIP b393dbb2e81b0ced04e4901353a7ff2b: no AGENT and no GENERATION messages
+  SKIP 7f6d108144ee4672ea72fd289dd2fe60: no AGENT and no GENERATION messages
+  SKIP 096c7508122c06001627d6ec109485ad: no AGENT and no GENERATION messages
+  SKIP db3c58d66cc3be7d0126390bf3342288: no AGENT and no GENERATION messages
+  SKIP 6919a9297ccf31aecb65d8e598a52e13: no AGENT and no GENERATION messages
+  SKIP 0b9d16d497f4952dad18b4972edfe6ba: no AGENT and no GENERATION messages
+  SKIP 0db65eb59c8768465f0fa2255dd995a6: no AGENT and no GENERATION messages
+  SKIP e00a3d570a599e3bf2134b80e7b08788: no AGENT and no GENERATION messages
+  SKIP c9fc544903587aa434c0cd38c48f2f91: no AGENT and no GENERATION messages
+  SKIP 9509a90353bc9462662ef0608cb6d2cd: no AGENT and no GENERATION messages
+  OK f2adc200dd61d92aa1fd43d09444108d: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP 0d1ae3260c4511e32ca4a5c9fad56e07: no AGENT and no GENERATION messages
+  OK 976f5046475651da3ddbb179ef927a4a: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  SKIP de502b9b56b2ba524a058a74af574f0d: no AGENT and no GENERATION messages
+  SKIP bfe2a8cfa67f6e3ee4aa1a60ce2c896b: no AGENT and no GENERATION messages
+  SKIP 21b8aa52a6d2630c5283579bce0f6b71: no AGENT and no GENERATION messages
+  SKIP 17dba78f1c9445c52d1842e6e17308df: no AGENT and no GENERATION messages
+  OK 42940465ad45a6dd804a2fc12c04f16e: skills=['equipment-cpk-query'] steps=8 sft=1 grpo=8
+  SKIP 394e21791d57391e1566c24684aea5bb: no AGENT and no GENERATION messages
+  SKIP 5f64111cdccc1d35904ff9ce0bd2608f: no AGENT and no GENERATION messages
+  ERROR c5c182f878910c3935bcebdc3d7ae309: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/c5c182f878910c3935bcebdc3d7ae309
+  SKIP 06c6b8ebacff929e71fd57bba220a77c: no AGENT and no GENERATION messages
+  SKIP 36cc7107b83756c55ce4efee7cbe0d17: no AGENT and no GENERATION messages
+  OK a2df99399754bd9c88e4cd144eaffeaf: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP 3af8e870e8548a9c74fc2cc13aea6676: no AGENT and no GENERATION messages
+  SKIP 3d7dabaada1a8051394b59a7c606aabb: no AGENT and no GENERATION messages
+  OK abcea4b25e5dcaa6523dec3de872be8b: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK 6fb9e09369aa7cca250a0f2964823801: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  SKIP 32897eea49b88afcc6423529a082c2e5: no AGENT and no GENERATION messages
+  SKIP d89c4d81a025728f1b63c1619269dfb9: no AGENT and no GENERATION messages
+  ERROR f1e76e0b00a9e9f4807693f8499151ed: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/f1e76e0b00a9e9f4807693f8499151ed
+  SKIP b97430e65ab2247dc655c9eb064e8c0c: no AGENT and no GENERATION messages
+  SKIP 7a6303ce5a39eea4143a19a7f7970ab7: no AGENT and no GENERATION messages
+  OK 4937385300ea69599b9cd5d55b7a8663: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP f0c2feb934e5296291dad6e829c4bea0: no AGENT and no GENERATION messages
+  SKIP 403c54c8d875c94a8fda12e8512ad067: no AGENT and no GENERATION messages
+  SKIP a44b69ad5d3f0a6fe84e5f0601696ae4: no AGENT and no GENERATION messages
+  OK 8b79e7ad12c87c61d06372855ab57848: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  SKIP 15bb09cd3946c0bc95f2009cfdd9bbf1: no AGENT and no GENERATION messages
+  SKIP a39a4856ddf17795a35f0ff83a68d019: no AGENT and no GENERATION messages
+  SKIP 95585af0b8be223f065ba03c51f8656b: no AGENT and no GENERATION messages
+  SKIP e88cf763e7a25e43b777fb324408b887: no AGENT and no GENERATION messages
+  SKIP 0167cb05649733003311119f6252b4ab: no AGENT and no GENERATION messages
+  SKIP e17f6708e90efb9997cd8036369c0be7: no AGENT and no GENERATION messages
+  OK 79363c023954c034296abe0616b0136c: skills=['equipment-cpk-query'] steps=9 sft=1 grpo=9
+  SKIP 67a5f5bee4bbb09f2083c14e82d5c770: no AGENT and no GENERATION messages
+  SKIP a6f572c8013133b4d7e0118722ddcbc8: no AGENT and no GENERATION messages
+  OK 5c3a5609ceeada98d85e306866aa5538: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP ef7113a71f080b9ebfceb533a173f081: no AGENT and no GENERATION messages
+  SKIP 06419c2368d9358ec728b3d20dcd4bb2: no AGENT and no GENERATION messages
+  SKIP a89eea04ad30de5076479b9bb15fc521: no AGENT and no GENERATION messages
+  SKIP 64d349ab36bf55e49c08c9e10526fe7e: no AGENT and no GENERATION messages
+  SKIP 748fe4794c845383d886677c2365df28: no AGENT and no GENERATION messages
+  SKIP d9853119adc86aa74c33dfeb0c925cad: no AGENT and no GENERATION messages
+  SKIP b24ea69c5fb303390c16cf38da6460e2: no AGENT and no GENERATION messages
+  SKIP 469cc023a54a857f844c78e609d88860: no AGENT and no GENERATION messages
+  OK 71fc2b3422d4f199f0b1fa2f127bd6ad: skills=['object-data-query'] steps=1 sft=1 grpo=1
+  SKIP 9b9afaf7591af0f93393b6be1123d2ce: no AGENT and no GENERATION messages
+  SKIP c352a0de18e747e787317f2e29e698ac: no AGENT and no GENERATION messages
+  SKIP b4cfbf2e75b82ef6c8d067dfaed72f5d: no AGENT and no GENERATION messages
+  SKIP 61a5b30cc0518fd0d5972946e3e199fd: no AGENT and no GENERATION messages
+  SKIP 47036c873f22d854bbdc174494ccb478: no AGENT and no GENERATION messages
+  SKIP 1fcf8303520fe661cd14895e5493e276: no AGENT and no GENERATION messages
+  SKIP 4921e40ba1148372f3ba6dd07207dce9: no AGENT and no GENERATION messages
+  SKIP f78bfe9949d6576595441f03b445cb14: no AGENT and no GENERATION messages
+  SKIP eecfb4cb49586cfba293a690f567afda: no AGENT and no GENERATION messages
+  SKIP b65318b8e432b18edaeaaea6f36f6479: no AGENT and no GENERATION messages
+  SKIP 2b021ebdae8656190d8a7e54a659d493: no AGENT and no GENERATION messages
+  SKIP 902d5db5fc0e0d62d9c8c06d06a827b4: no AGENT and no GENERATION messages
+  SKIP 7329c565ba9be53e0325bc3e8ba52126: no AGENT and no GENERATION messages
+  SKIP 78fe187f2a3747d3071e751dc9963e7b: no AGENT and no GENERATION messages
+  OK a6abd0362f2a751e458863b31d400644: skills=['lineside-material-query'] steps=5 sft=1 grpo=5
+  SKIP 5e2fa40c4a56cbe911be8bc6e8db8d68: no AGENT and no GENERATION messages
+  SKIP 8c709a75ed22faee161557db4cecc9e0: no AGENT and no GENERATION messages
+  OK 3ccc10cd99fdecbe4ad0306c2ac92031: skills=['equipment-cpk-query'] steps=7 sft=1 grpo=7
+  SKIP 2c0df1d15128bd8970845089f095cb13: no AGENT and no GENERATION messages
+  SKIP 27a04f30801e06fa4e54fac73bd4972b: no AGENT and no GENERATION messages
+  SKIP 464e9106b7b5cb5d20486927e2f571ba: no AGENT and no GENERATION messages
+  OK 49910b230883ef8226de332df8603781: skills=['lineside-material-query'] steps=6 sft=1 grpo=6
+  SKIP c26bf170fc5afcdca8c0704f75c908d3: no AGENT and no GENERATION messages
+  SKIP ad9096b219ce3598cb7b67ddeb044e7e: no AGENT and no GENERATION messages
+  OK cccc454efbb085819fe92da665ae5db8: skills=['equipment-cpk-query'] steps=6 sft=1 grpo=6
+  SKIP 357fb2b48f23d6d231aea9c5a23314af: no AGENT and no GENERATION messages
+  SKIP 90d79a45a3e774a312f9370df02f82d0: no AGENT and no GENERATION messages
+  OK e67bc01541ae8eac96922e14eb667067: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  SKIP 2d36ba99fa416230ee88aee45552e468: no AGENT and no GENERATION messages
+  SKIP 5ed92ab73e7d92dbc274edf362315961: no AGENT and no GENERATION messages
+  ERROR 6bb9e5ead8168837ab72220d1e3ac447: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/6bb9e5ead8168837ab72220d1e3ac447
+  SKIP 9f0b9341fa2b8b620e0e5315f3db24c4: no AGENT and no GENERATION messages
+  SKIP 10525b577dfa27f74feb6313066e7a79: no AGENT and no GENERATION messages
+  SKIP b9d08140f629f3d078d525a6f65a612e: no AGENT and no GENERATION messages
+  SKIP 8e60420311b35474b16f9eecb2741fbe: no AGENT and no GENERATION messages
+  OK 0415a83343c0c8e134ce3ea71b6b5da4: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  SKIP 5ac9fadd397f908c748b9fbce2957432: no AGENT and no GENERATION messages
+  SKIP beef0d9e51014948cb91d65c979267b3: no AGENT and no GENERATION messages
+  SFT SKIP a1eec721b110556de03d0cbd25150d4a: final answer too short
+  OK a1eec721b110556de03d0cbd25150d4a: skills=['equipment-cpk-query'] steps=1 sft=0 grpo=1
+  SKIP aa2e5f45ef2da0514f5834777f8c438d: no AGENT and no GENERATION messages
+  SKIP 40189d11c283f3677231432671db6272: no AGENT and no GENERATION messages
+  SKIP 27b38ca52bb567380b9f22ea8f8f7f62: no AGENT and no GENERATION messages
+  SKIP 16f042efc32f810ca04ad36859caf04d: no AGENT and no GENERATION messages
+  SKIP e8d4646c6cd96e1d9f31e1db04b0406a: no AGENT and no GENERATION messages
+  OK b55a089c694e17111a2e227ad83e6fff: skills=['equipment-cpk-query'] steps=6 sft=1 grpo=6
+  SKIP a50a0a7e91f522a312b5c1995ef6d2fd: no AGENT and no GENERATION messages
+  SKIP 3c177eab5b87c9a0220f5c4d04151917: no AGENT and no GENERATION messages
+  OK 75e9e10ca5b9283d3c5feac70e754a2c: skills=['line-attendance-query'] steps=4 sft=1 grpo=4
+  SKIP 4ae66683a439f5bc1d59592229c84de0: no AGENT and no GENERATION messages
+  SKIP da1d7e6ed6102fe25bc09a37dff96dc0: no AGENT and no GENERATION messages
+  OK e642fa887890fefd89233636fadc98f7: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  SKIP b9a582f5f3678df031f3c688c74ed879: no AGENT and no GENERATION messages
+  SKIP 79066368ee7b266ac747c85f3446d2a5: no AGENT and no GENERATION messages
+  OK 1772a0cf2fe91456fb8cf1f3310898a4: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  SKIP bff91aedb9dae1fe2aa9c1588e7f24dc: no AGENT and no GENERATION messages
+  SKIP 291d1c3311a3e52c8a90b054afc5e0d1: no AGENT and no GENERATION messages
+  SKIP 2f0731213bafc3e633e2437feedb253d: no AGENT and no GENERATION messages
+  SKIP 3eb21bac538331539dcfcba8fd8bd11b: no AGENT and no GENERATION messages
+  SKIP b282e63b266b01c559703d4792eac2c8: no AGENT and no GENERATION messages
+  SKIP 7d1e7b5d4aaf9ff88a214e54dc380917: no AGENT and no GENERATION messages
+  SKIP 71d26907d513ebd694301ef6a03b3a10: no AGENT and no GENERATION messages
+  SKIP 609e69e2abae81c6a9538f08a4da8360: no AGENT and no GENERATION messages
+  SKIP 751e5f8cc828d114558ab67d075e5a66: no AGENT and no GENERATION messages
+  SKIP a93da74116590dc922876207b06ce473: no AGENT and no GENERATION messages
+  SKIP 3c8882492abf230b6b91e6a78fa1eab1: no AGENT and no GENERATION messages
+  SKIP 95ec8f837e7e5f4a14efe259aa6725f1: no AGENT and no GENERATION messages
+  SKIP 2ed029c56f4f28778b2063e5314bbae5: no AGENT and no GENERATION messages
+  SKIP af292465dce69918a1da3c08f6e28c0b: no AGENT and no GENERATION messages
+  SKIP fe61dc2ee3a6f28462d2e7b7d7edd5ca: no AGENT and no GENERATION messages
+  SKIP 21e831dd9020248c7cddffe8e3595f21: no AGENT and no GENERATION messages
+  SKIP f4d089d3b8c27a098c154fdcc82663d2: no AGENT and no GENERATION messages
+  SKIP d811afcdaea43da177a2080c17226884: no AGENT and no GENERATION messages
+  OK be3300fb2a6169bb09087fc74ad3ceb2: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  SKIP fb04751f9b868990fb7c8b229984c113: no AGENT and no GENERATION messages
+  SKIP 41bf2ee935fd62632ddcf8385916d857: no AGENT and no GENERATION messages
+  SKIP fb26457b466c34422c54c3a44d2e77ef: no AGENT and no GENERATION messages
+  SKIP ba9220ff93dec4f4d4c17243f7a51461: no AGENT and no GENERATION messages
+  SKIP 77c4105151ac91d4a1a74e35d4f9060d: no AGENT and no GENERATION messages
+  SKIP 799842ee281adc3ec7e63377b2a6222d: no AGENT and no GENERATION messages
+  SKIP 5cdadec7c8e8ee9c641797d44d0f9038: no AGENT and no GENERATION messages
+  OK e3adb4427b124ce954bc91717104137d: skills=['equipment-cpk-query'] steps=9 sft=1 grpo=9
+  SKIP f48fb5631b63355253e4f7d2f13d8966: no AGENT and no GENERATION messages
+  SKIP c36ebae6b8c9734f4dd91b8c8bcbabe1: no AGENT and no GENERATION messages
+  OK 21c02c37843360073a5b5b98c3c74f11: skills=['equipment-cpk-query'] steps=6 sft=1 grpo=6
+  SKIP f737bcd36b28db5ad8af449e91224241: no AGENT and no GENERATION messages
+  SKIP 7cb151796635badcc9fbbac6ed931a0e: no AGENT and no GENERATION messages
+  OK 0c7e30fa9fa6359d11cdc647a3fad3b4: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP d0a95b56c507268590af36c99dcc8d89: no AGENT and no GENERATION messages
+  SKIP 3305dc11fd92e463067af507ca1941cb: no AGENT and no GENERATION messages
+  SKIP bc16d21e136cc5b016baebe4449929dc: no AGENT and no GENERATION messages
+  OK 7fd7331bdb91ffcfc34cf5230fbcd5d3: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  SKIP 9e1098d697dc0bf3b29d7e50bcdb2a2f: no AGENT and no GENERATION messages
+  SKIP 7a96d846560b5b42facf64b03f885729: no AGENT and no GENERATION messages
+  SKIP 89839943200c5ccdac4c343c4f9dac02: no AGENT and no GENERATION messages
+  OK 4dd1de7d8f84a3bb96f53940190bf5e7: skills=['equipment-cpk-query'] steps=6 sft=1 grpo=6
+  SKIP 6bc124f710ef60b1eb6796f5e240d638: no AGENT and no GENERATION messages
+  SKIP 953b919624187933b03795ca385f5603: no AGENT and no GENERATION messages
+  SKIP 6ac5850ff324357a5bc4d33a6465a5e6: no AGENT and no GENERATION messages
+  SKIP 5374dcddd1e6e01a512cd0eff000d383: no AGENT and no GENERATION messages
+  SKIP b659d2ab38ade9e00ef3bd03e2e47426: no AGENT and no GENERATION messages
+  SKIP bf48369d16fa0d3565d85aeb11344e98: no AGENT and no GENERATION messages
+  SKIP e8c1d514036de102bd24f4ee8367789b: no AGENT and no GENERATION messages
+  SKIP 0c1358886ce7f11fed5fbf3fc24c110f: no AGENT and no GENERATION messages
+  SKIP 0ffffcc0098c511678a80a01dbc0ccd8: no AGENT and no GENERATION messages
+  SKIP da59f23f82a89f42126b30d9e6c29337: no AGENT and no GENERATION messages
+  SKIP 51abc4b7bae8159f5c3ca83be6e05af8: no AGENT and no GENERATION messages
+  SKIP edadca1f8fd83de8b5117a0399ca9941: no AGENT and no GENERATION messages
+  SKIP a3058d1fa14fa1f0315f9f261224cd7e: no AGENT and no GENERATION messages
+  SKIP d647d7b14123ec8425281ee0b1e4ec98: no AGENT and no GENERATION messages
+  SKIP 613757998616055f3eb1e17a0c48cc81: no AGENT and no GENERATION messages
+  OK a2aaab984f1d8210c51d2a3071fbd4b8: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  SKIP 8ff03964bdcf037ea9b1d8595f029ee4: no AGENT and no GENERATION messages
+  SKIP a90560560b5bab18a3c5caf06e0193ff: no AGENT and no GENERATION messages
+  SKIP 0cdcacb15433844437e296890391e014: no AGENT and no GENERATION messages
+  SFT SKIP 5a5cd223fc0c6e8db736244e0fa56bd0: final answer too short
+  OK 5a5cd223fc0c6e8db736244e0fa56bd0: skills=['equipment-cpk-query'] steps=2 sft=0 grpo=2
+  SKIP 806d3a93877662829b48b09b11b2590c: no AGENT and no GENERATION messages
+  SKIP 8d03f6cc402e1144478fd0156c83a6ec: no AGENT and no GENERATION messages
+  SKIP 597d5db327ba2dea3e54df92278d0ced: no AGENT and no GENERATION messages
+  SKIP a5ea6fd1e7503aada2a50dadeca76115: no AGENT and no GENERATION messages
+  SKIP e8c5b04ebb0a000d528758df17c10a7d: no AGENT and no GENERATION messages
+  SKIP 8e67077b931825da26e01985f1596ea7: no AGENT and no GENERATION messages
+  SKIP 66701f06e0d6995067dea7c9ce731bc0: no AGENT and no GENERATION messages
+  OK e605f2bce65e84780aaff9970115d72c: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  SKIP a85b54b820bba92d942dd86752fc2767: no AGENT and no GENERATION messages
+  SKIP 3178e1a43a38143031f1578da579bc27: no AGENT and no GENERATION messages
+  SKIP 173813271deaae0d5c68c632d3e80a24: no AGENT and no GENERATION messages
+  OK 3b81a8e7adc39354e0e158b04e87bde9: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP d3e300bbfb0ce68a34482ad5440f6569: no AGENT and no GENERATION messages
+  SKIP fd305002bf5e67969460a37cee793161: no AGENT and no GENERATION messages
+  SKIP b8e655d4e9ba6db64d423097089ec768: no AGENT and no GENERATION messages
+  SKIP f65dad7f09c65bf5ef4081e9cfae4270: no AGENT and no GENERATION messages
+  SKIP 0a6764cae9c5bcb6c43e00cb6060471b: no AGENT and no GENERATION messages
+  SKIP 3369d5a464fa7fd8030e2e0e0df1740c: no AGENT and no GENERATION messages
+  SKIP 391ac0de28a8515cd8742df7b5e5c505: no AGENT and no GENERATION messages
+  SKIP 7ccbff42635e923cdc74e2457d2b97dd: no AGENT and no GENERATION messages
+  SKIP 64682496d9eae6e3d1479963ffcd8d1c: no AGENT and no GENERATION messages
+  SKIP 1c1480bf6ccb23ebe7dedc3765e08046: no AGENT and no GENERATION messages
+  SKIP 473c82dff7f525ccd0a2fec3712f9157: no AGENT and no GENERATION messages
+  SKIP da56c0930aa0585556438bc9764a28b0: no AGENT and no GENERATION messages
+  SKIP 2a1a59a752544808b59ed82c639abf61: no AGENT and no GENERATION messages
+  SKIP 4ae5f5d55a7eeaae5a5e37029a8b5cd7: no AGENT and no GENERATION messages
+  SKIP 3dd87298adb4fba503eb6fc0abf948da: no AGENT and no GENERATION messages
+  SKIP 1f13df771a1c925528ed406a0da3d95e: no AGENT and no GENERATION messages
+  SKIP d5a92234ef5c4bb0db2acdf4002f5856: no AGENT and no GENERATION messages
+  SKIP 46613ee26dfadb7b54ab95d077004845: no AGENT and no GENERATION messages
+  SKIP 7e5c97e97e902aa28907b4b69a821057: no AGENT and no GENERATION messages
+  SKIP b735fdd5b55645cc8b96254fc9253143: no AGENT and no GENERATION messages
+  SKIP 01bc0b0609df7b733ab05ba24ea1eeee: no AGENT and no GENERATION messages
+  SKIP b89a3839ca8dc0e20b3b353b11bb9e44: no AGENT and no GENERATION messages
+  SKIP c47ed6f3c8df05d25787509b746b9c95: no AGENT and no GENERATION messages
+  OK fb8e1333540b6bc4df40b249c47abca7: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  SKIP c67d9434907b7ffbd78ebccb61f6a7ba: no AGENT and no GENERATION messages
+  SKIP bea42941a652db755b40b6db7ee9dd46: no AGENT and no GENERATION messages
+  SKIP 5cda3f2ecabd8c938d62d54e403a760d: no AGENT and no GENERATION messages
+  SKIP c9ef5bdd63fcbb072aebeae610510547: no AGENT and no GENERATION messages
+  SKIP ccf8e0bd8b90aee7bf5ce6f95e3e2a3a: no AGENT and no GENERATION messages
+  SKIP 023ef5f369a3b177a31d7964049c5ce7: no AGENT and no GENERATION messages
+  SKIP 62462cd0c276dcaf0a1a4a6f74890066: no AGENT and no GENERATION messages
+  SKIP e25bbe7a4cd1eff08e22466882d262f8: no AGENT and no GENERATION messages
+  SKIP c40331f1fe5b9e0b3260945d871162b2: no AGENT and no GENERATION messages
+  SKIP 6105f968d5c52b5c8efa60cb9a128564: no AGENT and no GENERATION messages
+  SKIP 8d3c9b97b730418aea66629a98229ac2: no AGENT and no GENERATION messages
+  SKIP 32524bcddb1f1d54f7d15bc2e03347c9: no AGENT and no GENERATION messages
+  SKIP fa9be2dcb1a3762e85f63cb9ce8339c3: no AGENT and no GENERATION messages
+  SKIP 16783fe1d2db351fc92850d08f3db1ad: no AGENT and no GENERATION messages
+  SKIP 41433ac1346f5d055783cfe1fcfee78e: no AGENT and no GENERATION messages
+  SKIP 8705fcde1554fa192e26061f399eabf6: no AGENT and no GENERATION messages
+  SKIP 7edb36fc4c010f3605703b0d5bf6bb0c: no AGENT and no GENERATION messages
+  SKIP fac30afdc57f996c8ccca3c112227503: no AGENT and no GENERATION messages
+  SKIP 08210d363e951f2e56e775bb254cc2a2: no AGENT and no GENERATION messages
+  SKIP d46d95192ad6ac06440d85a1bcba3e90: no AGENT and no GENERATION messages
+  SKIP 32024bdae8790fa61fa6e939540b727a: no AGENT and no GENERATION messages
+  SKIP 386bb964b983965df04a2999b467f69d: no AGENT and no GENERATION messages
+  SKIP fc4238ec43cc3335e30909935247b169: no AGENT and no GENERATION messages
+  OK d8a5dd9635bd04af1e32a994d70e33fa: skills=['equipment-cpk-query'] steps=10 sft=1 grpo=10
+  SKIP 77c6ff828bc7c4a72182772c875c30d8: no AGENT and no GENERATION messages
+  SKIP 0ac49afdc26cbe346066951f7ed946dd: no AGENT and no GENERATION messages
+  SKIP 5ec013071be9f8bc30a83f3b069b899f: no AGENT and no GENERATION messages
+  SKIP f983d83311e4827ef905950c91d56727: no AGENT and no GENERATION messages
+  SKIP 7f2d2f019128392beb72eb2977073241: no AGENT and no GENERATION messages
+  SKIP daefe03437d78267f882ba79a3d0e0b9: no AGENT and no GENERATION messages
+  SKIP 60eef40596054eb84255acfb3835e844: no AGENT and no GENERATION messages
+  SKIP 91cf9bd9d3a0e404afef3663944b6a4e: no AGENT and no GENERATION messages
+  SKIP 43fc2a475bb5531059f58165d790c934: no AGENT and no GENERATION messages
+  SKIP 8db7fb0c5291ecbed5c6927da822d6e2: no AGENT and no GENERATION messages
+  SKIP f0418bab2f14af84bfd06174476af6f4: no AGENT and no GENERATION messages
+  SKIP d2a8cd53766e89aef7630ecc0fc32096: no AGENT and no GENERATION messages
+  SKIP 54fa9ba47758a8950b208cf880f45bec: no AGENT and no GENERATION messages
+  SKIP 879fd0489480f2620ceab7d904dd9a0d: no AGENT and no GENERATION messages
+  SKIP cc6f8d347df86422263aec316c56ec20: no AGENT and no GENERATION messages
+  SKIP b8b4309fbc9a96abe1f24fdba2d9c2fa: no AGENT and no GENERATION messages
+  SKIP 05b02609517b3164d303fe7b933de0be: no AGENT and no GENERATION messages
+  SKIP fea274f58d5fb36f83d3ffe9b231b14f: no AGENT and no GENERATION messages
+  SKIP a05dae705e6b2b6854d44873d6afeb86: no AGENT and no GENERATION messages
+  SKIP 1b94e1d1b4ef6b3f9e749236d83c583e: no AGENT and no GENERATION messages
+  SKIP 48725841947ef24b29a12e7b185cc9d2: no AGENT and no GENERATION messages
+  SKIP 54d068692cfb92b9421dcb1b557f0e42: no AGENT and no GENERATION messages
+  SKIP 32ce6eb7d1e3bafe2c5e8802604b92cb: no AGENT and no GENERATION messages
+  SKIP 2bc9eeaacb1c383422f84f2f8fe92c0a: no AGENT and no GENERATION messages
+  SKIP 564f59e5a52913907971ec0b19531b32: no AGENT and no GENERATION messages
+  SKIP 39411e28fbaeb1acfa310fb6c2fd5a67: no AGENT and no GENERATION messages
+  SKIP d5d4b643bada5cca48db2d57af9d3a45: no AGENT and no GENERATION messages
+  SKIP 9992998d2828f2496fa4ef253f2fff60: no AGENT and no GENERATION messages
+  SKIP e092232bcf6c4d2a22db732d791874f3: no AGENT and no GENERATION messages
+  SKIP d9e63070a7597a3aeeb60007bcc4d584: no AGENT and no GENERATION messages
+  OK f01289628400bdc3d755a07506527fd4: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  SKIP 7fc0dfc30600a1c8f7eebfe10fca02bf: no AGENT and no GENERATION messages
+  SKIP 81a21247493abb18a44d520676126af9: no AGENT and no GENERATION messages
+  SKIP 687932d236932f4835e3dca8b42c0ee0: no AGENT and no GENERATION messages
+  SKIP 0e9393e97b4163dd45e5fda7a327b3f4: no AGENT and no GENERATION messages
+  SKIP 3e2e1c663b33459cf01d4e70cc612a94: no AGENT and no GENERATION messages
+  SKIP 77894749f84e93b24aeca3160928f57e: no AGENT and no GENERATION messages
+  SKIP de25766b5d71f26d7db0ce05df3a10af: no AGENT and no GENERATION messages
+  SKIP effab89b62a7ae1dbcd5750d34408560: no AGENT and no GENERATION messages
+  SKIP 27dd63bcfafce11bf574af5361260d5d: no AGENT and no GENERATION messages
+  SKIP af04685bd10ba52615f2e860934576f2: no AGENT and no GENERATION messages
+  SKIP 194ceb56b7b476270d3f4d4dc85618dc: no AGENT and no GENERATION messages
+  SKIP cccddff604a8b3ef2f63e90b9f472b59: no AGENT and no GENERATION messages
+  SKIP 9cc5163b957a71edb581a9a73782e33e: no AGENT and no GENERATION messages
+  SKIP 3c4093a4858a1092f64d8ffcdf0ec02c: no AGENT and no GENERATION messages
+  SKIP 550470062ae49585d3e9e6f85d8881e7: no AGENT and no GENERATION messages
+  SKIP 9d2a6d704c023f25627fc58b30378cf3: no AGENT and no GENERATION messages
+  SKIP 0c25af2fef60976aeacc6249514ff8b9: no AGENT and no GENERATION messages
+  SKIP eb31e05fc241dcb86b294591d525bdd0: no AGENT and no GENERATION messages
+  SKIP b4766d4835e56bf4d17cf58263b75986: no AGENT and no GENERATION messages
+  SKIP 0413290d0e195580c7dbdeff61770955: no AGENT and no GENERATION messages
+  SKIP b3544291e03d576deb89869d840e271f: no AGENT and no GENERATION messages
+  SKIP 0344a57aef513919e2156642a0698038: no AGENT and no GENERATION messages
+  SKIP bcdfd55bff827be3bed1c17a1b668fff: no AGENT and no GENERATION messages
+  SKIP ab949c70937c89b428b875b8e48c6d98: no AGENT and no GENERATION messages
+  SKIP a2bdef15a411636c8b2704d93db3e9e4: no AGENT and no GENERATION messages
+  SKIP a2de7fa7cc80a3fffc8351f22f24aae3: no AGENT and no GENERATION messages
+  SKIP a450d9bc2f037dee870d9a6b339a2afa: no AGENT and no GENERATION messages
+  SKIP 65f329af8413faf15c3bc558d36cf6ac: no AGENT and no GENERATION messages
+  SKIP 269271cd79791a93062e3a18fd025ee0: no AGENT and no GENERATION messages
+  SKIP 1adc25e0f952965a797d5deddddd0515: no AGENT and no GENERATION messages
+  SKIP 106ffe509154e141b0c4407aa52f9df3: no AGENT and no GENERATION messages
+  SKIP bc613a42d17246beaeff28c7c50a3330: no AGENT and no GENERATION messages
+  SKIP 3a8fcc93dbc46b5eb7c137038d26964b: no AGENT and no GENERATION messages
+  SKIP 90edf9e4487ad3133ec082c13f15e483: no AGENT and no GENERATION messages
+  SKIP ca485ba000d877de15f1a5bdd69f12d5: no AGENT and no GENERATION messages
+  SKIP 2aea69de51f77d8fa10ad6d6a6dc9bc2: no AGENT and no GENERATION messages
+  SKIP 2b8e044837719272d4791fc2925d1a27: no AGENT and no GENERATION messages
+  SKIP 73bd6cb767ae096f4cc4aed1528ab3e3: no AGENT and no GENERATION messages
+  SKIP b87d8c0b49f438721b6de946f9b544c9: no AGENT and no GENERATION messages
+  SKIP 66697bf33a3216f9ed98efe7f0ca7635: no AGENT and no GENERATION messages
+  SKIP 20a5ccfcb5b4c4af0b9906769fa71961: no AGENT and no GENERATION messages
+  SKIP 76b1e7bb71f5ceb2ca5a4f85bb8909da: no AGENT and no GENERATION messages
+  SKIP f330276c19492344570de6eca57d40c0: no AGENT and no GENERATION messages
+  SKIP 7a2666c4e2e38f61cd8b105610b1e3ae: no AGENT and no GENERATION messages
+  SKIP 97af7486a8311d65cfab941f8a2ac018: no AGENT and no GENERATION messages
+  SKIP 6419bbb8305ddebc6c3ea64fd5ac1ef7: no AGENT and no GENERATION messages
+  SKIP 4425726effe6fc25326f4a919e7dea75: no AGENT and no GENERATION messages
+  SKIP c5cf1d33bd1c743c580cdc8cb4e34e3f: no AGENT and no GENERATION messages
+  SKIP 5b9d6d7d56983ad65fa80146c8c8ab1e: no AGENT and no GENERATION messages
+  SKIP 230d24ca1a9fd44527f92e6fb63ff6da: no AGENT and no GENERATION messages
+  SKIP 84eba54cd796139eb3570cc6f37b57e0: no AGENT and no GENERATION messages
+  SKIP e03fa32b4d771f2b038585db85f2312d: no AGENT and no GENERATION messages
+  SKIP 9866d58c676e21cf49c8755ad5b806d7: no AGENT and no GENERATION messages
+  SKIP dd29bf92c741ec07c725d6c66f6a6330: no AGENT and no GENERATION messages
+  SKIP 2e7871fa5121810846b33d1b966ecfe1: no AGENT and no GENERATION messages
+  SKIP 02399edba2161b09812f369b8775b07e: no AGENT and no GENERATION messages
+  SKIP 0413cbfcd9f6d007a40c17b495e8c641: no AGENT and no GENERATION messages
+  SKIP a1d9b9ba5b3ce722b8553ce96633e596: no AGENT and no GENERATION messages
+  SKIP 84ca01a49976368ea4b95af78dae1143: no AGENT and no GENERATION messages
+  SKIP c1771160adb0159afc523f9e1dc5558e: no AGENT and no GENERATION messages
+  SKIP e05e637b6b6eca68b50e3112cded09b4: no AGENT and no GENERATION messages
+  SKIP 333d270e354db60c829f66025097acda: no AGENT and no GENERATION messages
+  SKIP 6a2f00f16c89b96df709406839b5c49f: no AGENT and no GENERATION messages
+  SKIP 8776da78fdfa38b9a4c419ae4074ad49: no AGENT and no GENERATION messages
+  SKIP 5823e96afe62af94a4274e7132b9f50b: no AGENT and no GENERATION messages
+  SKIP 7686d6d87757b19c7cbfc5a5d65fa6e6: no AGENT and no GENERATION messages
+  SKIP 06a0b045e60768ddbf470dc31fd1f076: no AGENT and no GENERATION messages
+  SKIP 4bfb5538c15009bdff974fa2af91254c: no AGENT and no GENERATION messages
+  SKIP 1f1f59cb31fc76f191131b36f9253293: no AGENT and no GENERATION messages
+  SKIP 500d7e1d8aec58302ae02238ea834f12: no AGENT and no GENERATION messages
+  SKIP 449373ba5af9dd639a53c410cac21226: no AGENT and no GENERATION messages
+  SKIP ab69b1837a23aff744d52c124ac0977a: no AGENT and no GENERATION messages
+  SKIP 483af7ecca65cbf80e5d983ca3069a4e: no AGENT and no GENERATION messages
+  SKIP 7c943df242991bac9cae7c3734b647e3: no AGENT and no GENERATION messages
+  SKIP 403849d428b2b33d48c40ad4a029f3ba: no AGENT and no GENERATION messages
+  SKIP 9c7d6d0a45b0a71550789634239d7592: no AGENT and no GENERATION messages
+  SKIP 85eaa25ed2d65b9ce6e8465bba7b0e90: no AGENT and no GENERATION messages
+  SKIP 739c2d0ccf46275f9d2f037343a400fd: no AGENT and no GENERATION messages
+  SKIP 6752b2f188ac4c1538d428ccdad202ee: no AGENT and no GENERATION messages
+  SKIP 37c6d493cb107f69829b53ad51ed1177: no AGENT and no GENERATION messages
+  SKIP 2462be9b63614ff1d3703251b912a391: no AGENT and no GENERATION messages
+  SKIP 37bb5bc09097f20a57f48b781125dcbf: no AGENT and no GENERATION messages
+  SKIP 592d689ba4145079d7fd1f9b0c3caf76: no AGENT and no GENERATION messages
+  SKIP efd58d11a11b9108a454ef7e5623324b: no AGENT and no GENERATION messages
+  SKIP e44a2e90c1ce0d12721eb5d8b567b0f4: no AGENT and no GENERATION messages
+  SKIP 5bd5967593332d3bb8b17f8157ea9531: no AGENT and no GENERATION messages
+  SKIP dafecacb8ae2460ef7a485ff382177f7: no AGENT and no GENERATION messages
+  SKIP d8784b0fbcb1e277145a3430af929833: no AGENT and no GENERATION messages
+  SKIP 6e4f0b65862430aa86f0e8b0195355e4: no AGENT and no GENERATION messages
+  SKIP 15ad57ba3d59d3a5f3c559f64658bdde: no AGENT and no GENERATION messages
+  SKIP ec598e28caf151022aac22a77778df30: no AGENT and no GENERATION messages
+  SKIP b1ebba326cd04fb338eb8b258e820d3a: no AGENT and no GENERATION messages
+  SKIP fd5c826ede93166c998da0777567efb5: no AGENT and no GENERATION messages
+  SKIP 2969838d34c2f1ed9e1204d3ca9e5439: no AGENT and no GENERATION messages
+  SKIP eb02b3b7a169be63ae709378a7502e4c: no AGENT and no GENERATION messages
+  SKIP fb8444f0857f91cbcc057414163e44ae: no AGENT and no GENERATION messages
+  SKIP a6b920649b886dc58ae9246dc8ed8176: no AGENT and no GENERATION messages
+  SKIP 43477f81e68c865732dc6bdad6469ac1: no AGENT and no GENERATION messages
+  SKIP 8e010bb6a4fb435976571f6230ae4748: no AGENT and no GENERATION messages
+  SKIP 9e16dd7facfab93bd3c225a0f546688a: no AGENT and no GENERATION messages
+  SKIP 983f1ee16ef992b596bb5bfa7e85a53f: no AGENT and no GENERATION messages
+  SKIP 6d3a6d81b353d9ae184b552dde3bb058: no AGENT and no GENERATION messages
+  SKIP 83cd08aa38005f796e349141a0172cad: no AGENT and no GENERATION messages
+  SKIP 752a964838c6786b87de05f052d54360: no AGENT and no GENERATION messages
+  SKIP 8542b53c2a0f9b44a81e8a1055fa99fd: no AGENT and no GENERATION messages
+  SKIP 9afa31691e6863d525c5126a4993c3da: no AGENT and no GENERATION messages
+  SKIP 9496f70dc88a0a21622f6e9541861b65: no AGENT and no GENERATION messages
+  SKIP e5585bc12b31a5f0da136eeb06f20a4c: no AGENT and no GENERATION messages
+  SKIP 15fff9dd62c1433fc22ad5d0aa75ca76: no AGENT and no GENERATION messages
+  SKIP 3f2b199acca2ea7c57a663fa46e22333: no AGENT and no GENERATION messages
+  SKIP 21dd955d3ff85ec0a0854de0d6febff3: no AGENT and no GENERATION messages
+  SKIP 19902e84653e698474a7685c5407de69: no AGENT and no GENERATION messages
+  SKIP f3d3f251b9c40f8bdbcd90680a581d37: no AGENT and no GENERATION messages
+  SKIP 814b28fb53df49735885ed0330d9b2b0: no AGENT and no GENERATION messages
+  SKIP d338734f5ef2383d87a53e6dcded823b: no AGENT and no GENERATION messages
+  SKIP 175abe9cc13b297092280594bd607649: no AGENT and no GENERATION messages
+  SKIP d616a1baffe83285c3b3f1205ef3a3a2: no AGENT and no GENERATION messages
+  SKIP 4490e5def18528f57420217ceb83e989: no AGENT and no GENERATION messages
+  SKIP 418ba2cacedd3331abc74eb7e8390824: no AGENT and no GENERATION messages
+  SKIP fd13bff72e2a6c81b6ea09c748f7b5b5: no AGENT and no GENERATION messages
+  SKIP 6a27622330a0c4ff8de344bbc117e92f: no AGENT and no GENERATION messages
+  SKIP 545eea91938ef0367eeaf2b4633e1a6b: no AGENT and no GENERATION messages
+  SKIP 14edfe3f076b8a8af8944084aac157af: no AGENT and no GENERATION messages
+  SKIP 964668b5a0ffbd74569011a559cb3948: no AGENT and no GENERATION messages
+  SKIP b2a35942b3ed91204bb8dc650a54e9c8: no AGENT and no GENERATION messages
+  SKIP e7adbc0efad4ff2fdb3ac2b34eb8421a: no AGENT and no GENERATION messages
+  SKIP 50afdab6d0b4d1e5f301ec16d8aab2f2: no AGENT and no GENERATION messages
+  SKIP ec3abc4726e69f36e42bd3ed90ddd8f3: no AGENT and no GENERATION messages
+  SKIP 6c7ea2aadd285780a89247a2a0941243: no AGENT and no GENERATION messages
+  SKIP d396f589ed344b6163457511566eef4d: no AGENT and no GENERATION messages
+  SKIP 87915c0b515219f1814eb98bbff60212: no AGENT and no GENERATION messages
+  SKIP 934974593ddf00e36ab3395024e0ee3d: no AGENT and no GENERATION messages
+  SKIP fee9db3a5e509406c6f6df534ca236c2: no AGENT and no GENERATION messages
+  SKIP 767bb272e999914d8f08cfb2e102e486: no AGENT and no GENERATION messages
+  SKIP f27f26dabdbf257196f1fa6a875e11be: no AGENT and no GENERATION messages
+  SKIP df28cd835c4d16a821cfc28234f1eebd: no AGENT and no GENERATION messages
+  SKIP 39cbccaf94f4eec81046cf3ba54e0843: no AGENT and no GENERATION messages
+  SKIP c98313ccd714778c12064bc837497f9c: no AGENT and no GENERATION messages
+  SKIP aaf20087386cbf2a35417eebe59b7c4c: no AGENT and no GENERATION messages
+  SKIP 8ccedc89255de6b382e6d19bfb14730c: no AGENT and no GENERATION messages
+  SKIP cd974617c7dbbddbe9575ff02bf66f18: no AGENT and no GENERATION messages
+  SKIP a8a3b02f8dec4361c65fbd3d9b552361: no AGENT and no GENERATION messages
+  SKIP 2d89c934bd9e66857e182647e5730f7b: no AGENT and no GENERATION messages
+  SKIP b52fe86994802e58ef83903b6324c867: no AGENT and no GENERATION messages
+  SKIP 2157859591a8ddd5a360dcd4ba4563bf: no AGENT and no GENERATION messages
+  SKIP e51d4179c825d33f5eb6a430427c722c: no AGENT and no GENERATION messages
+  SKIP 2d74a0b5cd49399c5a208ed9eb3f6219: no AGENT and no GENERATION messages
+  SKIP 7bda6a1fc968d43d0822a7924b698772: no AGENT and no GENERATION messages
+  SKIP c6cedfed650915184b24e462f91255d0: no AGENT and no GENERATION messages
+  SKIP 3d077d12a5fd62e620cd14d529699bf7: no AGENT and no GENERATION messages
+  SKIP 34f791b6a9dcc5075d4152f14b01df6a: no AGENT and no GENERATION messages
+  SKIP 4ea617eafc57588876ba33f7641d3ad8: no AGENT and no GENERATION messages
+  SKIP 96174f205f0a238a7dd1ca29dae2231a: no AGENT and no GENERATION messages
+  SKIP bace3d6b6520e32159776aba978ef95e: no AGENT and no GENERATION messages
+  SKIP 786b8668342d0b19672860d1db8e5a91: no AGENT and no GENERATION messages
+  SKIP 333ef0b8d409419b58d7203524d0bec3: no AGENT and no GENERATION messages
+  SKIP 8fb6bee5fa484ab65161b6fda80ee386: no AGENT and no GENERATION messages
+  SKIP e775261371ed82cd222e4f2d7470623d: no AGENT and no GENERATION messages
+  SKIP 4e82b37e293eb9bf06c37f16627d1ccc: no AGENT and no GENERATION messages
+  SKIP 0b91bf77875d975719d161b3fc9429c2: no AGENT and no GENERATION messages
+  SKIP 5a8bf6c0900f63743c369a024a1e26bb: no AGENT and no GENERATION messages
+  SKIP 46ae49da5e9923fa9d94cd730bc6bef7: no AGENT and no GENERATION messages
+  SKIP ca537ef578884f6a6e6ddc4297e4af5b: no AGENT and no GENERATION messages
+  SKIP 58932b97c26bb9d7a1f1126e7d9ba503: no AGENT and no GENERATION messages
+  SKIP 229cde6344c84f7ec5a900f74449ba0d: no AGENT and no GENERATION messages
+  SKIP b240940d8177d28b992c7d8c861e0e71: no AGENT and no GENERATION messages
+  SKIP 61e01ae0042920b6d92f3dbc454d756a: no AGENT and no GENERATION messages
+  SKIP 1a2b75125ec3ac166a07fcac7a8e189c: no AGENT and no GENERATION messages
+  SKIP 6f7112f61f34b9af206d428778dc17b4: no AGENT and no GENERATION messages
+  SKIP ba5a0b8edaf374821a9ae7368e367ba0: no AGENT and no GENERATION messages
+  SKIP 75e14ce7fb34d8d4f4a9fc3c8d43d984: no AGENT and no GENERATION messages
+  SKIP 6a05678c9ca35e97e24a975d63ebb1af: no AGENT and no GENERATION messages
+  SKIP 3bad03f4dbec13fc7bb86fd24fdff237: no AGENT and no GENERATION messages
+  SKIP a493f08ba4660a5f08183112d107e185: no AGENT and no GENERATION messages
+  SKIP 816a32fc1f072a10b09215fa134f27ce: no AGENT and no GENERATION messages
+  SKIP 9174f455b1dd7cf964a3227f2030ba10: no AGENT and no GENERATION messages
+  SKIP d54dc13571b8b049e072229cab1e0ece: no AGENT and no GENERATION messages
+  SKIP 2627fb1f740fe669c374f0f513848816: no AGENT and no GENERATION messages
+  SKIP 11b244f2d5a3af0653a19bc42866d3ab: no AGENT and no GENERATION messages
+  SKIP 996832bc1848b9207bae5afad53dfc3c: no AGENT and no GENERATION messages
+  SKIP 7ec5350582b4d762f7e24ad2c857f138: no AGENT and no GENERATION messages
+  SKIP 0ebdaff308ad7534a2e54bc693af1270: no AGENT and no GENERATION messages
+  SKIP ef7acd4cffca806629d037db262f8b8a: no AGENT and no GENERATION messages
+  SKIP 99c41c1a2fb016f99250150171a90cb8: no AGENT and no GENERATION messages
+  SKIP c04170a6517951c2bd09eff836429b42: no AGENT and no GENERATION messages
+  SKIP c3598b20abd1545bce41746e4b0f481f: no AGENT and no GENERATION messages
+  SKIP d102e2b46896a737597b937faa2661d6: no AGENT and no GENERATION messages
+  SKIP 4e70bca02fcf62ea96d6764d2c8528be: no AGENT and no GENERATION messages
+  SKIP cf953e92c6b19d542203a73da2f559b3: no AGENT and no GENERATION messages
+  SKIP 0bdd3f3220242fa21abbf52b6be47464: no AGENT and no GENERATION messages
+  SKIP 784a7e2454ae3b61d5fd8186eaabfe74: no AGENT and no GENERATION messages
+  SKIP 9fb94dadbbfa45a3bf7ea743473f29e5: no AGENT and no GENERATION messages
+  SKIP c088bedecb5a8a5035e1666b14e9750d: no AGENT and no GENERATION messages
+  SKIP 9a90ec1a8a9f22081efc9896bb0297fa: no AGENT and no GENERATION messages
+  SKIP cbfed51b6051ae81b155951323a6757e: no AGENT and no GENERATION messages
+  SKIP 468833d193d516b5678dd2f372f19e06: no AGENT and no GENERATION messages
+  SKIP 212523139335fe71f2fa072b10c8a10c: no AGENT and no GENERATION messages
+  SKIP b56b38f614fa30ed4d576debf629f707: no AGENT and no GENERATION messages
+  SKIP 272bf56aabc3f065e0f51249f72daa8d: no AGENT and no GENERATION messages
+  SKIP cddb8189b71132e354cd44c1713a3079: no AGENT and no GENERATION messages
+  SKIP e201f3933301c18117700b0738cffef7: no AGENT and no GENERATION messages
+  SKIP 8fe10515b9e71164962710386ef4ecf5: no AGENT and no GENERATION messages
+  SKIP 2830bf122cabc94fa00ece679f54003c: no AGENT and no GENERATION messages
+  SKIP 49cbd705fd1c78dde801e209cf38ce0f: no AGENT and no GENERATION messages
+  SKIP 0031b8d58bf9a1d35ed319bddb4b61ca: no AGENT and no GENERATION messages
+  SKIP 6b5d9650b13f25c0ef23bfcb6369afba: no AGENT and no GENERATION messages
+  SKIP c5b3a2a4c5ed3fa8799ac746d317438d: no AGENT and no GENERATION messages
+  SKIP 9b96d5fffc6516f91ce9be554549e118: no AGENT and no GENERATION messages
+  SKIP bcf73f3a02bd1b561996a9fd6053918f: no AGENT and no GENERATION messages
+  SKIP c083cb2f3ea59ddec5e72f89648be215: no AGENT and no GENERATION messages
+  SKIP bba979dae85eb5b076759ccb86c6eb23: no AGENT and no GENERATION messages
+  SKIP 6338088b54709d7f9cecc3723e62b36c: no AGENT and no GENERATION messages
+  SKIP 51b25dc504eba49bed37270cb83a0f00: no AGENT and no GENERATION messages
+  SKIP 56bd053c15716bd2b43f031002608acc: no AGENT and no GENERATION messages
+  SKIP c499b1cd983c9e88c41f1555a9185335: no AGENT and no GENERATION messages
+  SKIP 2b3dfedfc09d60c9ba18c0e8eee30b73: no AGENT and no GENERATION messages
+  SKIP d471f5f90bc67fef42e0d046a66bdfc6: no AGENT and no GENERATION messages
+  SKIP d7f7db6ad4c77344e56e4074a107eeaa: no AGENT and no GENERATION messages
+  SKIP a447bc6d89be29b6d2b717a694adc36c: no AGENT and no GENERATION messages
+  SKIP e97ce66837fd44767e828664334d4c33: no AGENT and no GENERATION messages
+  SKIP d5576c1edce693ad9b0ce287a52a3bf6: no AGENT and no GENERATION messages
+  SKIP f4741d8a353d0ac5149fc032eddb8785: no AGENT and no GENERATION messages
+  SKIP b10dfdad521639104d736ed54f33bde8: no AGENT and no GENERATION messages
+  SKIP 2004471d1c29d54fccdab7cef12f0a53: no AGENT and no GENERATION messages
+  SKIP 2177734375495ca09e24c9981ba42f2e: no AGENT and no GENERATION messages
+  SKIP cd9e6f546f8f4cadbc6b6aaf7ea5ebb8: no AGENT and no GENERATION messages
+  SKIP 02402af6f18c1c8bf550966e67099d2d: no AGENT and no GENERATION messages
+  SKIP 7d044b9347217eb56e6e5f61e99bf203: no AGENT and no GENERATION messages
+  SKIP 425129823b97dc33a698537d5b28cb74: no AGENT and no GENERATION messages
+  SKIP 2b58186d06c690fb10aac4d99e04d3ca: no AGENT and no GENERATION messages
+  SKIP 62fc3c5ad7c08387722134cb9c944777: no AGENT and no GENERATION messages
+  SKIP 40d0e63b9472b63d74b45c6bbb4d7c91: no AGENT and no GENERATION messages
+  SKIP 96aa7a6672d386d718c1948f8e792308: no AGENT and no GENERATION messages
+  SKIP af9765177d3df6341bc5ebc0fb0c38e1: no AGENT and no GENERATION messages
+  SKIP 495cbe48d2437110f67c4da07f1e44fe: no AGENT and no GENERATION messages
+  SKIP 686cb49aab201cf5b1f8496c30378525: no AGENT and no GENERATION messages
+  SKIP 402e7a6abafceda98068a3b2129bc1b1: no AGENT and no GENERATION messages
+  SKIP a5d1b77659f09fd028d6d2d679be72b8: no AGENT and no GENERATION messages
+  SKIP f626f506ee6ab55a814d2d1d23648554: no AGENT and no GENERATION messages
+  SKIP 0a8154817a49c6be174f7f2ecc2aa800: no AGENT and no GENERATION messages
+  SKIP c9dc9c569fe55c799ec4732d4c9d5a24: no AGENT and no GENERATION messages
+  SKIP 85c3c0ed320703060cc56499b9860b1d: no AGENT and no GENERATION messages
+  SKIP 08a36e1892b2d2b2aa20063419a7c03b: no AGENT and no GENERATION messages
+  SKIP 41403d1ffe2df54b86540799095a9160: no AGENT and no GENERATION messages
+  SKIP 1705e4d554b7a11f3a76bd9f944ee905: no AGENT and no GENERATION messages
+  SKIP f2002382af5cbf4e734c81691eeed2b0: no AGENT and no GENERATION messages
+  SKIP 8ace3fd66621e551d81d1e6409013cce: no AGENT and no GENERATION messages
+  SKIP 61bccc34dd4ddb14699141c88555355c: no AGENT and no GENERATION messages
+  SKIP 8f829a64d541aa58d85332ee49dcd8fd: no AGENT and no GENERATION messages
+  SKIP d17f549e6cad8c25073646f1dc6d4e57: no AGENT and no GENERATION messages
+  SKIP 01fbdb952d37a94e6a15db7ab674bab6: no AGENT and no GENERATION messages
+  SKIP 489a0b2af7dc88e9b34cd1cd087e1a3f: no AGENT and no GENERATION messages
+  SKIP 87b9f0613f68863dc84ec57d94881b18: no AGENT and no GENERATION messages
+  SKIP 9b5e6954a18870120b2d2cddd0a6d31a: no AGENT and no GENERATION messages
+  SKIP 3fe2e8abe79e014d321baad7d94486cf: no AGENT and no GENERATION messages
+  SKIP 21fb006f15571a19a5f69c76bba4a722: no AGENT and no GENERATION messages
+  SKIP f1d5fa7cf2cd85dc8a3557c81e2fa290: no AGENT and no GENERATION messages
+  SKIP 3dc1b1b82c5fd4ff4647a557c2a18c3c: no AGENT and no GENERATION messages
+  SKIP de94d0ac3890c15ace3055ec7bff1976: no AGENT and no GENERATION messages
+  SKIP 8e6c9b260c4e7fd3980ca4ce27764bba: no AGENT and no GENERATION messages
+  SKIP 4b35dec394d1cfd6289902c83b5ff136: no AGENT and no GENERATION messages
+  SKIP ff1aeef8b4e6de87bc54d0c98acb832e: no AGENT and no GENERATION messages
+  SKIP f6dad84533bd4b962615e60e8f93bbaf: no AGENT and no GENERATION messages
+  SKIP e333bd43ca99ca7a0d79bf83300a9228: no AGENT and no GENERATION messages
+  SKIP a202a288129f1c89abbf1fdffdf7d890: no AGENT and no GENERATION messages
+  SKIP e460b0efca3383c779378bbd508545f5: no AGENT and no GENERATION messages
+  SKIP 6447f8a0dd425f53e54aae4f1cb642b1: no AGENT and no GENERATION messages
+  SKIP a22c0b0c77b7fa2d0b0bf3391afeb2b7: no AGENT and no GENERATION messages
+  SKIP 3128e48d78c2973b91bc952d9d83f6d3: no AGENT and no GENERATION messages
+  SKIP cf45d8fa33882ae0e48b52613334510d: no AGENT and no GENERATION messages
+  SKIP 6312b66915644bf0a8bdf4b1c2731bf3: no AGENT and no GENERATION messages
+  SKIP 7c5854b78fc61f830eb2372a9179d0f3: no AGENT and no GENERATION messages
+  SKIP 16be7e865f02ae65e0073b3caffda318: no AGENT and no GENERATION messages
+  SKIP 95592e3d63af12f38c03873a1601f92a: no AGENT and no GENERATION messages
+  SKIP 9d980b2781e0e35a878184f883f3ec70: no AGENT and no GENERATION messages
+  SKIP 3362f5a8a834af7472a302bdffb88e70: no AGENT and no GENERATION messages
+  SKIP 934de6cd4e02e990fb5bd7f430d9a263: no AGENT and no GENERATION messages
+  SKIP cc48c063a2c37c21ecc3750f783627e5: no AGENT and no GENERATION messages
+  SKIP 8638f219e346b33324d2da6f7c1c8720: no AGENT and no GENERATION messages
+  SKIP 99733858669c39195658290b6084cd04: no AGENT and no GENERATION messages
+  SKIP fc182a119bb399d1ea77f9b6a5bc273e: no AGENT and no GENERATION messages
+  SKIP 93371f53bd88905f3b945a3427e12317: no AGENT and no GENERATION messages
+  SKIP f50f7f5dff7d0bd6207611c7ab38f80b: no AGENT and no GENERATION messages
+  SKIP 975240ec85d89091caf0d765fdeeac66: no AGENT and no GENERATION messages
+  SKIP 0fe13568a87da9f64f0032c286c6280b: no AGENT and no GENERATION messages
+  SKIP c97332df57bf8bf503e9fae9897d95c6: no AGENT and no GENERATION messages
+  SKIP 4bc5f37d6ff030f49547f62c3bde63d5: no AGENT and no GENERATION messages
+  SKIP 028d1e12b0b407567ec9114ee974a9f9: no AGENT and no GENERATION messages
+  SKIP 95acf6d487701b860c2fb739a0713867: no AGENT and no GENERATION messages
+  SKIP f3d9ee688588dbaa218215b2263fa22f: no AGENT and no GENERATION messages
+  SKIP a1fef3919906f401e34d0b370c9a237c: no AGENT and no GENERATION messages
+  SKIP eb43cdf62836765c9da32309cac8b571: no AGENT and no GENERATION messages
+  SKIP a6f1f85f0a44a4d37071d8b4a381fcff: no AGENT and no GENERATION messages
+  SKIP d5f828ddbc3323f281cb6f6918c596a1: no AGENT and no GENERATION messages
+  SKIP a3822b83f4c15a6bd7a6eba0a291b937: no AGENT and no GENERATION messages
+  SKIP 0d9de43bdf7c41715fd10910c3640bdf: no AGENT and no GENERATION messages
+  SKIP 57b4944354e7ca20bb14c9fc513a39c1: no AGENT and no GENERATION messages
+  SKIP 5b2ffea581e31b7b5330c29ecfe98c6f: no AGENT and no GENERATION messages
+  SKIP 8e3830ca5081075388338dc922e24952: no AGENT and no GENERATION messages
+  SKIP f3a1fd9bb7d5875ca5758e4f0d941ad4: no AGENT and no GENERATION messages
+  SKIP 3be7a4c9930f2664c0b8d077f62f1186: no AGENT and no GENERATION messages
+  SKIP 0c41aee010090eb268a67bc55ed6b288: no AGENT and no GENERATION messages
+  SKIP a7daccae04ab96511ed9b01b175d8c15: no AGENT and no GENERATION messages
+  SKIP ae4c5db0ea47c38115faa1994c6ad42b: no AGENT and no GENERATION messages
+  SKIP 9b15a0170e4f39a9e39402fa807e6472: no AGENT and no GENERATION messages
+  SKIP 728af1ba95905e737a210875224bdf05: no AGENT and no GENERATION messages
+  SKIP 92d7a4733bc4833c70dd63525829881c: no AGENT and no GENERATION messages
+  SKIP eb15c31c89e6a880091b35319c4f26ae: no AGENT and no GENERATION messages
+  SKIP 39fe1dddf6ee12e29d29f7d00cf6ec5a: no AGENT and no GENERATION messages
+  SKIP ab01109fbc43ef124d3e77bef5cf3f5a: no AGENT and no GENERATION messages
+  SKIP 1fdcc35929963c85b91f5671bbe8b5da: no AGENT and no GENERATION messages
+  SKIP 76f6a54db052f1b6d1c31ff6385e31f9: no AGENT and no GENERATION messages
+  SKIP fa208b0d6db925fd7aff401bb965bc2d: no AGENT and no GENERATION messages
+  SKIP bd078e908f10e63e94b18f0f3a86d270: no AGENT and no GENERATION messages
+  SFT SKIP a190e9a411699d2102c9541328470b2f: final answer too short
+  OK a190e9a411699d2102c9541328470b2f: skills=['equipment-cpk-query', 'lineside-material-query'] steps=3 sft=0 grpo=3
+  SKIP 22accac0d20fa930dfb533a12b3721ac: no AGENT and no GENERATION messages
+  SKIP 06397f9bc051fc8133205fcd969c41ec: no AGENT and no GENERATION messages
+  SKIP 68dd266fa9f4215bbdfcf0f00d3a72d4: no AGENT and no GENERATION messages
+  ERROR cca1b03b0f0dedb74ef21facc4aba4fe: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/cca1b03b0f0dedb74ef21facc4aba4fe
+  SKIP c42c698ff380d79e7902726c79b332e8: no AGENT and no GENERATION messages
+  SKIP 94e75fa2343b0e20a9da0b40d4c7614e: no AGENT and no GENERATION messages
+  SKIP 257829b5f91a573280b805b2e6f9f50e: no AGENT and no GENERATION messages
+  SKIP 0a05e19cbdb7c3f320c15ca646d92c3c: no AGENT and no GENERATION messages
+  SKIP 4462d8c2fbf738fbc93a3404490c3019: no AGENT and no GENERATION messages
+  SKIP 4d863e9fc43c1713ccc29d92e10d99e3: no AGENT and no GENERATION messages
+  SKIP 35ec3e759a56ce3ac477ff0a10f34b28: no AGENT and no GENERATION messages
+  SKIP 9549edea9c2edbcca0fcfbf785413e8c: no AGENT and no GENERATION messages
+  SKIP dd755e5bdd3e4fe691b7efcb41e8038a: no AGENT and no GENERATION messages
+  SKIP c3933fc12a847106b020a2300777b2c5: no AGENT and no GENERATION messages
+  OK 61d4b3b19be0af298491e9cc5e164198: skills=['lineside-material-query'] steps=4 sft=1 grpo=4
+  OK 0a2ed65ea65b985e41df1b490c743571: skills=['lineside-material-query'] steps=21 sft=1 grpo=21
+  OK ea681220f6353620f77e5f8a971dc3d2: skills=['lineside-material-query'] steps=18 sft=1 grpo=18
+  OK f66be5c756a4c7a43b6aeeb9716a64c4: skills=['lineside-material-query'] steps=6 sft=1 grpo=6
+  OK 0e299fb5dd2e15b5f9b452767185be3d: skills=['lineside-material-query'] steps=17 sft=1 grpo=17
+  OK 210a71abe68111cc179da2a95fc130eb: skills=['lineside-material-query'] steps=14 sft=1 grpo=14
+  OK 14def65eaaef78ef5820bfbf8d3cc4f6: skills=['lineside-material-query'] steps=13 sft=1 grpo=13
+  OK 129e51f2f3396540efd93914db48c5f0: skills=['lineside-material-query'] steps=10 sft=1 grpo=10
+  OK 3ee4b61e86cc9674b3379e3b747c8699: skills=['lineside-material-query'] steps=9 sft=1 grpo=9
+  OK 1022bf0a06a1b8044d0d7bb8139ab70f: skills=['lineside-material-query'] steps=8 sft=1 grpo=8
+  OK b90a2e073eaace1f701f824b48c186d8: skills=['lineside-material-query'] steps=7 sft=1 grpo=7
+  OK fa2cf146c2c14060b04e854c8a171698: skills=['lineside-material-query'] steps=6 sft=1 grpo=6
+  OK ce4c901c7db7ed47045fd5ce2f2e191b: skills=['lineside-material-query'] steps=4 sft=1 grpo=4
+  OK a1889b9ebbf7ed2616b2e16a775fb6dc: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK f5bd6cf95e1203cdaf655864ae07be9b: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  OK 35861c756ac05bbc5c21d7b07e99de21: skills=['line-exemption-query'] steps=8 sft=1 grpo=8
+  OK baefdebb34d25bc551c387fa71bfe3f9: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  OK 2f444978e4e7c5c795ad38aa3f02cc72: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  ERROR 5b9b40b8445065a70a3f018656bba919: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/5b9b40b8445065a70a3f018656bba919
+  OK c94e3889311f95a09b9557f691328c65: skills=['line-exemption-query'] steps=5 sft=1 grpo=5
+  OK e9506a207dc5e5bc388caa06b4e81070: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK f2fb9bdc450d0c0c21de7c8eb1321580: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 8e593cc7e0180a95a882f4505aa5bb18: skills=['line-attendance-query'] steps=6 sft=1 grpo=6
+  OK 951e1f53541cb7567a0a6b635c5bfdd2: skills=['line-exemption-query'] steps=4 sft=1 grpo=4
+  OK fe5aad2c5dbdf62620635bf27883e4ae: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  OK fc50f3905f09ab22b934756e0b211afa: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  OK 30857eb780a7a4274508f57061c883c0: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  OK 4e4592fb2c8bf6d270f4c014b9d3b92a: skills=['line-exemption-query'] steps=16 sft=1 grpo=16
+  OK 72b3b0e160fa5e19a6128ca14e16c85f: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK d0dfd3728d92221221f1a3bebf330760: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 70f7d72f2bc137c59c00208c4f7e35f9: skills=['equipment-cpk-query'] steps=6 sft=1 grpo=6
+  OK 4d2ab77b2dbd787372de18f4356aab5d: skills=['line-exemption-query'] steps=5 sft=1 grpo=5
+  OK b7baa057968a17a5b4fcb43cec4d1be5: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK e77432b62148bb3bb1a0e727c1056d7f: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK f77c41b19b981ffcd7275e1c1e238045: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 166d38960f39e68cae05b2eb21616eae: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK b0466ee02a054faa5bdeab48891c3c70: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK f37a06ccc4b4906b0842c60d3a5fda6f: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  ERROR 703989d7c3c7f5fcffd09c84366d317e: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/703989d7c3c7f5fcffd09c84366d317e
+  OK de4ef0403c0eb4dedd16cbd54c1dbb89: skills=['line-exemption-query'] steps=5 sft=1 grpo=5
+  OK 0349db20b29c28bc61a3354c83c7e34c: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK fb9b80bfcb8f3f7b15791f76b2b53d78: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 57f37129c3ed38e39ff959a84257bda9: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 39dbd99474ea406984102d76b984f561: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 3288bbb57a45de7cc008ffebea03df98: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK 8c481cf036b189e87fcb5d08d970d5e4: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK 47619367e8cf193fa4ae1bd9630cc72e: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  OK 4a0f2939241efc0f0e232b6403942715: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK d040a998fd108f771897efae2dfdc3e7: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK cb7b5f07316abb1db354f9819d2546a5: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 764a09d66d5178ae3b5ea89b11a2014b: skills=['lineside-material-query'] steps=43 sft=1 grpo=43
+  OK 35687b266bec513095ed643ce6b93abd: skills=['lineside-material-query'] steps=42 sft=1 grpo=42
+  OK b11fb886b2bb444ae4e03c1ba2afde8c: skills=['general-kpi-query'] steps=11 sft=1 grpo=11
+  OK 83795f119782c3c9b2011e51862b4408: skills=['general-kpi-query'] steps=8 sft=1 grpo=8
+  OK 9966323d82e14f81116e6dec7f11cd7f: skills=['lineside-material-query'] steps=41 sft=1 grpo=41
+  OK 5997fdcdf9f775e4fd2981c60b14b128: skills=['lineside-material-query'] steps=41 sft=1 grpo=41
+  OK 379001a8c41141b3ce1ecd962d38283f: skills=['general-kpi-query'] steps=8 sft=1 grpo=8
+  OK 098e29f1bd0ce540cf98e2181704d320: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  OK 267c99ebd9e8b14e9a29300f1889f529: skills=['lineside-material-query'] steps=40 sft=1 grpo=40
+  OK 1542c5ee0a49f2f5c7c538818bab61e4: skills=['lineside-material-query'] steps=40 sft=1 grpo=40
+  OK d2ce16963c6a503eab795eb20c612ed2: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  OK e0bb71d836ee1c0c71d97eb4297d9d90: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK f938ca4be8b4f87a1ddf464310676e4a: skills=['lineside-material-query'] steps=38 sft=1 grpo=38
+  OK abc1cf5bc1e8d030ec0c970cc3e61515: skills=['lineside-material-query'] steps=35 sft=1 grpo=35
+  OK 44c87d672e6f15efdec9430e99cd8d63: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  OK 4fec995a914bc69bcc2c9944c903dfbc: skills=['line-exemption-query'] steps=6 sft=1 grpo=6
+  OK 09bd201dd1d850f90818402b925ab6fa: skills=['general-kpi-query'] steps=9 sft=1 grpo=9
+  OK 65bf72c3197c2931d93eb4a9ad093a1e: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK f4f597c4cc405968c0a7542f3a2856ed: skills=['lineside-material-query'] steps=34 sft=1 grpo=34
+  OK ca396cebda0fba386f90e1230ea94362: skills=['lineside-material-query'] steps=33 sft=1 grpo=33
+  OK f1b4b9c7e4ca327fedc14ae52bcb56d3: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  OK 0c1a4898a69a5fe42a2dcf7fa3854250: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 4bed364d1c7a0ab57844597832ca08e3: skills=['lineside-material-query'] steps=31 sft=1 grpo=31
+  OK f21b4066cfede9f814db53831bda3442: skills=['lineside-material-query'] steps=29 sft=1 grpo=29
+  OK 2dd6a7686b51bd071f3ff129c862819a: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  OK 14c02b16f46c2b0bfe6e97279c5e8017: skills=['line-exemption-query'] steps=6 sft=1 grpo=6
+  OK a478475aa8b743d84fb3c87101190d1d: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK b651303540b8fd792157e422d9d4e955: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 44779d24888ae30195f21e30b11444e8: skills=['lineside-material-query'] steps=28 sft=1 grpo=28
+  OK bb6b8151fe6e43f8659ecb7925d6ae21: skills=['lineside-material-query'] steps=23 sft=1 grpo=23
+  OK 824274cb5c265c30b9587ba836849384: skills=['line-exemption-query'] steps=3 sft=1 grpo=3
+  OK 2936e612246e4322775cb86810c58a62: skills=['equipment-cpk-query'] steps=9 sft=1 grpo=9
+  OK 00b7c0378403f03f3885dfadf276a2c3: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  OK 14dcfbbfa2ca71610d24433a53a36ebb: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 3a83bc5f9924d69950be71eac74d0992: skills=['lineside-material-query'] steps=20 sft=1 grpo=20
+  OK 6ac1765d031a751157beb404f5af75e0: skills=['lineside-material-query'] steps=16 sft=1 grpo=16
+  OK 1981e84fd10d1c387282a2046b57e3c8: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  OK 92c0582a2ce4de5ad1f86b8debcc542c: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 5b68268883a919df664123bc653a39fa: skills=['lineside-material-query'] steps=4 sft=1 grpo=4
+  OK d03940649eb98435f5afb7773a731d30: skills=['lineside-material-query'] steps=14 sft=1 grpo=14
+  OK 26588923ab3f6f6f691895abc8710c9b: skills=['lineside-material-query'] steps=13 sft=1 grpo=13
+  OK 9da8fd12234f48840d6ed46a2325a342: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK ee3bb101543b6fa7222d0c6d9e3c1d6c: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 904d4e67da80d75506b921d3509a8ab3: skills=['lineside-material-query'] steps=6 sft=1 grpo=6
+  OK 1bb3b3e2555d5436538e4993d806d6cb: skills=['lineside-material-query'] steps=11 sft=1 grpo=11
+  OK 1146acf20065d2ee1ffe6d2d28941024: skills=['lineside-material-query'] steps=4 sft=1 grpo=4
+  OK cf2f83aa31f6a15440069fb5cff66c2e: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  OK d10e9786cd1826460844934b49a3bfcf: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  OK da899cd521128cb9d8bccf50446f0bbb: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK 12cbe556ef10e12f8dc70f18dda3a401: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  OK eebdfc1f08cf6ddbdbe859135ca5f92d: skills=['object-data-query'] steps=4 sft=1 grpo=4
+  OK e3c9a484b081ed5365de5b1588892c49: skills=['lineside-material-query'] steps=3 sft=1 grpo=3
+  OK 8d4cd2fece01231c329ff233d57cf709: skills=['lineside-material-query'] steps=3 sft=1 grpo=3
+  ERROR 43829e77112a05c10b41d075205b5a40: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/43829e77112a05c10b41d075205b5a40
+  OK 993ba2100c0ff2c3b5b6f8cd415b27e5: skills=['line-exemption-query'] steps=6 sft=1 grpo=6
+  OK c8e8d4adab079388cbfb254dc5416f19: skills=['equipment-cpk-query'] steps=6 sft=1 grpo=6
+  OK 357c9ff98021526d32ecfd7542a74806: skills=['line-exemption-query'] steps=7 sft=1 grpo=7
+  OK 2344e54658ea3e94a71cfe2b0f64f173: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK c902b4d466859f7cde2cdc29b5e73e76: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 43197d0d2e3c1b61e34da8c3b05c96e5: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 9dfab481ddac9bec8f7bfb922c47e547: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 14c0e05fac6e8858fc89d1dabf504ee4: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  OK 9729b3b415ea123a55b4605a7e1a927e: skills=['line-exemption-query'] steps=4 sft=1 grpo=4
+  OK 863a8e72994dcc981f791e7ebfa72e66: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 661853742342ea89cd7719b6cf0a5ac4: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 0e971aeb5742aa5a4c236335b8643dd2: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  OK f869e0504be99afcd7dd03bca08be328: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  ERROR 1d91f9c0ad1e0251b74043ee25175d2b: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/1d91f9c0ad1e0251b74043ee25175d2b
+  OK 3732174e82b72f2d35fbbb6697eb5271: skills=['line-exemption-query'] steps=5 sft=1 grpo=5
+  OK a0fbd3ad7d9c06522c9327e62f2fa1de: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 795085904e445ea5a4bf43f91a8b5146: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 7ad9c8c84bcfec92ada84340c5f48a79: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  OK 4c8a1768c3f9ad001836cd76f4585df9: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  OK 04081bdc74b50e414cb80d4f3ac0c791: skills=['line-exemption-query'] steps=6 sft=1 grpo=6
+  OK e790d143ddac8ec26d0896d5f734d194: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK cb45636cbb61bbc2b06d2bbc3761583e: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK f78497f464a6994bc80fb3f0a601c5b2: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  OK 2db99fcec416a7a98dd8d999328b6e9d: skills=['line-exemption-query'] steps=5 sft=1 grpo=5
+  OK e8b78e592e78dad7f4edf45e2831ec38: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  OK c2681036d292643c817cf2d64bc475c5: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK c0b8e1407dc49d8f6cd7f79e2a925966: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  OK 4c4ce710bd2ac40b002b388d17fe0706: skills=['line-exemption-query'] steps=5 sft=1 grpo=5
+  OK 5dcda8bfd681f6a104805b80c63e616d: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK eb7c39562ee3251b3385ce701731ca5a: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 11e42da3a4994e514c5b83440eaa1efd: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  OK e890e8a42b19ad1d3a17b25236ef1cea: skills=['line-exemption-query'] steps=4 sft=1 grpo=4
+  OK 1c120a144330685deff452a553c1f8a3: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 9df9977383508774451f236e37625c6c: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK ae052832e4de9bbbe0eebde8dc16587e: skills=['line-exemption-query'] steps=5 sft=1 grpo=5
+  OK ee77bb2b03f20f484f01b709724ae26e: skills=['general-kpi-query'] steps=9 sft=1 grpo=9
+  OK 42b8988b4cf3ad31fe5b186270d4431b: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  SFT SKIP 63fee53beb7266501398db2838aafd8f: final answer too short
+  OK 63fee53beb7266501398db2838aafd8f: skills=['lineside-material-query'] steps=15 sft=0 grpo=15
+  SFT SKIP 92cb0b8be2e4e5255661091dd6089866: final answer too short
+  OK 92cb0b8be2e4e5255661091dd6089866: skills=['lineside-material-query'] steps=2 sft=0 grpo=2
+  OK 1bbbdf0af6982847bb6db950abbb8f30: skills=['lineside-material-query'] steps=13 sft=1 grpo=13
+  SKIP 1c60c6e4af0c0c47e7424f73ec55c85d: no user question or no steps
+  SFT SKIP 8f432f96a4ea57eabf77b99585622218: final answer too short
+  OK 8f432f96a4ea57eabf77b99585622218: skills=['lineside-material-query'] steps=4 sft=0 grpo=4
+  OK 4fae74328594df6fc03b4d800281b1b9: skills=['lineside-material-query'] steps=13 sft=1 grpo=13
+  SKIP 6866075a7fdc33b1dde1b288e787a452: no AGENT and no GENERATION messages
+  SFT SKIP 81e98d48cc27f12c3cc612cee06ab661: final answer too short
+  OK 81e98d48cc27f12c3cc612cee06ab661: skills=['lineside-material-query'] steps=7 sft=0 grpo=7
+  SKIP d9d28a92027a06cabf614c965ddf8b14: no AGENT and no GENERATION messages
+  SKIP 41bfbeaae3b54236262ed984cb44cd4a: no user question or no steps
+  SKIP 99543da2221ff4b62edcb6402be8cc05: no AGENT and no GENERATION messages
+  SKIP 435ed6517bc6465ba44fe18eaf45904c: no AGENT and no GENERATION messages
+  SKIP 4fbedefc31beb6c4279e3d3d4c71dff8: no user question or no steps
+  SKIP 6781fd367a5a040188edda3d22ff4ad6: no AGENT and no GENERATION messages
+  OK c32523796a3c23d50b8d9133ec0ecd40: skills=['lineside-material-query'] steps=6 sft=1 grpo=6
+  SKIP 7db1a62f9a298e40911ad3e838dcca93: no user question or no steps
+  OK 76ec95cfa7c7ae83a7deb83a9b6b8fec: skills=['lineside-material-query'] steps=16 sft=1 grpo=16
+  OK d567d88b79a483984aca034d54256073: skills=['lineside-material-query'] steps=5 sft=1 grpo=5
+  SFT SKIP 0969e9fb7ec25c82356cdb24a7bca0a5: final answer too short
+  OK 0969e9fb7ec25c82356cdb24a7bca0a5: skills=['lineside-material-query'] steps=3 sft=0 grpo=3
+  SKIP 01d8f45d6b6d19f462382c2bdeaf0478: no AGENT and no GENERATION messages
+  SKIP eb08e4871d4f07e51396cccccd0cdd56: no user question or no steps
+  OK 135400c3d45463bc12178bb488717dfa: skills=['lineside-material-query'] steps=20 sft=1 grpo=20
+  SFT SKIP efc1e74d057aeadef98443c005ae5147: final answer too short
+  OK efc1e74d057aeadef98443c005ae5147: skills=['lineside-material-query'] steps=8 sft=0 grpo=8
+  SKIP 71acfc0869f5b664965f6aecca314b91: no AGENT and no GENERATION messages
+  OK 66d6fdfa8e2dfd49717b884cb03479dd: skills=['lineside-material-query'] steps=2 sft=1 grpo=2
+  SKIP 2497d1faf93badcea12be32030ec6a92: no user question or no steps
+  OK 70a6128a31233227f3cd60c1d5b65a80: skills=['lineside-material-query'] steps=7 sft=1 grpo=7
+  SFT SKIP 93d219b6306e044111357a9cfbb65c35: final answer too short
+  OK 93d219b6306e044111357a9cfbb65c35: skills=['lineside-material-query'] steps=3 sft=0 grpo=3
+  OK c91092565e97f420d402604cad098ac0: skills=['lineside-material-query'] steps=4 sft=1 grpo=4
+  SKIP f13910b36abefa9e56a092dfbcb01ace: no user question or no steps
+  SKIP b3f4570dd20124570b1a8535714a5dfd: no AGENT and no GENERATION messages
+  SKIP 86028b79cc6089bee7827d704d2f0284: no AGENT and no GENERATION messages
+  SKIP 71073af36b51b1703593eb6cb8e45b5f: no AGENT and no GENERATION messages
+  SKIP 40941f2235175da6cbfb894e33b4c66a: no AGENT and no GENERATION messages
+  OK 499907b47a004402c24428834cf99c3f: skills=['general-kpi-query'] steps=11 sft=1 grpo=11
+  SKIP 74389bc29a4fb861e27763253740207e: no AGENT and no GENERATION messages
+  SKIP fa26da0be76ed3f897d5b461dd565580: no AGENT and no GENERATION messages
+  SKIP dcb9d314bf1032f48f64b0794ea1d0ff: no AGENT and no GENERATION messages
+  SKIP c62eb8ccda1f2818a17cc08134533b56: no AGENT and no GENERATION messages
+  OK a908ef962bb5249ea268163cf0178e1d: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  SKIP 7b8e725fc22d92d6fe77ae90e5692590: no AGENT and no GENERATION messages
+  OK 4eae73fa125be6eb9c9d5857ef958d0a: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  SKIP 17da30053b69991047a8fd35c3a31500: no AGENT and no GENERATION messages
+  OK 8481963b474fa13726e3d9580993fc56: skills=['line-exemption-query'] steps=8 sft=1 grpo=8
+  SKIP 168ae9c2b5cbcfb9aa96432bae7711c6: no AGENT and no GENERATION messages
+  SKIP ec0a198a5b9230aa262fcf170cbf7356: no AGENT and no GENERATION messages
+  OK 0a9f2bc79cccd68c953ae4f1488709f5: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  SKIP 8340446690a58c6534f7c845db419a58: no AGENT and no GENERATION messages
+  OK 69b0a1e29969a14716bdd3b45293f048: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  OK 2acf00fa341300034c458216c1deaedb: skills=['equipment-cpk-query'] steps=4 sft=1 grpo=4
+  OK 3e9427cbcc7644d10d3c36064fc1f2c3: skills=['line-exemption-query'] steps=4 sft=1 grpo=4
+  SKIP d2166ab760d58c4fd1b725b2cfabddb9: no AGENT and no GENERATION messages
+  SFT SKIP 2c82bc01fef4632e3ddb5603cda5c30a: final answer too short
+  OK 2c82bc01fef4632e3ddb5603cda5c30a: skills=['general-kpi-query'] steps=2 sft=0 grpo=2
+  SKIP fe48e08375c8336489735a91a930a525: no AGENT and no GENERATION messages
+  SKIP 4bd44d4911efdc2394883da2714f0720: no AGENT and no GENERATION messages
+  OK a43571d50526dd2d41f470172addcc48: skills=['equipment-cpk-query'] steps=6 sft=1 grpo=6
+  SKIP 4131fca5bb32bf4ddb1d504d428a84ba: no AGENT and no GENERATION messages
+  SKIP 5fec12491ec625c31dd69d6d7e041787: no AGENT and no GENERATION messages
+  SKIP 2f83d456abcfb5f0bef08d80f29d3901: no AGENT and no GENERATION messages
+  SKIP f1af677c477c1227923e3cc18dd700e6: no AGENT and no GENERATION messages
+  OK a1b320d19bc6498f9943e0cc0f9669c8: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  SKIP 76e824fe59a16c9139b74362a1b90953: no AGENT and no GENERATION messages
+  SFT SKIP 46859912dccaa58be2b9f5c9cf71c879: final answer too short
+  OK 46859912dccaa58be2b9f5c9cf71c879: skills=['equipment-cpk-query'] steps=6 sft=0 grpo=6
+  SKIP 6594192cd664c4f6ece5fb9b3aa3e3db: no AGENT and no GENERATION messages
+  SKIP 13145d440c34d7dd2f411e741330786f: no AGENT and no GENERATION messages
+  OK 541bb99d50c961647eb6011b3feb93dc: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  OK fd510fa6f9cdb649ba8b7707397ce951: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  SKIP f14490df290f995402f00e8cea70651f: no AGENT and no GENERATION messages
+  SKIP 6aff4c18bc6c1931acef175fcc3e4d84: no user question or no steps
+  ERROR 4e3e0ac83e8369be03dfbc063840179c: 500 Server Error: Internal Server Error for url: http://aip.imp.xiaomi.com/platform/api/public/traces/4e3e0ac83e8369be03dfbc063840179c
+  SKIP cc5dab8e0dd0e27ab4782e24059971c7: no AGENT and no GENERATION messages
+  OK 41d294c3aa4c7584c2a9905e3ab2d956: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  SKIP f52a7cc920af64dba1238072f10c32f2: no AGENT and no GENERATION messages
+  OK 82ff9e902746b7fe1e9144c691416b1c: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  SKIP d73c94fbc9ccce9e14188d41e350a9f7: no AGENT and no GENERATION messages
+  SFT SKIP 4278c584e2ce4b62e333fed1bd69057f: final answer too short
+  OK 4278c584e2ce4b62e333fed1bd69057f: skills=['line-exemption-query'] steps=4 sft=0 grpo=4
+  OK d3da539cbc9b973dca16ec660c71b487: skills=['line-exemption-query'] steps=9 sft=1 grpo=9
+  SKIP 452993c3313485f080b9301ea3b325ac: no AGENT and no GENERATION messages
+  SKIP a64e63178ebd7f732feb88db4ef45a5a: no AGENT and no GENERATION messages
+  SKIP 49241045a22666c122ba983c043e5418: no user question or no steps
+  SKIP c22ef7dfae6363214561ce019105d032: no AGENT and no GENERATION messages
+  SKIP 0b3a877b84f34bcb58f27a1e42f973a4: no user question or no steps
+  SKIP 82d882939783ad3773413d1e4a497966: no AGENT and no GENERATION messages
+  OK 1dacd8901afa1d9c140dd5fd9c544ccb: skills=['general-kpi-query'] steps=1 sft=1 grpo=1
+  SKIP f1dd52b7b64e168b553f9c8bc86c0d20: no user question or no steps
+  SKIP 945fdc41247f11c34f10c87ea3295582: no AGENT and no GENERATION messages
+  OK 0bddfe5e103bd30cd17d1fd6238ce2c8: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SKIP 99cd5922f104992415d8639fbddb4665: no AGENT and no GENERATION messages
+  SKIP d2494a7680afea151fede665de799830: no AGENT and no GENERATION messages
+  SKIP 86d22f43356ac38aeeb4d375f3f932fa: no AGENT and no GENERATION messages
+  SKIP 8046954bedec3949d632bafcd834d138: no AGENT and no GENERATION messages
+  OK 4098fd04a367c4b405245bb35022e333: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  SKIP dbf9d379f4330f603815b20ebfd80605: no AGENT and no GENERATION messages
+  OK 967f3e5d88c68f08754dc2f01e9f7aba: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  SKIP 2b4504149e7ee8c806db3d937a9de144: no AGENT and no GENERATION messages
+  SKIP 19cc1f58bf363087f6fc3d97f5996f97: no AGENT and no GENERATION messages
+  OK f1cc757df3a59b7ebea1d9106a692bf8: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SKIP 36b1a64ca5ef25937301a9e503693eca: no AGENT and no GENERATION messages
+  SKIP 3f98291d75a9f0833a1ab48ff31cd3e0: no AGENT and no GENERATION messages
+  SFT SKIP 0c109c9059ddec77e485cf25dd0f970c: final answer too short
+  OK 0c109c9059ddec77e485cf25dd0f970c: skills=['general-kpi-query'] steps=1 sft=0 grpo=1
+  SKIP b41710b8abb6c44465c8e095ce291d31: no AGENT and no GENERATION messages
+  SKIP 7b608087ca6b4bc8c096cfa31702f3ab: no AGENT and no GENERATION messages
+  SKIP 1f385062b3c7314f53d64fd698f37cbe: no AGENT and no GENERATION messages
+  SKIP 4119648a489d52d1d9f766694a51b723: no AGENT and no GENERATION messages
+  OK a8cb2a1023aae2b8ff46b9901a62207c: skills=['manufacturing-capability-analysis'] steps=8 sft=1 grpo=8
+  OK a48796d0f01939ac1d73340a39ad6636: skills=['general-kpi-query'] steps=16 sft=1 grpo=16
+  OK 676a9ccff52796d835c1f169a72c2f44: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  SKIP 30c25ec18e9cfffe2c367a54832aee26: no AGENT and no GENERATION messages
+  SFT SKIP 22afc00a53ef6c832d6321c36d6d5afe: final answer too short
+  OK 22afc00a53ef6c832d6321c36d6d5afe: skills=['general-kpi-query'] steps=2 sft=0 grpo=2
+  SKIP 786e5672c48a0ab73048154b54907e8f: no AGENT and no GENERATION messages
+  SKIP 09ac2f2d31592fb63675faf487a43992: no AGENT and no GENERATION messages
+  OK 98f7fadd5c5a0242543d751a09123311: skills=['equipment-cpk-query'] steps=5 sft=1 grpo=5
+  SKIP 42441c2f3877cfffa1d7735956333997: no AGENT and no GENERATION messages
+  OK 65342d27f15da38ca68b1570cb162529: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  SKIP aee7b19130cc21c936b1c68921230e68: no AGENT and no GENERATION messages
+  SKIP 94506d419fc259255039fe72c768c5e7: no AGENT and no GENERATION messages
+  SKIP 0541b8644c3220d961996a313a420e09: no AGENT and no GENERATION messages
+  SKIP 67013ed0cb0d6f4fe2303fc7a3981bcd: no AGENT and no GENERATION messages
+  OK ae474bdf30f265f7fd8a249755684bb1: skills=['general-kpi-query'] steps=11 sft=1 grpo=11
+  SKIP 27e4ca0ca2862f960c781bd87610b635: no AGENT and no GENERATION messages
+  SKIP 6a88f3bc124d9512235a336952703edb: no AGENT and no GENERATION messages
+  SKIP 6a8ce689952d33b679c31e2c9fa57135: no AGENT and no GENERATION messages
+  SKIP 15cec14c3bdb77c8840299a2d346bc29: no AGENT and no GENERATION messages
+  SFT SKIP 06cb786e3c07690fe3f2becedf468c3d: final answer too short
+  OK 06cb786e3c07690fe3f2becedf468c3d: skills=['general-kpi-query'] steps=4 sft=0 grpo=4
+  SKIP ac08c8eb3ba9cb76bd75778b6b6417de: no AGENT and no GENERATION messages
+  SKIP 92c9588783b297bb7851d7087acb0f5f: no AGENT and no GENERATION messages
+  SKIP af5af59b1fcce264d82385edbbdad984: no AGENT and no GENERATION messages
+  SKIP 3ab6b4865900c95e9dd4ef810e29f65c: no AGENT and no GENERATION messages
+  SKIP 49b82de831897f03bb692b52b1d76ce0: no AGENT and no GENERATION messages
+  SFT SKIP a8aa4138b90bc586e1fbc5f2eacc969d: final answer too short
+  OK a8aa4138b90bc586e1fbc5f2eacc969d: skills=['general-kpi-query'] steps=1 sft=0 grpo=1
+  SKIP 4ca4509115b9f359c0df94965b874e63: no AGENT and no GENERATION messages
+  SKIP 384058496758864eae56fc3d64809b8e: no AGENT and no GENERATION messages
+  SKIP 25be08f0c30f020f66e89e713720e08e: no AGENT and no GENERATION messages
+  SKIP 3bdbd3719164c025337fdc812ab643b3: no user question or no steps
+  SKIP 5fab05930da28fd2a8bc83b23e49c756: no AGENT and no GENERATION messages
+  OK 5ce34965f17c8189f25a8f94c0b6a267: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  SKIP ad7f6ed401657ca9a998924b6d7d2d02: no AGENT and no GENERATION messages
+  SKIP 6d3c7c78ff895d846ef22c45f9021759: no user question or no steps
+  SKIP 9402ae994e0ab03110f72e481a7b0733: no AGENT and no GENERATION messages
+  SKIP 2384f6c9e0eafef1d1a577de7acc249f: no AGENT and no GENERATION messages
+  OK ec719f053ddc73ff30f13510826724cd: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SKIP 2015a60fc69c1e3a94b856f628fb6cae: no AGENT and no GENERATION messages
+  OK 7a0ca56b00d481944d799b4111e30b89: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  SKIP b3b9a1e3d99b56f5d50773e5ad400037: no AGENT and no GENERATION messages
+  SKIP 1c2becb189ebcc47be16f7340b8f4e50: no AGENT and no GENERATION messages
+  SKIP 4cdc873613a3b2c80a75da8da4c796d8: no AGENT and no GENERATION messages
+  SKIP 320d3d59457092640a3be61715036bdc: no AGENT and no GENERATION messages
+  SKIP 2e6da6196d96e112ea9a00ca70794ad2: no user question or no steps
+  SKIP ae236c1d287824e58ad801d39660b137: no AGENT and no GENERATION messages
+  SKIP 5a0907e6246635d564d6a25a3a35094d: no AGENT and no GENERATION messages
+  SKIP a114fbc2f3edb24d636cf133e2e54656: no AGENT and no GENERATION messages
+  SKIP d1093ecd1b39b8eed6139388267defa1: no AGENT and no GENERATION messages
+  SKIP 21a4751b31331f69c2d7bb84211506fb: no AGENT and no GENERATION messages
+  SKIP a0a71f5528f269b9d6dc7c6d1cee14d7: no AGENT and no GENERATION messages
+  SKIP 45aa470c7425e751d344dce0f53386e5: no AGENT and no GENERATION messages
+  SKIP a9adf681f54a652e060f83295fae2dc5: no AGENT and no GENERATION messages
+  OK 807c9c40f7647472c0999bc4b4f13173: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SKIP 5ca198fe698bcd1ce70c35795a3700ed: no AGENT and no GENERATION messages
+  SKIP 395fada80d599a1fb8f1973fca1b139b: no AGENT and no GENERATION messages
+  SKIP e7ad104bfc707d38288833736b8f1268: no AGENT and no GENERATION messages
+  SKIP ae4f083a40cc39b852819c115489ffd5: no user question or no steps
+  SKIP 365a0c3353d52da7508a6ec2848c1ff5: no user question or no steps
+  SKIP c8936711826b66a65995d422fe8a0af6: no AGENT and no GENERATION messages
+  SKIP a787b47830a5d7528f513bf4806619aa: no AGENT and no GENERATION messages
+  SKIP 9f82d1de028b7c4679c2a72bda4216ab: no AGENT and no GENERATION messages
+  SKIP 031dc81b1140486baccc83048e8a33fe: no AGENT and no GENERATION messages
+  SKIP 329e3d68d59176e17ae87eaba0a1b3ba: no AGENT and no GENERATION messages
+  OK d20aabaab3437dc7d94eebca37a35b3c: skills=['general-kpi-query'] steps=1 sft=1 grpo=1
+  SKIP e8fb398f19818309b8c782a53813879f: no AGENT and no GENERATION messages
+  OK c32afe3b5e7d65d07993be1429c537c4: skills=['general-kpi-query'] steps=1 sft=1 grpo=1
+  SKIP 10a03ec921cdd8df3be42d37173ffa75: no AGENT and no GENERATION messages
+  SKIP 4a04fcc2066edda9731c8de5e2980bd7: no user question or no steps
+  OK aa1ff6d93fc47df85c3e20f672304b17: skills=['general-kpi-query'] steps=19 sft=1 grpo=19
+  SKIP 48160292e5630e3bd00c979e685230de: no AGENT and no GENERATION messages
+  SKIP c8a8caa82f24f07554ab2b0c0f99791a: no AGENT and no GENERATION messages
+  SKIP 22c727504486bc9a0d04d145fa4eeda1: no AGENT and no GENERATION messages
+  SKIP b3f6c7b8d23ca583e59cada7a5a7ff49: no AGENT and no GENERATION messages
+  SKIP fc7a883a82e6c16bc742bb58244d0395: no AGENT and no GENERATION messages
+  SKIP bc8fa619a4b5428c8c2c60aac5bb9841: no AGENT and no GENERATION messages
+  SKIP 677759cb119bb872a3f36d0a71de8071: no AGENT and no GENERATION messages
+  SKIP 8a267f981e7975b14d8a186ea10e6ea3: no AGENT and no GENERATION messages
+  SKIP e9101e9952dbcfa8f880d1ec8bd7e538: no AGENT and no GENERATION messages
+  OK 13c873850539c76582c0d6128a4c1b0d: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  SKIP 62a5853fdc8ff6a2b288d13ec4ee9fac: no AGENT and no GENERATION messages
+  SKIP 5f5b349e9175631d00f7bdc421593cf4: no AGENT and no GENERATION messages
+  SKIP 61293615ffabc3140a8faf6525d046cd: no AGENT and no GENERATION messages
+  OK c8533aab6873df608947e484d5d940c9: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  SKIP 4c2962e62d1effdaa5d97b3a499e36d9: no AGENT and no GENERATION messages
+  OK e807fcd817afbb558664377d2446d3d9: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK ae10f38f53dc315f48f177d4682ae168: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  SKIP a0c8e3f0f53a336c0d10b248488fe897: no AGENT and no GENERATION messages
+  SKIP 119fa8f3559bf76f1835d5facc122d91: no AGENT and no GENERATION messages
+  SKIP ccfa87e75aa6d6b4109e9fc6f511c0d7: no user question or no steps
+  SKIP b86e2e7924bb15286729fb6e44617d42: no AGENT and no GENERATION messages
+  SKIP 96126e5921245127e6e520115a1193ef: no AGENT and no GENERATION messages
+  SKIP 02e68dfa27212ff06497183e1e92d7bd: no AGENT and no GENERATION messages
+  SKIP e341fd49296c28db19760e39fe5d176d: no AGENT and no GENERATION messages
+  SKIP 8f200d19e50ddd5f96e9c73d0dba1a33: no user question or no steps
+  SKIP c0084a40172207c73e317bb80e067738: no AGENT and no GENERATION messages
+  SKIP 211bea3990e25d9f56fb12c4e3f3a197: no AGENT and no GENERATION messages
+  OK ebca3d58dccf63963dfa85e60a2d05a6: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  SKIP 21d5c028c31ea10e100ba47ba1066732: no AGENT and no GENERATION messages
+  OK 8b2e6946d990b9d693d38503db5dee94: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  SKIP 04f90501f37b5786ddbb0f4971120819: no AGENT and no GENERATION messages
+  OK 99f99689133d39afc98921a2d98dc969: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  SKIP 1feec7d08d9e2ac59557277e09f38443: no AGENT and no GENERATION messages
+  OK 0d1ff999acc4b5c8215a05f753bdf071: skills=['line-exemption-query'] steps=4 sft=1 grpo=4
+  SKIP dfc9f30b8fab021b5d6ebfd8e5de40c1: no AGENT and no GENERATION messages
+  SKIP 895987b8a32bfa39d8a98e43d9640b99: no AGENT and no GENERATION messages
+  SKIP 193c2d453309144faf8356fd5409e191: no AGENT and no GENERATION messages
+  SKIP 36fba802a1f1f08147d72d8bfd4fe17d: no AGENT and no GENERATION messages
+  SKIP 13b2009db80855d88b7e242980ab5d95: no AGENT and no GENERATION messages
+  SKIP cabd07e247714faa8131134ee162781e: no AGENT and no GENERATION messages
+  SKIP 6064bbf2b0bc3a5075d8432d3d3dfbf4: no AGENT and no GENERATION messages
+  SFT SKIP 151e02f8fb4acdd6126ca4729b46fcd3: final answer too short
+  OK 151e02f8fb4acdd6126ca4729b46fcd3: skills=['line-exemption-query'] steps=4 sft=0 grpo=4
+  SKIP 700d29ac5365029161f1aa694977ec74: no AGENT and no GENERATION messages
+  SKIP f838a75f1d5fdf53113dbb8b8a701d2b: no AGENT and no GENERATION messages
+  OK ecc53bcc38de6adf4368d06942708b22: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  SKIP 011106e88230e35cbea1ea4692c960a2: no AGENT and no GENERATION messages
+  SKIP c4ea46433b3ede49a45bc26098bce85e: no AGENT and no GENERATION messages
+  SKIP 46d6d8dece9776961d25eaed999dcee0: no AGENT and no GENERATION messages
+  SKIP 334bd6726998c0b80400884961a6411f: no AGENT and no GENERATION messages
+  SKIP 65a92141a171c16c458c475acbb3ebd6: no AGENT and no GENERATION messages
+  SKIP 21474c7297777932465620f695a3a534: no AGENT and no GENERATION messages
+  OK 61825f6ab65181cd13fbfe856fb2c92b: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  SKIP acf35dfc3cfafab711f97f78981d7243: no AGENT and no GENERATION messages
+  SKIP 85ad047c92a14c3ef2818afb0c4e30f5: no AGENT and no GENERATION messages
+  SKIP 7bbf0d85b251cfc88a8fca6d049b3123: no AGENT and no GENERATION messages
+  SKIP cc85754541bc6ab1e00811d17b799f14: no AGENT and no GENERATION messages
+  SKIP 56c1980561652933145d7f4a34d2d932: no AGENT and no GENERATION messages
+  SKIP 7e5dbb5a00166645ba8466b0ba1e24ce: no AGENT and no GENERATION messages
+  SKIP 886d7eae34abb30e2d3d684a25863d83: no AGENT and no GENERATION messages
+  SKIP 1060557f2dabc3fb49218b9c102894a1: no AGENT and no GENERATION messages
+  OK b38235f4e7fc8faf4af9b9f4707e637e: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  OK 489cb82bb83fe0ebe7a46b62bf2f7729: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 08e6d2092822d05769fb56e9631b9459: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  SKIP bf81b31bc0aa8bb3def76b7489bcf296: no AGENT and no GENERATION messages
+  SKIP 26514f698c76f2294b95beec05188c60: no AGENT and no GENERATION messages
+  SKIP 80b2524e38d28b338e8e76a7f8d13d88: no AGENT and no GENERATION messages
+  SKIP 2a13b956b82c68a5fa4873f07f5e3c6b: no AGENT and no GENERATION messages
+  SKIP 1901b2aa829b606930d795086193a600: no AGENT and no GENERATION messages
+  SKIP 5d39f1e060f5380673606d5f958bf924: no AGENT and no GENERATION messages
+  SKIP 46893b475200dcc31654ce4f8d758fe3: no AGENT and no GENERATION messages
+  SKIP c0fbfea0c524b5cb502563613b9bd8e6: no AGENT and no GENERATION messages
+  SKIP 4a255f6cb27eebfcabdb3e40d87ffd16: no AGENT and no GENERATION messages
+  SKIP 0ff90285e3f33a850ded6293b8e3db1f: no AGENT and no GENERATION messages
+  SFT SKIP ea9790f1bd229cbe4eb7230261e1386c: final answer too short
+  OK ea9790f1bd229cbe4eb7230261e1386c: skills=['line-exemption-query'] steps=5 sft=0 grpo=5
+  SKIP d6f7f5f03a91b098b47d99a5544da95d: no AGENT and no GENERATION messages
+  OK 0d06aec200ba6095b736578beb0b333b: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  SKIP 025dff49c5bf8602adab7342fa6a18dd: no AGENT and no GENERATION messages
+  SKIP b4500686164e88bc3d1bf51baaa6ca2e: no AGENT and no GENERATION messages
+  SKIP 7ca43171c2b102c187667b760c835c7e: no AGENT and no GENERATION messages
+  SKIP 21e4d9874b714c620ce78550939fd50c: no AGENT and no GENERATION messages
+  SKIP 08595307a27ef55bd377950c743cb0cd: no AGENT and no GENERATION messages
+  SKIP fb83474e1537865b5832cb4b63cf2235: no AGENT and no GENERATION messages
+  SKIP de5a10d19ff053667791034ac39ac235: no AGENT and no GENERATION messages
+  OK a357adef50db6d08789edfb43b5ae76e: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  SKIP d57f3e78b31b493472c117b7043e4f1a: no AGENT and no GENERATION messages
+  SKIP 2f766391c2c5b5fb546ec630e4206afa: no AGENT and no GENERATION messages
+  OK 0fe30963f2fba8530657964390446c86: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SKIP 99fc06082c18702ca93917f9008edaea: no AGENT and no GENERATION messages
+  SKIP 2086466eab38dec216879cb43c14209f: no AGENT and no GENERATION messages
+  OK bb8b19d7d4c0c3272b00084126482fd5: skills=['equipment-cpk-query'] steps=3 sft=1 grpo=3
+  SKIP 635ed47fc0be0462eadcf4a3c21ef55d: no AGENT and no GENERATION messages
+  SKIP e5c1ef7e8183d20ebbce0f9990b1168d: no AGENT and no GENERATION messages
+  SKIP 1037f3ec9df7b54c26788f92fc023ba8: no AGENT and no GENERATION messages
+  SKIP 7ab3094be52af356b5ee12a5aea29759: no AGENT and no GENERATION messages
+  OK 3ab658e39279ac20a162d0453aad711f: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SFT SKIP 451f055f53b471eedca33d1ddc7e6651: final answer too short
+  OK 451f055f53b471eedca33d1ddc7e6651: skills=['general-kpi-query'] steps=1 sft=0 grpo=1
+  OK 55931b2510e2a0e2788b57d910989b66: skills=['general-kpi-query'] steps=1 sft=1 grpo=1
+  SKIP 361c99feff32e2ae589dde2df8689f08: no AGENT and no GENERATION messages
+  OK 794bb906490a43f6a850c3c4f7578e71: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  SKIP d42b7942fdc159c75cd6362c933c71fa: no AGENT and no GENERATION messages
+  SKIP 2dfd71e4408903f01cadddd4a705b617: no AGENT and no GENERATION messages
+  SKIP 1821a7a373293d058327af2b0899bfba: no AGENT and no GENERATION messages
+  SKIP 71a05d7ba2d6711c8520e8aec38c67c5: no AGENT and no GENERATION messages
+  SKIP 3952b3a4927d6a6d451900cb65f3abac: no AGENT and no GENERATION messages
+  SKIP b71b2bef31d3a94037931eb82961f8b7: no AGENT and no GENERATION messages
+  SKIP bcdf7c4ca0e1f33bba62c62b9881bc8a: no AGENT and no GENERATION messages
+  SKIP e42b0994bbe270802e15eb56e5782b67: no AGENT and no GENERATION messages
+  SKIP c4a82029e08e74de26f981c9a9739379: no AGENT and no GENERATION messages
+  SKIP de74b5f6427070962db421ae9d48d393: no AGENT and no GENERATION messages
+  SKIP 855f3bdce0372d4e10220ba6adaf5a39: no AGENT and no GENERATION messages
+  SKIP a5f3327e5cdaf65a18253f682ed85b7d: no AGENT and no GENERATION messages
+  OK 311a00240315c06a0a6ccf62800164a2: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  OK 3fd538f3108a736c4229fc06f5bc8f14: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  SKIP 468fcb46627ff3433007d7b090ae1d8e: no AGENT and no GENERATION messages
+  SKIP 44dcdf9f62976d3ea25b4cd03268687d: no AGENT and no GENERATION messages
+  OK 0022a7769180e3eafde6b7b2018b673d: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  SKIP 7b5910bd7c9f4a824e549e246e258c72: no AGENT and no GENERATION messages
+  SKIP 80321302a60f1e105564a15aeba7e0c0: no AGENT and no GENERATION messages
+  SKIP a3a6a847734947b64a2708c84567cf77: no AGENT and no GENERATION messages
+  OK 700c9d2dda9f61cd74d8b77de4eb0e53: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  SKIP c9625be00464d5133a9dfc453b3e351d: no AGENT and no GENERATION messages
+  SKIP 72d57bce3e2aa9a1f2a7da08504e1dbe: no AGENT and no GENERATION messages
+  SKIP 37f4551144d7de3c682ecfaf109dfedb: no AGENT and no GENERATION messages
+  SKIP a553ae2ac125ca7a49e7423c1a7c110f: no AGENT and no GENERATION messages
+  SKIP 36c7ae8655a486bc901e6d4a864ed57f: no AGENT and no GENERATION messages
+  SKIP 318fefff9de8ce6b35554103a7eb836c: no AGENT and no GENERATION messages
+  SKIP 77b4f6aa75ca96a1ddbca81389b7b367: no AGENT and no GENERATION messages
+  SKIP 3cd92810184a693ff86575b2d181e5fe: no AGENT and no GENERATION messages
+  SKIP dcc80dbadc45b907cfc2614ab70a340c: no AGENT and no GENERATION messages
+  SKIP 83777ef21971d6500ab9c07dda4eae28: no AGENT and no GENERATION messages
+  SKIP c6edcd5e212b3c165d519d98133f4183: no AGENT and no GENERATION messages
+  SKIP 61781877a6222e9487fc0889008169d2: no AGENT and no GENERATION messages
+  OK d87d80e94e82e7e793e6bc3254ae5636: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  SKIP ea4da9aa445ff2a5c795f71bbf0562ea: no AGENT and no GENERATION messages
+  SKIP 42c0687c4793e11b9f3cbc264899ceef: no AGENT and no GENERATION messages
+  SKIP 6e3b29bb1337da649fda9b1fabe7abdb: no AGENT and no GENERATION messages
+  SFT SKIP 55e17ef51b0abf9960418997b0aecac9: final answer too short
+  OK 55e17ef51b0abf9960418997b0aecac9: skills=['line-exemption-query'] steps=2 sft=0 grpo=2
+  SKIP a17cc67e1478fe59d19dfb93e51b3883: no AGENT and no GENERATION messages
+  SKIP 50477bec84480b14002d98480f884e06: no AGENT and no GENERATION messages
+  SKIP 78821797493ca4690d53c96796d83774: no AGENT and no GENERATION messages
+  SKIP 156fa3d12575dfe154c7095c4ba0665c: no AGENT and no GENERATION messages
+  SKIP 8785aa0c156efcd38480678a141eb2b8: no AGENT and no GENERATION messages
+  OK 05b55baf4d2c8521b599f05be472c23b: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  OK 86910bd9fe607686284659d8134cfb67: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  SKIP bf4bbff39ce87bc5c4f3ce96307babc1: no AGENT and no GENERATION messages
+  SKIP f804be9d2c413c688b5eefe2c2feb672: no AGENT and no GENERATION messages
+  SKIP 4d6d176f194e9501bbde10e181bf5a14: no AGENT and no GENERATION messages
+  OK a866d3ee5010c81152bb329ff0357814: skills=['general-kpi-query'] steps=11 sft=1 grpo=11
+  OK e7425ba36966ea99a9053db86e8c1f14: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SFT SKIP d77688399d96679093e68d87342208e6: final answer too short
+  OK d77688399d96679093e68d87342208e6: skills=['general-kpi-query'] steps=1 sft=0 grpo=1
+  SKIP 58c715fefcd44e2217eaf46c95c71d6c: no AGENT and no GENERATION messages
+  SKIP 5ac91e7da6c5fe0ad09d5c83fbde7949: no AGENT and no GENERATION messages
+  SKIP 9057b1e65bc032e59879e6ad72f0e5e6: no user question or no steps
+  SKIP b88813877f8c555589b813af3cdf0c3f: no AGENT and no GENERATION messages
+  SKIP 8aaa2934a57e0a47396fef0c18c83b3e: no AGENT and no GENERATION messages
+  SKIP a24d66d12ce1ece44b2198ed06c60ebc: no AGENT and no GENERATION messages
+  SKIP 80da817510e033e84ab2ec88b1749862: no AGENT and no GENERATION messages
+  OK a4a5ee98a8c1347678fa30cd18b4b4d7: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SKIP eecd3e62fc4668be0c86522968bd7bc5: no AGENT and no GENERATION messages
+  SKIP 6518eb58e66e1433a2588d990b0d9c0e: no AGENT and no GENERATION messages
+  OK 5b9565d56f0f674860f159406877f5d8: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  OK da921f9e80fe63067b1d31006a42578f: skills=['general-kpi-query'] steps=2 sft=1 grpo=2
+  OK 7df3cbdc4db6934e9163fff75a2c8d8c: skills=['general-kpi-query'] steps=8 sft=1 grpo=8
+  SKIP 61ad1bde851c65fece92b127eb37e7ac: no AGENT and no GENERATION messages
+  OK b0ddef5a3cf067e3af92898b29057ec0: skills=['line-exemption-query'] steps=13 sft=1 grpo=13
+  SKIP adc54e2c0cf614e9e5129dbb8fd068f9: no AGENT and no GENERATION messages
+  SKIP c32893b0f3d3a7fbde164a1575f3dcfa: no AGENT and no GENERATION messages
+  SKIP 4dd27932911a04ac053c9c0a07714d31: no AGENT and no GENERATION messages
+  OK 1e99bb9881b9cc114fdaf0e4b1e93a2b: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  SKIP 32801c591fdf4912f3cd8a99ee7b2ee9: no AGENT and no GENERATION messages
+  OK 0f8e4c6e977ff57c433d12ec552f35bd: skills=['general-kpi-query'] steps=9 sft=1 grpo=9
+  SKIP ac0ac5de73a334feae559520fe2cf50f: no AGENT and no GENERATION messages
+  SKIP e4c84dbcf21f42b443d7e1fcd153bf97: no AGENT and no GENERATION messages
+  SKIP 5e6af92d780b69a8c719ae6ab5b02458: no AGENT and no GENERATION messages
+  OK 895326b6a0998564fc823072c68e64d6: skills=['general-kpi-query'] steps=9 sft=1 grpo=9
+  SKIP 6f2b0580b100ab68fa4d710e39ac06c5: no AGENT and no GENERATION messages
+  OK 2807c26875b8e0f386507a57545ac419: skills=['general-kpi-query'] steps=7 sft=1 grpo=7
+  SKIP 12d8565df245b96f896bc4568d1e6e2f: no AGENT and no GENERATION messages
+  OK 55201e23c58d23ce87a9e28847a407d3: skills=['line-exemption-query'] steps=3 sft=1 grpo=3
+  SKIP 1c74ee5e613c3065d5e1a82bf6e8f3a3: no AGENT and no GENERATION messages
+  SKIP 9f786bbef72827c7f4e1a03b5ae1adda: no AGENT and no GENERATION messages
+  SKIP efce380039a41f5d5b2720f277d0f52f: no AGENT and no GENERATION messages
+  SKIP f4b2ec5de7bef0e01a8a84d4c40b06b4: no AGENT and no GENERATION messages
+  SKIP 46a99d001dcdf3a087fea293f29f574e: no AGENT and no GENERATION messages
+  SKIP 60da5889f5b6e4f3af7dd6c6c0895720: no AGENT and no GENERATION messages
+  SKIP fdc2c0d73cd45eb436ea0dea004537ff: no AGENT and no GENERATION messages
+  SKIP 5459de116a771ecaafab4e39851cad70: no AGENT and no GENERATION messages
+  SKIP 64ba5bfc3d86cffee3841cf451c9c147: no AGENT and no GENERATION messages
+  SKIP bb867c5dd368770ce1e4f39e2be74923: no AGENT and no GENERATION messages
+  SKIP b7d0b3609f416089a14c54e4e93b094e: no AGENT and no GENERATION messages
+  SKIP ce3261ee9f5d64664a00aef17f894510: no AGENT and no GENERATION messages
+  SKIP cced12d8b4c3e5d380bfe3076a322ae6: no AGENT and no GENERATION messages
+  SKIP 48487bfc1aa218b0b15b0b7440bfb3bb: no AGENT and no GENERATION messages
+  SKIP 8d97d8749073a4ec40c9e4be3c2a2da1: no AGENT and no GENERATION messages
+  OK 746473d34eb07953285fce77ff1cfbf7: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  SKIP 645da5dc5a39d2a52c947d3e6aed450b: no AGENT and no GENERATION messages
+  SKIP 4a3b7a4312c758ed3f11ff786741a0eb: no AGENT and no GENERATION messages
+  SKIP 6547228283805f235286463661433321: no AGENT and no GENERATION messages
+  SFT SKIP fd11a8d1d1b459f748f2fdf12d732005: final answer too short
+  OK fd11a8d1d1b459f748f2fdf12d732005: skills=['line-attendance-query'] steps=2 sft=0 grpo=2
+  OK 2a31b5378af2071651d9fa5ca0f40ebe: skills=['line-exemption-query'] steps=5 sft=1 grpo=5
+  SKIP 9e2b81ded2183db1aa1ca23ddc5ad6ea: no AGENT and no GENERATION messages
+  SKIP 72c30ffdea528bef298bc28bab5c90fe: no AGENT and no GENERATION messages
+  OK 7c6d3ef1d207bcc31160e174853f7247: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  SKIP 3da9f90a8d102ea3b8fb8c19583c5733: no AGENT and no GENERATION messages
+  SKIP 7189bdbe3b5a08c83b8a8652234a13a8: no AGENT and no GENERATION messages
+  SFT SKIP b4d09c1bbe9cc6e1df07f715a1831f48: final answer too short
+  OK b4d09c1bbe9cc6e1df07f715a1831f48: skills=['line-exemption-query'] steps=2 sft=0 grpo=2
+  SKIP 1a949bee695b02b81271ba914abbd2d1: no AGENT and no GENERATION messages
+  SFT SKIP 35b58b75fd7e59179ad3c6bab091abda: final answer too short
+  OK 35b58b75fd7e59179ad3c6bab091abda: skills=['general-kpi-query'] steps=3 sft=0 grpo=3
+  SKIP d50e45f2fafde48cc16bf05f4f0566b9: no AGENT and no GENERATION messages
+  SKIP 12477e8e3a6bfd33114b39882ebdd808: no AGENT and no GENERATION messages
+  SKIP 8be27160c670b665e5656146c967ba4b: no AGENT and no GENERATION messages
+  SKIP 3e5cf01f25dedc2d356c7eec64c6dcd1: no AGENT and no GENERATION messages
+  SKIP 846d745df43f0b6ee73676b1e637f58f: no AGENT and no GENERATION messages
+  SKIP 10bf9ae13ffa58d383e57f88dbd10b24: no AGENT and no GENERATION messages
+  SKIP 18055550bdb9d5f7903339b3fd45473d: no AGENT and no GENERATION messages
+  SKIP b1faed495c9d01585682e5b0f7600831: no AGENT and no GENERATION messages
+  SKIP f7af903bc8eaa007db1b5851df8f29d8: no AGENT and no GENERATION messages
+  SKIP 6007f996074d0cd8b4cda03de2f12356: no AGENT and no GENERATION messages
+  SKIP 41bdf8559e131c6b7c8e2d213b56ddb2: no AGENT and no GENERATION messages
+  SKIP e66ee5f3836c00192f0c48dd19f2cf30: no AGENT and no GENERATION messages
+  SKIP a2040dc86d1be00b16d66b699393be26: no AGENT and no GENERATION messages
+  SKIP ff9895d45862288a110757c211d60e3b: no AGENT and no GENERATION messages
+  OK d6a1ac71d7ea3becf095e2a2d5e5fbeb: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SKIP 9209e8713a8b4f91b578a66ea14826a3: no AGENT and no GENERATION messages
+  SKIP 83a70130cb3edbf4f7e3af15576e4755: no AGENT and no GENERATION messages
+  SKIP 693193e153dbfaaf87b562fef13f632a: no AGENT and no GENERATION messages
+  OK c360acbea824c5a2bb8678a1410f8d53: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  SFT SKIP 5d20176622689d56d902f52d5ef69434: final answer too short
+  OK 5d20176622689d56d902f52d5ef69434: skills=['general-kpi-query'] steps=2 sft=0 grpo=2
+  SKIP 94a88845091b1817da16e03d39acc31f: no AGENT and no GENERATION messages
+  SKIP 95a369e8bcf73c54b15473be3e49d847: no AGENT and no GENERATION messages
+  SKIP e96553415e0be096f70abf467c47d01e: no AGENT and no GENERATION messages
+  OK fe8fea7bb954d5b985ab72acd0926652: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SKIP 6ddc04a333f4139cbfd9f24c98951ec3: no AGENT and no GENERATION messages
+  SKIP de6182249ee81a53f0039066dad929b8: no AGENT and no GENERATION messages
+  SKIP 820d2ade6cad0eacf66fa2abd81a9eba: no AGENT and no GENERATION messages
+  SKIP 64c403153c1a38c82d35ee4132f35306: no AGENT and no GENERATION messages
+  SKIP 29b99d383257ba4a139f6c4e724e0402: no AGENT and no GENERATION messages
+  SKIP f519644c1ab5987a381c62b10657e7be: no AGENT and no GENERATION messages
+  SKIP a10d271eb20c32c12d3dd010366667ee: no user question or no steps
+  SKIP 4ce950122afff3b4d10475ff56a3d386: no AGENT and no GENERATION messages
+  SKIP 7afd73a47c8b1b96e6f335ca3b25e6c3: no AGENT and no GENERATION messages
+  SKIP 37de5eaed205bdff573f5c2dc21d0bee: no AGENT and no GENERATION messages
+  SKIP 85a79bb629623be58adabdd3fe4348d5: no AGENT and no GENERATION messages
+  SKIP 6aacb99976a6b1ab844e50254637f4bd: no AGENT and no GENERATION messages
+  SKIP f7b723a46141f914e2faca9dcce8dc01: no AGENT and no GENERATION messages
+  OK 81da8651d8d639285701e4154d3b588e: skills=['general-kpi-query'] steps=5 sft=1 grpo=5
+  SKIP c8a6eb6936db52d4a7bbdc4053abd8b8: no AGENT and no GENERATION messages
+  SKIP 480caf00c64dec7f08e713fb1b533dac: no AGENT and no GENERATION messages
+  SKIP 5aae46f9e72f305194d8cafce5205313: no AGENT and no GENERATION messages
+  SKIP ffd593cf63e8ceeef3785c8406f42b90: no AGENT and no GENERATION messages
+  SKIP 3c252d9b4e51ee8d1564a59909c9019d: no AGENT and no GENERATION messages
+  SKIP 86b568ed3fb4be2671ba56ef465d14cd: no AGENT and no GENERATION messages
+  SKIP e1cfd9c59119abd1ab503ae80372e1bb: no AGENT and no GENERATION messages
+  SKIP a9ca4059b84a92d6c2c401742d8907c2: no AGENT and no GENERATION messages
+  SKIP cbfeb8500e47c7599511dbf2e178c2af: no AGENT and no GENERATION messages
+  SKIP d89b55faea661c8fec10fac2fcfc0180: no AGENT and no GENERATION messages
+  OK 991f2b78dbf1d54fc83d503f71494e08: skills=['line-exemption-query'] steps=4 sft=1 grpo=4
+  OK 37ee0e3d953dd96f6140b134ca69b517: skills=['general-kpi-query'] steps=3 sft=1 grpo=3
+  SFT SKIP 9d736a659977698e2820ba74825acc6f: final answer too short
+  OK 9d736a659977698e2820ba74825acc6f: skills=['object-data-query'] steps=1 sft=0 grpo=1
+  SKIP c4a29de2157bca428a6c2997fe96a8b0: no AGENT and no GENERATION messages
+  SFT SKIP 57b638d8ca314b99c2f7b2ecb70ac1ab: final answer too short
+  OK 57b638d8ca314b99c2f7b2ecb70ac1ab: skills=['object-data-query'] steps=1 sft=0 grpo=1
+  SKIP f6f7cafbd0f01b16e980b64d5cb0fa1f: no AGENT and no GENERATION messages
+  SKIP 927a915f48ccf7594145cc30bb13a018: no AGENT and no GENERATION messages
+  OK 3aad05f13d4cca8cda406fd0bdf0c1d9: skills=['general-kpi-query'] steps=4 sft=1 grpo=4
+  SKIP 4e07a3d148ea732acc5d7a689c15175c: no AGENT and no GENERATION messages
+  SKIP 8856d9f049ab9fe1fc440d9f27cf1016: no AGENT and no GENERATION messages
+  SKIP 88d26c8a04fda600a791d37030438cad: no AGENT and no GENERATION messages
+  SKIP 3419defe455c3dcebf68e91df6ac483a: no AGENT and no GENERATION messages
+  SKIP 051aeb9b25521f31ad51e6d621cbafaf: no user question or no steps
+  SKIP 59465047eb030ad7746674f6d14f14ff: no AGENT and no GENERATION messages
+  SKIP 38a466372628da2ba4a1b4bf09adc9af: no AGENT and no GENERATION messages
+  SKIP a15fa287ed7d3ce7b01cc9b76da4759a: no AGENT and no GENERATION messages
+  SKIP cbeaf5c4a938447b2b02e7045e014831: no AGENT and no GENERATION messages
+  OK 9f245967226f38d7df1e0168ec6889b6: skills=['general-kpi-query'] steps=6 sft=1 grpo=6
+  SKIP 0f867dbfca9fbeaf4e80d02bc426bed9: no AGENT and no GENERATION messages
+  OK 4ab6ecfb4f9d08108b06f00b189c06ea: skills=['general-kpi-query'] steps=1 sft=1 grpo=1
+  SKIP 388fd4dac79cc2856853113ddf9eb54b: no AGENT and no GENERATION messages
+  SKIP c0bcead4848a32d701efd6bb32e7d115: no AGENT and no GENERATION messages
+  SKIP 8ad71f43cb003283033e328a6ceeb155: no AGENT and no GENERATION messages
+  SKIP 53edd5cc70340d19e4bd3593f7eecf61: no user question or no steps
+  SKIP b3f172c4f6ecb81d74d2cdd66be54353: no AGENT and no GENERATION messages
+  SKIP 53b4023cd006ce21329ea1d08c3a6dcf: no AGENT and no GENERATION messages
+  SKIP 52502bde3c57d5fe1f7c7d502fad5c81: no AGENT and no GENERATION messages
+  SKIP 86f5da9eb082064fe0e7be054b138800: no AGENT and no GENERATION messages
+  SKIP 681bd487c54a7fa55c4068a77d18a51f: no AGENT and no GENERATION messages
+  SKIP 9bcc39df2e0c3107971639890652b671: no AGENT and no GENERATION messages
+  SKIP ca550a686240f9fda0b6fc8caab6f93c: no AGENT and no GENERATION messages
+  SKIP 750fa1b9cac9ab37a2ae996e4d2d44eb: no AGENT and no GENERATION messages
+  SKIP 9a35c2b30214c4e5851648cd95aa8245: no AGENT and no GENERATION messages
+  SKIP 4555c2c3cadf7556c04e2820509b2780: no AGENT and no GENERATION messages
+  SKIP 086f68c4d8228ab6fbbdaf873227d84d: no AGENT and no GENERATION messages
+  SKIP c9498dca88d47e8c29583f19618d9d42: no AGENT and no GENERATION messages
+  SKIP 4f2fe3bc75db155b445bfef82e6682cd: no AGENT and no GENERATION messages
+  SKIP 8c92d24cc4680eead0371432e7a0c432: no AGENT and no GENERATION messages
+  SKIP 3580795e344231a1e555fce6eb90b8eb: no AGENT and no GENERATION messages
+  SKIP 9354d271a2d7a2f6325545f5d6097e16: no AGENT and no GENERATION messages
+  SKIP 00c561b0ddb929be644c117630095c15: no AGENT and no GENERATION messages
+  SKIP 23b28c85dc07571154b15818c66f8664: no AGENT and no GENERATION messages
+  SKIP d285d2a658bf53b951abb19b444318c5: no AGENT and no GENERATION messages
+  SKIP 5d55b21360b202c45922f25be48078bf: no AGENT and no GENERATION messages
+  OK df379c32dcc548b1493764f33927ec55: skills=['line-attendance-query'] steps=6 sft=1 grpo=6
+  SKIP baec59cc80aa1155100af4083ecce25a: no AGENT and no GENERATION messages
+  SKIP 2a1467a952e168c2e902525f8c155d7d: no AGENT and no GENERATION messages
+  SKIP 5f8199112c8b448248972d00287a116a: no AGENT and no GENERATION messages
+  SKIP 769901e69ade119e8626d60a11084af3: no AGENT and no GENERATION messages
+  SKIP 8dfa964df7b261f2f497160e9faa9e4d: no AGENT and no GENERATION messages
+  SKIP b03ad2b5a73a849bb3cbd7a4e96467ef: no AGENT and no GENERATION messages
+  SKIP 139da49ebbacfb9166509dc7c37c8bcb: no AGENT and no GENERATION messages
+  SKIP 88c0d600464ac1a781abaf1bea92d1d8: no AGENT and no GENERATION messages
+  SKIP 97ba034b353ece31e0f1a083b8d1c44d: no AGENT and no GENERATION messages
+  OK 4f03627390d6b719bb9499841726d8e5: skills=['line-exemption-query'] steps=12 sft=1 grpo=12
+  SKIP 8c9b6efc518800980ad27e7f4b601f36: no AGENT and no GENERATION messages
+  OK b88da48df7a1d9be975de714b928db54: skills=['line-exemption-query'] steps=16 sft=1 grpo=16
+  OK f24b06bf2c25397656de56ba8f786bab: skills=['line-attendance-query'] steps=5 sft=1 grpo=5
+  SKIP 130ce5e9e437b74e43de0596ac8a4d3f: no AGENT and no GENERATION messages
+  SKIP 8c5393e4a52b03b9aab401ca80c247fb: no AGENT and no GENERATION messages
+
+SFT  → /home/yinrong/post-train/impl2.1/round4/data/ws_alarm_crab_dolphin.jsonl  (283 samples)
+GRPO → /home/yinrong/post-train/impl2.1/round4/data/grpo_alarm_crab_dolphin.jsonl (2097 samples)

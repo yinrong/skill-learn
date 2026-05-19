@@ -1,0 +1,80 @@
+Auto-detected model: R4-sft-v2-merged
+Loading test data from round4/data/test_ns_all.jsonl...
+Evaluating 63 samples on http://localhost:8035...
+
+[  1/63]   ✓ GT=get_object_type_data PRED=get_object_type_data f1=0.50
+[  2/63]   ✗ GT=get_object_type_data PRED=(none) f1=0.00
+[  3/63]   ✓ GT=get_object_type_data PRED=get_object_type_data f1=0.50
+[  4/63]   ✓ GT=get_object_type_data PRED=get_object_type_data f1=0.50
+[  5/63]   ✓ GT=get_object_type_data PRED=get_object_type_data f1=0.50
+[  6/63]   ✗ GT=get_object_type_data PRED=(none) f1=0.00
+[  7/63]   ✓ GT=get_object_type_data PRED=get_object_type_data f1=0.50
+[  8/63]   ✗ GT=get_idi_model_data PRED=(none) f1=0.00
+[  9/63]   ✗ GT=get_object_type_data PRED=(none) f1=0.00
+[ 10/63]   ✗ GT=get_object_type_data PRED=(none) f1=0.00
+[ 11/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=1.00
+[ 12/63]   ✗ GT=get_object_type_data PRED=(none) f1=0.00
+[ 13/63]   ✗ GT=get_object_type_metrics PRED=(none) f1=0.00
+[ 14/63]   ✗ GT=get_idi_model_data PRED=(none) f1=0.00
+[ 15/63]   ✗ GT=get_object_type_metrics PRED=get_idi_model_data f1=0.00
+[ 16/63]   ✗ GT=get_object_type_metrics PRED=list_object_types f1=0.00
+[ 17/63]   ✗ GT=get_idi_model_data PRED=(none) f1=0.00
+[ 18/63]   ✗ GT=get_object_type_data PRED=get_object_type_metrics f1=0.00
+[ 19/63]   ✗ GT=get_idi_model_data PRED=(none) f1=0.00
+[ 20/63]   ✗ GT=get_object_type_detail PRED=(none) f1=0.00
+[ 21/63]   ✗ GT=get_idi_model_data PRED=(none) f1=0.00
+[ 22/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=0.75
+[ 23/63]   ✗ GT=get_idi_model_data PRED=get_object_type_data f1=0.00
+[ 24/63]   ✗ GT=list_object_types PRED=(none) f1=0.00
+[ 25/63]   ✗ GT=get_idi_model_data PRED=get_object_type_metrics f1=0.00
+[ 26/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=1.00
+[ 27/63]   ✗ GT=get_idi_model_data PRED=(none) f1=0.00
+[ 28/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=0.75
+[ 29/63]   ✗ GT=get_idi_model_data PRED=(none) f1=0.00
+[ 30/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 31/63]   ✗ GT=list_object_types PRED=(none) f1=0.00
+[ 32/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=0.75
+[ 33/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=1.00
+[ 34/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=0.50
+[ 35/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=1.00
+[ 36/63]   ✗ GT=get_idi_model_data PRED=(none) f1=0.00
+[ 37/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 38/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 39/63]   ✗ GT=get_idi_model_data PRED=get_object_type_metrics f1=0.00
+[ 40/63]   ✗ GT=get_idi_model_data PRED=(none) f1=0.00
+[ 41/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 42/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 43/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 44/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 45/63]   ✗ GT=get_idi_model_data PRED=format_feishu_card f1=0.00
+[ 46/63]   ✗ GT=get_object_type_data PRED=(none) f1=0.00
+[ 47/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 48/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=1.00
+[ 49/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 50/63]   ✗ GT=list_object_types PRED=(none) f1=0.00
+[ 51/63]   ✗ GT=get_object_type_data PRED=(none) f1=0.00
+[ 52/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 53/63]   ✗ GT=get_object_type_data PRED=(none) f1=0.00
+[ 54/63]   ✓ GT=get_object_type_data PRED=get_object_type_data f1=0.50
+[ 55/63]   ✗ GT=get_object_type_data PRED=(none) f1=0.00
+[ 56/63]   ✓ GT=get_object_type_data PRED=get_object_type_data f1=0.83
+[ 57/63]   ✓ GT=list_object_types PRED=list_object_types f1=1.00
+[ 58/63]   ✗ GT=get_object_type_data PRED=(none) f1=0.00
+[ 59/63]   ✗ GT=get_idi_model_data PRED=(none) f1=0.00
+[ 60/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=0.75
+[ 61/63]   ✗ GT=get_object_type_metrics PRED=(none) f1=0.00
+[ 62/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=0.75
+[ 63/63]   ✗ GT=get_object_type_metrics PRED=get_object_type_detail f1=0.00
+
+============================================================
+Evaluated: 63 samples  (errors: 10, skipped: 0)
+
+  name_acc            : 0.3016  (30.2%)
+  arg_key_f1          : 0.3032  (30.3%)
+  arg_kv_f1           : 0.1455  (14.6%)
+  combined_f1         : 0.2235  (22.4%)
+
+Primary metric (combined_f1 = 0.5*name_acc + 0.5*arg_kv_f1): 0.2235
+  ✗ FAIL: combined_f1 < 0.50 — 检查数据格式或增加训练数据
+
+Results saved to round4/results/R4-sft-v2-tool-f1.json

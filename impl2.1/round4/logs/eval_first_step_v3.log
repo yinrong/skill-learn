@@ -1,0 +1,67 @@
+Model: R4-sft-v3-merged
+[ 1/63] ✓ GT=list_object_types PRED=list_object_types
+[ 2/63] ✓ GT=list_object_types PRED=list_object_types
+[ 3/63] ✓ GT=list_object_types PRED=list_object_types
+[ 4/63] ✓ GT=list_object_types PRED=list_object_types
+[ 5/63] ✓ GT=list_object_types PRED=list_object_types
+[ 6/63] ✓ GT=list_object_types PRED=list_object_types
+[ 7/63] ✓ GT=list_object_types PRED=list_object_types
+[ 8/63] ✓ GT=list_object_types PRED=list_object_types
+[ 9/63] ✓ GT=list_object_types PRED=list_object_types
+[10/63] ✓ GT=list_object_types PRED=list_object_types
+[11/63] ✓ GT=list_object_types PRED=list_object_types
+[12/63] ✓ GT=list_object_types PRED=list_object_types
+[13/63] ✓ GT=list_object_types PRED=list_object_types
+[14/63] ✓ GT=list_object_types PRED=list_object_types
+[15/63] ✗ GT=get_object_type_metrics PRED=list_object_types
+[16/63] ✓ GT=list_object_types PRED=list_object_types
+[17/63] ✓ GT=list_object_types PRED=list_object_types
+[18/63] ✓ GT=list_object_types PRED=list_object_types
+[19/63] ✓ GT=list_object_types PRED=list_object_types
+[20/63] ✓ GT=list_object_types PRED=list_object_types
+[21/63] ✓ GT=list_object_types PRED=list_object_types
+[22/63] ✓ GT=list_object_types PRED=list_object_types
+[23/63] ✓ GT=list_object_types PRED=list_object_types
+[24/63] ✓ GT=list_object_types PRED=list_object_types
+[25/63] ✗ GT=get_object_type_metrics PRED=list_object_types
+[26/63] ✓ GT=list_object_types PRED=list_object_types
+[27/63] ✓ GT=list_object_types PRED=list_object_types
+[28/63] ✓ GT=list_object_types PRED=list_object_types
+[29/63] ✗ GT=get_object_type_metrics PRED=list_object_types
+[30/63] ✓ GT=list_object_types PRED=list_object_types
+[31/63] ✓ GT=list_object_types PRED=list_object_types
+[32/63] ✓ GT=list_object_types PRED=list_object_types
+[33/63] ✗ GT=get_object_type_metrics PRED=list_object_types
+[34/63] ✓ GT=list_object_types PRED=list_object_types
+[35/63] ✓ GT=list_object_types PRED=list_object_types
+[36/63] ✓ GT=list_object_types PRED=list_object_types
+[37/63] ✓ GT=list_object_types PRED=list_object_types
+[38/63] ✓ GT=list_object_types PRED=list_object_types
+[39/63] ✓ GT=list_object_types PRED=list_object_types
+[40/63] ✗ GT=get_object_type_metrics PRED=list_object_types
+[41/63] ✓ GT=list_object_types PRED=list_object_types
+[42/63] ✓ GT=list_object_types PRED=list_object_types
+[43/63] ✓ GT=list_object_types PRED=list_object_types
+[44/63] ✓ GT=list_object_types PRED=list_object_types
+[45/63] ✗ GT=get_idi_model_data PRED=list_object_types
+[46/63] ✗ GT=get_object_type_metrics PRED=list_object_types
+[47/63] ✓ GT=list_object_types PRED=list_object_types
+[48/63] ✓ GT=list_object_types PRED=list_object_types
+[49/63] ✓ GT=list_object_types PRED=list_object_types
+[50/63] ✓ GT=list_object_types PRED=list_object_types
+[51/63] ✓ GT=list_object_types PRED=list_object_types
+[52/63] ✓ GT=list_object_types PRED=list_object_types
+[53/63] ✓ GT=list_object_types PRED=list_object_types
+[54/63] ✓ GT=list_object_types PRED=list_object_types
+[55/63] ✓ GT=list_object_types PRED=list_object_types
+[56/63] ✓ GT=list_object_types PRED=list_object_types
+[57/63] ✗ GT=get_object_type_metrics PRED=list_object_types
+[58/63] ✓ GT=list_object_types PRED=list_object_types
+[59/63] ✗ GT=get_object_type_metrics PRED=list_object_types
+[60/63] ✓ GT=list_object_types PRED=list_object_types
+[61/63] ✗ GT=get_object_type_metrics PRED=list_object_types
+[62/63] ✗ GT=get_object_type_data PRED=list_object_types
+[63/63] ✗ GT=get_object_type_detail PRED=list_object_types
+
+First-step tool_name_acc: 0.8095 (81.0%)
+Hits: 51/63

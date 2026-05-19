@@ -1,0 +1,48 @@
+# R4-sft-v2：工厂助手技能内化 — 完整 SFT 轨迹
+# 数据：349 条完整 SFT 轨迹（ws→ns，11 个 skill，ws_all.jsonl 全量）
+# 基础：Qwen3-14B（直接从 base 训练）
+# 目标：tool_call_f1 ≥ 0.70，最终答案质量 judge ≥ 0.70
+# GPU：动态检测空闲 GPU（check_gpus.sh --free 2）
+#
+# 关键变更（vs R4-sft-v2 旧版）：
+#   - dataset: skill_r4_ns_v2(74条) → skill_r4_ns_all(349条，ws_all全量)
+#   - cutoff_len: 24576 → 65536（H20机器，覆盖99%样本，p99=66980）
+#   - num_train_epochs: 5 → 3（样本量增至349，减少 epoch 防过拟合）
+#   - gradient_accumulation_steps: 4（effective batch = 2 GPUs × 1 × 4 = 8）
+
+model_name_or_path: /home/yinrong/models/Qwen3-14B
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 128
+lora_alpha: 256
+lora_dropout: 0.0
+lora_target: all
+quantization_method: bitsandbytes
+quantization_bit: 4
+
+dataset: skill_r4_ns_all
+dataset_dir: /home/yinrong/post-train/impl2.1/round4/data
+cutoff_len: 8192
+
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+gradient_checkpointing: true
+learning_rate: 5.0e-05
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 2
+
+output_dir: /home/yinrong/post-train/impl2.1/round4/checkpoints/R4-sft-v2
+
+do_train: true
+report_to: none

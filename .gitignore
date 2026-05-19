@@ -30,3 +30,7 @@ __pycache__/
 # 临时文件
 *.tmp
 /tmp/
+
+# Large GRPO data files (>50MB)
+impl2.1/round4/data/grpo_cron.jsonl
+impl2.1/round4/data/grpo_alarm_crab_dolphin.jsonl

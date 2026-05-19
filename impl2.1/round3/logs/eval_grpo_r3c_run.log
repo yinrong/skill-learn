@@ -1,0 +1,229 @@
+[10:30:54] 合并 GRPO LoRA adapter...
+[WARNING|2026-05-12 10:30:59] llamafactory.extras.misc:154 >> Version checking has been disabled, may lead to unexpected behaviors.
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,371 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-05-12 10:31:11,670 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[WARNING|tokenization_utils_base.py:2493] 2026-05-12 10:31:11,675 >> The tokenizer you are loading from '/home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[INFO|configuration_utils.py:763] 2026-05-12 10:31:11,686 >> loading configuration file /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged/config.json
+[INFO|configuration_utils.py:839] 2026-05-12 10:31:11,688 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2109] 2026-05-12 10:31:11,696 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2380] 2026-05-12 10:31:11,972 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[WARNING|tokenization_utils_base.py:2493] 2026-05-12 10:31:11,972 >> The tokenizer you are loading from '/home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[INFO|configuration_utils.py:763] 2026-05-12 10:31:11,995 >> loading configuration file /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged/config.json
+[INFO|configuration_utils.py:839] 2026-05-12 10:31:11,996 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.6",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[WARNING|logging.py:328] 2026-05-12 10:31:11,996 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|2026-05-12 10:31:11] llamafactory.model.model_utils.kv_cache:143 >> KV cache is enabled for faster generation.
+[WARNING|logging.py:328] 2026-05-12 10:31:13,533 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|modeling_utils.py:1169] 2026-05-12 10:31:13,549 >> loading weights file /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged/model.safetensors.index.json
+[INFO|modeling_utils.py:2341] 2026-05-12 10:31:13,549 >> Instantiating Qwen3ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:986] 2026-05-12 10:31:13,551 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 15/15 [00:00<00:00, 193.22it/s]
+[INFO|configuration_utils.py:939] 2026-05-12 10:31:13,692 >> loading configuration file /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged/generation_config.json
+[INFO|configuration_utils.py:986] 2026-05-12 10:31:13,692 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "temperature": 0.6,
+  "top_k": 20,
+  "top_p": 0.95
+}
+
+[INFO|dynamic_module_utils.py:423] 2026-05-12 10:31:13,695 >> Could not locate the custom_generate/generate.py inside /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged.
+[INFO|2026-05-12 10:31:13] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-05-12 10:31:55] llamafactory.model.adapter:143 >> Merged 1 adapter(s).
+[INFO|2026-05-12 10:31:55] llamafactory.model.adapter:143 >> Loaded adapter(s): /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C
+[INFO|2026-05-12 10:31:55] llamafactory.model.loader:143 >> all params: 14,768,307,200
+[INFO|2026-05-12 10:31:55] llamafactory.train.tuner:143 >> Convert model dtype to: torch.bfloat16.
+[INFO|configuration_utils.py:491] 2026-05-12 10:31:56,021 >> Configuration saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/config.json
+[INFO|configuration_utils.py:757] 2026-05-12 10:31:56,039 >> Configuration saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/generation_config.json
+[INFO|modeling_utils.py:4189] 2026-05-12 10:32:40,271 >> The model is bigger than the maximum size per checkpoint (2GB) and is going to be split in 15 checkpoint shards. You can find where each parameters has been saved in the index located at /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/model.safetensors.index.json.
+[INFO|tokenization_utils_base.py:2561] 2026-05-12 10:32:40,288 >> chat template saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/chat_template.jinja
+[INFO|tokenization_utils_base.py:2730] 2026-05-12 10:32:40,304 >> tokenizer config file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2739] 2026-05-12 10:32:40,323 >> Special tokens file saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/special_tokens_map.json
+[INFO|2026-05-12 10:32:40] llamafactory.train.tuner:143 >> Ollama modelfile saved in /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged/Modelfile
+合并配置：
+  base:    /home/yinrong/post-train/impl2.1/round2/history-route2.1.1/checkpoints/expYYY-merged
+  adapter: /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C
+  output:  /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged
+执行：llamafactory-cli export /tmp/tmpboztmbn_.yaml
+✓ 合并完成，safetensors 文件数：15
+  输出目录：/home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged
+[10:32:46] 合并完成 → /home/yinrong/post-train/impl2.1/round3/checkpoints/R3-C-merged
+[10:32:46] 启动 vLLM 服务（port 8034）...
+[10:34:46] vLLM 就绪
+[10:34:46] 开始评测 R3-C...
+Traceback (most recent call last):
+  File "/home/yinrong/post-train/impl2.1/common/tools/eval/spc_eval.py", line 324, in <module>
+    main()
+  File "/home/yinrong/post-train/impl2.1/common/tools/eval/spc_eval.py", line 309, in main
+    run_eval(
+  File "/home/yinrong/post-train/impl2.1/common/tools/eval/spc_eval.py", line 161, in run_eval
+    with open(test_path, encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/yinrong/post-train/impl2.1/common/data/test_ns_200.jsonl'
+[10:34:46] 评测完成 → /home/yinrong/post-train/impl2.1/round3/results/R3-C.json
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/home/yinrong/post-train/impl2.1/round3/results/R3-C.json'

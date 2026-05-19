@@ -1,0 +1,22 @@
+[1/20] skill=line-attendance-query q=S03线和S05线今日出勤对比... OK
+[2/20] skill=line-attendance-query q=查一下S03线今天白班的出勤人数和出勤率... OK
+[3/20] skill=line-attendance-query q=查一下S04线今天白班的出勤人数和出勤率... OK
+[4/20] skill=line-attendance-query q=S03线今天出勤情况... OK
+[5/20] skill=line-attendance-query q=S04线和S03线今日出勤对比... OK
+[6/20] skill=line-attendance-query q=S03线和S05线今日出勤对比... OK
+[7/20] skill=line-attendance-query q=S03线今天出勤情况... OK
+[8/20] skill=line-attendance-query q=查一下S03线今天白班的出勤人数和出勤率... OK
+[9/20] skill=line-attendance-query q=查一下S03线今天白班的出勤人数和出勤率... OK
+[10/20] skill=line-attendance-query q=S03线今天出勤情况... OK
+[11/20] skill=line-attendance-query q=S04线今天出勤情况... OK
+[12/20] skill=line-attendance-query q=查一下S03线今天白班的出勤人数和出勤率... OK
+[13/20] skill=line-attendance-query q=查一下S05线今天白班的出勤人数和出勤率... OK
+[14/20] skill=line-attendance-query q=查一下S04线今天白班的出勤人数和出勤率... OK
+[15/20] skill=line-attendance-query q=S04线今天出勤情况... OK
+[16/20] skill=line-attendance-query q=查一下S05线今天白班的出勤人数和出勤率... OK
+[17/20] skill=line-attendance-query q=S05线今天出勤情况... OK
+[18/20] skill=line-attendance-query q=查一下S04线今天白班的出勤人数和出勤率... OK
+[19/20] skill=line-attendance-query q=S05线今天出勤情况... OK
+[20/20] skill=line-attendance-query q=S05线和S03线今日出勤对比... OK
+
+Generated 20 valid samples → data/gen_line-attendance-query.jsonl

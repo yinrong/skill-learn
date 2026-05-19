@@ -1,0 +1,718 @@
+Auto-detected model: R4-sft-v4b-merged
+Evaluating 63 samples on http://localhost:8035 (model=R4-sft-v4b-merged)
+
+[ 1/63] skill=equipment-cpk-query gt_steps=3 ... ✓ name_f1=1.00 kv_f1=0.33 pred_steps=4 avg_ms=1011
+     GT  tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+查询结果：S04线在 2026-04-28 00:00-01:00 期间共 2 条装备故障记录：
+
+| 序号 | 装备编码 | 故障开始时间 | 故障结束时间 | 故障代码 | 故障描述 | 持续时长 
+[ 2/63] skill=equipment-cpk-query gt_steps=6 ... ✗ name_f1=0.67 kv_f1=0.44 pred_steps=4 avg_ms=592
+     GT  tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线在2026-05-08 19:00-20:00时间段内**无装备故障记录**。
+
+查询条件：
+- 线体：S04
+- 时间范围：2026-05-08 19:00:00 ~ 2026-05-08 2
+[ 3/63] skill=equipment-cpk-query gt_steps=5 ... ✗ name_f1=0.75 kv_f1=0.25 pred_steps=4 avg_ms=878
+     GT  tools: ['list_object_types', 'list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+查询结果：S04线 2026-04-25 09:00-10:00 装备故障记录共 **2 条**：
+
+| 序号 | 装备编码 | 故障开始时间 | 故障结束时间 | 故障代码 | 故障描述 | 持续时长
+[ 4/63] skill=equipment-cpk-query gt_steps=4 ... ✓ name_f1=0.86 kv_f1=0.57 pred_steps=4 avg_ms=603
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线在2026-05-11 20:00-21:00时间段内**无装备故障记录**。
+
+查询条件：
+- 线体：S04
+- 时间范围：2026-05-11 20:00:00 ~ 2026-05-11 2
+[ 5/63] skill=equipment-cpk-query gt_steps=4 ... ✓ name_f1=0.86 kv_f1=0.29 pred_steps=4 avg_ms=830
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+查询结果：S04线 2026-05-09 17:00-18:00 装备故障记录
+
+共 2 条故障记录：
+
+1. **装备编码** M-SMT-PCBC-A-ZMO-0401（SPI工站）
+   - 故障
+[ 6/63] skill=equipment-cpk-query gt_steps=9 ... ✗ name_f1=0.50 kv_f1=0.33 pred_steps=4 avg_ms=618
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线在2026-05-09 12:00-13:00时间段内**无装备故障记录**。
+
+查询条件：
+- 线体：S04
+- 时间范围：2026-05-09 12:00:00 ~ 2026-05-09 1
+[ 7/63] skill=equipment-cpk-query gt_steps=5 ... ✗ name_f1=0.75 kv_f1=0.25 pred_steps=4 avg_ms=590
+     GT  tools: ['list_object_types', 'list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线在2026-04-25 06:00-07:00时间段内**无装备故障停机记录**。
+
+查询条件：
+- 线体：S04
+- 时间范围：2026-04-25 06:00:00 ~ 2026-04-25
+[ 8/63] skill=equipment-cpk-query gt_steps=4 ... ✗ name_f1=0.38 kv_f1=0.25 pred_steps=13 avg_ms=366
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+我这边查了下，当前系统中**装备（device）对象没有绑定任何指标模型**，也就是说无法直接查询装备的CPK数据。
+
+CPK（过程能力指数）通常是通过SPC（统计过程控制）系统来计算和监控的，这类数据
+[ 9/63] skill=equipment-cpk-query gt_steps=6 ... ✗ name_f1=0.67 kv_f1=0.44 pred_steps=4 avg_ms=579
+     GT  tools: ['list_object_types', 'list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线在2026-05-07 14:00-15:00期间**无装备故障记录**。
+
+查询条件：
+- 线体：S04
+- 时间范围：2026-05-07 14:00:00 ~ 2026-05-07 15:
+[10/63] skill=general-kpi-query gt_steps=11 ... ✗ name_f1=0.40 kv_f1=0.27 pred_steps=5 avg_ms=200
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_idi_model_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[11/63] skill=general-kpi-query gt_steps=6 ... ✗ name_f1=0.40 kv_f1=0.40 pred_steps=5 avg_ms=208
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[12/63] skill=general-kpi-query gt_steps=5 ... ✗ name_f1=0.75 kv_f1=0.25 pred_steps=4 avg_ms=613
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线在2026-05-09 16:00到17:00之间**没有查询到设备故障记录**。
+
+查询条件：
+- 线体：S04
+- 时间范围：2026-05-09 16:00:00 ~ 2026-05-09
+[13/63] skill=general-kpi-query gt_steps=9 ... ✗ name_f1=0.46 kv_f1=0.46 pred_steps=5 avg_ms=201
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'list_object_types', 'get_object_type_metrics', 'list_object_types', 'get_object_type_metrics']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[14/63] skill=general-kpi-query gt_steps=4 ... ✗ name_f1=0.44 kv_f1=0.44 pred_steps=6 avg_ms=337
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线体的UPH数据查询需要先确认是否有绑定UPH指标模型。当前查询结果：**S04线体无绑定的指标模型**（modelBindings为空），这意味着该线体尚未配置UPH等生产指标的计算方式。
+
+可
+[15/63] skill=general-kpi-query gt_steps=7 ... ✗ name_f1=0.36 kv_f1=0.36 pred_steps=5 avg_ms=190
+     GT  tools: ['get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data', 'get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data', 'get_object_type_metrics']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[16/63] skill=general-kpi-query gt_steps=6 ... ✗ name_f1=0.38 kv_f1=0.19 pred_steps=15 avg_ms=217
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_idi_model_data', 'get_object_type_data', 'get_object_type_metrics']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics']
+[17/63] skill=general-kpi-query gt_steps=4 ... ✗ name_f1=0.36 kv_f1=0.36 pred_steps=8 avg_ms=332
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_data', 'list_object_types', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线（1F-SMT04）2026年4月27日23:00-24:00的UPH数据暂未查询到结果。
+
+可能原因：
+1. 该时间段数据尚未完成ETL入库（当前时间23:07，数据可能存在延迟）
+2. 该时
+[18/63] skill=general-kpi-query gt_steps=5 ... ✗ name_f1=0.67 kv_f1=0.67 pred_steps=5 avg_ms=199
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'get_object_type_metrics', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[19/63] skill=general-kpi-query gt_steps=3 ... ✗ name_f1=0.57 kv_f1=0.57 pred_steps=5 avg_ms=211
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[20/63] skill=general-kpi-query gt_steps=3 ... ✗ name_f1=0.67 kv_f1=0.67 pred_steps=4 avg_ms=988
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_detail']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线在2026年4月24日16:00~17:00期间，炉前AOI（APAOI工站）共发生2次设备故障：
+
+| 序号 | 装备编码 | 故障开始时间 | 故障结束时间 | 故障代码 | 故障描述 | 
+[21/63] skill=general-kpi-query gt_steps=7 ... ✗ name_f1=0.36 kv_f1=0.36 pred_steps=5 avg_ms=202
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data', 'get_object_type_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[22/63] skill=general-kpi-query gt_steps=3 ... ✗ name_f1=0.50 kv_f1=0.50 pred_steps=6 avg_ms=378
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线体的UPH数据查询需要先确认是否有绑定UPH指标模型。当前查询结果：**S04线体无指标模型绑定**，即该线体暂未配置UPH等生产指标的计算模型。
+
+可能原因：
+1. 该线体尚未接入UPH数据采
+[23/63] skill=general-kpi-query gt_steps=3 ... ✗ name_f1=0.31 kv_f1=0.31 pred_steps=11 avg_ms=257
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03/S04线体的产出数据暂未找到可用的指标模型，无法直接查询。建议检查数据源是否已接入或联系数据团队确认指标口径。🐙
+[24/63] skill=general-kpi-query gt_steps=4 ... ✗ name_f1=0.50 kv_f1=0.50 pred_steps=5 avg_ms=189
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'list_object_types']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[25/63] skill=general-kpi-query gt_steps=6 ... ✗ name_f1=0.50 kv_f1=0.50 pred_steps=7 avg_ms=358
+     GT  tools: ['get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data', 'get_object_type_data', 'get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线（1F-SMT04）20:00-21:00的UPH实际产出数据暂未查询到结果。
+
+**可能原因：**
+1. 该时间段数据尚未完成入库（当前时间21:07，数据可能存在延迟）
+2. 该时段实际产出
+[26/63] skill=general-kpi-query gt_steps=4 ... ✗ name_f1=0.50 kv_f1=0.50 pred_steps=5 avg_ms=200
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[27/63] skill=general-kpi-query gt_steps=4 ... ✗ name_f1=0.44 kv_f1=0.44 pred_steps=6 avg_ms=364
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线体的UPH数据查询需要先确认是否有绑定UPH指标模型。当前查询结果：**S04线体无绑定的指标模型**（modelBindings为空），这意味着该线体尚未配置UPH等生产指标的计算方式。
+
+可
+[28/63] skill=general-kpi-query gt_steps=3 ... ✗ name_f1=0.57 kv_f1=0.57 pred_steps=5 avg_ms=210
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[29/63] skill=general-kpi-query gt_steps=5 ... ✗ name_f1=0.22 kv_f1=0.00 pred_steps=5 avg_ms=201
+     GT  tools: ['get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线体无绑定的指标模型，无法查询UPH数据。
+[30/63] skill=general-kpi-query gt_steps=28 ... ✗ name_f1=0.25 kv_f1=0.12 pred_steps=5 avg_ms=648
+     GT  tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'list_object_types', 'get_object_type_detail', 'list_object_types', 'get_object_type_detail', 'list_object_types', 'list_object_types', 'list_object_types', 'list_object_types', 'list_object_types', 'get_object_type_detail', 'list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_detail', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+SMT车间的设备故障任务数据暂未查询到记录。让我先确认一下数据源情况：
+
+**关于设备故障任务（device_fail_item）：**
+- 该对象类型包含以下字段：`line_name`(线体)、`d
+[31/63] skill=general-kpi-query gt_steps=4 ... ✗ name_f1=0.44 kv_f1=0.44 pred_steps=6 avg_ms=350
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'list_object_types']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线体的UPH数据查询需要先确认是否有绑定UPH指标模型。当前查询结果：**S04线体无绑定的指标模型**（modelBindings为空），这意味着该线体尚未配置UPH等生产指标的计算方式。
+
+可
+[32/63] skill=general-kpi-query gt_steps=3 ... ✗ name_f1=0.50 kv_f1=0.50 pred_steps=6 avg_ms=378
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线体的UPH数据查询需要先确认是否有绑定UPH指标模型。当前查询结果：**S04线体无指标模型绑定**，即该线体暂未配置UPH等生产指标的计算模型。
+
+可能原因：
+1. 该线体尚未接入UPH数据采
+[33/63] skill=general-kpi-query gt_steps=2 ... ✗ name_f1=0.29 kv_f1=0.29 pred_steps=6 avg_ms=340
+     GT  tools: ['get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线体的UPH数据查询需要先确认是否有绑定UPH指标模型。当前查询结果：**S04线体无绑定的指标模型**（modelBindings为空），这意味着该线体尚未配置UPH等生产指标的计算方式。
+
+可
+[34/63] skill=general-kpi-query gt_steps=3 ... ✗ name_f1=0.50 kv_f1=0.50 pred_steps=6 avg_ms=351
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线体的UPH数据查询需要先确认是否有绑定UPH指标模型。当前查询结果：**S04线体无绑定的指标模型**（modelBindings为空），这意味着该线体尚未配置UPH等生产指标的计算方式。
+
+可
+[35/63] skill=line-attendance-query gt_steps=4 ... ✗ name_f1=0.50 kv_f1=0.50 pred_steps=5 avg_ms=318
+     GT  tools: ['list_object_types', 'get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线今日出勤数据暂未找到相关指标模型，无法直接查询出勤情况。建议通过MES系统或人力部门获取更准确的出勤数据。
+[36/63] skill=line-attendance-query gt_steps=11 ... ✗ name_f1=0.71 kv_f1=0.47 pred_steps=7 avg_ms=574
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线、S03线今日出勤数据暂未返回，可能数据尚未同步或查询条件需要调整。我先确认一下线体编码是否准确。
+
+**Step 0 · 实体锚定**
+- 实体类型：线体
+- 实体编码：S04、S03
+
+**
+[37/63] skill=object-data-query gt_steps=52 ... ✗ name_f1=0.14 kv_f1=0.07 pred_steps=5 avg_ms=634
+     GT  tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+## 🐙 本体数据网络扫描报告
+
+**扫描时间**：2026-05-18 10:00:00
+
+---
+
+### 一、对象类型概况
+
+| 指标 | 数值 |
+|------|------|
+| **对象类
+[38/63] skill=object-data-query gt_steps=106 ... ✗ name_f1=0.07 kv_f1=0.05 pred_steps=5 avg_ms=510
+     GT  tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+**本体数据网络扫描报告**
+
+**1. 对象类型总数**：2 个
+
+**2. 对象类型数据状态**：
+| 对象类型 | 显示名称 | 数据记录状态 |
+|----------|----------|-
+[39/63] skill=object-data-query gt_steps=4 ... ✗ name_f1=0.21 kv_f1=0.21 pred_steps=15 avg_ms=213
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics']
+[40/63] skill=object-data-query gt_steps=11 ... ✗ name_f1=0.21 kv_f1=0.21 pred_steps=9 avg_ms=247
+     GT  tools: ['get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线（1F-SMT04）4/23一次良率数据暂未获取到。让我再确认一下指标模型配置...
+[41/63] skill=object-data-query gt_steps=53 ... ✗ name_f1=0.11 kv_f1=0.11 pred_steps=4 avg_ms=623
+     GT  tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+**本体数据网络扫描报告**
+
+**1. 对象类型总数**：2 个
+
+**2. 各对象类型数据状态**：
+| 对象类型 | 显示名称 | 数据记录状态 |
+|---------|---------|--
+[42/63] skill=object-data-query gt_steps=103 ... ✗ name_f1=0.07 kv_f1=0.04 pred_steps=5 avg_ms=506
+     GT  tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+**本体数据网络扫描报告**
+
+**1. 对象类型总数**：2 个
+
+**2. 对象类型数据状态**：
+| 对象类型 | 显示名称 | 数据记录状态 |
+|----------|----------|-
+[43/63] skill=object-data-query gt_steps=221 ... ✗ name_f1=0.03 kv_f1=0.03 pred_steps=4 avg_ms=516
+     GT  tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'list_object_types', 'list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+**本体数据网络扫描报告**
+
+**1. 对象类型总数**：2 个
+
+**2. 各对象类型数据状态**：
+- `line`（线体）：无数据（count=0）
+- `ShiftLineProduction
+[44/63] skill=object-data-query gt_steps=111 ... ✗ name_f1=0.05 kv_f1=0.05 pred_steps=4 avg_ms=660
+     GT  tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'list_object_types']
+     Pred tools: ['list_object_types', 'get_object_type_data', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+**本体数据网络扫描报告**
+
+**1. 对象类型总数**：2 个
+
+**2. 各对象类型数据状态**：
+| 对象类型 | 显示名称 | 数据记录状态 | 说明 |
+|---------|-------
+[45/63] skill=lineside-material-query gt_steps=2 ... ✗ name_f1=0.00 kv_f1=0.00 pred_steps=4 avg_ms=456
+     GT  tools: ['get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S03线今日（2026-05-13）仅查询到 **1 条物料记录**，创建时间为 10:00，暂无剩余数量等详细信息。
+
+**可能原因：**
+1. 物料数据尚未同步到系统（当前时间 10:04，数据刚入
+[46/63] skill=lineside-material-query gt_steps=13 ... ✗ name_f1=0.21 kv_f1=0.11 pred_steps=7 avg_ms=391
+     GT  tools: ['get_object_type_metrics', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_data', 'list_object_types', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S03线（1F-SMT03）2026年4月26日4:00-5:00的UPH数据查询结果：
+
+**查询结果为空。**
+
+可能原因：
+1. 该时段数据尚未生成（数据可能存在延迟）
+2. 该时段无生产记录
+
+
+[47/63] skill=lineside-material-query gt_steps=41 ... ✗ name_f1=0.14 kv_f1=0.00 pred_steps=4 avg_ms=518
+     GT  tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S03线今天（2026-04-28）排产计划为 **0 台**。
+
+数据说明：
+- 线体：S03
+- 项目：WARSAW
+- 班次：N班（21:00–09:00）
+- 人力：5人
+- 工时：11小时
+-
+[48/63] skill=lineside-material-query gt_steps=8 ... ✗ name_f1=0.40 kv_f1=0.27 pred_steps=8 avg_ms=389
+     GT  tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_metrics', 'get_object_type_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S02、S03、S04 线体在本系统中均未查到编码信息，可能原因：
+
+1. **线体尚未在系统中建模** — SMT 线体可能未纳入当前数据架构
+2. **编码命名差异** — 实际线体编码可能使用其他
+[49/63] skill=lineside-material-query gt_steps=43 ... ✗ name_f1=0.13 kv_f1=0.00 pred_steps=4 avg_ms=500
+     GT  tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S03线今天（2026-04-28）排产计划为 **0 台**。
+
+数据说明：
+- 线体：S03
+- 项目：WARSAW
+- 班次：N班（21:00–09:00）
+- 人力：5人
+- 工时：11小时
+-
+[50/63] skill=lineside-material-query gt_steps=4 ... ✓ name_f1=0.86 kv_f1=0.00 pred_steps=4 avg_ms=492
+     GT  tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data', 'list_object_types']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S03线今天（2026-04-28）排产计划为 **0 台**。
+
+数据说明：
+- 线体：S03
+- 项目：WARSAW
+- 班次：N班（21:00–09:00）
+- 人力：5人
+- 工时：11小时
+-
+[51/63] skill=lineside-material-query gt_steps=8 ... ✗ name_f1=0.55 kv_f1=0.00 pred_steps=4 avg_ms=508
+     GT  tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data', 'list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S03线今天（2026-04-28）排产计划为 **0 台**。
+
+数据说明：
+- 线体：S03
+- 项目：WARSAW
+- 班次：N班（21:00–09:00）
+- 人力：5人
+- 工时：11小时
+-
+[52/63] skill=lineside-material-query gt_steps=21 ... ✗ name_f1=0.32 kv_f1=0.08 pred_steps=5 avg_ms=421
+     GT  tools: ['list_object_types', 'list_object_types', 'list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_metrics', 'get_idi_model_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+Prague线体的物料信息查询返回了111条记录，但数据内容为空（`data: []`）。这可能是因为：
+
+1. **数据尚未同步** — 物料数据可能还未写入数据库，或同步延迟
+2. **字段映射问题
+[53/63] skill=lineside-material-query gt_steps=18 ... ✗ name_f1=0.29 kv_f1=0.00 pred_steps=4 avg_ms=500
+     GT  tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data', 'list_object_types', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S03线今天（2026-04-28）排产计划为 **0 台**。
+
+数据说明：
+- 线体：S03
+- 项目：WARSAW
+- 班次：N班（21:00–09:00）
+- 人力：5人
+- 工时：11小时
+-
+[54/63] skill=line-exemption-query gt_steps=4 ... ✓ name_f1=1.00 kv_f1=0.50 pred_steps=5 avg_ms=347
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线体不存在，无法查询装备异常任务记录。
+
+**可能原因：**
+1. 线体编码输入错误（确认是否为 S03、S05 等有效编码）
+2. S04 线体尚未在系统中创建或已停用
+
+请确认线体编码后重试。
+[55/63] skill=line-exemption-query gt_steps=5 ... ✗ name_f1=0.75 kv_f1=0.00 pred_steps=4 avg_ms=723
+     GT  tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线在2026年4月27日15:00-16:00期间有1条装备异常任务记录：
+
+| 字段 | 值 |
+|------|-----|
+| 线体 | S04 |
+| 装备编码 | M-SMT-PDJ-A
+[56/63] skill=line-exemption-query gt_steps=12 ... ✗ name_f1=0.47 kv_f1=0.24 pred_steps=6 avg_ms=557
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S03线在5月8日（2026-05-08）AOI工站的设备故障异常任务查询结果：**未找到匹配记录**。
+
+查询条件：
+- 工站：AOI
+- 线体：S03
+- 时间范围：2026-05-08 09:00
+[57/63] skill=line-exemption-query gt_steps=3 ... ✗ name_f1=0.57 kv_f1=0.57 pred_steps=5 avg_ms=610
+     GT  tools: ['get_object_type_metrics', 'list_object_types', 'list_object_types']
+     Pred tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+查询结果：S04线在2026-04-24 17:00-18:00期间共2条装备异常记录：
+
+1. **17:15 - 17:42**（27分钟）
+   - 装备：M-SMT-PCBC-A-ZMO-040
+[58/63] skill=line-exemption-query gt_steps=5 ... ✗ name_f1=0.67 kv_f1=0.44 pred_steps=5 avg_ms=614
+     GT  tools: ['list_object_types', 'get_object_type_data', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data']
+     Pred tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线在2026-04-27 12:00-13:00期间共有 **2条** 装备异常任务记录：
+
+| 序号 | 创建时间 | 工站 | 装备编码 | 异常类型 | 异常描述 | 异常等级 |
+|---
+[59/63] skill=project-kpi-query gt_steps=5 ... ✗ name_f1=0.10 kv_f1=0.00 pred_steps=15 avg_ms=214
+     GT  tools: ['get_object_type_metrics', 'get_object_type_detail', 'get_object_type_data', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics']
+[60/63] skill=line-operation-skill gt_steps=13 ... ✗ name_f1=0.33 kv_f1=0.22 pred_steps=6 avg_ms=277
+     GT  tools: ['list_object_types', 'list_object_types', 'get_object_type_metrics', 'get_object_type_data', 'get_object_type_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+S04线今天（2026-05-11）的指标数据已整理如上。
+[61/63] skill=line-operation-skill gt_steps=11 ... ✗ name_f1=0.62 kv_f1=0.62 pred_steps=6 avg_ms=1315
+     GT  tools: ['get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_detail', 'get_object_type_metrics']
+     Pred tools: ['list_object_types', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics', 'get_object_type_metrics']
+     Final: <think>
+
+</think>
+
+线体对象下绑定了以下模型：
+
+| 模型ID | 模型名称 | 模型描述 | 入参 |
+|--------|----------|----------|------|
+| 12202 | 线体UPH | 
+[62/63] skill=分板机过站明细查询 gt_steps=5 ... ✗ name_f1=0.55 kv_f1=0.18 pred_steps=7 avg_ms=372
+     GT  tools: ['get_object_type_data', 'list_object_types', 'get_object_type_data', 'get_object_type_metrics', 'get_idi_model_data']
+     Pred tools: ['list_object_types', 'list_object_types', 'get_object_type_detail', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线分板机的铣刀剩余使用寿命数据暂未找到。当前系统中关于铣刀寿命的指标模型尚未接入，无法直接查询到该数据。
+
+建议：
+1. 联系设备工程师确认铣刀寿命的管理方式（是否通过MES/设备PLC采集）
+2
+[63/63] skill=分板机过站明细查询 gt_steps=5 ... ✓ name_f1=0.89 kv_f1=0.67 pred_steps=5 avg_ms=271
+     GT  tools: ['get_object_type_detail', 'list_object_types', 'get_object_type_detail', 'get_object_type_data', 'get_object_type_metrics']
+     Pred tools: ['list_object_types', 'get_object_type_detail', 'get_object_type_metrics', 'get_object_type_data']
+     Final: <think>
+
+</think>
+
+S04线分板机当前无铣刀剩余使用寿命数据。
+
+======================================================================
+TRAJECTORY EVAL  (n=63, errors=0)
+
+  trajectory_tool_name_f1 : 0.4559  (45.6%)
+  trajectory_kv_f1        : 0.3014  (30.1%)
+  avg_model_ms_per_step   : 413 ms  (0.41 s)
+  avg_steps_pred          : 5.8
+  avg_steps_gt            : 17.3
+
+  Production model: ~6600ms/step (from Langfuse logs)
+  Speedup          : 16.0×
+  Target           : ≥2.7× (≤2444ms/step)
+
+  ✗ trajectory_tool_name_f1 = 45.6% (target: 75%)
+  ✓ speedup 16.0× ≥ 2.7×
+
+Per-skill breakdown:
+  equipment-cpk-query                      n= 9 name_f1=0.71 pred_steps=5.0
+  general-kpi-query                        n=25 name_f1=0.45 pred_steps=6.0
+  line-attendance-query                    n= 2 name_f1=0.60 pred_steps=6.0
+  line-exemption-query                     n= 5 name_f1=0.69 pred_steps=5.0
+  line-operation-skill                     n= 2 name_f1=0.48 pred_steps=6.0
+  lineside-material-query                  n= 9 name_f1=0.32 pred_steps=4.9
+  object-data-query                        n= 8 name_f1=0.11 pred_steps=6.4
+  project-kpi-query                        n= 1 name_f1=0.10 pred_steps=15.0
+  分板机过站明细查询                                n= 2 name_f1=0.72 pred_steps=6.0
+
+Saved to round4/results/R4-sft-v4b-trajectory.json

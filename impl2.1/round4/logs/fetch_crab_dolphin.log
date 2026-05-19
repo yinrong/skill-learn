@@ -1,0 +1,12 @@
+usage: langfuse_to_training.py [-h] [--input INPUT [INPUT ...]]
+                               [--langfuse_host LANGFUSE_HOST]
+                               [--langfuse_pk LANGFUSE_PK]
+                               [--langfuse_sk LANGFUSE_SK]
+                               [--langfuse_tags LANGFUSE_TAGS [LANGFUSE_TAGS ...]]
+                               [--langfuse_since LANGFUSE_SINCE]
+                               [--langfuse_limit LANGFUSE_LIMIT]
+                               [--output_sft OUTPUT_SFT]
+                               [--output_grpo OUTPUT_GRPO]
+                               [--output_prefix OUTPUT_PREFIX] [--verbose]
+                               [--include_thinking]
+langfuse_to_training.py: error: Provide --input (file mode) or --langfuse_pk (API mode)

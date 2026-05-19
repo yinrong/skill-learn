@@ -1,0 +1,2245 @@
+{
+  "summary": {
+    "trajectory_tool_name_f1": 0.2292,
+    "trajectory_kv_f1": 0.0053,
+    "avg_model_ms_per_step": 579,
+    "avg_steps_pred": 2.5,
+    "avg_steps_gt": 17.3,
+    "speedup_vs_production": 11.4,
+    "production_ref_ms_per_step": 6600
+  },
+  "n_samples": 63,
+  "n_errors": 0,
+  "model_url": "http://localhost:8035",
+  "model_name": "R4-sft-v4-merged",
+  "timestamp": "2026-05-13 22:05:28",
+  "samples": [
+    {
+      "skill": "equipment-cpk-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_data"
+      ],
+      "name_f1": 0.5,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 3,
+      "step_times_ms": [
+        2287,
+        312
+      ],
+      "avg_step_ms": 1299
+    },
+    {
+      "skill": "equipment-cpk-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 6,
+      "step_times_ms": [
+        402,
+        156
+      ],
+      "avg_step_ms": 279
+    },
+    {
+      "skill": "equipment-cpk-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 5,
+      "step_times_ms": [
+        402,
+        171
+      ],
+      "avg_step_ms": 286
+    },
+    {
+      "skill": "equipment-cpk-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        195,
+        164
+      ],
+      "avg_step_ms": 179
+    },
+    {
+      "skill": "equipment-cpk-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_data"
+      ],
+      "name_f1": 0.4,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        1622,
+        298
+      ],
+      "avg_step_ms": 960
+    },
+    {
+      "skill": "equipment-cpk-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_data"
+      ],
+      "name_f1": 0.19999999999999998,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 9,
+      "step_times_ms": [
+        1678,
+        301
+      ],
+      "avg_step_ms": 989
+    },
+    {
+      "skill": "equipment-cpk-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 5,
+      "step_times_ms": [
+        419,
+        209
+      ],
+      "avg_step_ms": 314
+    },
+    {
+      "skill": "equipment-cpk-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.4,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        826,
+        264
+      ],
+      "avg_step_ms": 545
+    },
+    {
+      "skill": "equipment-cpk-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_data"
+      ],
+      "name_f1": 0.2857142857142857,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 6,
+      "step_times_ms": [
+        1756,
+        300
+      ],
+      "avg_step_ms": 1028
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_object_type_detail",
+        "get_idi_model_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.16666666666666669,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 11,
+      "step_times_ms": [
+        850,
+        338
+      ],
+      "avg_step_ms": 594
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.2857142857142857,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 6,
+      "step_times_ms": [
+        418,
+        168
+      ],
+      "avg_step_ms": 293
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_data"
+      ],
+      "name_f1": 0.33333333333333337,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 5,
+      "step_times_ms": [
+        1772,
+        299
+      ],
+      "avg_step_ms": 1035
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "list_object_types",
+        "get_object_type_metrics",
+        "list_object_types",
+        "get_object_type_metrics"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.19999999999999998,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 9,
+      "step_times_ms": [
+        405,
+        241
+      ],
+      "avg_step_ms": 323
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.4,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        869,
+        349
+      ],
+      "avg_step_ms": 609
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_object_type_metrics"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.25,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 7,
+      "step_times_ms": [
+        400,
+        256
+      ],
+      "avg_step_ms": 328
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_object_type_data",
+        "get_object_type_metrics"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.2857142857142857,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 6,
+      "step_times_ms": [
+        411,
+        453
+      ],
+      "avg_step_ms": 432
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.4,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        845,
+        341
+      ],
+      "avg_step_ms": 593
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_object_type_metrics",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.33333333333333337,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 5,
+      "step_times_ms": [
+        844,
+        323
+      ],
+      "avg_step_ms": 583
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.5,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 3,
+      "step_times_ms": [
+        404,
+        239
+      ],
+      "avg_step_ms": 321
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 3,
+      "step_times_ms": [
+        199,
+        139
+      ],
+      "avg_step_ms": 169
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_object_type_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.25,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 7,
+      "step_times_ms": [
+        405,
+        242
+      ],
+      "avg_step_ms": 323
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.5,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 3,
+      "step_times_ms": [
+        878,
+        350
+      ],
+      "avg_step_ms": 614
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 1,
+      "n_steps_gt": 3,
+      "step_times_ms": [
+        6883
+      ],
+      "avg_step_ms": 6883
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "list_object_types"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.4,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        409,
+        234
+      ],
+      "avg_step_ms": 321
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 1,
+      "n_steps_gt": 6,
+      "step_times_ms": [
+        6824
+      ],
+      "avg_step_ms": 6824
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.4,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        409,
+        243
+      ],
+      "avg_step_ms": 326
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.4,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        877,
+        351
+      ],
+      "avg_step_ms": 614
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.5,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 3,
+      "step_times_ms": [
+        406,
+        238
+      ],
+      "avg_step_ms": 322
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.33333333333333337,
+      "kv_f1": 0.33333333333333337,
+      "n_steps_pred": 2,
+      "n_steps_gt": 5,
+      "step_times_ms": [
+        404,
+        239
+      ],
+      "avg_step_ms": 321
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "list_object_types",
+        "get_object_type_detail",
+        "list_object_types",
+        "get_object_type_detail",
+        "list_object_types",
+        "list_object_types",
+        "list_object_types",
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_detail",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "list_object_types",
+        "get_object_type_data"
+      ],
+      "name_f1": 0.13333333333333333,
+      "kv_f1": 0.0,
+      "n_steps_pred": 3,
+      "n_steps_gt": 28,
+      "step_times_ms": [
+        390,
+        1141,
+        153
+      ],
+      "avg_step_ms": 561
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "list_object_types"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.4,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        878,
+        354
+      ],
+      "avg_step_ms": 616
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.5,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 3,
+      "step_times_ms": [
+        877,
+        350
+      ],
+      "avg_step_ms": 613
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.6666666666666666,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 2,
+      "step_times_ms": [
+        844,
+        344
+      ],
+      "avg_step_ms": 594
+    },
+    {
+      "skill": "general-kpi-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.5,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 3,
+      "step_times_ms": [
+        876,
+        329
+      ],
+      "avg_step_ms": 602
+    },
+    {
+      "skill": "line-attendance-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.4,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        1147,
+        348
+      ],
+      "avg_step_ms": 747
+    },
+    {
+      "skill": "line-attendance-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.16666666666666669,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 11,
+      "step_times_ms": [
+        1111,
+        319
+      ],
+      "avg_step_ms": 715
+    },
+    {
+      "skill": "object-data-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "format_feishu_card"
+      ],
+      "name_f1": 0.13559322033898308,
+      "kv_f1": 0.0,
+      "n_steps_pred": 8,
+      "n_steps_gt": 52,
+      "step_times_ms": [
+        400,
+        549,
+        417,
+        387,
+        569,
+        437,
+        1479,
+        875
+      ],
+      "avg_step_ms": 639
+    },
+    {
+      "skill": "object-data-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "format_feishu_card"
+      ],
+      "name_f1": 0.10619469026548672,
+      "kv_f1": 0.0,
+      "n_steps_pred": 8,
+      "n_steps_gt": 106,
+      "step_times_ms": [
+        412,
+        574,
+        430,
+        388,
+        572,
+        435,
+        1229,
+        643
+      ],
+      "avg_step_ms": 585
+    },
+    {
+      "skill": "object-data-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data",
+        "format_feishu_card"
+      ],
+      "name_f1": 0.3333333333333333,
+      "kv_f1": 0.0,
+      "n_steps_pred": 3,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        833,
+        476,
+        187
+      ],
+      "avg_step_ms": 498
+    },
+    {
+      "skill": "object-data-query",
+      "gt_tools": [
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.16666666666666669,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 11,
+      "step_times_ms": [
+        815,
+        346
+      ],
+      "avg_step_ms": 580
+    },
+    {
+      "skill": "object-data-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.14035087719298245,
+      "kv_f1": 0.0,
+      "n_steps_pred": 5,
+      "n_steps_gt": 53,
+      "step_times_ms": [
+        437,
+        563,
+        570,
+        416,
+        805
+      ],
+      "avg_step_ms": 558
+    },
+    {
+      "skill": "object-data-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "format_feishu_card"
+      ],
+      "name_f1": 0.09090909090909091,
+      "kv_f1": 0.0,
+      "n_steps_pred": 8,
+      "n_steps_gt": 103,
+      "step_times_ms": [
+        376,
+        534,
+        401,
+        376,
+        555,
+        424,
+        618,
+        340
+      ],
+      "avg_step_ms": 453
+    },
+    {
+      "skill": "object-data-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "list_object_types",
+        "get_object_type_data"
+      ],
+      "name_f1": 0.04424778761061947,
+      "kv_f1": 0.0,
+      "n_steps_pred": 6,
+      "n_steps_gt": 221,
+      "step_times_ms": [
+        382,
+        553,
+        433,
+        402,
+        571,
+        504
+      ],
+      "avg_step_ms": 474
+    },
+    {
+      "skill": "object-data-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "list_object_types"
+      ],
+      "pred_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "list_object_types",
+        "get_object_type_data"
+      ],
+      "name_f1": 0.08620689655172413,
+      "kv_f1": 0.0,
+      "n_steps_pred": 6,
+      "n_steps_gt": 111,
+      "step_times_ms": [
+        375,
+        535,
+        401,
+        374,
+        554,
+        459
+      ],
+      "avg_step_ms": 449
+    },
+    {
+      "skill": "lineside-material-query",
+      "gt_tools": [
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 2,
+      "step_times_ms": [
+        408,
+        514
+      ],
+      "avg_step_ms": 461
+    },
+    {
+      "skill": "lineside-material-query",
+      "gt_tools": [
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.14285714285714288,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 13,
+      "step_times_ms": [
+        981,
+        269
+      ],
+      "avg_step_ms": 625
+    },
+    {
+      "skill": "lineside-material-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 41,
+      "step_times_ms": [
+        416,
+        172
+      ],
+      "avg_step_ms": 294
+    },
+    {
+      "skill": "lineside-material-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data",
+        "format_feishu_card"
+      ],
+      "name_f1": 0.2,
+      "kv_f1": 0.0,
+      "n_steps_pred": 3,
+      "n_steps_gt": 8,
+      "step_times_ms": [
+        1148,
+        1707,
+        462
+      ],
+      "avg_step_ms": 1105
+    },
+    {
+      "skill": "lineside-material-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 43,
+      "step_times_ms": [
+        402,
+        163
+      ],
+      "avg_step_ms": 282
+    },
+    {
+      "skill": "lineside-material-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "list_object_types"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        405,
+        175
+      ],
+      "avg_step_ms": 290
+    },
+    {
+      "skill": "lineside-material-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 8,
+      "step_times_ms": [
+        417,
+        175
+      ],
+      "avg_step_ms": 296
+    },
+    {
+      "skill": "lineside-material-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_idi_model_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0909090909090909,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 21,
+      "step_times_ms": [
+        449,
+        761
+      ],
+      "avg_step_ms": 605
+    },
+    {
+      "skill": "lineside-material-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 18,
+      "step_times_ms": [
+        399,
+        163
+      ],
+      "avg_step_ms": 281
+    },
+    {
+      "skill": "line-exemption-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 4,
+      "step_times_ms": [
+        196,
+        150
+      ],
+      "avg_step_ms": 173
+    },
+    {
+      "skill": "line-exemption-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 5,
+      "step_times_ms": [
+        195,
+        151
+      ],
+      "avg_step_ms": 173
+    },
+    {
+      "skill": "line-exemption-query",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 12,
+      "step_times_ms": [
+        203,
+        183
+      ],
+      "avg_step_ms": 193
+    },
+    {
+      "skill": "line-exemption-query",
+      "gt_tools": [
+        "get_object_type_metrics",
+        "list_object_types",
+        "list_object_types"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.5,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 3,
+      "step_times_ms": [
+        197,
+        155
+      ],
+      "avg_step_ms": 176
+    },
+    {
+      "skill": "line-exemption-query",
+      "gt_tools": [
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.0,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 5,
+      "step_times_ms": [
+        195,
+        150
+      ],
+      "avg_step_ms": 172
+    },
+    {
+      "skill": "project-kpi-query",
+      "gt_tools": [
+        "get_object_type_metrics",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_object_type_data",
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.5714285714285715,
+      "kv_f1": 0.0,
+      "n_steps_pred": 3,
+      "n_steps_gt": 5,
+      "step_times_ms": [
+        380,
+        978,
+        299
+      ],
+      "avg_step_ms": 552
+    },
+    {
+      "skill": "line-operation-skill",
+      "gt_tools": [
+        "list_object_types",
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_object_type_data",
+        "get_object_type_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.14285714285714288,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 13,
+      "step_times_ms": [
+        417,
+        170
+      ],
+      "avg_step_ms": 293
+    },
+    {
+      "skill": "line-operation-skill",
+      "gt_tools": [
+        "get_object_type_metrics",
+        "get_object_type_metrics",
+        "get_object_type_metrics",
+        "list_object_types",
+        "get_object_type_metrics",
+        "get_object_type_metrics",
+        "get_object_type_metrics",
+        "get_object_type_metrics",
+        "get_object_type_metrics",
+        "get_object_type_detail",
+        "get_object_type_metrics"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics",
+        "get_object_type_metrics",
+        "get_object_type_metrics",
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.5333333333333333,
+      "kv_f1": 0.0,
+      "n_steps_pred": 5,
+      "n_steps_gt": 11,
+      "step_times_ms": [
+        429,
+        410,
+        412,
+        415,
+        152
+      ],
+      "avg_step_ms": 363
+    },
+    {
+      "skill": "分板机过站明细查询",
+      "gt_tools": [
+        "get_object_type_data",
+        "list_object_types",
+        "get_object_type_data",
+        "get_object_type_metrics",
+        "get_idi_model_data"
+      ],
+      "pred_tools": [
+        "get_idi_model_data"
+      ],
+      "name_f1": 0.33333333333333337,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 5,
+      "step_times_ms": [
+        648,
+        299
+      ],
+      "avg_step_ms": 473
+    },
+    {
+      "skill": "分板机过站明细查询",
+      "gt_tools": [
+        "get_object_type_detail",
+        "list_object_types",
+        "get_object_type_detail",
+        "get_object_type_data",
+        "get_object_type_metrics"
+      ],
+      "pred_tools": [
+        "get_object_type_metrics"
+      ],
+      "name_f1": 0.33333333333333337,
+      "kv_f1": 0.0,
+      "n_steps_pred": 2,
+      "n_steps_gt": 5,
+      "step_times_ms": [
+        399,
+        287
+      ],
+      "avg_step_ms": 343
+    }
+  ]
+}

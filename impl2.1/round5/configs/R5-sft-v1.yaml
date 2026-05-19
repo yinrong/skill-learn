@@ -1,0 +1,39 @@
+# R5-sft-v1：Claude 生成教师数据（带 think block），272 条
+# 核心改进：training output 含完整推理链，model_id 来源可追溯
+# GPU: 0,1,2,3（4块，≤5块限制），比 2 块快约 50%
+
+model_name_or_path: /home/yinrong/models/Qwen3-14B
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.0
+lora_target: all
+
+dataset: skill_r5_ns_v1
+dataset_dir: /home/yinrong/post-train/impl2.1/round4/data
+cutoff_len: 32768
+
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+gradient_checkpointing: true
+learning_rate: 5.0e-05
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 5
+save_strategy: epoch
+save_total_limit: 2
+
+output_dir: /home/yinrong/post-train/impl2.1/round5/checkpoints/R5-sft-v1
+plot_loss: false
+
+do_train: true
+report_to: none

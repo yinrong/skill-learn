@@ -1,0 +1,11 @@
+{
+  "eval_type": "first_tool_prediction_ns",
+  "summary": {
+    "name_acc": 0.8095,
+    "arg_kv_f1": 0.6032,
+    "combined_f1": 0.7063
+  },
+  "n_samples": 63,
+  "n_errors": 0,
+  "timestamp": "2026-05-13 10:16:45"
+}

@@ -1,0 +1,80 @@
+Auto-detected model: R4-sft-v2-merged
+Loading test data from data/test_ns_all.jsonl...
+Evaluating 63 samples on http://localhost:8035...
+
+[  1/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[  2/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[  3/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[  4/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[  5/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[  6/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[  7/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[  8/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[  9/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 10/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 11/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 12/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 13/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 14/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 15/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 16/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 17/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 18/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 19/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 20/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 21/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 22/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 23/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 24/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 25/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 26/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 27/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 28/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 29/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 30/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 31/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 32/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 33/63]   ✓ GT=get_idi_model_data PRED=get_idi_model_data f1=1.00
+[ 34/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 35/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 36/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 37/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 38/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 39/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 40/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 41/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 42/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 43/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 44/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 45/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 46/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 47/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 48/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 49/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 50/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 51/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 52/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 53/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 54/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 55/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 56/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 57/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 58/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 59/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 60/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 61/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 62/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+[ 63/63] ERROR: 400 Client Error: Bad Request for url: http://localhost:8035/v1/chat/completions
+
+============================================================
+Evaluated: 63 samples  (errors: 62, skipped: 0)
+
+  name_acc            : 0.0159  (1.6%)
+  arg_key_f1          : 0.0159  (1.6%)
+  arg_kv_f1           : 0.0159  (1.6%)
+  combined_f1         : 0.0159  (1.6%)
+
+Primary metric (combined_f1 = 0.5*name_acc + 0.5*arg_kv_f1): 0.0159
+  ✗ FAIL: combined_f1 < 0.50 — 检查数据格式或增加训练数据
+
+Results saved to results/R4-sft-v2-tool-f1.json

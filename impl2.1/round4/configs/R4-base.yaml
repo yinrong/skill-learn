@@ -1,0 +1,39 @@
+# R4-base：工厂助手技能内化 — prefix SFT
+# 数据：586 条 ns 格式 prefix 样本（9 个 skill，GRPO 转 SFT）
+# 基础：Qwen3-14B（直接从 base 训练，非 expYYY）
+# 目标：tool_call_f1 ≥ 0.70，无需 skill doc 即可正确调用工具
+
+model_name_or_path: /home/yinrong/models/Qwen3-14B
+template: qwen3
+trust_remote_code: true
+
+finetuning_type: lora
+lora_rank: 128
+lora_alpha: 256
+lora_dropout: 0.0
+lora_target: all
+
+dataset: skill_r4_ns
+dataset_dir: /home/yinrong/post-train/impl2.1/round4/data
+cutoff_len: 6144
+
+num_train_epochs: 3
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+gradient_checkpointing: true
+learning_rate: 1.0e-04
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.01
+
+bf16: true
+flash_attn: sdpa
+
+logging_steps: 10
+save_strategy: epoch
+save_total_limit: 1
+
+output_dir: /home/yinrong/post-train/impl2.1/round4/checkpoints/R4-base
+
+do_train: true
+report_to: none

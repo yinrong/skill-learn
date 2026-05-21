@@ -1,6 +1,31 @@
 # Round 6 执行计划
 
-> 目标：修复 4 个失败 skill，全体 get_idi_model_data 调用率 43% → ≥ 70%
+---
+
+## 目标
+
+**实验目标**：在不依赖 skill doc 的情况下，微调后的 Qwen3-14B 模型能正确执行多步工具调用，完整走完"发现 → 查询 → 回答"的流程，复现线上 ws 模型的效果。
+
+**本轮核心任务**：修复 Round 5 中 4 个 skill 的 `get_idi_model_data` 调用率为 0% 的问题。
+
+**成功标准**：
+
+| 指标 | Round 5 现状 | Round 6 目标 |
+|------|------------|-------------|
+| **全体 get_idi_model_data 调用率** | 43%（27/63）| **≥ 70%** |
+| general-kpi-query idi 调用率 | 84%（21/25）| 保持 ≥ 80% |
+| equipment-cpk-query idi 调用率 | 0%（0/9）| **≥ 60%** |
+| line-attendance-query idi 调用率 | 0%（0/2）| **≥ 60%** |
+| line-exemption-query idi 调用率 | 0%（0/5）| **≥ 50%** |
+| 分板机过站明细查询 idi 调用率 | 0%（0/2）| **≥ 50%** |
+| trajectory_tool_name_f1 | 51.8% | ≥ 55% |
+| judge_overall | 23.8% | ≥ 25%（受评估框架限制）|
+| speedup_vs_production | 8.9× | ≥ 2.7×（已满足，维持）|
+
+**衡量方式**：
+- `get_idi_model_data` 调用率：trajectory_eval 结果中 `pred_tools` 包含 `get_idi_model_data` 的样本比例
+- trajectory_f1：步骤预测（GT 来自真实日志，不用端到端模拟）
+- judge：LLM-as-judge 对最终答案质量的评分
 
 ---
 

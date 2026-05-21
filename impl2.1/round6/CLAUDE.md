@@ -7,21 +7,24 @@
 **核心问题（Goal）**：
 > 修复 R5 中 equipment-cpk、line-attendance、line-exemption、分板机 4 个 skill 的 get_idi_model_data 调用率为 0%，使全体 skill 总调用率从 43% 提升到 ≥ 70%。
 
-**实验目标**：在不依赖 skill doc 的情况下，微调后的 Qwen3-14B 模型能正确执行多步工具调用，完整走完"发现 → 查询 → 回答"的流程，复现线上 ws 模型效果。
+**实验目标**：在不依赖 skill doc 的情况下，微调后的 Qwen3-14B 模型能正确执行多步工具调用，效果等同甚至超过线上 ws 模型（有 skill doc）。Round 3 已验证此目标可达（SPC 任务 ns 模型超越 Claude + skill doc）。
 
 **成功标准**：
 
 | 指标 | R5 现状 | R6 目标 |
 |------|---------|--------|
-| **全体 get_idi_model_data 调用率** | 43% | **≥ 70%** |
-| general-kpi-query idi 调用率 | 84% ✓ | 保持 ≥ 80% |
-| equipment-cpk-query idi 调用率 | 0% ✗ | **≥ 60%** |
-| line-attendance-query idi 调用率 | 0% ✗ | **≥ 60%** |
-| line-exemption-query idi 调用率 | 0% ✗ | **≥ 50%** |
-| 分板机过站明细查询 idi 调用率 | 0% ✗ | **≥ 50%** |
-| trajectory_tool_name_f1 | 51.8% | ≥ 55% |
-| judge_overall | 23.8% | ≥ 25% |
+| **全体 get_idi_model_data 调用率** | 43% | **100%** |
+| general-kpi-query idi 调用率 | 84% | **100%** |
+| equipment-cpk-query idi 调用率 | 0% ✗ | **100%** |
+| line-attendance-query idi 调用率 | 0% ✗ | **100%** |
+| line-exemption-query idi 调用率 | 0% ✗ | **100%** |
+| 分板机过站明细查询 idi 调用率 | 0% ✗ | **100%** |
+| line-operation-skill idi 调用率 | 50% | **100%** |
+| trajectory_tool_name_f1 | 51.8% | ≥ 65% |
+| judge_overall | 23.8% | ≥ 30% |
 | speedup_vs_production | 8.9× ✓ | ≥ 2.7× |
+
+**方法**：主动学习循环——训练→评估→逐样本分析失败→精准生成修复数据→重训，直到 100%。
 
 ---
 

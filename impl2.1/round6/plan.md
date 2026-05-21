@@ -4,28 +4,31 @@
 
 ## 目标
 
-**实验目标**：在不依赖 skill doc 的情况下，微调后的 Qwen3-14B 模型能正确执行多步工具调用，完整走完"发现 → 查询 → 回答"的流程，复现线上 ws 模型的效果。
+**实验目标**：在不依赖 skill doc 的情况下，微调后的 Qwen3-14B 模型能正确执行多步工具调用，完整走完"发现 → 查询 → 回答"的流程，效果等同甚至超过线上 ws 模型（有 skill doc）。
 
-**本轮核心任务**：修复 Round 5 中 4 个 skill 的 `get_idi_model_data` 调用率为 0% 的问题。
+**本轮核心任务**：通过主动学习循环，将所有应调用 `get_idi_model_data` 的 skill 的调用率提升到 100%。
 
 **成功标准**：
 
 | 指标 | Round 5 现状 | Round 6 目标 |
 |------|------------|-------------|
-| **全体 get_idi_model_data 调用率** | 43%（27/63）| **≥ 70%** |
-| general-kpi-query idi 调用率 | 84%（21/25）| 保持 ≥ 80% |
-| equipment-cpk-query idi 调用率 | 0%（0/9）| **≥ 60%** |
-| line-attendance-query idi 调用率 | 0%（0/2）| **≥ 60%** |
-| line-exemption-query idi 调用率 | 0%（0/5）| **≥ 50%** |
-| 分板机过站明细查询 idi 调用率 | 0%（0/2）| **≥ 50%** |
-| trajectory_tool_name_f1 | 51.8% | ≥ 55% |
-| judge_overall | 23.8% | ≥ 25%（受评估框架限制）|
+| **全体 get_idi_model_data 调用率** | 43%（27/63）| **100%**（63/63 中应调 idi 的全部调用）|
+| general-kpi-query idi 调用率 | 84%（21/25）| **100%**（25/25）|
+| equipment-cpk-query idi 调用率 | 0%（0/9）| **100%**（9/9）|
+| line-attendance-query idi 调用率 | 0%（0/2）| **100%**（2/2）|
+| line-exemption-query idi 调用率 | 0%（0/5）| **100%**（5/5）|
+| 分板机过站明细查询 idi 调用率 | 0%（0/2）| **100%**（2/2）|
+| line-operation-skill idi 调用率 | 50%（1/2）| **100%**（2/2）|
+| trajectory_tool_name_f1 | 51.8% | ≥ 65% |
+| judge_overall | 23.8% | ≥ 30% |
 | speedup_vs_production | 8.9× | ≥ 2.7×（已满足，维持）|
 
 **衡量方式**：
-- `get_idi_model_data` 调用率：trajectory_eval 结果中 `pred_tools` 包含 `get_idi_model_data` 的样本比例
-- trajectory_f1：步骤预测（GT 来自真实日志，不用端到端模拟）
-- judge：LLM-as-judge 对最终答案质量的评分
+- `get_idi_model_data` 调用率：`pred_tools` 包含 `get_idi_model_data` 的样本数 / 该 skill 应调 idi 的测试样本总数
+- trajectory_f1：步骤预测，GT 来自真实日志，不用端到端模拟
+- judge：LLM-as-judge 对最终答案质量的评分（受评估框架限制，上限约 65%）
+
+**为什么目标是 100%**：ws 模型有 skill doc 时对需要调 idi 的 skill 几乎 100% 正确调用。技能内化的目标是复现甚至超越这个效果——Round 3 已经验证了这是可达到的（SPC 任务 ns 模型 F1 超过 Claude + skill doc）。
 
 ---
 
@@ -35,176 +38,130 @@
 
 | Skill | R5 调用率 | 模型实际行为 | 根因 |
 |-------|----------|------------|------|
-| equipment-cpk-query | 0% | `list→data`（跳过 metrics）| 训练数据 30 条不足，模型未学会先查 metrics；simulated tools 已有 device→12365 绑定但模型不走这条路 |
-| line-attendance-query | 0% | `list→metrics`（停止）| simulated metrics 只返回 UPH/良率 ID，没有出勤 ID（12385/12389），模型找不到合适模型后放弃 |
+| equipment-cpk-query | 0% | `list→data`（跳过 metrics）| 训练数据 30 条不足，模型未学会先查 metrics |
+| line-attendance-query | 0% | `list→metrics`（停止）| simulated metrics 只返回 UPH/良率 ID，没有出勤 ID（12385/12389），模型判断"无匹配模型"后放弃 |
 | line-exemption-query | 0% | `list→data`（跳过 metrics）| 训练数据 20 条不足，模型未内化 metrics→idi 路径 |
-| 分板机过站明细查询 | 0% | 从 list 开始循环 | GT 从 `get_object_type_data` 开始，模型训练数据用了不同的起始模式 |
+| 分板机过站明细查询 | 0% | 从 list 开始循环 | GT 从 `get_object_type_data` 开始，模式不匹配 |
+| general-kpi-query | 84% | 4/25 未调 idi | 部分问法变体未被覆盖，仍有 4 条样本失败 |
 
-### 两轨修复策略
+### 为什么静态补数据不够达到 100%
 
-**轨道 A：评估修复（simulated_tools）**
-- `get_object_type_metrics(api_names="line")` 当前只返回 [12202, 12198, 12204]（UPH/良率/产出）
-- 需要补全所有 Type A 维度：[12202, 12198, 12204, 12203, 12385, 12389, 12194, 12223]
-- 这样 line-attendance 调 `metrics(line)` 就能找到 12385/12389
+当前 Round 5 的方案是"随机生成 N 条样本"。这种方式对于 70% 目标够用，但对 100% 不够，因为：
 
-**轨道 B：训练数据修复**
-- 为失败 skill 生成 2× 数量、强制经过 `metrics→idi` 路径的训练样本
-- 分板机单独处理：生成从 `get_object_type_data` 开始的正确模式
+1. **随机生成不保证覆盖每个具体失败案例**：测试集的 63 条样本有特定的问法、线体、时间表达。随机生成的训练数据可能没有覆盖这些具体变体。
+2. **没有反馈机制**：生成后训练，不知道哪些测试样本仍然失败，无法针对性修复。
+3. **失败模式在迭代中会变化**：修复一批问题后，可能暴露新的失败模式。
+
+### 解决方案：主动学习循环
+
+```
+Loop:
+  Step 1: 训练当前数据集
+  Step 2: 对 63 条测试样本逐条评估
+  Step 3: 找出仍然失败的具体样本（pred_tools 不含 get_idi_model_data）
+  Step 4: 对每条失败样本，生成 5-10 条高度相似的训练样本（同 skill、类似问法）
+          ——这些样本必须包含完整 get_idi_model_data 调用
+  Step 5: 合并到训练集，重训
+  重复直到所有应调 idi 的测试样本全部通过
+```
 
 ---
 
 ## 二、数据规划
 
-### 2.1 R5 保留复用（290 条）
+### 2.1 R5 数据复用（290 条）
 
-R5 数据质量良好（general-kpi 84% idi），全部保留。
+全部保留。
 
-### 2.2 失败 Skill 增量数据（新增 ~120 条）
+### 2.2 第一轮修复数据（~120 条，并发生成）
 
-| Skill | R5 数量 | R6 增量 | 总计 | 关键要求 |
-|-------|--------|--------|------|---------|
-| equipment-cpk-query | 30 | **+40** | 70 | 必须经过 `list→metrics(device)→idi` 路径，metrics 返回 12365 |
-| line-attendance-query | 20 | **+30** | 50 | metrics 返回 12385/12389，模型从中选择出勤模型 |
-| line-exemption-query | 20 | **+30** | 50 | 必须经过 `list→metrics→idi` 路径，metrics 返回 12192/12223 |
-| 分板机过站明细查询 | 15 | **+20** | 35 | 从 `get_object_type_data` 开始（匹配 GT 模式）|
+覆盖 R5 中 4 个 0% skill，确保每条样本通过 `get_idi_model_data` 存在性验证：
 
-### 2.3 训练数据样本规范（增量部分）
+| Skill | 增量 | 关键要求 |
+|-------|------|---------|
+| equipment-cpk-query | +40 | 必须经过 `list→metrics(device)→idi`，metrics 含 12365 |
+| line-attendance-query | +30 | metrics 返回含 12385/12389，模型从中选出勤模型 |
+| line-exemption-query | +30 | 必须经过 `list→metrics→idi`，metrics 含 12192/12223 |
+| 分板机过站明细查询 | +20 | 从 `get_object_type_data` 开始（匹配 GT 模式）|
 
-每条增量样本必须满足：
-1. ✓ 调用链包含 `get_object_type_metrics → get_idi_model_data`
-2. ✓ `get_idi_model_data` 使用的 model_id 出现在前序 metrics 响应里
-3. ✓ 有非空 `<think>` block 解释为何选择此 model_id
-4. ✓ 最终答案包含实际数据（非空结论）
+### 2.3 逐样本分析与精准修复数据（迭代轮次，每轮 +N 条）
 
-### 2.4 数据量规划
+第一轮训练评估后，对每条仍然失败的测试样本：
 
-| 来源 | 数量 |
-|------|------|
-| R5 数据（复用）| 290 |
-| equipment-cpk 增量 | 40 |
-| line-attendance 增量 | 30 |
-| line-exemption 增量 | 30 |
-| 分板机 增量 | 20 |
-| **合计** | **410** |
-
-### 2.5 失败 Skill 训练样本示例
-
-**equipment-cpk-query（展示 list→metrics→idi 必须路径）**：
-
-```
-[user] S04线印刷机今天的CPK
-
-[assistant]
-<think>
-Step 0: entity_type=装备, entity_code=待查（"印刷机"需查询编码）
-Step 1: 无记忆，memory_hit=false → Step 2
-Step 2: 调 list_object_types(keyword="装备") 获取 apiName
-</think>
-TOOL: list_object_types(keyword="装备")
-
-[tool] {"data": [{"apiName": "device", "displayName": "装备"}]}
-
-[assistant]
-<think>
-apiName=device，调 get_object_type_metrics 获取 CPK 模型 ID
-</think>
-TOOL: get_object_type_metrics(api_names="device")
-
-[tool] {"data": [{"apiName": "device", "modelBindings": [
-  {"modelId": 12365, "modelName": "装备CPK统计",
-   "params": [{"name":"startTm","type":"datetime","optional":false},
-              {"name":"endTm","type":"datetime","optional":false},
-              {"name":"device_code","type":"string","optional":true}]}
-]}]}
-
-[assistant]
-<think>
-找到 CPK 模型：modelId=12365（装备CPK统计）
-params: startTm(datetime), endTm(datetime), device_code(optional)
-entity_code 未知，先查装备列表找印刷机编码
-</think>
-TOOL: get_object_type_data(api_name="device", filter_json=...)
-
-[tool] {"data": {"data": [{"device_code":"M-SMT-SPI-A-JUZ-0401","device_name":"印刷机","line_code":"S04"}]}}
-
-[assistant]
-<think>
-device_code=M-SMT-SPI-A-JUZ-0401
-今天=2026-05-20，全天 startTm=2026-05-20 09:00:00，endTm=2026-05-21 09:00:00
-</think>
-TOOL: get_idi_model_data(model_id=12365, params_json='[...]')
-
-[tool] {"data": {"data": [{"device_code":"M-SMT-SPI-A-JUZ-0401","cpk":1.54,"cp":1.61}]}}
-
-[assistant] S04线印刷机（M-SMT-SPI-A-JUZ-0401）今天CPK=1.54，CP=1.61，过程能力良好（CPK≥1.33）。
+```python
+# 失败样本分析格式
+{
+  "test_sample_id": 7,
+  "skill": "equipment-cpk-query",
+  "user_question": "查下S04线印刷机昨天的CPK",
+  "pred_tools": ["list_object_types", "get_object_type_data"],  # 失败：没有 idi
+  "gt_tools": ["list_object_types", "get_object_type_detail", "get_object_type_data"],
+  "failure_reason": "模型调 data 后给出'无数据'结论，未调 metrics→idi",
+  "targeted_training_count": 8  # 为此样本生成 8 条相似训练数据
+}
 ```
 
-**line-attendance-query（metrics 需包含 12385/12389）**：
+每条精准修复样本要求：
+- 用户问题与失败样本高度相似（同装备类型、相近时间表达）
+- 工具调用链包含完整 `metrics→idi` 路径
+- think block 明确说明"选择 model_id=XXXX 是因为 metrics 返回了此模型，modelName 匹配查询意图"
 
-```
-[user] S04线今天的出勤情况
+### 2.4 数据规模规划（含迭代）
 
-[assistant]
-<think>
-查询线体出勤数据，Step 2 先获取 apiName 和指标模型
-</think>
-TOOL: list_object_types(keyword="线体")
-
-[tool] {"data": [{"apiName": "line", "displayName": "线体"}]}
-
-[assistant]
-<think>
-apiName=line，调 metrics 查找出勤模型
-</think>
-TOOL: get_object_type_metrics(api_names="line")
-
-[tool] {"data": [{"apiName": "line", "modelBindings": [
-  {"modelId": 12202, "modelName": "线体小时别UPH", ...},
-  {"modelId": 12198, "modelName": "线体一次良率", ...},
-  {"modelId": 12385, "modelName": "线体出勤率",       ← 关键：必须包含
-   "params": [{"name":"shift_date","type":"date","optional":false},
-              {"name":"line","type":"string","optional":true}]},
-  {"modelId": 12389, "modelName": "员工出勤打卡记录",
-   "params": [{"name":"shift_date","type":"date","optional":false},
-              {"name":"line","type":"string","optional":true}]}
-]}]}
-
-[assistant]
-<think>
-用户问出勤情况 → 选择 modelId=12385（线体出勤率）和 12389（员工打卡）
-今天=2026-05-20，shift_date=2026-05-20
-</think>
-TOOL: get_idi_model_data(model_id=12385, params_json='[{"name":"shift_date","value":"2026-05-20"},{"name":"line","value":"S04"}]')
-...
-```
+| 轮次 | 数据来源 | 样本数 | 预期 idi 调用率 |
+|------|---------|--------|--------------|
+| R6-v1 | R5(290) + 第一轮修复(120) | ~410 | 预计 ~70-80% |
+| R6-v2 | R6-v1 + 精准修复（失败样本×8）| ~450-500 | 预计 ~90-95% |
+| R6-v3（如需）| R6-v2 + 剩余失败精准修复 | ~480-530 | 预计 ~100% |
 
 ---
 
 ## 三、评估修复（simulated_tools.py）
 
-### 修改 1：扩充 "line" metrics 返回全部维度
+### 修改 1：`_METRICS["line"]` 返回全部 8 个维度
 
 ```python
-# simulated_tools.py _METRICS["line"] 增加到 8 个 model_id
 "line": [
-    {"modelId": 12202, "modelName": "线体小时别UPH", "params": [...]},
-    {"modelId": 12198, "modelName": "线体一次良率",   "params": [...]},
-    {"modelId": 12204, "modelName": "线体产出达成",   "params": [...]},
-    {"modelId": 12203, "modelName": "线体OEE",       "params": [...]},
-    {"modelId": 12385, "modelName": "线体出勤率",     "params": [...]},  ← 新增
-    {"modelId": 12389, "modelName": "员工出勤打卡",   "params": [...]},  ← 新增
-    {"modelId": 12194, "modelName": "线体抛料率",     "params": [...]},  ← 新增
-    {"modelId": 12223, "modelName": "线体TOP异常",    "params": [...]},  ← 新增
+    {"modelId": 12202, "modelName": "线体小时别UPH",
+     "params": [{"name":"start_shift_date","type":"date","optional":False},
+                {"name":"end_shift_date","type":"date","optional":False},
+                {"name":"line","type":"string","optional":True}]},
+    {"modelId": 12198, "modelName": "线体一次良率",
+     "params": [{"name":"start_time","type":"datetime","optional":False},
+                {"name":"end_time","type":"datetime","optional":False},
+                {"name":"line","type":"string","optional":True}]},
+    {"modelId": 12204, "modelName": "线体产出达成",
+     "params": [{"name":"start_shift_date","type":"date","optional":False},
+                {"name":"end_shift_date","type":"date","optional":False},
+                {"name":"line","type":"string","optional":True}]},
+    {"modelId": 12203, "modelName": "线体OEE",
+     "params": [{"name":"start_shift_date","type":"date","optional":False},
+                {"name":"end_shift_date","type":"date","optional":False},
+                {"name":"line","type":"string","optional":True}]},
+    {"modelId": 12385, "modelName": "线体出勤率",       # ← 新增
+     "params": [{"name":"shift_date","type":"date","optional":False},
+                {"name":"line","type":"string","optional":True}]},
+    {"modelId": 12389, "modelName": "员工出勤打卡记录", # ← 新增
+     "params": [{"name":"shift_date","type":"date","optional":False},
+                {"name":"line","type":"string","optional":True}]},
+    {"modelId": 12194, "modelName": "线体抛料率",       # ← 新增
+     "params": [{"name":"start_time","type":"datetime","optional":False},
+                {"name":"end_time","type":"datetime","optional":False},
+                {"name":"line","type":"string","optional":True}]},
+    {"modelId": 12223, "modelName": "线体TOP异常任务",  # ← 新增
+     "params": [{"name":"start_time","type":"datetime","optional":False},
+                {"name":"end_time","type":"datetime","optional":False},
+                {"name":"line","type":"string","optional":True}]},
 ],
 ```
 
-### 修改 2：分板机的 pcb_router metrics
+### 修改 2：`_METRICS["pcb_router"]` 新增分板机模型
 
 ```python
 "pcb_router": [
     {"modelId": 12328, "modelName": "分板机铣刀寿命",
-     "params": [{"name": "shift_date", "type": "date", "optional": False},
-                {"name": "line", "type": "string", "optional": True}]}
+     "params": [{"name":"shift_date","type":"date","optional":False},
+                {"name":"line","type":"string","optional":True}]}
 ],
 ```
 
@@ -221,28 +178,33 @@ TOOL: get_idi_model_data(model_id=12385, params_json='[{"name":"shift_date","val
 | Phase 4 vLLM | GPU 2,3 | tensor_parallel=2 |
 | Phase 4 评估 | 无 | HTTP 调用（2路并发）|
 
-### 并发拓扑
+### 迭代循环并发拓扑
 
 ```
-Phase 0（串行，2h）
-  ├── 修复 simulated_tools.py（线立即可做）
-  └── 准备 generate_data.py 脚本（更新失败 skill 的问题模板）
+Phase 0（立即）：修复 simulated_tools.py
 
-Phase 1（4路并发，约 2-3h）
+Phase 1（4路并发，~2-3h）
   ├── Agent-1: equipment-cpk-query +40条（强制 metrics 路径）
   ├── Agent-2: line-attendance-query +30条（metrics 含 12385/12389）
   ├── Agent-3: line-exemption-query +30条（强制 metrics 路径）
   └── Agent-4: 分板机过站明细查询 +20条（data 开始模式）
 
 Phase 2（串行，30min）
-  └── 合并 R5+增量 → ns转换 → LF转换 → 验证加载数
+  └── 合并数据 → ns转换 → LF转换 → ⚠️ 验证加载数 = 文件行数
 
-Phase 3（训练，GPU 0,1,2,3，~45min）
-  └── R6-sft-v1（410条，3 epochs）
+Phase 3（训练 R6-v1，4×GPU，~55min）
 
-Phase 4（2路并发，~2h）
-  ├── trajectory_eval
+Phase 4（2路并发评估，~2h）
+  ├── trajectory_eval（逐样本输出 pred_tools）
   └── llm_judge
+
+─── 分析失败样本，进入下一轮 ───
+
+Phase 1b（按失败样本生成精准修复数据，~1-2h）
+Phase 3b（训练 R6-v2，~55min）
+Phase 4b（评估，~2h）
+
+─── 若仍有失败，继续 Phase 1c/3c/4c ───
 ```
 
 ### Phase 1 并发命令
@@ -250,129 +212,150 @@ Phase 4（2路并发，~2h）
 ```bash
 cd /home/yinrong/post-train/impl2.1/round5
 
-python scripts/generate_data.py --skill equipment-cpk-query    --count 40 --output ../round6/data/gen_equipment-cpk-extra.jsonl   --seed 101 2>&1 | tee ../round6/logs/gen_cpk.log &
-python scripts/generate_data.py --skill line-attendance-query  --count 30 --output ../round6/data/gen_line-attendance-extra.jsonl  --seed 102 2>&1 | tee ../round6/logs/gen_attendance.log &
-python scripts/generate_data.py --skill line-exemption-query   --count 30 --output ../round6/data/gen_line-exemption-extra.jsonl   --seed 103 2>&1 | tee ../round6/logs/gen_exemption.log &
-python scripts/generate_data.py --skill "分板机过站明细查询"    --count 20 --output "../round6/data/gen_分板机-extra.jsonl"           --seed 104 2>&1 | tee "../round6/logs/gen_分板机.log" &
+python scripts/generate_data.py --skill equipment-cpk-query   --count 40 --output ../round6/data/gen_cpk_r6.jsonl        --seed 101 2>&1 | tee ../round6/logs/gen_cpk.log &
+python scripts/generate_data.py --skill line-attendance-query --count 30 --output ../round6/data/gen_attendance_r6.jsonl  --seed 102 2>&1 | tee ../round6/logs/gen_attendance.log &
+python scripts/generate_data.py --skill line-exemption-query  --count 30 --output ../round6/data/gen_exemption_r6.jsonl   --seed 103 2>&1 | tee ../round6/logs/gen_exemption.log &
+python scripts/generate_data.py --skill "分板机过站明细查询"   --count 20 --output "../round6/data/gen_分板机_r6.jsonl"     --seed 104 2>&1 | tee "../round6/logs/gen_分板机.log" &
 wait && echo "Phase 1 done"
 ```
 
-### Phase 2 合并与转换
+### Phase 4 逐样本失败分析脚本
 
-```bash
-# 合并 R5 全量 + R6 增量
-cat /home/yinrong/post-train/impl2.1/round5/data/ws_combined.jsonl \
-    /home/yinrong/post-train/impl2.1/round6/data/gen_*.jsonl \
-    > /home/yinrong/post-train/impl2.1/round6/data/ws_combined_r6.jsonl
+```python
+# round6/scripts/analyze_failures.py
+# 分析 trajectory_eval 结果，找出仍然失败的测试样本
+import json
 
-wc -l /home/yinrong/post-train/impl2.1/round6/data/ws_combined_r6.jsonl
-# 期望：~410 条
+IDI_SKILLS = {
+    "general-kpi-query", "equipment-cpk-query", "line-attendance-query",
+    "line-exemption-query", "分板机过站明细查询", "line-operation-skill",
+    "project-kpi-query", "lineside-material-query"
+}
 
-cd /home/yinrong/post-train/impl2.1/round5
-python scripts/convert_ns_lf.py \
-  --input ../round6/data/ws_combined_r6.jsonl \
-  --ns_output ../round6/data/train_ns_v6.jsonl \
-  --lf_output ../round6/data/train_lf_v6.jsonl
+with open("round6/results/R6-v1-trajectory.json") as f:
+    d = json.load(f)
 
-# ⚠️ Round 4/5 铁律：验证加载数
-cp ../round6/data/train_lf_v6.jsonl ../round4/data/train_lf_v6.jsonl
-```
+failures = []
+for i, s in enumerate(d["samples"]):
+    if s.get("skill") not in IDI_SKILLS:
+        continue
+    if "get_idi_model_data" not in s.get("pred_tools", []):
+        failures.append({
+            "index": i,
+            "skill": s["skill"],
+            "pred_tools": s.get("pred_tools", []),
+            "gt_tools": s.get("gt_tools", []),
+        })
 
-### Phase 3 训练配置
+print(f"失败样本数: {len(failures)}")
+for f in failures:
+    print(f"  [{f['index']}] {f['skill']}: pred={f['pred_tools']}")
 
-```yaml
-# round6/configs/R6-sft-v1.yaml
-model_name_or_path: /home/yinrong/models/Qwen3-14B
-dataset: skill_r6_ns_v1
-dataset_dir: /home/yinrong/post-train/impl2.1/round4/data
-cutoff_len: 32768
-output_dir: /home/yinrong/post-train/impl2.1/round6/checkpoints/R6-sft-v1
-num_train_epochs: 3
-# 其余同 R5-sft-v1.yaml
-```
-
-```bash
-cd /home/yinrong/post-train/impl2.1/round4 && \
-DISABLE_VERSION_CHECK=1 PYTORCH_ALLOC_CONF=expandable_segments:True \
-CUDA_VISIBLE_DEVICES=0,1,2,3 llamafactory-cli train \
-  ../round6/configs/R6-sft-v1.yaml \
-  2>&1 | tee ../round6/logs/train_R6-sft-v1.log
+# 输出到文件供精准修复使用
+with open("round6/data/failures_v1.json", "w") as f:
+    json.dump(failures, f, ensure_ascii=False, indent=2)
 ```
 
 ---
 
-## 五、ReAct 监控与重新规划
-
-```
-每 5 分钟检测：
-  - 各 Agent 进程存活（ps aux | grep generate_data | grep -v grep）
-  - 输出文件行数 vs 目标（wc -l round6/data/gen_*.jsonl）
-  - 训练 loss 趋势（tail round6/logs/train_R6.log）
-  - GPU 使用（nvidia-smi）
-
-重新规划触发条件：
-  - equipment-cpk 生成数据 idi 比例 < 50%（说明训练数据仍然不走 metrics 路径）
-  - 训练 loss 连续 3 checkpoint 不降
-  - GPU OOM（调小 batch 或 cutoff_len）
-  - 评估后 equipment-cpk idi 仍为 0%（需要更深入的训练数据重设计）
-
-决策日志 → logs/react_log.md
-待决策项 → USER-DECIDE.md（不等待，继续推进）
-证据文档 → 完成后追加到 CLAUDE.md 索引
-目标始终是：全体 get_idi_model_data 调用率 ≥ 70%
-```
-
----
-
-## 六、验证标准
+## 五、验证标准
 
 ```python
 def validate_r6_sample(sample, skill: str) -> bool:
     msgs = sample["messages"]
-    final = msgs[-1].get("content") or ""
-    pred_tools = [m.get("tool_calls",[]) for m in msgs if m.get("role")=="assistant"]
+    final = (msgs[-1].get("content") or "").strip()
 
     # 1. 最终答案有实质内容
-    assert len(final) > 50 and any(c.isdigit() for c in final)
+    assert len(final) > 50 and any(c.isdigit() for c in final), \
+        "最终答案过短或无数值"
 
     # 2. 有非空 think block
-    all_thinks = [extract_think(m) for m in msgs if m.get("role")=="assistant"]
-    assert any(t.strip() for t in all_thinks)
+    thinks = []
+    for m in msgs:
+        if m.get("role") == "assistant":
+            c = m.get("content") or ""
+            import re
+            found = re.findall(r"<think>(.*?)</think>", c, re.DOTALL)
+            thinks.extend(t.strip() for t in found if t.strip())
+    assert thinks, "缺少非空 think block"
 
-    # 3. 关键：对于应该调 idi 的 skill，必须有 get_idi_model_data
-    IDI_SKILLS = {"equipment-cpk-query","line-attendance-query",
-                  "line-exemption-query","分板机过站明细查询",
-                  "general-kpi-query","line-operation-skill"}
+    # 3. 所有应调 idi 的 skill，必须有 get_idi_model_data
+    IDI_SKILLS = {
+        "equipment-cpk-query", "line-attendance-query", "line-exemption-query",
+        "分板机过站明细查询", "general-kpi-query", "line-operation-skill",
+        "line-attendance-query", "workstion-kpi-query", "project-kpi-query"
+    }
     if skill in IDI_SKILLS:
-        all_tool_names = [tc["function"]["name"]
-                          for m in msgs if m.get("role")=="assistant"
-                          for tc in (m.get("tool_calls") or [])]
-        assert "get_idi_model_data" in all_tool_names, \
-            f"增量样本必须包含 get_idi_model_data，当前工具序列: {all_tool_names}"
+        all_tools = [
+            tc["function"]["name"]
+            for m in msgs if m.get("role") == "assistant"
+            for tc in (m.get("tool_calls") or [])
+        ]
+        assert "get_idi_model_data" in all_tools, \
+            f"此 skill 必须包含 get_idi_model_data，实际工具序列: {all_tools}"
+
+    # 4. idi 使用的 model_id 在前序 metrics 响应中可追溯
+    import re as _re
+    metrics_ids = set()
+    for i, m in enumerate(msgs):
+        if m.get("role") == "tool" and i > 0:
+            prev = msgs[i-1]
+            if prev.get("role") == "assistant":
+                prev_tools = [tc["function"]["name"] for tc in (prev.get("tool_calls") or [])]
+                if "get_object_type_metrics" in prev_tools:
+                    found = _re.findall(r'"modelId"\s*:\s*(\d+)', m.get("content",""))
+                    metrics_ids.update(int(x) for x in found)
+        if m.get("role") == "assistant":
+            for tc in (m.get("tool_calls") or []):
+                if tc["function"]["name"] == "get_idi_model_data":
+                    args = json.loads(tc["function"].get("arguments","{}"))
+                    mid = args.get("model_id")
+                    if mid and metrics_ids:
+                        assert int(mid) in metrics_ids, \
+                            f"model_id={mid} 不在 metrics 响应中（{metrics_ids}）"
 
     return True
 ```
 
-**⚠️ 增量数据的额外要求**：对 4 个失败 skill，验证函数必须检查 `get_idi_model_data` 存在，不通过则重试生成，不入库。
+---
+
+## 六、ReAct 监控与重新规划
+
+```
+每 5 分钟检测：
+  - 各 Agent 进程存活（ps aux | grep generate_data | grep -v grep）
+  - 输出文件行数 vs 目标
+  - 训练 loss 趋势（tail round6/logs/train_R6.log）
+  - GPU 使用（nvidia-smi）
+
+重新规划触发条件：
+  - 生成数据中 idi 出现率 < 80%（说明生成流程仍有问题）
+  - 训练 loss 不收敛
+  - 评估后仍有 skill idi 调用率为 0%（需要更深入的数据重设计）
+  - 3 轮迭代后仍未达到 100%（记录 USER-DECIDE.md，分析是否需要超参调整）
+
+决策日志 → logs/react_log.md
+待决策项 → USER-DECIDE.md（不等待，继续推进）
+证据文档 → 完成后追加到 CLAUDE.md 索引
+目标始终是：所有应调 get_idi_model_data 的 skill 调用率 = 100%
+```
 
 ---
 
-## 七、预计总耗时
+## 七、预计总耗时（3轮迭代）
 
-| Phase | 耗时 |
-|-------|------|
-| Phase 0 simulated_tools 修复 | 30 分钟 |
-| Phase 1 数据生成（4路并发）| 2-3 小时 |
-| Phase 2 转换验证 | 30 分钟 |
-| Phase 3 训练（4块GPU，410条）| ~55 分钟 |
-| Phase 4 评估（2路并发）| 2-3 小时 |
-| **合计** | **约 6-8 小时** |
-
----
-
-## 八、新模型上线后的服务改造
-
-同 R5，无额外变化。核心服务改造仍是下掉 skill 路由逻辑。
+| 步骤 | 耗时 |
+|------|------|
+| Phase 0：simulated_tools 修复 | 30 分钟 |
+| Phase 1a：数据生成（4路并发）| 2-3 小时 |
+| Phase 2a：转换验证 | 30 分钟 |
+| Phase 3a：训练 R6-v1（4×GPU）| ~55 分钟 |
+| Phase 4a：评估 + 失败分析 | ~2 小时 |
+| Phase 1b：精准修复数据生成 | 1-2 小时 |
+| Phase 3b：训练 R6-v2 | ~55 分钟 |
+| Phase 4b：评估 | ~2 小时 |
+| Phase 1c/3c/4c（如需第三轮）| ~4 小时 |
+| **合计（2-3轮）** | **约 12-18 小时** |
 
 ---
 

@@ -38,3 +38,14 @@
 - 观察3：并行多工具调用产生 fc,fc,obs,obs 顺序非法
 - 修复3：按 tool_call_id 配对，改为 fc→obs, fc→obs 交错输出
 - 最终结果：272/272 样本全部加载，51 步训练正常启动
+
+### 决策 R5-D6：R5-sft-v1 评估完成
+- 观察：trajectory_f1=51.8%, get_idi_model_data=43%, judge=23.8%
+- 关键突破：idi调用率从v4的0%提升到43%（general-kpi-query达84%）
+- 根因发现：simulated_tools._METRICS缺少"line"和"device"的model_id绑定（只有"line_operation"）
+- 修复：补充"line"→[12202,12198,12204]和"device"→[12365]映射
+- 剩余问题：
+  1. equipment-cpk-query idi=0%（虽然"device"已修复，可能还有其他问题）
+  2. line-attendance/exemption idi=0%（这些skill的api_name可能不匹配）
+  3. judge仍然低（23.8%）—— 评估框架限制 + 部分idi查询的simulated data值不准确
+- 下一步：分析idi=0%的skill，检查其metrics返回是否包含正确model_id

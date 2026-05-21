@@ -166,6 +166,30 @@ _DEFAULT_SCHEMA = {
 
 # get_object_type_metrics: apiName → modelBindings
 _METRICS: dict[str, list[dict]] = {
+    # "line" is the api_name returned by list_object_types(keyword="线体")
+    # Must mirror line_operation so models calling either api_name succeed
+    "line": [
+        {"modelId": 12202, "modelName": "线体小时别UPH",
+         "params": [{"name": "start_shift_date", "type": "date", "optional": False},
+                    {"name": "end_shift_date", "type": "date", "optional": False},
+                    {"name": "shift", "type": "string", "optional": True},
+                    {"name": "line", "type": "string", "optional": True}]},
+        {"modelId": 12198, "modelName": "线体一次良率",
+         "params": [{"name": "start_time", "type": "datetime", "optional": False},
+                    {"name": "end_time", "type": "datetime", "optional": False},
+                    {"name": "line", "type": "string", "optional": True}]},
+        {"modelId": 12204, "modelName": "线体产出达成",
+         "params": [{"name": "start_shift_date", "type": "date", "optional": False},
+                    {"name": "end_shift_date", "type": "date", "optional": False},
+                    {"name": "line", "type": "string", "optional": True}]},
+    ],
+    # "device" is the api_name returned by list_object_types(keyword="装备")
+    "device": [
+        {"modelId": 12365, "modelName": "装备CPK统计",
+         "params": [{"name": "startTm", "type": "datetime", "optional": False},
+                    {"name": "endTm", "type": "datetime", "optional": False},
+                    {"name": "device_code", "type": "string", "optional": True}]},
+    ],
     "line_operation": [
         {"modelId": 12202, "modelName": "线体运营核心指标", "joinKey": "line_code",
          "metrics": [{"fieldName": "uph", "desc": "UPH", "type": "float"},
